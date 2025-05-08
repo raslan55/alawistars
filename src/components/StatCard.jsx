@@ -23,7 +23,7 @@ const StatCard = ({ value, suffix, label }) => {
 
   return (
     <div className=" px-4">
-      <h2 className="text-3xl text-amber-500 font-bold">
+      <h2 className="text-3xl text-Main-color font-bold">
         {count}
         {suffix}
       </h2>

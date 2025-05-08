@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useTranslation } from "react-i18next";
 import { Thumbs, Keyboard, Autoplay } from "swiper/modules";
 import "swiper/css";
-import Handshake from "../assets/Images/futuristic-business-scene-with-ultra-modern-ambiance.jpg"
+import Handshake from "../assets/Images/embracing-erp-system-development-business_18660-6835.avif"
 import One from "../assets/Images/Partenrs/15.jpg";
 import Two from "../assets/Images/Partenrs/16.jpg";
 import Three from "../assets/Images/Partenrs/17.jpg";
@@ -39,20 +39,20 @@ export default function Partenrs() {
   const dir = i18n.language === "ar" ? "rtl" : "ltr";
   return (
     <>
-    <section className="pt-28 pb-24 bg-[#FAFDFF] relative z-10 overflow-hidden">
+    <section className="py-12 relative z-10 overflow-hidden">
   <div className="container mx-auto px-4">
 
-    <div className="flex flex-col lg:flex-row items-center gap-12 mb-20">
+    <div className="flex flex-col lg:flex-row items-center gap-12 mb-10">
       <div className="w-full lg:w-1/2">
         <img
           src={Handshake} 
           alt="Handshake"
-          className="rounded-xl w-full h-auto object-cover shadow-lg"
+          className="rounded-xl w-full h-auto object-cover p-5"
         />
       </div>
 
       <div className="w-full lg:w-1/2 relative text-center lg:text-left">
-        <h2 className="text-3xl sm:text-4xl font-bold capitalize text-amber-400  mb-4">
+        <h2 className="text-3xl sm:text-4xl font-bold capitalize text-Main-color  mb-4">
           Our Partners
         </h2>
         <p className="text-[#063232] mb-6 leading-relaxed max-w-xl mx-auto lg:mx-0 text-lg">
@@ -62,7 +62,7 @@ export default function Partenrs() {
     </div>
 
     <div className="text-center mb-8 px-4">
-      <h5 className="font-bold text-2xl text-amber-400 uppercase mb-3">
+      <h5 className="font-bold text-2xl text-Main-color uppercase mb-3">
         {t("Partners_Heading")}
       </h5>
       <h1 className="font-semibold text-[#063232] text-[16px] leading-[26px] sm:text-[25px] sm:leading-[35px] md:text-[30px] md:leading-[40px] lg:text-[34px] lg:leading-[44px] xl:text-[40px] xl:leading-[50px] 2xl:text-[42px] 2xl:leading-[52px] max-w-4xl mx-auto">
@@ -105,7 +105,7 @@ export default function Partenrs() {
     </div>
 
     <div className="text-center">
-      <button className="bg-amber-400 hover:bg-amber-300 text-white font-medium py-2 px-6 rounded-full shadow transition duration-300">
+      <button className="btn-primary ">
         {t("ReadMore")}
       </button>
     </div>

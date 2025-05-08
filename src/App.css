@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 
 
+@theme {
+    --color-Main-color:#FEC854;
+}
 
 body{
     font-family: "Cairo", sans-serif ;
@@ -11,42 +14,22 @@ body{
 }
 
 .active   {
-    color: #fea604;
+    color: #FEC854;
 }
 
+
 .btn-primary {
-    position: relative;
-    z-index: 10;
-    display: flex  ;
-    align-items: center;
-    gap: .5rem;
-    overflow: hidden;
-    border-radius: .375rem;
-    border-width: 1px;
-    opacity: 1;
-    border-color: r #fea604;
-    opacity: 1;
-    background-color:#fea604;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-weight: 500;
-    opacity: 1;
-    color: #ffff;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    transition-duration: .5s;
-    cursor:pointer;
+
+@apply  rounded-full text-center font-medium focus:outline-none focus:ring-4 h-10 px-5 text-sm bg-[#FEC854] text-white hover:bg-amber-400 focus:ring-primary-300 cursor-pointer
+ 
 }
+
 
 
 .rfm-marquee-container  {
     overflow: hidden;
-    padding: 39px 0;
-    background-color: #fea604;
+    padding: 29px 0;
+    background-color: #FEC854;
     font-size: 26px;
     color: #fff;
     transition: .5s;
@@ -67,5 +50,14 @@ position: absolute;
 
 .rfm-child {
     margin: 5px;
+}
+
+
+
+.about-section {
+    background-image: url('./assets/Images/bg2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 70px;
 }
 

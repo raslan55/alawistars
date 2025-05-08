@@ -29,12 +29,12 @@ export default function Testimonial() {
   const dir = i18n.language === "ar" ? "rtl" : "ltr";
 
   return (
-    <section className="py-12 bg-gradient-to-r from-[#F0F8FD] to-[#B8E0F4] relative z-10 overflow-hidden">
+    <section className="py-12 bg-[#F0F8FD] relative z-10 overflow-hidden">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex flex-col lg:flex-row items-start gap-12">
           {/* Left Content */}
           <div className="lg:w-1/2">
-            <h5 className="text-amber-400 text-xl font-semibold uppercase tracking-wide mb-3">
+            <h5 className="text-Main-color  text-xl font-semibold uppercase tracking-wide mb-3">
             {t("Testimonial")} 
             </h5>
             <h2 className="text-[#063232] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">

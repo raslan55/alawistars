@@ -1,11 +1,11 @@
 import React from "react";
-import AboutImage from "../assets/Images/web-design-website-coding-concept-2025-02-11-01-35-27-utc.jpg";
+import AboutImage from "../assets/Images/Home-1.jpg";
 import { FaRegFileCode } from "react-icons/fa";
 import { MdOutlineLaptopChromebook } from "react-icons/md";
 
 export default function About() {
   return (
-    <section className="py-12  relative z-10 overflow-hidden">
+    <section className="py-12  relative z-10 overflow-hidden about-section">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12 mb-20 px-4">
           {/* Images */}
@@ -13,19 +13,19 @@ export default function About() {
             <img
               src={AboutImage}
               alt="Team working"
-              className="w-full h-auto object-cover rounded-xl shadow-md"
+              className="w-full h-auto object-cover rounded-xl"
             />
           </div>
 
           {/* Content */}
           <div className="w-full lg:w-1/2">
-            <p className="text-sm font-bold text-amber-400 uppercase mb-2">
+            <p className="text-sm font-bold text-Main-color  uppercase mb-2">
               About Us
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-[#063232] mb-4">
               We Help Drive the IT Industry Forward Since 1994
             </h2>
-            <div className="w-24 h-1 bg-amber-400 mb-4 rounded"></div>
+            <div className="w-24 h-1 text-Main-color b-4 rounded"></div>
 
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
               Alawi Stars for Computer Systems provides advanced, secure
@@ -37,7 +37,7 @@ export default function About() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               <div className="flex items-start gap-3">
-                <div className=" bg-amber-500 py-3 px-3 rounded-full">
+                <div className=" bg-Main-color  py-3 px-3 rounded-full">
                   <FaRegFileCode className="text-4xl text-[#fff]" />
                 </div>
 
@@ -52,7 +52,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <div className=" bg-amber-500 py-3 px-3 rounded-full">
+                <div className=" bg-Main-color py-3 px-3 rounded-full">
                   <MdOutlineLaptopChromebook className="text-4xl text-[#fff]" />
                 </div>
                 <div>

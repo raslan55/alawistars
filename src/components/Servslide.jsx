@@ -5,7 +5,7 @@ import { FaStarOfLife } from "react-icons/fa6";
 export default function Servslide() {
   return (
     <div>
-      <Marquee className="shadow-2xl ">
+      <Marquee className="shadow ">
         <FaStarOfLife />
 
         <div class="content-slider-content">

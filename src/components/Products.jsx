@@ -1,5 +1,5 @@
 import React from "react";
-import OurProduct from "../assets/Images/18949370-dc8f-4480-a629-d6717ee5e7ce_large.webp";
+import OurProduct from "../assets/Images/prodddd.jpg";
 import StatsSection from "./StatsSection";
 
 export default function Products() {
@@ -12,13 +12,13 @@ export default function Products() {
     <img
       src={OurProduct}
       alt="Our Product"
-      className="rounded-xl w-full h-auto object-cover shadow-xl"
+      className="rounded-xl w-full h-auto object-cover "
     />
   </div>
 
   {/* Right: Content */}
   <div className="w-full lg:w-1/2 relative text-center lg:text-left">
-    <h2 className="text-sm font-bold text-amber-400 uppercase mb-2">
+    <h2 className="text-sm font-bold text-Main-color  uppercase mb-2">
       Our Product
     </h2>
 

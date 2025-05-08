@@ -7,7 +7,7 @@ export default function Topheader() {
    const { t } = useTranslation();
   return (
     <div className="container">
-      <div className=" flex items-center justify-between h-[50px] bg-gradient-to-bl from-amber-300 to-amber-400 shadow-sm  p-4">
+      <div className=" flex items-center justify-between h-[50px] bg-Main-color shadow-sm  p-4">
         <div className="flex items-center gap-8">
           <div className=" md:flex items-center gap-2 hidden">
 
