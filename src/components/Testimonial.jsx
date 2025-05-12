@@ -37,7 +37,7 @@ export default function Testimonial() {
             <h5 className="text-Main-color  text-xl font-semibold uppercase tracking-wide mb-3">
             {t("Testimonial")} 
             </h5>
-            <h2 className="text-[#063232] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
+            <h2 className="text-text-color text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
             {t("Stories")}   
             </h2>
             <p className="text-[#6b7a7a] text-base sm:text-lg leading-relaxed">

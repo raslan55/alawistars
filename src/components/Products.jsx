@@ -1,37 +1,43 @@
 import React from "react";
-import OurProduct from "../assets/Images/prodddd.jpg";
+import OurProduct from "../assets/Images/vecteezy_isometric-flat-3d-illustration-concept-of-business_21272468-1.jpg";
+import { useTranslation } from "react-i18next";
+
 import StatsSection from "./StatsSection";
+import { motion } from "framer-motion";
 
 export default function Products() {
+    const { t } = useTranslation();
+  
   return (
+
     <section className="py-12  relative z-10 overflow-hidden">
       <div className="container mx-auto px-4">
       <div className="flex flex-col lg:flex-row items-center gap-12 mb-20 px-4">
   {/* Left: Image */}
-  <div className="w-full lg:w-1/2">
+  <motion.div className="w-full lg:w-1/2"
+  whileHover={{ scale: 1.05 }}
+  transition={{ type: "easeIn", tween: 300 }}
+  >
     <img
       src={OurProduct}
       alt="Our Product"
       className="rounded-xl w-full h-auto object-cover "
     />
-  </div>
+  </motion.div>
 
   {/* Right: Content */}
-  <div className="w-full lg:w-1/2 relative text-center lg:text-left">
+  <div className="w-full lg:w-1/2 relative ">
     <h2 className="text-sm font-bold text-Main-color  uppercase mb-2">
-      Our Product
+    {t("Our_Product")} 
     </h2>
 
-    <h3 className="text-3xl md:text-4xl font-bold text-[#063232] mb-4">
-      The Role of Al-Alawi Star for Computer Systems
+    <h3 className="text-3xl md:text-4xl font-bold text-text-color  mb-4">
+    {t("Our_Product_h")}   
     </h3>
 
     <p className="text-gray-700 text-lg leading-relaxed mb-6">
-      Supporting the work and production environment and enhancing the value of
-      modern technologies, software, and systems that serve companies,
-      institutions, entrepreneurs, and the economy in Saudi Arabia and our
-      customers abroad by providing innovative, high-quality technical
-      solutions at competitive prices.
+    {t("Our_Product_p")} 
+  
     </p>
 
     {/* Stats Section */}
@@ -41,9 +47,13 @@ export default function Products() {
 
     {/* CTA Button */}
     <div className="flex justify-center lg:justify-start">
-      <button className=" btn-primary">
-        Explore More Products
-      </button>
+     <motion.button className="btn-primary"
+               whileHover={{ scale: 1.1 ,backgroundColor: "#1b6ba9" }}
+               whileTap={{ scale: 0.95 }}
+               transition={{ type: "spring", stiffness: 300 }}
+               >
+        {t("Explore_More")} 
+      </motion.button>
     </div>
   </div>
 </div>

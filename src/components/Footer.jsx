@@ -16,7 +16,7 @@ import {
   FooterTitle,
 } from "flowbite-react";
 
-import Logo from "../assets/Images/main-logo_1.png";
+import Logo from "../assets/Images/ngom2.png";
 import { BsYoutube, BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
 import { BiMap } from "react-icons/bi";
 
@@ -26,7 +26,7 @@ export default function AppFooter() {
   return (
     <Footer
     container
-      className="bg-[#F0F8FD] text-gray-600 shadow-lg"
+      className="bg-[#F0F8FD] text-text-color  shadow-lg"
     >
       <div className="w-full px-4 py-8 ">
         {/* Top Section: 4 Columns */}
@@ -34,7 +34,7 @@ export default function AppFooter() {
           {/* Column 1: Branding */}
           <div className="flex-1 min-w-[250px] md:max-w-[24%]">
             <FooterBrand
-              className="w-50 h-15"
+              className="w-60 h-auto"
               href=""
               src={Logo}
               alt="alawistars Logo"
@@ -78,7 +78,7 @@ export default function AppFooter() {
 
           {/* Column 3: Services */}
           <div className="flex-1 min-w-[150px] md:max-w-[18%]">
-            <FooterTitle title={t("HeadOfficeRiyadh")} className="font-bold text-[##FFD702]" />
+            <FooterTitle title={t("HeadOfficeRiyadh")} className="font-bold text-text-color" />
             <FooterLinkGroup col>
            
               <a
@@ -135,7 +135,7 @@ export default function AppFooter() {
 
           {/* Column 4: Legal */}
           <div className="flex-1 min-w-[150px] md:max-w-[18%]">
-            <FooterTitle title={t("Jeddah_Branch")}  className="font-bold" />
+            <FooterTitle title={t("Jeddah_Branch")}  className="font-bold text-text-color" />
             <FooterLinkGroup col>
               <a
                 href="https://maps.app.goo.gl/24SqFP2WSBwKQ56v9"
