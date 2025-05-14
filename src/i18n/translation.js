@@ -13,7 +13,8 @@ const resources = {
       news: "News",
       contact: "Contact Us",
       title: "alawistars",
-      footertext: "To be a recognized world leader and authority  in the industry for design and creativity",
+      footertext:
+        "To be a recognized world leader and authority  in the industry for design and creativity",
       Email: "Email",
       Fax: "Fax",
       QuickLinks: "Quick Links",
@@ -28,42 +29,116 @@ const resources = {
       time: "8:00 am - 12:30 pm 3:00 pm - 7:30 pm",
       Testimonial: "Testimonial",
       Stories: "Real Stories, Real Results",
-      Testimonial_text:"  Read what our clients have to say about their journey with us. We’re proud to deliver value that speaks for itself.",
-      Partners_Heading: " MEET OUR PARTNERS",
-      Partners_text: "We’ve 10000+ Dedicated PARTNERS",
-      Hero_heading:"The Smart Solution for Managing Your Business and Tracking Inventory  with Ease",
-      Hero_text:" Certified by the Saudi Zakat, Tax and Customs Authority for  Electronic Invoicing (Phase I & II)",
-      Hero_P: " Start your digital transformation today! Prepare your team → Test  the system → Update your data → Review invoices → Stay up-to-date with official updates.",
+      Testimonial_text:
+        "  Read what our clients have to say about their journey with us. We’re proud to deliver value that speaks for itself.",
+      Partners_Heading: " Meet our  partners",
+      Partners_text: "We’ve 10000+ Dedicated Partners",
+      Hero_heading:
+        "The Smart Solution for Managing Your Business and Tracking Inventory  with Ease",
+      Hero_text:
+        " Certified by the Saudi Zakat, Tax and Customs Authority for  Electronic Invoicing (Phase I & II)",
+      Hero_P:
+        " Start your digital transformation today! Prepare your team → Test  the system → Update your data → Review invoices → Stay up-to-date with official updates.",
       Start_btn: "Get Started Now",
       About_Us: " About Us ",
       About_text: "We Help Drive the IT Industry Forward Since 1994",
       Serv_h: " Development of Business Systems ",
-      serv_p: "Software solutions serving various business sectors and industries.",
+      serv_p:
+        "Software solutions serving various business sectors and industries.",
       ERP: "(ERP) Systems",
-      serv2_p:" Comprehensive ERP solutions covering accounting, HR, inventory, sales, and more",
+      serv2_p:
+        " Comprehensive ERP solutions covering accounting, HR, inventory, sales, and more",
       SERVICES_WE_PROVIDE: "SERVICES WE PROVIDE",
       Cloud_Based_Solutions: "Cloud-Based Solutions",
-      Desktop_Applications: "Desktop_Applications",
+      Desktop_Applications: "Desktop Applications",
       Inv_acc: "Sinmar For Accounting & Inventory ",
+      acc_Inv_Disc:
+        "An integrated accounting and inventory system that supports branches, barcodes, and advanced tax reports.",
       Inv: " Sinmar For Inventory ",
+      Inv_Disc:
+        "An effective tool for managing inventory, tracking products, and linking them to suppliers and invoices.",
       acc: "Sinmar General Accounting ",
+      acc_desc:
+        "A comprehensive system for managing general accounts, daily entries, and accurate financial reports.",
       Med: " Sinmar For Medical System",
+      Med_Disc:
+        "An integrated medical solution for managing clinics, appointments, patient records, and medical bills.",
+
       Furn: "Sinmar For Furnished Flats System",
+      Furn_Disc:
+        "A dedicated system for managing furnished apartment reservations and rentals with daily reports ",
+
       Pr: "Sinmar For Property Management",
+      Pr_Disc:
+        " A professional system for managing properties, rentals, contracts, and landlord and tenant records.",
       Maintenance: " Sinmar For Car Maintenance ",
-      Our_Product :"Our Products",
-      Our_Product_h:"The Role of Al-Alawi Star for Computer Systems",
-      Our_Product_p :" Supporting the work and production environment and enhancing the value of  modern technologies, software, and systems that serve companies, institutions, entrepreneurs, and the economy in Saudi Arabia and our customers abroad by providing innovative, high-quality technical solutions at competitive prices.",
-      Explore_More:"Explore More Products",
-      Our_Partners_p:"Our clients are our partners in success, thanks to God; Alawi Stars for Computer Systems has more than 10,000 clients so far in all disciplines, and achieved a great success in a short time through the production of the distinct software, these are some of our clients that we had the honor to serve them",
-      Our_Partners :" Our Partners  ",
-      ReadMore :"Read More" ,
-       SUBSCRIBERS :"SUBSCRIBERS",
-      PROJECTS :"PROJECTS",
-      AWARDS :"AWARDS",
+      Maintenance_Disc:
+        "A system for managing car maintenance operations, invoice records, breakdown details and spare parts. ",
+      Car_sale: "Sinmar Car Sales.",
+      Car_sale_Disc:
+        "A specialized program for car showrooms that includes managing offers, sales, customers, and installments.",
+      Hr: "  Sinmar for Human Resources",
+      Hr_Disc:
+        "An integrated personnel affairs system for managing attendance, salaries, vacations, and personal files.",
+      Commu: "Sinmar Communications System",
+      commu_Disc:
+        "A solution for managing telecom companies, customer services, billing, and shipment tracking.",
+      serv: "Sinmar Services",
+      serv_Disc:
+        " A system for managing public service companies, distributing tasks, and providing performance reports.",
+      fuel: "Sinmar for gas stations",
+      Fule_Disc:
+        "Fuel station system for pumping and inventory management, and daily accounting for each pump.",
+      Our_Product: "Our Products",
+      Our_Product_h: "The Role of Al-Alawi Star for Computer Systems",
+      Our_Product_p:
+        " Supporting the work and production environment and enhancing the value of  modern technologies, software, and systems that serve companies, institutions, entrepreneurs, and the economy in Saudi Arabia and our customers abroad by providing innovative, high-quality technical solutions at competitive prices.",
+      Explore_More: "Explore More Products",
+      Our_Partners_p:
+        "Our clients are our partners in success, thanks to God; Alawi Stars for Computer Systems has more than 10,000 clients so far in all disciplines, and achieved a great success in a short time through the production of the distinct software, these are some of our clients that we had the honor to serve them",
+      Our_Partners: " Our Partners  ",
+      ReadMore: "Read More",
+      SUBSCRIBERS: "SUBSCRIBERS",
+      PROJECTS: "PROJECTS",
+      AWARDS: "AWARDS",
+      Ourproducts: "Products & Solutions",
+      Ourproducts_text:
+        "Explore smart, scalable solutions to optimize your business performance.",
+      Show: "View Details",
+      our_mission: "رسالتنا",
+      our_vision: "رؤيتنا",
+      our_values: "قيمنا",
 
+      mission_text:
+        "دعم بيئة العمل وتعزيز قيمة التقنيات والأنظمة الحديثة التي تخدم الشركات والمؤسسات ورواد الأعمال. نعمل على تطوير الحلول التقنية وفقًا لأعلى المعايير وبأسلوب تنافسي يتناسب مع حاجة العملاء.",
+
+      vision_text:
+        "نسعى لتوسيع نطاق عملنا محليًا وعالميًا، لنصبح الخيار الأفضل لعملائنا من خلال تطبيق أفضل الممارسات التقنية وتوفير حلول موثوقة ومبتكرة تخدم جميع القطاعات.",
+
+      value_1_title: "التفاني",
+      value_1_text:
+        "نقدم أعلى مستويات الخدمة والالتزام بالتسليم في الوقت المحدد مع دعم كامل لاحتياجات عملائنا في جميع المراحل.",
+
+      value_2_title: "الخصوصية",
+      value_2_text:
+        "نحرص على توفير الأنظمة والحلول التي تضمن سرية البيانات وتمنح المستخدم الثقة في تحقيق أفضل أداء ونتائج.",
+
+      value_3_title: "الثقة",
+      value_3_text:
+        "نبني علاقات طويلة الأمد مبنية على الثقة والمصداقية مع عملائنا وشركائنا لتحقيق أهداف مشتركة.",
+
+      value_4_title: "الإبداع",
+      value_4_text:
+        "نقدم حلولاً مبتكرة بطرق غير تقليدية، تميزنا في السوق وتجعل من خدماتنا ذات قيمة حقيقية.",
+
+      value_5_title: "التطوير",
+      value_5_text:
+        "نطور أنفسنا دائمًا وندعم فرق العمل لضمان تقديم أحدث التقنيات والحلول وفق أفضل الممارسات.",
+
+      value_6_title: "الذكاء التقني",
+      value_6_text:
+        "نمزج بين المعرفة التقنية العميقة وفهم احتياجات العملاء لنقدم حلولًا ذكية تواكب متغيرات السوق.",
     },
-
   },
 
   ar: {
@@ -76,7 +151,8 @@ const resources = {
       news: "الأخبار",
       contact: "اتصل بنا",
       title: "نجوم العلاوي",
-      footertext:"أن نكون رائدًا عالميًا معترفًا به وسلطة في مجال التصميم والإبداع.",
+      footertext:
+        "أن نكون رائدًا عالميًا معترفًا به وسلطة في مجال التصميم والإبداع.",
       Email: "البريد الالكتروني ",
       Fax: "فاكس",
       QuickLinks: "روابط سريعة",
@@ -91,40 +167,113 @@ const resources = {
       time: " ص 8:00  - 12:30 م 3:00 م - 7:30 م",
       Testimonial: "ماذا قالوا عنا",
       Stories: "قصص واقعية، نتائج حقيقية",
-      Testimonial_text:"اقرأ آراء عملائنا حول رحلتهم معنا. نفخر بتقديم قيمة حقيقية.",
+      Testimonial_text:
+        "اقرأ آراء عملائنا حول رحلتهم معنا. نفخر بتقديم قيمة حقيقية.",
       Partners_text: "لدينا أكثر من 10000 شريك",
       Hero_heading: "الحل الذكي لإدارة أعمالك وتتبع المخزون بكل سهولة",
-      Hero_text: " معتمد من هيئة الزكاة والضريبة والجمارك السعودية للفوترة الإلكترونية (المرحلتين الأولى والثانية)",
-      Hero_P: " ابدأ التحول الرقمي اليوم! جهّز فريقك → اختبر النظام → حدّث بياناتك → راجع الفواتير → تابع آخر التحديثات الرسمية.",
+      Hero_text:
+        " معتمد من هيئة الزكاة والضريبة والجمارك السعودية للفوترة الإلكترونية (المرحلتين الأولى والثانية)",
+      Hero_P:
+        " ابدأ التحول الرقمي اليوم! جهّز فريقك → اختبر النظام → حدّث بياناتك → راجع الفواتير → تابع آخر التحديثات الرسمية.",
       Start_btn: "ابدأ الآن",
       About_Us: "من نحن",
       About_text: "نُساهم في تطوير قطاع تكنولوجيا المعلومات منذ عام 1994.",
-      About_p:"تم تأسيس نجوم العلاوى لنظم الكمبيوتر في عام 1994 في مدينة الرياض في المملكة العربية السعودية بهدف إنتاج أنظمة تجارية متكاملة ذات قدرات وإمكانيات تضاهى من حيث الأداء الأنظمة الغربية المتطورة وتتميز بالخصوصية من حيث العمل في بيئات ثنائية اللغـة ومن حيث تلبية جميع احتياجات العملاء ولهذا تم تطوير عدة أنظمة تجارية مختلفة تخدم عدة مجالات متنوعة و أصبح لدينا قاعدة كبيرة من العملاء في شتى أنحاء المملكة.",
+      About_p:
+        "تم تأسيس نجوم العلاوى لنظم الكمبيوتر في عام 1994 في مدينة الرياض في المملكة العربية السعودية بهدف إنتاج أنظمة تجارية متكاملة ذات قدرات وإمكانيات تضاهى من حيث الأداء الأنظمة الغربية المتطورة وتتميز بالخصوصية من حيث العمل في بيئات ثنائية اللغـة ومن حيث تلبية جميع احتياجات العملاء ولهذا تم تطوير عدة أنظمة تجارية مختلفة تخدم عدة مجالات متنوعة و أصبح لدينا قاعدة كبيرة من العملاء في شتى أنحاء المملكة.",
       Serv_h: " تطوير انظمة الأعمال ",
       serv_p: "حلول برمجية تخدم قطاعات وصناعات الأعمال المختلفة",
       ERP: "أنظمة تخطيط موارد المؤسسة",
-      serv2_p:" حلول ERP شاملة تغطي المحاسبة، الموارد البشرية، المخزون، المبيعات، وأكثر",
+      serv2_p:
+        " حلول ERP شاملة تغطي المحاسبة، الموارد البشرية، المخزون، المبيعات، وأكثر",
       SERVICES_WE_PROVIDE: "الخدمات التي نقدمها",
       Desktop_Applications: "تطبيقات سطح المكتب",
       Cloud_Based_Solutions: "الانظمة السحابية",
-      Inv_acc: "سينمار للمحاسبة والمخزون ",
-      acc: "سينمار للمحاسبة العامة",
-      Inv: "سينمار للمخزون",
-      Med: " سينمار للنظام الطبي",
-      Furn: "سينمار لنظام الشقق المفروشة",
-      Pr: "سينمار لإدارة الممتلكات",
-      Maintenance: " سينمار لصيانة السيارات",
-      Our_Product :"منتجاتنا",
-      Our_Product_h:"دور نجم العلاوي لأنظمة الكمبيوتر",
-      Our_Product_p :"دعم بيئة العمل والإنتاج وتعزيز قيمة التقنيات الحديثة والبرمجيات والأنظمة التي تخدم الشركات والمؤسسات ورواد الأعمال والاقتصاد في المملكة العربية السعودية وعملائنا في الخارج من خلال توفير حلول تقنية مبتكرة وعالية الجودة بأسعار تنافسية.",
-      Explore_More:"استكشف المزيد من المنتجات",
-      Our_Partners :"شركاؤنا ",
-      Our_Partners_p:"عملاؤنا هم شركاؤنا في النجاح بفضل الله؛ حيث تمتلك شركة نجوم العلوي لأنظمة الحاسب الآلي أكثر من 10000 عميل حتى الآن في جميع التخصصات، وحققت نجاحاً باهراً في وقت قصير من خلال إنتاج البرمجيات المتميزة، هؤلاء بعض عملائنا الذين تشرفنا بخدمتهم",
+      Inv_acc: "سنمار  للمحاسبة والمخزون ",
+      acc_Inv_Disc:
+        "نظام متكامل للمحاسبة والمخازن يدعم الفروع، الباركود، والتقارير الضريبية المتقدمة.",
+      acc: "سنمار  للمحاسبة العامة",
+      acc_desc:
+        "نظام شامل لإدارة الحسابات العامة والقيود اليومية والتقارير المالية الدقيقة.",
+      Inv: "سنمار  للمخزون",
+      Inv_Disc:
+        "أداة فعالة لإدارة المخزون، تتبع المنتجات، وربطها مع الموردين والفواتير.",
+      Med: " سنمار  للنظام الطبي",
+      Med_Disc:
+        "حل طبي متكامل لإدارة العيادات والمواعيد وسجلات المرضى والفواتير الطبية.",
+      Furn: "سنمار  لنظام الشقق المفروشة",
+      Furn_Disc:
+        "نظام مخصص لإدارة حجوزات وتأجير الشقق المفروشة مع تقارير يومية وسجل العملاء.",
+      Pr: "سنمار  لإدارة الممتلكات",
+      Pr_Disc:
+        " نظام احترافي لإدارة العقارات والإيجارات والعقود وسجلات الملاك والمستأجرين.",
+      Maintenance: " سنمار  لصيانة السيارات",
+      Maintenance_Disc:
+        "نظام لإدارة عمليات صيانة السيارات، سجل الفواتير، وتفاصيل الأعطال وقطع الغيار.",
+      Car_sale: "سنمار لمبيعات السيارات.",
+      Car_sale_Disc:
+        "برنامج متخصص لمعارض السيارات يشمل إدارة العروض، البيع، العملاء، والأقساط.",
+      Hr: "سنمار لشؤون الموظفين",
+      Hr_Disc:
+        " نظام شؤون موظفين متكامل لإدارة الحضور، الرواتب، والإجازات والملفات الشخصية.",
+      Commu: "نظام سنمار للاتصالات ",
+      commu_Disc:
+        "حل موجه لإدارة شركات الاتصالات وخدمات العملاء والفواتير ومتابعة الشحنات.",
+      serv: "سنمار للخدمات ",
+      serv_Disc:
+        " نظام لإدارة شركات الخدمات العامة وتوزيع المهام وتقديم تقارير الأداء.",
+      fuel: "سنمار لمحطات الوقود ",
+      Fule_Disc:
+        "نظام محطات الوقود لإدارة الضخ والمخزون، والمحاسبة اليومية لكل مضخة.",
+      Our_Product: "منتجاتنا",
+      Our_Product_h: "دور نجم العلاوي لأنظمة الكمبيوتر",
+      Our_Product_p:
+        "دعم بيئة العمل والإنتاج وتعزيز قيمة التقنيات الحديثة والبرمجيات والأنظمة التي تخدم الشركات والمؤسسات ورواد الأعمال والاقتصاد في المملكة العربية السعودية وعملائنا في الخارج من خلال توفير حلول تقنية مبتكرة وعالية الجودة بأسعار تنافسية.",
+      Explore_More: "استكشف المزيد من المنتجات",
+      Our_Partners: "شركاؤنا ",
+      Our_Partners_p:
+        "عملاؤنا هم شركاؤنا في النجاح بفضل الله؛ حيث تمتلك شركة نجوم العلوي لأنظمة الحاسب الآلي أكثر من 10000 عميل حتى الآن في جميع التخصصات، وحققت نجاحاً باهراً في وقت قصير من خلال إنتاج البرمجيات المتميزة، هؤلاء بعض عملائنا الذين تشرفنا بخدمتهم",
       Partners_Heading: "تعرف على شركائنا",
-      ReadMore :"شاهد المزيد" ,
-      SUBSCRIBERS :"المشتركين",
-      PROJECTS :"المشاريع",
-      AWARDS :"الجوائز",
+      ReadMore: "شاهد المزيد",
+      SUBSCRIBERS: "المشتركين",
+      PROJECTS: "المشاريع",
+      AWARDS: "الجوائز",
+      Ourproducts: "المنتجات والحلول",
+      Ourproducts_text: "اكتشف حلولًا ذكية ومرنة لتحسين أداء أعمالك.",
+
+      Show: "اطّلع على المزيد",
+      our_mission: "رسالتنا",
+      our_vision: "رؤيتنا",
+      our_values: "قيمنا",
+
+      mission_text:
+        "دعم بيئة العمل وتعزيز قيمة التقنيات والأنظمة الحديثة التي تخدم الشركات والمؤسسات ورواد الأعمال. نعمل على تطوير الحلول التقنية وفقًا لأعلى المعايير وبأسلوب تنافسي يتناسب مع حاجة العملاء.",
+
+      vision_text:
+        "نسعى لتوسيع نطاق عملنا محليًا وعالميًا، لنصبح الخيار الأفضل لعملائنا من خلال تطبيق أفضل الممارسات التقنية وتوفير حلول موثوقة ومبتكرة تخدم جميع القطاعات.",
+
+      value_1_title: "التفاني",
+      value_1_text:
+        "نقدم أعلى مستويات الخدمة والالتزام بالتسليم في الوقت المحدد مع دعم كامل لاحتياجات عملائنا في جميع المراحل.",
+
+      value_2_title: "الخصوصية",
+      value_2_text:
+        "نحرص على توفير الأنظمة والحلول التي تضمن سرية البيانات وتمنح المستخدم الثقة في تحقيق أفضل أداء ونتائج.",
+
+      value_3_title: "الثقة",
+      value_3_text:
+        "نبني علاقات طويلة الأمد مبنية على الثقة والمصداقية مع عملائنا وشركائنا لتحقيق أهداف مشتركة.",
+
+      value_4_title: "الإبداع",
+      value_4_text:
+        "نقدم حلولاً مبتكرة بطرق غير تقليدية، تميزنا في السوق وتجعل من خدماتنا ذات قيمة حقيقية.",
+
+      value_5_title: "التطوير",
+      value_5_text:
+        "نطور أنفسنا دائمًا وندعم فرق العمل لضمان تقديم أحدث التقنيات والحلول وفق أفضل الممارسات.",
+
+      value_6_title: "الذكاء التقني",
+      value_6_text:
+        "نمزج بين المعرفة التقنية العميقة وفهم احتياجات العملاء لنقدم حلولًا ذكية تواكب متغيرات السوق.",
     },
   },
 };

@@ -22,7 +22,6 @@ body{
 .rfm-marquee-container  {
     overflow: hidden;
     padding: 29px 0;
-    background-color: #1b6ba9;
     font-size: 26px;
     color: #fff;
     transition: .5s;
@@ -51,5 +50,26 @@ position: absolute;
     background-position: center center;
     background-repeat: no-repeat;
     padding-top: 70px;
+}
+
+
+ .swiper-pagination {
+            bottom: 0px !important;
+            text-align: center;
+            
+          }
+.swiper-pagination-bullet {
+  background: #d1d5db; 
+  opacity: 1;
+  width: 15px;
+  height: 15px;
+  margin: 0 6px !important;
+  transition: all 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background: #1b6ba9; 
+  width: 15px;
+  height: 15px;
 }
 

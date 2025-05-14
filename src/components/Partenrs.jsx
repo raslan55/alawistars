@@ -68,15 +68,15 @@ export default function Partenrs() {
           </div>
 
           <div className="text-center mb-8 px-4">
-            <h5 className="font-bold text-2xl text-Main-color uppercase mb-3">
+            <h2 className="text-3xl sm:text-4xl font-bold capitalize text-Main-color  mb-4">
               {t("Partners_Heading")}
-            </h5>
-            <h1 className="font-semibold text-text-color  text-[16px] leading-[26px] sm:text-[25px] sm:leading-[35px] md:text-[30px] md:leading-[40px] lg:text-[34px] lg:leading-[44px] xl:text-[40px] xl:leading-[50px] 2xl:text-[42px] 2xl:leading-[52px] max-w-4xl mx-auto">
+            </h2>
+            <h2 className="font-semibold text-text-color  text-[16px] leading-[26px] sm:text-[25px] sm:leading-[35px] md:text-[30px] md:leading-[40px] lg:text-[34px] lg:leading-[44px] xl:text-[40px] xl:leading-[50px] 2xl:text-[42px] 2xl:leading-[52px] max-w-4xl mx-auto">
               {t("Partners_text")}
-            </h1>
+            </h2>
           </div>
 
-          <div className="px-4 mb-12">
+          <div className="px-4 mb-12 ">
             <Swiper
               key={i18n.language}
               dir={dir}
@@ -98,7 +98,7 @@ export default function Partenrs() {
               {images.map((img) => (
                 <SwiperSlide
                   key={img.id}
-                  className="bg-white p-5 rounded-3xl shadow-lg  cursor-grab"
+                  className="bg-white p-5 rounded-3xl   cursor-grab"
                 >
                   <img
                     src={img.src}
@@ -113,7 +113,7 @@ export default function Partenrs() {
           <div className="text-center">
             <motion.button
               className="btn-primary"
-              whileHover={{ scale: 1.1, backgroundColor: "#1b6ba9" }}
+              whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 300 }}
             >

@@ -39,7 +39,7 @@ export default function HeroSection() {
           </div>
           <motion.button
             className="btn-primary"
-            whileHover={{ scale: 1.1, backgroundColor: "#1b6ba9" }}
+            whileHover={{ scale: 1.1}}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
