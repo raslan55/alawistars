@@ -11,14 +11,18 @@ function App() {
   return (
  
       <Routes>
-        <Route path="/" element={<MainLayout />}>
+
+          <Route path="/" element={<MainLayout />}>
+
           <Route index element={<Home />} />
           <Route path="products" element={<Products />} />
           <Route path="services" element={<Services />} />
           <Route path="about" element={<About />} />
-          <Route path="news" element={<News />} />
+          <Route path="news" element={<News/>} />
           <Route path="contact" element={<Contact />} />
-        </Route>
+          
+          </Route>
+
       </Routes>
 
   );

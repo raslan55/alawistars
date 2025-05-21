@@ -105,39 +105,70 @@ const resources = {
       Ourproducts_text:
         "Explore smart, scalable solutions to optimize your business performance.",
       Show: "View Details",
-      our_mission: "رسالتنا",
-      our_vision: "رؤيتنا",
-      our_values: "قيمنا",
+      our_mission: "Our Mission",
+      our_vision: "Our vision",
+      our_values: "Our values",
 
       mission_text:
-        "دعم بيئة العمل وتعزيز قيمة التقنيات والأنظمة الحديثة التي تخدم الشركات والمؤسسات ورواد الأعمال. نعمل على تطوير الحلول التقنية وفقًا لأعلى المعايير وبأسلوب تنافسي يتناسب مع حاجة العملاء.",
+        "Supporting the work environment and enhancing the value of modern technologies and systems that serve businesses, institutions, and entrepreneurs. We develop technical solutions according to the highest standards and in a competitive manner that meets customer needs.",
 
       vision_text:
-        "نسعى لتوسيع نطاق عملنا محليًا وعالميًا، لنصبح الخيار الأفضل لعملائنا من خلال تطبيق أفضل الممارسات التقنية وتوفير حلول موثوقة ومبتكرة تخدم جميع القطاعات.",
+        "We strive to expand our business locally and globally, becoming the preferred choice for our clients by applying best technical practices and providing reliable and innovative solutions that serve all sectors.",
 
-      value_1_title: "التفاني",
+      value_1_title: "dedication",
       value_1_text:
-        "نقدم أعلى مستويات الخدمة والالتزام بالتسليم في الوقت المحدد مع دعم كامل لاحتياجات عملائنا في جميع المراحل.",
+        "We provide the highest levels of service and commitment to on-time delivery with full support for our clients' needs at all stages.",
 
-      value_2_title: "الخصوصية",
+      value_2_title: "Privacy",
       value_2_text:
-        "نحرص على توفير الأنظمة والحلول التي تضمن سرية البيانات وتمنح المستخدم الثقة في تحقيق أفضل أداء ونتائج.",
+        "We are committed to providing systems and solutions that ensure data confidentiality and give users confidence in achieving the best performance and results.",
 
-      value_3_title: "الثقة",
+      value_3_title: "trust",
       value_3_text:
-        "نبني علاقات طويلة الأمد مبنية على الثقة والمصداقية مع عملائنا وشركائنا لتحقيق أهداف مشتركة.",
+        "We build long-term relationships based on trust and credibility with our clients and partners to achieve common goals.",
 
-      value_4_title: "الإبداع",
+      value_4_title: "Creativity",
       value_4_text:
-        "نقدم حلولاً مبتكرة بطرق غير تقليدية، تميزنا في السوق وتجعل من خدماتنا ذات قيمة حقيقية.",
+        "We offer innovative solutions in unconventional ways, which distinguish us in the market and make our services truly valuable.",
 
-      value_5_title: "التطوير",
+      value_5_title: "development",
       value_5_text:
-        "نطور أنفسنا دائمًا وندعم فرق العمل لضمان تقديم أحدث التقنيات والحلول وفق أفضل الممارسات.",
+        "We are constantly developing ourselves and supporting our teams to ensure we deliver the latest technologies and solutions in accordance with best practices.",
 
-      value_6_title: "الذكاء التقني",
+      value_6_title: "Technical intelligence",
       value_6_text:
-        "نمزج بين المعرفة التقنية العميقة وفهم احتياجات العملاء لنقدم حلولًا ذكية تواكب متغيرات السوق.",
+        "We combine deep technical knowledge with an understanding of customer needs to provide smart solutions that keep pace with market changes.",
+
+      why_choose_us: "Why Choose Us",
+      why_choose_us_desc:
+        "We Provide Creative Solutions. Globally engage cross-media leadership skills before cross-media innovation. Develop standardized platforms without robust applications. Conveniently go forward with collaboration and idea-sharing.",
+      reason_1_title: "Professional Team Member",
+      reason_2_title: "Implements Business  ",
+      reason_3_title: "Lifetime Free Services   ",
+      reason_4_title: "  Affordable Pricing Plans ",
+      Call_US: "Call us anytime",
+      Started: "Get Started Today",
+      CTA_Text: " Empowering Your Business  with Smart Solutions",
+      Tech_Solutions:"Tech Solutions",
+      Tech_Text :" We enhance our clients' excellence and provide them with lasting operational efficiency by providing the best technical solutions.",
+       pc:"computers ",
+      Pc_text:"We have an exceptional team dedicated to meeting our clients' needs, providing them with the best and most powerful brands of computers, servers, and peripherals, as well as devices with special specifications, enabling them to innovate and achieve.",
+
+      OS:"Operating programs",
+      Os_text:"We provide our customers with a variety of operating software, including genuine Windows software, Office software, server operating systems, and appropriate peripherals.",
+      PS:" Protection systems",
+      PS_text:"We supply antivirus, anti-hacking, and anti-piracy systems to enhance cybersecurity and protect devices and data.",
+
+      Ha:"Hardware accessories",
+      Ha_text:"We offer high-quality, long-lasting printers, scanners, POS terminals, and other accessories at an affordable price.",
+      LAN:"Local Area Networks (LANs)",
+      LAN_text:"We build local area networks for homes, offices, and small businesses, and provide equipment, maintenance services, and full technical support.",
+      WAN :"Wide Area Networks (WAN)",
+      WAN_text :"We provide wide area networks with advanced equipment and infrastructure, connecting users across large geographic areas efficiently and cost-effectively.",
+     Full_Name:" Full Name",
+      Phone :" Phone",
+      Subject:"Subject",
+      Message:"Message",
     },
   },
 
@@ -155,6 +186,10 @@ const resources = {
         "أن نكون رائدًا عالميًا معترفًا به وسلطة في مجال التصميم والإبداع.",
       Email: "البريد الالكتروني ",
       Fax: "فاكس",
+      Full_Name:"الأسم بالكامل ",
+      Phone :"رقم الهاتف",
+      Subject:"الموضوع",
+      Message:"الرسالة",
       QuickLinks: "روابط سريعة",
       HeadOfficeRiyadh: "المركز الرئيسي -الرياض ",
       Jeddah_Branch: "فرع جدة ",
@@ -274,6 +309,34 @@ const resources = {
       value_6_title: "الذكاء التقني",
       value_6_text:
         "نمزج بين المعرفة التقنية العميقة وفهم احتياجات العملاء لنقدم حلولًا ذكية تواكب متغيرات السوق.",
+
+      why_choose_us: "لماذا نحن؟",
+      why_choose_us_desc:
+        "نقدّم حلولًا إبداعية. نستخدم مهارات القيادة عبر الوسائط قبل تطوير الابتكار. نبني منصات قياسية دون تطبيقات معقدة. نتقدم بسهولة عبر التعاون وتبادل الأفكار",
+      reason_1_title: "فريق عمل محترف",
+      reason_2_title: "تنفيذ الأعمال باحترافية",
+      reason_3_title: "خدمات مجانية مدى الحياة",
+      reason_4_title: "خطط أسعار مناسبة",
+      Call_US: "اتصل بنا في اي وقت ",
+      Started: "ابدأ اليوم",
+      CTA_Text: " تمكين أعمالك بحلول ذكية",
+      Tech_Solutions:"حلولنا التقنية",
+      Tech_Text :"  نعزز تميز عملائنا ونمنحهم كفاءة تشغيلية دائمة من خلال تقديم أفضل  الحلول التقنية.",
+      pc:"أجهزة الكمبيوتر",
+      Pc_text:"لدينا فريق عمل استثنائي يلبي حاجة عملائنا ويوفر لهم أجهزة الكمبيوتر من سيرفرات أو وحدات طرفية من أفضل وأقوى العلامات التجارية، وكذلك الأجهزة ذات المواصفات الخاصة لنمكنهم من الإبداع والإنجاز.",
+
+      OS:"البرامج التشغيلية",
+      Os_text:"نوفر حاجة عملائنا من برامج التشغيل المختلفة مثل برامج الويندوز الأصلية، برامج الأوفيس، وأنظمة تشغيل السيرفرات والوحدات الطرفية المناسبة.",
+      PS:"أنظمة الحماية",
+      PS_text:"نقوم بتوريد أنظمة مكافحة الفيروسات، ومكافحة الهكر والاختراق لتعزيز الأمن السيبراني وحماية الأجهزة والبيانات.",
+
+      Ha:"ملحقات الأجهزة",
+      Ha_text:"نوفر طابعات، ماسحات ضوئية، ونقاط بيع وغيرهم من الملحقات عالية الجودة ذات العمر الطويل والسعر المميز.",
+      LAN:"الشبكات المحلية (LAN)",
+      LAN_text:"نبني شبكات اتصال محلية للمنازل والمكاتب والمنشآت الصغيرة، ونوفر المعدات وخدمات الصيانة والدعم الفني الكامل.",
+      WAN :"الشبكات واسعة النطاق (WAN)",
+      WAN_text :"نوفر الشبكات الواسعة بمعدات وبنية تحتية متقدمة، لربط المستخدمين بمناطق جغرافية كبيرة بفعالية وبتكلفة مناسبة.",
+
     },
   },
 };
