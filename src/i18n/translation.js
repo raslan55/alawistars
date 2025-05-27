@@ -14,10 +14,11 @@ const resources = {
       contact: "Contact Us",
       title: "alawistars",
       footertext:
-        "To be a recognized world leader and authority  in the industry for design and creativity",
+        "To be a recognized world leader and authority in the industry for Software",
       Email: "Email",
       Fax: "Fax",
       QuickLinks: "Quick Links",
+      Our_Location: "Our Location",
       HeadOfficeRiyadh: "Head Office – Riyadh",
       Jeddah_Branch: "Jeddah Branch",
       address_1: "Al-Malaz - Salah eddin Street ",
@@ -30,7 +31,7 @@ const resources = {
       Testimonial: "Testimonial",
       Stories: "Real Stories, Real Results",
       Testimonial_text:
-        "  Read what our clients have to say about their journey with us. We’re proud to deliver value that speaks for itself.",
+        "Read what our clients have to say about their journey with us. We’re proud to deliver value that speaks for itself.",
       Partners_Heading: " Meet our  partners",
       Partners_text: "We’ve 10000+ Dedicated Partners",
       Hero_heading:
@@ -81,8 +82,7 @@ const resources = {
       Hr_Disc:
         "An integrated personnel affairs system for managing attendance, salaries, vacations, and personal files.",
       Commu: "Sinmar Communications System",
-      commu_Disc:
-        "A solution for managing telecom companies, customer services, billing, and shipment tracking.",
+      commu_Disc:"A solution for managing telecom companies, customer services, billing, and shipment tracking.",
       serv: "Sinmar Services",
       serv_Disc:
         " A system for managing public service companies, distributing tasks, and providing performance reports.",
@@ -93,7 +93,7 @@ const resources = {
       Our_Product_h: "The Role of Al-Alawi Star for Computer Systems",
       Our_Product_p:
         " Supporting the work and production environment and enhancing the value of  modern technologies, software, and systems that serve companies, institutions, entrepreneurs, and the economy in Saudi Arabia and our customers abroad by providing innovative, high-quality technical solutions at competitive prices.",
-      Explore_More: "Explore More Products",
+      Explore_More: "Our innovative solutions",
       Our_Partners_p:
         "Our clients are our partners in success, thanks to God; Alawi Stars for Computer Systems has more than 10,000 clients so far in all disciplines, and achieved a great success in a short time through the production of the distinct software, these are some of our clients that we had the honor to serve them",
       Our_Partners: " Our Partners  ",
@@ -149,32 +149,48 @@ const resources = {
       Call_US: "Call us anytime",
       Started: "Get Started Today",
       CTA_Text: " Empowering Your Business  with Smart Solutions",
-      Tech_Solutions:"Tech Solutions",
-      Tech_Text :" We enhance our clients' excellence and provide them with lasting operational efficiency by providing the best technical solutions.",
-       pc:"computers ",
-      Pc_text:"We have an exceptional team dedicated to meeting our clients' needs, providing them with the best and most powerful brands of computers, servers, and peripherals, as well as devices with special specifications, enabling them to innovate and achieve.",
+      Tech_Solutions: "Tech Solutions",
+      Tech_Text:
+        " We enhance our clients' excellence and provide them with lasting operational efficiency by providing the best technical solutions.",
+      pc: "computers ",
+      Pc_text:
+        "We have an exceptional team dedicated to meeting our clients' needs, providing them with the best and most powerful brands of computers, servers, and peripherals, as well as devices with special specifications, enabling them to innovate and achieve.",
 
-      OS:"Operating programs",
-      Os_text:"We provide our customers with a variety of operating software, including genuine Windows software, Office software, server operating systems, and appropriate peripherals.",
-      PS:" Protection systems",
-      PS_text:"We supply antivirus, anti-hacking, and anti-piracy systems to enhance cybersecurity and protect devices and data.",
+      OS: "Operating programs",
+      Os_text:
+        "We provide our customers with a variety of operating software, including genuine Windows software, Office software, server operating systems, and appropriate peripherals.",
+      PS: " Protection systems",
+      PS_text:
+        "We supply antivirus, anti-hacking, and anti-piracy systems to enhance cybersecurity and protect devices and data.",
 
-      Ha:"Hardware accessories",
-      Ha_text:"We offer high-quality, long-lasting printers, scanners, POS terminals, and other accessories at an affordable price.",
-      LAN:"Local Area Networks (LANs)",
-      LAN_text:"We build local area networks for homes, offices, and small businesses, and provide equipment, maintenance services, and full technical support.",
-      WAN :"Wide Area Networks (WAN)",
-      WAN_text :"We provide wide area networks with advanced equipment and infrastructure, connecting users across large geographic areas efficiently and cost-effectively.",
-     Full_Name:" Full Name",
-      Phone :" Phone",
-      Subject:"Subject",
-      Message:"Message",
+      Ha: "Hardware accessories",
+      Ha_text:
+        "We offer high-quality, long-lasting printers, scanners, POS terminals, and other accessories at an affordable price.",
+      LAN: "Local Area Networks (LANs)",
+      LAN_text:
+        "We build local area networks for homes, offices, and small businesses, and provide equipment, maintenance services, and full technical support.",
+      WAN: "Wide Area Networks (WAN)",
+      WAN_text:
+        "We provide wide area networks with advanced equipment and infrastructure, connecting users across large geographic areas efficiently and cost-effectively.",
+      Full_Name: " Full Name",
+      Phones: " Phone Numbers",
+      Subject: "Subject",
+      Message: "Message",
+      WhatsApp: " WhatsApp",
+      Phone: "Phone",
+      working_hours: " working hours",
+      Jeddah_working_hours: " 9 AM - 6 PM ",
+      Riyadh_working_hours: " 9 AM - 6 PM",
+      address_1_contact:
+        "Malaz Area – Sitten St. – Alyah Commercial Center -1st Floor – Office 1",
+      address_2_contact:
+        "Bughdadiah Area, Hail St., Hail Comm. Center, 2nd Floor,Office 21",
+      CTA_About: "Why us ? ",
     },
   },
 
   ar: {
     translation: {
-      welcome: "مرحباً بكم في ألاوي ستارز!",
       home: "الصفحة الرئيسية ",
       products: "المنتجات",
       services: "الخدمات",
@@ -183,18 +199,30 @@ const resources = {
       contact: "اتصل بنا",
       title: "نجوم العلاوي",
       footertext:
-        "أن نكون رائدًا عالميًا معترفًا به وسلطة في مجال التصميم والإبداع.",
+        "أن نكون شركة رائدة ومعترف بها عالميًا في مجال صناعة البرمجيات",
+      Our_Location: "العنوان ",
+      working_hours: " اوقات العمل ",
+      Jeddah_working_hours: " 9 صباحا - 6 مساء ",
+      Riyadh_working_hours: " 9 صباحا - 6 مساء",
       Email: "البريد الالكتروني ",
       Fax: "فاكس",
-      Full_Name:"الأسم بالكامل ",
-      Phone :"رقم الهاتف",
-      Subject:"الموضوع",
-      Message:"الرسالة",
+      WhatsApp: "واتس اب",
+
+      Phone: "الهاتف",
+
+      Full_Name: "الأسم بالكامل ",
+      Phones: " ارقام الهاتف ",
+      Subject: "الموضوع",
+      Message: "الرسالة",
       QuickLinks: "روابط سريعة",
       HeadOfficeRiyadh: "المركز الرئيسي -الرياض ",
       Jeddah_Branch: "فرع جدة ",
       address_1: "الملز - شارع صلاح الدين ",
       address_2: "البغدادية الغربية",
+      address_1_contact:
+        "الملز-شارع صلاح الدين – مركز عالية  التجاري – الدور الأول – مكتب 1",
+      address_2_contact:
+        "البغدادية الغربية شارع حائل مركز حائل التجاري الدور الثاني مدخل أ مكتب 21",
       FAQs: "الأسئلة الشائعة ",
       Privacy_Policy: "سياسة الخصوصية",
       Terms_Conditions: "الشروط والأحكام",
@@ -263,7 +291,7 @@ const resources = {
       Our_Product_h: "دور نجم العلاوي لأنظمة الكمبيوتر",
       Our_Product_p:
         "دعم بيئة العمل والإنتاج وتعزيز قيمة التقنيات الحديثة والبرمجيات والأنظمة التي تخدم الشركات والمؤسسات ورواد الأعمال والاقتصاد في المملكة العربية السعودية وعملائنا في الخارج من خلال توفير حلول تقنية مبتكرة وعالية الجودة بأسعار تنافسية.",
-      Explore_More: "استكشف المزيد من المنتجات",
+      Explore_More: "  حلولنا المبتكرة ",
       Our_Partners: "شركاؤنا ",
       Our_Partners_p:
         "عملاؤنا هم شركاؤنا في النجاح بفضل الله؛ حيث تمتلك شركة نجوم العلوي لأنظمة الحاسب الآلي أكثر من 10000 عميل حتى الآن في جميع التخصصات، وحققت نجاحاً باهراً في وقت قصير من خلال إنتاج البرمجيات المتميزة، هؤلاء بعض عملائنا الذين تشرفنا بخدمتهم",
@@ -320,23 +348,30 @@ const resources = {
       Call_US: "اتصل بنا في اي وقت ",
       Started: "ابدأ اليوم",
       CTA_Text: " تمكين أعمالك بحلول ذكية",
-      Tech_Solutions:"حلولنا التقنية",
-      Tech_Text :"  نعزز تميز عملائنا ونمنحهم كفاءة تشغيلية دائمة من خلال تقديم أفضل  الحلول التقنية.",
-      pc:"أجهزة الكمبيوتر",
-      Pc_text:"لدينا فريق عمل استثنائي يلبي حاجة عملائنا ويوفر لهم أجهزة الكمبيوتر من سيرفرات أو وحدات طرفية من أفضل وأقوى العلامات التجارية، وكذلك الأجهزة ذات المواصفات الخاصة لنمكنهم من الإبداع والإنجاز.",
+      Tech_Solutions: "حلولنا التقنية",
+      Tech_Text:
+        "  نعزز تميز عملائنا ونمنحهم كفاءة تشغيلية دائمة من خلال تقديم أفضل  الحلول التقنية.",
+      pc: "أجهزة الكمبيوتر",
+      Pc_text:
+        "لدينا فريق عمل استثنائي يلبي حاجة عملائنا ويوفر لهم أجهزة الكمبيوتر من سيرفرات أو وحدات طرفية من أفضل وأقوى العلامات التجارية، وكذلك الأجهزة ذات المواصفات الخاصة لنمكنهم من الإبداع والإنجاز.",
 
-      OS:"البرامج التشغيلية",
-      Os_text:"نوفر حاجة عملائنا من برامج التشغيل المختلفة مثل برامج الويندوز الأصلية، برامج الأوفيس، وأنظمة تشغيل السيرفرات والوحدات الطرفية المناسبة.",
-      PS:"أنظمة الحماية",
-      PS_text:"نقوم بتوريد أنظمة مكافحة الفيروسات، ومكافحة الهكر والاختراق لتعزيز الأمن السيبراني وحماية الأجهزة والبيانات.",
+      OS: "البرامج التشغيلية",
+      Os_text:
+        "نوفر حاجة عملائنا من برامج التشغيل المختلفة مثل برامج الويندوز الأصلية، برامج الأوفيس، وأنظمة تشغيل السيرفرات والوحدات الطرفية المناسبة.",
+      PS: "أنظمة الحماية",
+      PS_text:
+        "نقوم بتوريد أنظمة مكافحة الفيروسات، ومكافحة الهكر والاختراق لتعزيز الأمن السيبراني وحماية الأجهزة والبيانات.",
 
-      Ha:"ملحقات الأجهزة",
-      Ha_text:"نوفر طابعات، ماسحات ضوئية، ونقاط بيع وغيرهم من الملحقات عالية الجودة ذات العمر الطويل والسعر المميز.",
-      LAN:"الشبكات المحلية (LAN)",
-      LAN_text:"نبني شبكات اتصال محلية للمنازل والمكاتب والمنشآت الصغيرة، ونوفر المعدات وخدمات الصيانة والدعم الفني الكامل.",
-      WAN :"الشبكات واسعة النطاق (WAN)",
-      WAN_text :"نوفر الشبكات الواسعة بمعدات وبنية تحتية متقدمة، لربط المستخدمين بمناطق جغرافية كبيرة بفعالية وبتكلفة مناسبة.",
-
+      Ha: "ملحقات الأجهزة",
+      Ha_text:
+        "نوفر طابعات، ماسحات ضوئية، ونقاط بيع وغيرهم من الملحقات عالية الجودة ذات العمر الطويل والسعر المميز.",
+      LAN: "الشبكات المحلية (LAN)",
+      LAN_text:
+        "نبني شبكات اتصال محلية للمنازل والمكاتب والمنشآت الصغيرة، ونوفر المعدات وخدمات الصيانة والدعم الفني الكامل.",
+      WAN: "الشبكات واسعة النطاق (WAN)",
+      WAN_text:
+        "نوفر الشبكات الواسعة بمعدات وبنية تحتية متقدمة، لربط المستخدمين بمناطق جغرافية كبيرة بفعالية وبتكلفة مناسبة.",
+      CTA_About: "   لماذا نحن ؟",
     },
   },
 };

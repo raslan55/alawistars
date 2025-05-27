@@ -59,9 +59,9 @@ const Header = () => {
             <NavLink to="/about" className="font-bold">
               {t("about")}
             </NavLink>
-            <NavLink to="/news" className="font-bold">
+            {/* <NavLink to="/news" className="font-bold">
               {t("news")}
-            </NavLink>
+            </NavLink> */}
             <NavLink to="/contact" className="font-bold">
               {t("contact")}
             </NavLink>

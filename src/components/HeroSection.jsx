@@ -3,6 +3,8 @@ import Hero from "../assets/Images/vecteezy_invoice-report-data-analysis_5648209
 import gazt from "../assets/Images/gazt-vector-logo-seeklogo/gazt-seeklogo.png";
 import ZATCA from "../assets/Images/ZATCA-logo-1024x309.jpg";
 import VAT from "../assets/Images/VAT.png";
+import { FaArrowLeftLong } from "react-icons/fa6";
+
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -37,14 +39,17 @@ export default function HeroSection() {
             
             />
           </div>
+          
           <motion.button
-            className="btn-primary"
+            className="btn-primary flex items-center group"
             whileHover={{ scale: 1.1}}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
 
             {t("Start_btn")}
+            <FaArrowLeftLong  className="ms-3 transition-transform duration-300 group-hover:-translate-x-1"/>
+
           </motion.button>
         </div>
 

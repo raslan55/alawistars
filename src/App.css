@@ -16,7 +16,7 @@ body{
     color: #1b6ba9;
 }
 .btn-primary {
-@apply  rounded-full text-center font-medium focus:outline-none focus:ring-4 h-10 px-5 text-sm bg-[#1b6ba9] text-white hover:bg-[#1b6ca9ab] cursor-pointer
+@apply  rounded-full text-center font-medium focus:outline-none focus:ring-4 h-12 px-7 text-lg bg-Main-color text-white   hover:text-Main-color hover:border-1 hover:bg-white cursor-pointer transition ease-in-out
  
 }
 .rfm-marquee-container  {

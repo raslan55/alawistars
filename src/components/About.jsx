@@ -1,6 +1,8 @@
 import React from "react";
 import AboutImage from "../assets/Images/[freepicdownloader.com]-counting-number-contents-atm-medium.jpg";
 import { FaRegFileCode } from "react-icons/fa";
+import { FaArrowLeftLong } from "react-icons/fa6";
+
 import { MdOutlineLaptopChromebook } from "react-icons/md";
 import { useTranslation } from "react-i18next";
 
@@ -69,14 +71,18 @@ export default function About() {
               </div>
             </div>
 
-            <motion.button
-              className="btn-primary"
-              whileHover={{ scale: 1.1, }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              {t("Start_btn")}
-            </motion.button>
+
+              <motion.button
+                        className="btn-primary flex items-center group"
+                        whileHover={{ scale: 1.1}}
+                        whileTap={{ scale: 0.95 }}
+                        transition={{ type: "spring", stiffness: 300 }}
+                      >
+            
+                        {t("CTA_About")}
+                        <FaArrowLeftLong  className="ms-3 transition-transform duration-300 group-hover:-translate-x-1"/>
+            
+                      </motion.button>
           </div>
         </div>
       </div>

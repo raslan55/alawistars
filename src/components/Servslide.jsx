@@ -8,7 +8,7 @@ export default function Servslide() {
 
   return (
     <div>
-      <Marquee className="shadow bg-gradient-to-r from-Main-color to-sky-600">
+      <Marquee pauseOnHover="true" className="shadow bg-gradient-to-r from-Main-color to-sky-600">
         <FaStarOfLife />
 
         <div class="content-slider-content">
