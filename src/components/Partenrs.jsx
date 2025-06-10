@@ -2,6 +2,8 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useTranslation } from "react-i18next";
 import { Thumbs, Keyboard, Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
+import { FaArrowLeftLong } from "react-icons/fa6";
 
 import "swiper/css";
 import { motion } from "framer-motion";
@@ -39,6 +41,8 @@ const images = [
 
 export default function Partenrs() {
   const { i18n, t } = useTranslation();
+  const MotionLink = motion(Link);
+
   const dir = i18n.language === "ar" ? "rtl" : "ltr";
   return (
     <>
@@ -110,15 +114,17 @@ export default function Partenrs() {
             </Swiper>
           </div>
 
-          <div className="text-center">
-            <motion.button
-              className="btn-primary"
+          <div className="flex items-center justify-center">
+            <MotionLink
+              className="btn-primary flex items-center group w-50 text-center justify-center px-6 py-3 rounded-md shadow-md text-white font-bold bg-Main-color hover:bg-Main-color-dark transition-colors duration-300"
               whileHover={{ scale: 1.1 }}
+              to={"/products"}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
               {t("ReadMore")}
-            </motion.button>
+              <FaArrowLeftLong className="ms-3 transition-transform duration-300 group-hover:-translate-x-1" />
+            </MotionLink>
           </div>
         </div>
       </section>

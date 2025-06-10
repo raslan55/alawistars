@@ -86,6 +86,10 @@ export default function About() {
                         <FaArrowLeftLong  className="ms-3 transition-transform duration-300 group-hover:-translate-x-1"/>
             
                       </MotionLink>
+
+
+
+                      
           </div>
         </div>
       </div>
