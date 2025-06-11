@@ -1,0 +1,88 @@
+const products = [
+  {
+    title: "Inv_acc",
+    image: "/Productes/سنمار للمحاسبة والمخزون العام.webp",
+    slug: "accounting-inventory",
+    description: "acc_Inv_Disc",
+    features: [...Array(16)].map((_, i) => `Inv_acc_feature_${i + 1}`),
+  },
+  {
+    title: "acc",
+    image: "/Productes/سنمار للمحاسبة.webp",
+    slug: "general-accounting",
+    description: "acc_desc",
+    features: [...Array(10)].map((_, i) => `acc_feature_${i + 1}`),
+  },
+  {
+    title: "Inv",
+    image: "/Productes/سنمار للمخزون العام .webp",
+    slug: "inventory-system",
+    description: "Inv_Disc",
+    features: [...Array(10)].map((_, i) => `Inv_feature_${i + 1}`),
+  },
+  {
+    title: "Pr",
+    image: "/Productes/ادارة املاك.webp",
+    slug: "real-estate-management",
+    description: "Pr_Disc",
+    features: [...Array(8)].map((_, i) => `Pr_feature_${i + 1}`),
+  },
+  {
+    title: "Furn",
+    image: "/Productes/سنمار للشقق.webp",
+    slug: "furnished-apartments",
+    description: "Furn_Disc",
+    features: [...Array(8)].map((_, i) => `Furn_feature_${i + 1}`),
+  },
+  {
+    title: "Med",
+    image: "/Productes/سنمار الطبي.webp",
+    slug: "medical-system",
+    description: "Med_Disc",
+    features: [...Array(8)].map((_, i) => `Med_feature_${i + 1}`),
+  },
+  {
+    title: "Maintenance",
+    image: "/Productes/سنمار لصيانة السيارات.webp",
+    slug: "car-maintenance",
+    description: "Maintenance_Disc",
+    features: [...Array(8)].map((_, i) => `Maintenance_feature_${i + 1}`),
+  },
+  {
+    title: "Car_sale",
+    image: "/Productes/سنمار لمبيعات السيارات.webp",
+    slug: "car-sales",
+    description: "Car_sale_Disc",
+    features: [...Array(8)].map((_, i) => `Car_sale_feature_${i + 1}`),
+  },
+  {
+    title: "Hr",
+    image: "/Productes/موظفين 2 .png",
+    slug: "hr-system",
+    description: "Hr_Disc",
+    features: [...Array(8)].map((_, i) => `Hr_feature_${i + 1}`),
+  },
+  {
+    title: "Commu",
+    image: "/Productes/سنمار للاتصالات.webp",
+    slug: "telecom-system",
+    description: "commu_Disc",
+    features: [...Array(8)].map((_, i) => `Commu_feature_${i + 1}`),
+  },
+  {
+    title: "serv",
+    image: "/Productes/سنمار للخدمات .webp",
+    slug: "services-system",
+    description: "serv_Disc",
+    features: [...Array(8)].map((_, i) => `serv_feature_${i + 1}`),
+  },
+  {
+    title: "fuel",
+    image: "/Productes/سنمار للمحطات.webp",
+    slug: "fuel-station",
+    description: "Fule_Disc",
+    features: [...Array(8)].map((_, i) => `fuel_feature_${i + 1}`),
+  },
+];
+
+export default products;

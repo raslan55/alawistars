@@ -1,7 +1,7 @@
 import React from "react";
 import AboutImage from "../assets/Images/[freepicdownloader.com]-counting-number-contents-atm-medium.jpg";
 import { FaRegFileCode } from "react-icons/fa";
-import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 import { MdOutlineLaptopChromebook } from "react-icons/md";
@@ -10,7 +10,8 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
 export default function About() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isRTL = i18n.dir() === "rtl";
   const MotionLink = motion(Link);
 
   return (
@@ -73,22 +74,31 @@ export default function About() {
               </div>
             </div>
 
-
+<div className="flex justify-center lg:justify-start">
               <MotionLink
                         to="/about"
-            className="btn-primary flex items-center group w-50 text-center justify-center px-6 py-3 rounded-md shadow-md text-white font-bold bg-Main-color hover:bg-Main-color-dark transition-colors duration-300"
+            className="btn-primary flex items-center group  text-center justify-center px-6 py-3 rounded-md shadow-md text-white font-bold bg-Main-color hover:bg-Main-color-dark transition-colors duration-300"
                         whileHover={{ scale: 1.1}}
                         whileTap={{ scale: 0.95 }}
                         transition={{ type: "spring", stiffness: 300 }}
                       >
-            
-                        {t("CTA_About")}
-                        <FaArrowLeftLong  className="ms-3 transition-transform duration-300 group-hover:-translate-x-1"/>
+               {isRTL ? (
+                              <>
+                               {t("CTA_About")}
+                                <FaArrowLeftLong className="ms-3 transition-transform duration-300 group-hover:-translate-x-1" />
+                              </>
+                            ) : (
+                              <>
+                                 {t("CTA_About")}
+                                <FaArrowRightLong className="ms-3 transition-transform duration-300 group-hover:translate-x-1" />
+                              </>
+                            )}
+                       
             
                       </MotionLink>
 
 
-
+ </div>
                       
           </div>
         </div>

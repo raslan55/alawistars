@@ -1,101 +1,23 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
+import products from "../data/products"
 import "swiper/css";
 import "swiper/css/pagination";
 import { useTranslation } from "react-i18next";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 import { Link } from "react-router-dom";
 
-const products = [
-  {
-    title: "Inv_acc",
-    image: "/Productes/سنمار للمحاسبة والمخزون العام.webp",
-    slug: "accounting-inventory",
-    description: "acc_Inv_Disc",
-  },
-  {
-    title: "acc",
-    image: "/Productes/سنمار للمحاسبة.webp",
-    slug: "general-accounting",
-    description: "acc_desc",
-  },
-  {
-    title: "Inv",
-    image: "/Productes/سنمار للمخزون العام .webp",
-    slug: "inventory-system",
-    description: "Inv_Disc",
-  },
-  {
-    title: "Pr",
-    image: "/Productes/ادارة املاك.webp",
-    slug: "real-estate-management",
-    description: "Pr_Disc",
-  },
-  {
-    title: "Furn",
-    image: "/Productes/سنمار للشقق.webp",
-    slug: "furnished-apartments",
-    description:
-      "Furn_Disc",
-  },
-  {
-    title: "Med",
-    image: "/Productes/سنمار الطبي.webp",
-    slug: "medical-system",
-    description:
-      "Med_Disc",
-  },
-  {
-    title: "Maintenance",
-    image: "/Productes/سنمار لصيانة السيارات.webp",
-    slug: "car-maintenance",
-    description: "Maintenance_Disc",
-  },
-  {
-    title: "Car_sale",
-    image: "/Productes/سنمار لمبيعات السيارات.webp",
-    slug: "car-sales",
-    description:
-      "Car_sale_Disc",
-  },
-  {
-    title: "Hr",
-    image: "/Productes/موظفين 2 .png",
-    slug: "hr-system",
-    description: "Hr_Disc",
-  },
-  {
-    title: "Commu",
-    image: "/Productes/سنمار للاتصالات.webp",
-    slug: "telecom-system",
-    description:
-      "commu_Disc",
-  },
-  {
-    title: "serv",
-    image: "/Productes/سنمار للخدمات .webp",
-    slug: "services-system",
-    description:
-      "serv_Disc",
-  },
-  {
-    title: "Fuel",
-    image: "/Productes/سنمار للمحطات.webp",
-    slug: "fuel-station",
-    description:
-      "Fule_Disc",
-  },
-];
+
 
 export default function ProductsSlider() {
-  const { t,i18n } = useTranslation();
-
+  const { t, i18n } = useTranslation();
+  const isRTL = i18n.dir() === "rtl";
   const dir = i18n.language === "ar" ? "rtl" : "ltr";
 
   return (
-    <section className="py-16 px-4 max-w-7xl mx-auto" >
+    <section className="py-16 px-4 max-w-7xl mx-auto">
       <h2 className="text-4xl font-bold text-center text-Main-color mb-4">
         {t("Ourproducts")}
       </h2>
@@ -105,8 +27,8 @@ export default function ProductsSlider() {
 
       <Swiper
         modules={[Pagination, Autoplay]}
-            dir={dir}
-               key={i18n.language}
+        dir={dir}
+        key={i18n.language}
         spaceBetween={20}
         slidesPerView={1}
         pagination={{ clickable: true }}
@@ -140,11 +62,17 @@ export default function ProductsSlider() {
                   to={`/products/${product.slug}`}
                   className="mt-auto flex justify-center items-center  text-Main-color px-4 py-2 rounded hover:underline transition text-center"
                 >
-
-                  {t("Show")}
-
-                  <IoIosArrowRoundForward className="ml-2 font-bold text-2xl" />
-
+                  {isRTL ? (
+                    <>
+                      {t("Show")}
+                      <FaArrowLeftLong className="ms-3 transition-transform duration-300 group-hover:-translate-x-1" />
+                    </>
+                  ) : (
+                    <>
+                      {t("Show")}
+                      <FaArrowRightLong className="ms-3 transition-transform duration-300 group-hover:translate-x-1" />
+                    </>
+                  )}
                 </Link>
               </div>
             </div>

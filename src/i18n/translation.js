@@ -13,9 +13,11 @@ const resources = {
       news: "News",
       contact: "Contact Us",
       title: "alawistars",
-      CompanyName:"Nujoum Al Alawi Computer Systems",
-      companyDescription: "Nujoum Al Alawi Computer Systems was launched in 1994 to provide For the Saudi society and economy aspiring for growth and leadership At that time, software solutions and electronic systems in addition to For various types of technical services and products Developed that keeps pace with the aspirations of companies and private institutions at that time, and in order to contribute from During its role in facilitating the management function and improving production, Governance and control of work, and was able from the first moment From its launch, gaining the trust of its customers and consolidating its position As a reliable and indispensable technology partner for many Government and private agencies, and continued to provide performance Distinguished and providing advanced technical services and products Through which it was able to enrich the system Management and the world of systems, software and modern technology in the Kingdom, and helped it achieve huge leaps in The size of its outputs, its profit margins, and its level of excellence in Work, management and organization, and tracked in this framework An ever-evolving working methodology based primarily on customer satisfaction and providing perfect and reliable products and services, Nojoom Al Alawi became the number one service provider and seller Expert technology with more than 10,000 companies and institutions Inside and outside the Kingdom",
-      footertext:"To be a recognized world leader and authority in the industry for Software",
+      CompanyName: "Nujoum Al Alawi Computer Systems",
+      companyDescription:
+        "Nujoum Al Alawi Computer Systems was launched in 1994 to provide For the Saudi society and economy aspiring for growth and leadership At that time, software solutions and electronic systems in addition to For various types of technical services and products Developed that keeps pace with the aspirations of companies and private institutions at that time, and in order to contribute from During its role in facilitating the management function and improving production, Governance and control of work, and was able from the first moment From its launch, gaining the trust of its customers and consolidating its position As a reliable and indispensable technology partner for many Government and private agencies, and continued to provide performance Distinguished and providing advanced technical services and products Through which it was able to enrich the system Management and the world of systems, software and modern technology in the Kingdom, and helped it achieve huge leaps in The size of its outputs, its profit margins, and its level of excellence in Work, management and organization, and tracked in this framework An ever-evolving working methodology based primarily on customer satisfaction and providing perfect and reliable products and services, Nojoom Al Alawi became the number one service provider and seller Expert technology with more than 10,000 companies and institutions Inside and outside the Kingdom",
+      footertext:
+        "To be a recognized world leader and authority in the industry for Software",
       Email: "Email",
       Fax: "Fax",
       QuickLinks: "Quick Links",
@@ -83,7 +85,8 @@ const resources = {
       Hr_Disc:
         "An integrated personnel affairs system for managing attendance, salaries, vacations, and personal files.",
       Commu: "Sinmar Communications System",
-      commu_Disc:"A solution for managing telecom companies, customer services, billing, and shipment tracking.",
+      commu_Disc:
+        "A solution for managing telecom companies, customer services, billing, and shipment tracking.",
       serv: "Sinmar Services",
       serv_Disc:
         " A system for managing public service companies, distributing tasks, and providing performance reports.",
@@ -187,8 +190,137 @@ const resources = {
       address_2_contact:
         "Bughdadiah Area, Hail St., Hail Comm. Center, 2nd Floor,Office 21",
       CTA_About: "Why us ? ",
-   Sales_Email :" Sales Email",
+      Sales_Email: " Sales Email",
 
+      Inv_acc_feature_1: "Accounting tree up to 10 sub-levels",
+      Inv_acc_feature_2: "Export to Excel, Word, PDF, Txt",
+      Inv_acc_feature_3:
+        "The ability to save copies of documents within the journal entry",
+      Inv_acc_feature_4: "In addition to 99 branches",
+      Inv_acc_feature_5:
+        "The advantage of multiple and individual cost centers",
+      Inv_acc_feature_6: "SQL Server database",
+      Inv_acc_feature_7:
+        "A bond of receipt or cash disbursement in a sequence independent of the term",
+      Inv_acc_feature_8:
+        "The possibility of separating the cash and check in the exchange receivable",
+      Inv_acc_feature_9: "Auto backup",
+      Inv_acc_feature_10: "A multi-year and branch account statement",
+      Inv_acc_feature_11: "A multi-year and branched general professor",
+      Inv_acc_feature_12: "Independent powers for each user",
+      Inv_acc_feature_13: "Fixed assets and calculating depreciation",
+      Inv_acc_feature_14: "The possibility of dealing with documentary credits",
+      Inv_acc_feature_15: "Diverse detailed reports and custom display options",
+      Inv_acc_feature_16: "Revaluation of a fixed asset",
+
+
+      acc_feature_1: "acc feature 1",
+      acc_feature_2: "acc feature 2",
+      acc_feature_3: "acc feature 3",
+      acc_feature_4: "acc feature 4",
+      acc_feature_5: "acc feature 5",
+      acc_feature_6: "acc feature 6",
+      acc_feature_7: "acc feature 7",
+      acc_feature_8: "acc feature 8",
+      acc_feature_9: "acc feature 9",
+      acc_feature_10: "acc feature 10",
+
+      Inv_feature_1: "Inv feature 1",
+      Inv_feature_2: "Inv feature 2",
+      Inv_feature_3: "Inv feature 3",
+      Inv_feature_4: "Inv feature 4",
+      Inv_feature_5: "Inv feature 5",
+      Inv_feature_6: "Inv feature 6",
+      Inv_feature_7: "Inv feature 7",
+      Inv_feature_8: "Inv feature 8",
+      Inv_feature_9: "Inv feature 9",
+      Inv_feature_10: "Inv feature 10",
+
+
+      Pr_feature_1: "Pr feature 1",
+      Pr_feature_2: "Pr feature 2",
+      Pr_feature_3: "Pr feature 3",
+      Pr_feature_4: "Pr feature 4",
+      Pr_feature_5: "Pr feature 5",
+      Pr_feature_6: "Pr feature 6",
+      Pr_feature_7: "Pr feature 7",
+      Pr_feature_8: "Pr feature 8",
+      Pr_feature_9: "Pr feature 9",
+      Pr_feature_10: "Pr feature 10",
+
+
+      Furn_feature_1: "Furn feature 1",
+      Furn_feature_2: "Furn feature 2",
+      Furn_feature_3: "Furn feature 3",
+      Furn_feature_4: "Furn feature 4",
+      Furn_feature_5: "Furn feature 5",
+      Furn_feature_6: "Furn feature 6",
+      Furn_feature_7: "Furn feature 7",
+      Furn_feature_8: "Furn feature 8",
+      
+
+      Med_feature_1: "Med feature 1",
+      Med_feature_2: "Med feature 2",
+      Med_feature_3: "Med feature 3",
+      Med_feature_4: "Med feature 4",
+      Med_feature_5: "Med feature 5",
+      Med_feature_6: "Med feature 6",
+      Med_feature_7: "Med feature 7",
+      Med_feature_8: "Med feature 8",
+
+      Maintenance_feature_1: "Maintenance feature 1",
+      Maintenance_feature_2: "Maintenance feature 2",
+      Maintenance_feature_3: "Maintenance feature 3",
+      Maintenance_feature_4: "Maintenance feature 4",
+      Maintenance_feature_5: "Maintenance feature 5",
+      Maintenance_feature_6: "Maintenance feature 6",
+      Maintenance_feature_7: "Maintenance feature 7",
+      Maintenance_feature_8: "Maintenance feature 8",
+
+      Car_sale_feature_1: "Car_sale feature 1",
+      Car_sale_feature_2: "Car_sale feature 2",
+      Car_sale_feature_3: "Car_sale feature 3",
+      Car_sale_feature_4: "Car_sale feature 4",
+      Car_sale_feature_5: "Car_sale feature 5",
+      Car_sale_feature_6: "Car_sale feature 6",
+      Car_sale_feature_7: "Car_sale feature 7",
+      Car_sale_feature_8: "Car_sale feature 8",
+
+      Hr_feature_1: "Hr feature 1",
+      Hr_feature_2: "Hr feature 2",
+      Hr_feature_3: "Hr feature 3",
+      Hr_feature_4: "Hr feature 4",
+      Hr_feature_5: "Hr feature 5",
+      Hr_feature_6: "Hr feature 6",
+      Hr_feature_7: "Hr feature 7",
+      Hr_feature_8: "Hr feature 8",
+
+      Commu_feature_1: "Commu feature 1",
+      Commu_feature_2: "Commu feature 2",
+      Commu_feature_3: "Commu feature 3",
+      Commu_feature_4: "Commu feature 4",
+      Commu_feature_5: "Commu feature 5",
+      Commu_feature_6: "Commu feature 6",
+      Commu_feature_7: "Commu feature 7",
+      Commu_feature_8: "Commu feature 8",
+
+      serv_feature_1: "serv feature 1",
+      serv_feature_2: "serv feature 2",
+      serv_feature_3: "serv feature 3",
+      serv_feature_4: "serv feature 4",
+      serv_feature_5: "serv feature 5",
+      serv_feature_6: "serv feature 6",
+      serv_feature_7: "serv feature 7",
+      serv_feature_8: "serv feature 8",
+
+      fuel_feature_1: "fuel feature 1",
+      fuel_feature_2: "fuel feature 2",
+      fuel_feature_3: "fuel feature 3",
+      fuel_feature_4: "fuel feature 4",
+      fuel_feature_5: "fuel feature 5",
+      fuel_feature_6: "fuel feature 6",
+      fuel_feature_7: "fuel feature 7",
+      fuel_feature_8: "fuel feature 8",
     },
   },
 
@@ -200,8 +332,9 @@ const resources = {
       about: "معلومات عنا",
       news: "الأخبار",
       contact: "اتصل بنا",
-       CompanyName:"نجوم العلاوي لنظم الكمبيوتر ",
-             companyDescription: "انطلقت نجوم العلاوي لنظم الكمبيوتر عام ١٩٩٤ لتوفر للمجتمع والاقتصاد السعودي الطامح للنمو والريادة آنذاك الحلول البرمجية والأنظمة الالكترونية بالإضافة لأنواع متعددة من الخدمات والمنتجات التقنية المتطورة التي تتواكب مع تطلعات الشركات والمؤسسات الخاصة في ذلك الوقت، ولكي تساهم من خلال دورها في تسهيل وظيفة الإدارة وتحسين الإنتاج ، وحوكمة وضبط العمل، واستطاعت منذ اللحظة الأولى من انطلاقها كسب ثقة عملائها وترسيخ مكانتها كشريك تقني موثوق ولا غنى عنه لدى الكثير من الجهات الحكومية والخاصة، واستمرت على تقديم الأداء المتميز وتقديم الخدمات والمنتجات التقنية المتطورة والتي استطاعت من خلالها العمل على إثراء منظومة الإدارة وعالم الأنظمة والبرمجيات والتكنولوجيا الحديثة بالمملكة، وساعدتها في تحقيق قفزات هائلة في حجم مخرجاتها وهوامش أرباحها ومستوى تميزها في العمل والإدارة والتنظيم، وتتبعت في هذا الإطار منهجية عمل دائمة التطور ترتكز في المقام الأول على رضا العملاء وتقديم منتجات وخدمات مثالية وموثوقة، فأصبحت نجوم العلاوى مزود الخدمة الأول وبائع التقنية الخبير لدى ما يزيد عن ١٠ آلاف شركة ومؤسسة داخل وخارج المملكة.",
+      CompanyName: "نجوم العلاوي لنظم الكمبيوتر ",
+      companyDescription:
+        "انطلقت نجوم العلاوي لنظم الكمبيوتر عام ١٩٩٤ لتوفر للمجتمع والاقتصاد السعودي الطامح للنمو والريادة آنذاك الحلول البرمجية والأنظمة الالكترونية بالإضافة لأنواع متعددة من الخدمات والمنتجات التقنية المتطورة التي تتواكب مع تطلعات الشركات والمؤسسات الخاصة في ذلك الوقت، ولكي تساهم من خلال دورها في تسهيل وظيفة الإدارة وتحسين الإنتاج ، وحوكمة وضبط العمل، واستطاعت منذ اللحظة الأولى من انطلاقها كسب ثقة عملائها وترسيخ مكانتها كشريك تقني موثوق ولا غنى عنه لدى الكثير من الجهات الحكومية والخاصة، واستمرت على تقديم الأداء المتميز وتقديم الخدمات والمنتجات التقنية المتطورة والتي استطاعت من خلالها العمل على إثراء منظومة الإدارة وعالم الأنظمة والبرمجيات والتكنولوجيا الحديثة بالمملكة، وساعدتها في تحقيق قفزات هائلة في حجم مخرجاتها وهوامش أرباحها ومستوى تميزها في العمل والإدارة والتنظيم، وتتبعت في هذا الإطار منهجية عمل دائمة التطور ترتكز في المقام الأول على رضا العملاء وتقديم منتجات وخدمات مثالية وموثوقة، فأصبحت نجوم العلاوى مزود الخدمة الأول وبائع التقنية الخبير لدى ما يزيد عن ١٠ آلاف شركة ومؤسسة داخل وخارج المملكة.",
 
       title: "نجوم العلاوي",
       footertext:
@@ -378,7 +511,26 @@ const resources = {
       WAN_text:
         "نوفر الشبكات الواسعة بمعدات وبنية تحتية متقدمة، لربط المستخدمين بمناطق جغرافية كبيرة بفعالية وبتكلفة مناسبة.",
       CTA_About: "   لماذا نحن ؟",
-      Sales_Email :" البريد الإلكتروني للمبيعات",
+      Sales_Email: " البريد الإلكتروني للمبيعات",
+      Inv_acc_feature_1: "شجرة محاسبية حتى 10 مستويات فرعية",
+      Inv_acc_feature_2: "تصدير إلى Excel وWord وPDF وTxt",
+      Inv_acc_feature_3: "إمكانية حفظ نسخ من المستندات داخل قيد اليومية",
+      Inv_acc_feature_4: "دعم حتى 99 فرعًا",
+      Inv_acc_feature_5: "ميزة مراكز التكلفة المتعددة والفردية",
+      Inv_acc_feature_6: "قاعدة بيانات SQL Server",
+      Inv_acc_feature_7: "سند قبض أو صرف نقدي بتسلسل مستقل عن المدة",
+      Inv_acc_feature_8: "إمكانية فصل النقدي عن الشيكات في القبض أو الصرف",
+      Inv_acc_feature_9: "نسخ احتياطي تلقائي",
+      Inv_acc_feature_10: "كشف حساب متعدد السنوات والفروع",
+      Inv_acc_feature_11: "أستاذ عام متعدد السنوات والفروع",
+      Inv_acc_feature_12: "صلاحيات مستقلة لكل مستخدم",
+      Inv_acc_feature_13: "الأصول الثابتة واحتساب الإهلاك",
+      Inv_acc_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
+      Inv_acc_feature_15: "تقارير تفصيلية متنوعة وخيارات عرض مخصصة",
+      Inv_acc_feature_16: "إعادة تقييم الأصل الثابت",
+      Sending: "جارٍ الإرسال...",
+  Message_Sent_Successfully: "تم إرسال الرسالة بنجاح.",
+  Message_Sending_Failed: "حدث خطأ أثناء الإرسال. حاول مرة أخرى."
     },
   },
 };
@@ -393,3 +545,4 @@ i18n.use(initReactI18next).init({
 });
 
 export default i18n;
+

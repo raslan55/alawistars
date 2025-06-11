@@ -5,13 +5,17 @@ import ZATCA from "../assets/Images/ZATCA-logo-1024x309.jpg";
 import VAT from "../assets/Images/VAT.png";
 import { Link } from "react-router-dom";
 
-import { FaArrowLeftLong } from "react-icons/fa6";
+import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 export default function HeroSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isRTL = i18n.dir() === "rtl";
+
+
+
   const MotionLink = motion(Link);
   return (
     <div>
@@ -50,17 +54,27 @@ export default function HeroSection() {
               transition={{ type: "easeIn", tween: 300 }}
             />
           </div>
-
-          <MotionLink
-            className="btn-primary flex items-center group w-50 text-center justify-center px-6 py-3 rounded-md shadow-md text-white font-bold bg-Main-color hover:bg-Main-color-dark transition-colors duration-300"
-            whileHover={{ scale: 1.1 }}
-            to={"/contact"}
-            whileTap={{ scale: 0.95 }}
-            transition={{ type: "spring", stiffness: 300 }}
-          >
-            {t("Start_btn")}
-            <FaArrowLeftLong className="ms-3 transition-transform duration-300 group-hover:-translate-x-1" />
-          </MotionLink>
+          <div className="flex justify-center lg:justify-start">
+            <MotionLink
+              className="btn-primary flex items-center group  text-center justify-center px-6 py-3 rounded-md shadow-md text-white font-bold bg-Main-color hover:bg-Main-color-dark transition-colors duration-300"
+              whileHover={{ scale: 1.1 }}
+              to={"/contact"}
+              whileTap={{ scale: 0.95 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              {isRTL ? (
+                <>
+                  {t("Start_btn")}
+                  <FaArrowLeftLong className="ms-3 transition-transform duration-300 group-hover:-translate-x-1" />
+                </>
+              ) : (
+                <>
+                  {t("Start_btn")}
+                  <FaArrowRightLong className="ms-3 transition-transform duration-300 group-hover:translate-x-1" />
+                </>
+              )}
+            </MotionLink>
+          </div>
         </div>
 
         {/* Right Image */}

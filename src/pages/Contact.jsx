@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
+
 import {
   FaPhone,
   FaEnvelope,
@@ -16,7 +18,32 @@ import ContactInfoCard from "../components/ContactInfoCard"; // Import the new c
 
 const ContactPage = () => {
   const { t } = useTranslation();
+ const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    subject: "",
+    message: "",
+  });
+    const [status, setStatus] = useState(""); // For feedback message
 
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+ const handleSubmit = async (e) => {
+  e.preventDefault();
+  setStatus("sending");
+
+  try {
+    await axios.post("http://localhost:5000/api/contact", formData);
+    setStatus("success");
+    setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
+  } catch (error) {
+    console.error("Submission error:", error);
+    setStatus("error");
+  }
+};
   return (
     <div className="px-4 py-12 max-w-7xl mx-auto text-justify">
       <h2 className="text-3xl font-bold text-center mb-12 text-Main-color">
@@ -151,7 +178,7 @@ const ContactPage = () => {
             <ContactInfoCard
               icon={<FaRegClock  />}
               title={t("working_hours")}
-              detail={<p>{t("Jeddah_working_hours")} </p>}
+              detail={<p className="text-Main-color" >{t("Jeddah_working_hours")} </p>}
             />
           </div>
         </div>
@@ -269,7 +296,7 @@ const ContactPage = () => {
             <ContactInfoCard
               icon={<FaRegClock   />}
               title={t("working_hours")}
-              detail={<p>{t("Jeddah_working_hours")} </p>}
+              detail={<p className="text-Main-color">{t("Jeddah_working_hours")} </p>}
             />
           </div>
         </div>
@@ -288,40 +315,66 @@ const ContactPage = () => {
           />
         </div>
 
-        <form className="md:w-1/2 space-y-4">
+        <form onSubmit={handleSubmit} className="md:w-1/2 space-y-4">
           <h3 className="text-2xl font-semibold mb-4 text-justify text-Main-color">
             {t("contact")}
           </h3>
+
           <input
             type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
             placeholder={t("Full_Name")}
+            required
             className="w-full border border-gray-300 rounded px-4 py-2 text-justify focus:ring-Main-color focus:border-Main-color"
           />
           <input
             type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
             placeholder={t("Email")}
+            required
             className="w-full border border-gray-300 rounded px-4 py-2 text-justify focus:ring-Main-color focus:border-Main-color"
           />
           <input
             type="text"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
             placeholder={t("Phone")}
             className="w-full border border-gray-300 rounded px-4 py-2 text-justify focus:ring-Main-color focus:border-Main-color"
           />
           <input
             type="text"
+            name="subject"
+            value={formData.subject}
+            onChange={handleChange}
             placeholder={t("Subject")}
             className="w-full border border-gray-300 rounded px-4 py-2 text-justify focus:ring-Main-color focus:border-Main-color"
           />
           <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
             placeholder={t("Message")}
             className="w-full border border-gray-300 rounded px-4 py-2 h-32 resize-none text-justify focus:ring-Main-color focus:border-Main-color"
           ></textarea>
+
           <button
             type="submit"
             className="bg-Main-color hover:bg-indigo-950 cursor-pointer text-white font-semibold py-2 px-6 rounded w-full transition-colors duration-200"
           >
-            {t("contact")}
+            {status === "sending" ? t("Sending...") : t("contact")}
           </button>
+
+          {status === "success" && (
+            <p className="text-green-600 mt-2">{t("Message_Sent_Successfully")}</p>
+          )}
+          {status === "error" && (
+            <p className="text-red-600 mt-2">{t("Message_Sending_Failed")}</p>
+          )}
         </form>
       </div>
     </div>

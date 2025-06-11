@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <AppRoutes />
-      <FloatingWhatsAppButton phoneNumber="0506194863" message="Hello, I need assistance!" /> 
+      <FloatingWhatsAppButton phoneNumber="+966506194863" message="Hello, I need assistance!" /> 
    </>
   );
 }
