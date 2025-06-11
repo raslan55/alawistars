@@ -359,7 +359,10 @@ const ContactPage = () => {
             value={formData.message}
             onChange={handleChange}
             placeholder={t("Message")}
-            className="w-full border border-gray-300 rounded px-4 py-2 h-32 resize-none text-justify focus:ring-Main-color focus:border-Main-color"
+            rows={4}
+            resize={true}
+            cols={50}
+              className="w-full border border-gray-300 rounded px-4 py-2  text-justify focus:ring-Main-color focus:border-Main-color"
           ></textarea>
 
           <button
