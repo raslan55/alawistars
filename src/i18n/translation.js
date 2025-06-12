@@ -595,7 +595,7 @@ fuel_feature_19: "Issue and track customer coupons",
       reason_3_title: "خدمات مجانية مدى الحياة",
       reason_4_title: "خطط أسعار مناسبة",
       Call_US: "اتصل بنا في اي وقت ",
-      Started: " مرحبًا بك في سنمار  ",
+      Started: " مرحبًا بك في نجوم العلاوي ",
       CTA_Text: " حلول برمجية متكاملة لإدارة أعمالك بكفاءة واحترافية",
       Tech_Solutions: "حلولنا التقنية",
       Tech_Text:
