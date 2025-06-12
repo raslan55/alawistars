@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
 
 
-export default function CTA() {
+export default function CTA({ heading, subheading }) {
    const { t } = useTranslation();
   return (
     <section className="bg-gradient-to-r from-Main-color to-sky-600 text-white py-12 px-4 sm:px-6 lg:px-8">
@@ -13,11 +13,11 @@ export default function CTA() {
     
     {/* النص التعريفي */}
     <div className="flex-1 w-full">
-      <h2 className="text-base sm:text-lg lg:text-4xl   font-bold text-white text-justify">
-        {t("Started")}
+      <h2 className="text-base sm:text-lg lg:text-3xl   font-bold text-white text-justify">
+        {heading}
       </h2>
-      <h3 className="text-2xl sm:text-3xl font-semibold mt-2 leading-snug text-justify">
-        {t("CTA_Text")}
+      <h3 className="text-sm sm:text-lg font-semibold mt-2 leading-snug text-justify">
+       {subheading}
        
       </h3>
     </div>

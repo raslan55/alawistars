@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import products from "../data/products";
 import CTA from "./CTA";
+import ProductsSlider from "./ProductsSlider";
 
 export default function ProductDetails() {
   const { slug } = useParams();
@@ -19,8 +20,8 @@ export default function ProductDetails() {
 
   return (
     <>
-      <div className="max-w-5xl mx-auto px-4 py-12">
-        <div className="bg-white shadow-xl rounded-2xl overflow-hidden p-6 sm:p-10">
+      <div className="max-w-7xl mx-auto px-4 py-12">
+        <div className="bg-white  p-6 sm:p-10">
           <h1 className="text-4xl font-bold text-Main-color mb-6 text-center">
             {t(product.title)}
           </h1>
@@ -57,7 +58,12 @@ export default function ProductDetails() {
           )}
         </div>
       </div>
-      <CTA />
+        <ProductsSlider />
+      
+       <CTA 
+  heading={t("Tech_Started")} 
+  subheading={t("Tech_CTA_Text")} 
+/>
     </>
   );
 }

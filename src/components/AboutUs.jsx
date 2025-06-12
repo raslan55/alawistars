@@ -171,7 +171,11 @@ const AboutUs = () => {
       </div>
 
     </section>
-     <CTA/>
+
+   <CTA 
+  heading={t("About_Started")} 
+  subheading={t("About_CTA_Text")} 
+/>
 
      </>
   );

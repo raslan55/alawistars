@@ -367,17 +367,24 @@ const ContactPage = () => {
 
           <button
             type="submit"
-            className="bg-Main-color hover:bg-indigo-950 cursor-pointer text-white font-semibold py-2 px-6 rounded w-full transition-colors duration-200"
-          >
+            className="bg-Main-color hover:bg-indigo-950 cursor-pointer
+                       text-white font-semibold 
+                        py-2 px-6 rounded w-full transition-colors duration-200">
             {status === "sending" ? t("Sending...") : t("contact")}
+
           </button>
+
 
           {status === "success" && (
             <p className="text-green-600 mt-2">{t("Message_Sent_Successfully")}</p>
           )}
+
+
           {status === "error" && (
             <p className="text-red-600 mt-2">{t("Message_Sending_Failed")}</p>
           )}
+
+
         </form>
       </div>
     </div>
@@ -385,3 +392,5 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+
+

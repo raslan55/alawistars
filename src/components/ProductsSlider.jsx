@@ -1,15 +1,13 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
-import products from "../data/products"
+import products from "../data/products";
 import "swiper/css";
 import "swiper/css/pagination";
 import { useTranslation } from "react-i18next";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 import { Link } from "react-router-dom";
-
-
 
 export default function ProductsSlider() {
   const { t, i18n } = useTranslation();
@@ -43,14 +41,17 @@ export default function ProductsSlider() {
         }}
         className="!pb-16 cursor-grab"
       >
-        {products.map((product, index) => (
-          <SwiperSlide key={index}>
+        {products.map((product) => (
+          <SwiperSlide key={product.id}>
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow hover:shadow-lg transition duration-300 h-full flex flex-col">
-              <img
-                src={product.image}
-                alt={product.title}
-                className="w-full h-56 object-cover"
-              />
+              <Link to={`/products/${product.slug}`}>
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  className="w-full h-56 object-cover"
+                />
+              </Link>
+
               <div className="p-4 flex flex-col justify-between flex-grow text-center">
                 <h3 className="text-lg font-bold text-Main-color mb-2 ">
                   {t(product.title)}

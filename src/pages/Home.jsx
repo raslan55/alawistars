@@ -5,8 +5,10 @@ import About from "../components/About";
 import Servslide from "../components/Servslide";
 import HeroSection from "../components/HeroSection";
 import CTA from "../components/CTA";
+import { useTranslation } from "react-i18next";
 
 function Home() {
+  const { t } = useTranslation();
 
 
   return (
@@ -17,8 +19,11 @@ function Home() {
       <Products/>
       <Testimonial/>
       <Partenrs/>
-        <CTA/>
-      
+        <CTA 
+          heading={t("Started")} 
+         subheading={t("CTA_Text")} />
+
+
     </div>
   );
 }
