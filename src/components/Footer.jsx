@@ -27,8 +27,7 @@ export default function AppFooter() {
     <Footer container className="bg-[#F0F8FD] text-text-color  shadow-lg">
       <div className="w-full px-4 py-8 ">
         {/* Top Section: 4 Columns */}
-        <div className="flex flex-wrap  items-center  ">
-          {/* Column 1: Branding */}
+        {/* <div className="flex flex-wrap  items-center  ">
           <div className="w-full flex flex-col items-center ">
             <FooterBrand
               className="w-100 h-auto "
@@ -39,7 +38,7 @@ export default function AppFooter() {
             />
             <p className="py-2.5  mb-2">{t("footertext")}</p>
           </div>
-        </div>
+        </div> */}
 
         <FooterDivider className="my-6" />
 

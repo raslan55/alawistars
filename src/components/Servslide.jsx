@@ -4,64 +4,65 @@ import { FaStarOfLife } from "react-icons/fa6";
 import { useTranslation } from "react-i18next";
 
 export default function Servslide() {
-  const { t } = useTranslation();
+const { t } = useTranslation();
+
 
   return (
     <div>
-      <Marquee pauseOnHover="true" className="shadow bg-gradient-to-r from-Main-color to-sky-600">
-        <FaStarOfLife />
+      <Marquee pauseOnHover="true" direction="left" className="shadow bg-gradient-to-r from-Main-color to-Main-color-300">
+     
 
-        <div class="content-slider-content">
-          <h1>{t("SERVICES_WE_PROVIDE")}</h1>
+        <div class="content-slider-content  ">
+          <h1 className="text-xl font-bold tracking-wide uppercase drop-shadow-sm">{t("SERVICES_WE_PROVIDE")}</h1>
         </div>
-        <FaStarOfLife />
+     
         <div class="content-slider-content">
           <h1>{t("Cloud_Based_Solutions")}</h1>
         </div>
-        <FaStarOfLife />
+     
         <div class="content-slider-content">
           <h1> {t("Desktop_Applications")} </h1>
         </div>
-        <FaStarOfLife />
+     
         <div class="content-slider-content">
           <h1>{t("ERP")} </h1>
         </div>
-        <FaStarOfLife />
+     
 
         <div class="content-slider-content">
           <h1>{t("Inv_acc")}</h1>
         </div>
-        <FaStarOfLife />
+     
 
         <div class="content-slider-content">
           <h1> {t("acc")} </h1>
         </div>
-        <FaStarOfLife />
+     
 
         <div class="content-slider-content">
           <h1> {t("Inv")} </h1>
         </div>
-        <FaStarOfLife />
+     
 
         <div class="content-slider-content">
           <h1>{t("Med")}</h1>
         </div>
-        <FaStarOfLife />
+     
 
         <div class="content-slider-content">
           <h1> {t("Furn")} </h1>
         </div>
-        <FaStarOfLife />
+     
 
         <div class="content-slider-content">
           <h1> {t("Pr")} </h1>
         </div>
-        <FaStarOfLife />
+     
 
         <div class="content-slider-content">
           <h1> {t("Maintenance")} </h1>
         </div>
-        <FaStarOfLife />
+     
 
         <div class="content-slider-content">
           <h1>{t("Maintenance")} </h1>
