@@ -35,6 +35,47 @@ const resources = {
       Stories: "Real Stories, Real Results",
       Testimonial_text:
         "Read what our clients have to say about their journey with us. We’re proud to deliver value that speaks for itself.",
+ Testimonial_name_1: "Yousef Saeed A. Bawazeer Trading Est.",
+  Testimonial_Location_1: "Jeddah, Saudi Arabia",
+  Testimonial_text_1: "We appreciate the efforts of Najoom Al-Alawi Computer Systems in maintaining and developing our programs (sales and accounting). Our trust in them is permanent, as they are a key partner in our success. We hope for the continuation of this distinguished performance. Thank you very much.",
+
+  Testimonial_name_2: "Basamat Al-Osra Dental Clinics Complex",
+  Testimonial_Location_2: "Najran, Saudi Arabia",
+  Testimonial_text_2: "We thank Najoom Al-Alawi and Sinmar program for their excellent cooperation, quick response, and technical support over 4 years, which positively impacted our clinic's operations. We wish you continued progress and prosperity.",
+
+  Testimonial_name_3: "Moussa Taqneya Al-Qata' Al-Jadeedah for Trading", // Updated for "تقنية القطع الجديدة" based on previous analysis
+  Testimonial_Location_3: "Jeddah, Saudi Arabia",
+  Testimonial_text_3: "We extend thanks to Najoom Al-Alawi and Sinmar Application Systems for their efforts in maintaining and developing the distinguished programs we rely on for inventory, sales, and accounting. We value our partnership and wish you continued excellence.",
+
+  Testimonial_name_4: "Cosmoline Clinic Dr. Hasan AbuHathrah",
+  Testimonial_Location_4: "Kingdom of Saudi Arabia",
+  Testimonial_text_4: "A certificate of thanks and appreciation to Najoom Al-Alawi and Sinmar program for their continuous support in making our work successful and developing it. We express our sincere gratitude for your valuable efforts and effective contribution.",
+
+  Testimonial_name_5: "Shadow Lighting Trading Est.", // Updated for "خيال الضوء" based on previous analysis
+  Testimonial_Location_5: "Jeddah, Saudi Arabia",
+  Testimonial_text_5: "We express our pride and gratitude for the numerous achievements and beneficial efforts you have provided. Your expertise and quick response helped us overcome challenges. We extend our highest appreciation and wish you continued success.",
+  
+  Testimonial_name_6: "Rashed Mohamed Alhamed Company",
+  Testimonial_Location_6: "Riyadh, Saudi Arabia",
+  Testimonial_text_6: "We thank Najoom Al-Alawi and Sinmar Application Systems for their continuous maintenance and development of our programs (inventory, sales, and accounting). Our trust in you is permanent as a key partner in our success, and we hope for your continued distinguished performance.",
+
+  Testimonial_name_7: "Middle Sea Modern Wire Telecom Co.",
+  Testimonial_Location_7: "Jeddah, Saudi Arabia",
+  Testimonial_text_7: "A letter of thanks and appreciation to the manager of Najoom Al-Alawi Computer Systems for their continuous efforts in developing Sinmar's accounting systems. We are proud to keep pace with your progress, and we wish you continuous success and prosperity. Our sincere thanks to you.",
+
+  Testimonial_name_8: "Mohamad Khalil Fageeh Speciality Medical Center",
+  Testimonial_Location_8: "Kingdom of Saudi Arabia",
+  Testimonial_text_8: "We thank Najoom Al-Alawi and Sinmar program for their constructive cooperation in quality control and developing computer usage for clinic operations. We appreciate your professionalism and excellent service, and wish you further progress and prosperity.",
+
+  Testimonial_name_9: "Abdullah Saleh Bin Eid Al Yahiyya Est. For Trading",
+  Testimonial_Location_9: "Riyadh, Saudi Arabia",
+  Testimonial_text_9: "Thanks and appreciation to Najoom Al-Alawi and Sinmar Application Systems for the maintenance and development of our programs (inventory, sales, accounting). Our trust in you is permanent as a success partner, and we hope for your continued excellence. We extend our sincere thanks and appreciation.",
+
+  Testimonial_name_10: "Tareq & Yasien Co. Limited", // Adding the last one (Tareq & Yasien Co.)
+  Testimonial_Location_10: "Makkah Al-Mukarramah, Saudi Arabia",
+  Testimonial_text_10: "With all pride and appreciation, TYAMCO extends profound thanks to Najoom Al-Alawi Computer Systems, Sinmar program, for their efforts in developing the program and assisting us in solving problems. We wish you continued success.",
+
+
       Partners_Heading: " Meet our  partners",
       Partners_text: "We’ve 10000+ Dedicated Partners",
       Hero_heading:
@@ -490,7 +531,49 @@ const resources = {
       Tech_Started: "Innovative Tech Solutions to Grow Your Business",
       Tech_CTA_Text:
         "Take advantage of our smart systems designed for various industries — start evolving today",
+        our_clients_title: "Our Valued Partners & Clients",
+client_name_1: "Hira Building Stars Establishment",
+client_details_1: "Construction & Development",
+client_name_2: "Al-Alawi Establishment",
+client_details_2: "5 Branches",
+client_name_3: "Omar Wali Asaad Establishment",
+client_details_3: "General Trade",
+client_name_4: "Advanced Science Establishment",
+client_details_4: "Educational Solutions",
+client_name_5: "Layan Saudi Company",
+client_details_5: "Industrial Solutions",
+client_name_6: "Al-Hayat Pharmacies Group",
+client_details_6: "10 Branches",
+client_name_7: "Lamar Medical Complex",
+client_details_7: "Healthcare Services",
+client_name_8: "Saqoor Al-Saudiah Pharmacy",
+client_details_8: "Pharmaceuticals",
+client_name_9: "Tarim Makkah Establishment",
+client_details_9: "5 Branches",
+client_name_10: "Al-Amoudi Al-Qashou Company",
+client_details_10: "Contracting",
+client_name_11: "Golden Decision for Trading",
+client_details_11: "Diverse Trading",
+client_name_12: "Memadia for Medicines & Herbs Establishment",
+client_details_12: "Medical Supplies",
+client_name_13: "Burhan Al-Qana'a Establishment",
+client_details_13: "Consulting Services",
+client_name_14: "Al-Furaih Property Management",
+client_details_14: "5 Branches",
+client_name_15: "Medical Breakdown Establishment",
+client_details_15: "Medical Services",
+client_name_16: "Rafed Mohamed Alhamed Company",
+client_details_16: "5 Branches",
+client_name_17: "Mohamed Ejaz Al-Qahtani Establishment",
+client_details_17: "Real Estate Development",
+client_name_18: "Al-Emarat Economic Center Company",
+client_details_18: "Economic Consulting",
+client_name_19: "Al-Ghad Company",
+client_details_19: "5 Branches",
+client_name_20: "Dr. Ahmed Basha Complex",
+client_details_20: "Dental & Esthetic Services",
     },
+
   },
 
   ar: {
@@ -538,15 +621,56 @@ const resources = {
       Follow_us: "تابعنا ",
       time: " ص 8:00  - 12:30 م 3:00 م - 7:30 م",
       Testimonial: "ماذا قالوا عنا",
+
       Stories: "قصص واقعية، نتائج حقيقية",
       Testimonial_text:
         "اقرأ آراء عملائنا حول رحلتهم معنا. نفخر بتقديم قيمة حقيقية.",
+
+         Testimonial_name_1: "مؤسسة يوسف سعيد أبو بكر باوزير التجارية",
+  Testimonial_Location_1: "جدة، السعودية",
+  Testimonial_text_1: "نقدر جهود نجوم العلاوي لنظم الكمبيوتر في صيانة وتطوير برامجنا (المبيعات والمحاسبة) وثقتنا بهم دائمة، فهم شريك أساسي في نجاحنا. نأمل استمرار هذا الأداء المتميز وشكرًا جزيلاً.",
+
+  Testimonial_name_2: "مجمع بسمات الأسرة الطبي",
+  Testimonial_Location_2: "نجران، السعودية",
+  Testimonial_text_2: "نشكر نجوم العلاوي وبرنامج سنمار على حسن التعامل وسرعة الاستجابة والدعم الفني طوال 4 سنوات، مما كان له أثر إيجابي في تنظيم عمل المجمع. نتمنى لكم المزيد من التقدم والازدهار.",
+
+  Testimonial_name_3: "مؤسسة تقنية القطع الجديدة للتجارة", // Updated based on previous analysis
+  Testimonial_Location_3: "جدة، السعودية",
+  Testimonial_text_3: "نقدم الشكر والعرفان لنجوم العلاوي ونظم سنمار التطبيقية، لجهودهم في صيانة وتطوير البرامج المتميزة التي نعتمد عليها في المخزون والمبيعات والمحاسبة. نثمن شراكتنا ونتمنى استمرار تميزكم.",
+
+  Testimonial_name_4: "مجمع عيادات د. حسن أبو حثرة الطبية",
+  Testimonial_Location_4: "المملكة العربية السعودية",
+  Testimonial_text_4: "شهادة شكر وتقدير لمؤسسة نجوم العلاوي وبرنامج سنمار على دعمهم المستمر في إنجاح وتطوير عملنا. نُعرب عن خالص شكرنا وامتناننا لجهودكم القيمة ومساهمتكم الفعالة.",
+
+  Testimonial_name_5: "مؤسسة خيال الضوء التجارية", // Updated based on previous analysis
+  Testimonial_Location_5: "جدة، السعودية",
+  Testimonial_text_5: "نُعرب عن فخرنا وامتناننا للإنجازات العديدة والجهود المفيدة التي قدمتموها لنا. خبراتكم واستجابتكم السريعة ساعدتنا على تخطي الصعاب. لكم أسمى آيات الشكر والتقدير، ونتمنى لكم دوام التوفيق.",
+
+  Testimonial_name_6: "شركة راشد محمد المحمد الحمد",
+  Testimonial_Location_6: "الرياض، السعودية",
+  Testimonial_text_6: "نشكر شركة نجوم العلاوي ونظم سنمار التطبيقية على الصيانة والتطوير المستمر لبرامجنا (المخزون والمبيعات والمحاسبة). ثقتنا بكم شريك دائم في نجاحنا، ونأمل استمرار هذا الأداء المتميز.",
+
+  Testimonial_name_7: "شركة البحر المتوسط للاتصالات السلكية الحديثة",
+  Testimonial_Location_7: "جدة، السعودية",
+  Testimonial_text_7: "خطاب شكر وتقدير لمدير مؤسسة نجوم العلاوي لنظم الكمبيوتر على جهودهم المستمرة في تطوير أنظمة سنمار المحاسبية. نفخر بمواكبة تقدمكم، ونتمنى لكم دوام النجاح والتوفيق. لكم منا جزيل الشكر.",
+
+  Testimonial_name_8: "مجمع محمد خليل فقيه الطبي التخصصي",
+  Testimonial_Location_8: "المملكة العربية السعودية",
+  Testimonial_text_8: "نشكر نجوم العلاوي وبرنامج سنمار على التعاون البناء في ضبط الجودة وتطوير استخدام الكمبيوتر لتنظيم العمل بالعيادات. نُقدر احترافيتكم وتعاملكم المتميز، ونتمنى لكم المزيد من التقدير والازدهار.",
+
+  Testimonial_name_9: "مؤسسة عبدالله صالح بن عبد اليحيى للتجارة",
+  Testimonial_Location_9: "الرياض، السعودية",
+  Testimonial_text_9: "شكر وتقدير لنجوم العلاوي ونظم سنمار التطبيقية على صيانة وتطوير برامجنا (المخزون، المبيعات، المحاسبة). ثقتنا بكم دائمة كشريك نجاح، ونأمل استمرار تميزكم. لكم منا جزيل الشكر والعرفان.",
+
+  Testimonial_name_10: "شركة طارق وياسين المحدودة", // Adding the last one (Tareq & Yasien Co.)
+  Testimonial_Location_10: "مكة المكرمة، السعودية",
+  Testimonial_text_10: "بكل الاعتزاز والفخر والتقدير، تتقدم تيامكو بخالص الشكر لنجوم العلاوي ونظم سنمار لجهودهم في تطوير البرنامج والمساعدة في حل المشكلات. نتمنى لكم دوام التوفيق.",
       Partners_text: "لدينا أكثر من 10000 شريك",
       Hero_heading: "الحل الذكي لإدارة أعمالك وتتبع المخزون بكل سهولة",
       Hero_text:
         " معتمد من هيئة الزكاة والضريبة والجمارك السعودية للفوترة الإلكترونية (المرحلتين الأولى والثانية)",
       Hero_P:
-        " ابدأ التحول الرقمي اليوم! جهّز فريقك → اختبر النظام → حدّث بياناتك → راجع الفواتير → تابع آخر التحديثات الرسمية.",
+        " ابدأ التحول الرقمي اليوم! جهّز فريقك ← اختبر النظام ← حدّث بياناتك ← راجع الفواتير ← تابع آخر التحديثات الرسمية.",
       Start_btn: "ابدأ الآن",
       About_Us: "من نحن",
       About_text: "نُساهم في تطوير قطاع تكنولوجيا المعلومات منذ عام 1994.",
@@ -937,6 +1061,7 @@ const resources = {
       Tech_CTA_Text:
         "استفد من أنظمتنا الذكية المصممة لتلائم مختلف المجالات وابدأ التطوير الآن",
 
+
       Inv_acc_feature_16: "إعادة تقييم الأصل الثابت",
       Sending: "جارٍ الإرسال...",
       Message_Sent_Successfully: "تم إرسال الرسالة بنجاح.",
@@ -944,6 +1069,47 @@ const resources = {
       About_Started: " من نحن ولماذا سنمار؟  ",
       About_CTA_Text:
         "تعرف على رؤيتنا ورسالتنا وكيف نعمل لنجعل التقنية في خدمة أعمالك",
+        our_clients_title: "شركاؤنا وعملاؤنا الكرام",
+client_name_1: "مؤسسة حراء نجوم البناء",
+client_details_1: "مقاولات وتطوير",
+client_name_2: "مؤسسة العليوي",
+client_details_2: "5 فروع",
+client_name_3: "مؤسسة عمر ولي أسعد",
+client_details_3: "تجارة عامة",
+client_name_4: "مؤسسة العلوم المتطورة",
+client_details_4: "حلول تعليمية",
+client_name_5: "شركة ليان السعودية",
+client_details_5: "حلول صناعية",
+client_name_6: "مجموعة صيدليات الحياة",
+client_details_6: "10 فروع",
+client_name_7: "مجمع لمار الطبي",
+client_details_7: "خدمات صحية",
+client_name_8: "صيدلية صقور السعودية",
+client_details_8: "أدوية",
+client_name_9: "مؤسسة طارم مكة",
+client_details_9: "5 فروع",
+client_name_10: "الشركة العمودي للقشوع",
+client_details_10: "مقاولات",
+client_name_11: "القرار الذهبي للتجارة",
+client_details_11: "تجارة متنوعة",
+client_name_12: "مؤسسة ميماديا للأدوية والأعشاب",
+client_details_12: "مستلزمات طبية",
+client_name_13: "مؤسسة برهان القناعة",
+client_details_13: "استشارات",
+client_name_14: "إدارة أملاك الفريح منصب",
+client_details_14: "5 فروع",
+client_name_15: "مؤسسة فكة الطبية",
+client_details_15: "خدمات طبية",
+client_name_16: "شركة رافد محمد المحمد الحمد",
+client_details_16: "5 فروع",
+client_name_17: "مؤسسة محمد إجاز القحطاني",
+client_details_17: "تطوير عقاري",
+client_name_18: "شركة مركز الإمارات الاقتصادي",
+client_details_18: "استشارات اقتصادية",
+client_name_19: "شركة الغد",
+client_details_19: "5 فروع",
+client_name_20: "مجمع الدكتور أحمد باشا",
+client_details_20: "خدمات أسنان وتجميل",
     },
   },
 };

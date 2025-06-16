@@ -42,7 +42,7 @@ const images = [
 export default function Partenrs() {
   const { t, i18n } = useTranslation();
   const isRTL = i18n.dir() === "rtl";
-    const MotionLink = motion(Link);
+  const MotionLink = motion(Link);
 
   const dir = i18n.language === "ar" ? "rtl" : "ltr";
   return (
@@ -76,7 +76,7 @@ export default function Partenrs() {
             <h2 className="text-3xl sm:text-4xl font-bold capitalize text-Main-color  mb-4">
               {t("Partners_Heading")}
             </h2>
-            <h2 className="font-semibold text-text-color  text-[16px] leading-[26px] sm:text-[25px] sm:leading-[35px] md:text-[30px] md:leading-[40px] lg:text-[34px] lg:leading-[44px] xl:text-[40px] xl:leading-[50px] 2xl:text-[42px] 2xl:leading-[52px] max-w-4xl mx-auto">
+            <h2 className="text-text-color text-sm sm:text-xl md:text-[22px] font-normal text-text-two max-w-xl mx-auto mb-8 leading-relaxed">
               {t("Partners_text")}
             </h2>
           </div>
@@ -119,24 +119,23 @@ export default function Partenrs() {
             <MotionLink
               className="btn-primary flex items-center group text-center justify-center px-6 py-3 rounded-md shadow-md text-white font-bold bg-Main-color hover:bg-Main-color-dark transition-colors duration-300"
               whileHover={{ scale: 1.1 }}
-              to={"/products"}
+              to={"/AllClients"}
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-                        {isRTL ? (
-                            <>
-                             {t("ReadMore")}
-                              <FaArrowLeftLong className="ms-3 transition-transform duration-300 group-hover:-translate-x-1" />
-                            </>
-                          ) : (
-                            <>
-                            {t("ReadMore")}
-                              <FaArrowRightLong className="ms-3 transition-transform duration-300 group-hover:translate-x-1" />
-                            </>
-                          )}                
-
+              {isRTL ? (
+                <>
+                  {t("ReadMore")}
+                  <FaArrowLeftLong className="ms-3 transition-transform duration-300 group-hover:-translate-x-1" />
+                </>
+              ) : (
+                <>
+                  {t("ReadMore")}
+                  <FaArrowRightLong className="ms-3 transition-transform duration-300 group-hover:translate-x-1" />
+                </>
+              )}
             </MotionLink>
-          </div>  
+          </div>
         </div>
       </section>
     </>

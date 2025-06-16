@@ -53,11 +53,9 @@ export default function AppFooter() {
 
           <div className="flex flex-wrap items-center gap-4">
             <FooterLinkGroup className="flex ">
-              <FooterLink href="#" className="m-0">
-                {t("FAQs")}
-              </FooterLink>
-              <FooterLink href="#"> {t("Privacy_Policy")} </FooterLink>
-              <FooterLink href="#">{t("Terms_Conditions")} </FooterLink>
+              <Link to="/PrivacyPolicy" className="text-text-color ms-2">{t("Privacy_Policy")}</Link>
+              <Link to="/TermsAndConditions" className="text-text-color ms-2">{t("Terms_Conditions")}  </Link>
+
             </FooterLinkGroup>
 
             <div className="flex gap-4">
@@ -71,17 +69,21 @@ export default function AppFooter() {
                 target="blank"
                 icon={BsInstagram}
               />
+
               <FooterIcon
                 href="https://x.com/i/flow/login?redirect_after_login=%2Falawistars"
                 target="blank"
                 icon={BsTwitterX}
               />
+
               <FooterIcon
                 href="https://www.youtube.com/channel/UCCtcpoFpthrM_CcjZZ6XT6Q"
                 target="blank"
                 icon={BsYoutube}
               />
+
             </div>
+
           </div>
         </div>
       </div>

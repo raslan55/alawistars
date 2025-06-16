@@ -12,9 +12,11 @@
 body{
     font-family: "Cairo", sans-serif ;
 }
+
 .active   {
     color: #1b6ba9;
 }
+
 .btn-primary {
 @apply  rounded-full text-center font-medium focus:outline-none focus:ring-4 h-12 px-7 text-lg bg-Main-color text-white   hover:text-Main-color hover:border-1 hover:bg-white cursor-pointer transition ease-in-out
  
@@ -39,7 +41,6 @@ position: absolute;
     background: #1b6ba9;
     transform: rotate(-1deg);
     z-index: -1;
-
 }
 
 
@@ -75,3 +76,28 @@ position: absolute;
   height: 15px;
 }
 
+
+
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+
+
+}
+
+
+.slick-dots li button:before {
+      font-size: 15px;
+
+}
+
+[dir='rtl'] .slick-next {
+      left: -44px;
+
+}
+
+.slick-dots {
+      bottom: -35px;
+
+}

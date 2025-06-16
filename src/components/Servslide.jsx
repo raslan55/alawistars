@@ -9,65 +9,27 @@ const { t } = useTranslation();
 
   return (
     <div>
-      <Marquee pauseOnHover="true" direction="left" className="shadow bg-gradient-to-r from-Main-color to-Main-color-300">
-     
-
-        <div class="content-slider-content  ">
-          <h1 className="text-xl font-bold tracking-wide uppercase drop-shadow-sm">{t("SERVICES_WE_PROVIDE")}</h1>
-        </div>
-     
-        <div class="content-slider-content">
-          <h1>{t("Cloud_Based_Solutions")}</h1>
-        </div>
-     
-        <div class="content-slider-content">
-          <h1> {t("Desktop_Applications")} </h1>
-        </div>
-     
-        <div class="content-slider-content">
-          <h1>{t("ERP")} </h1>
-        </div>
-     
-
-        <div class="content-slider-content">
-          <h1>{t("Inv_acc")}</h1>
-        </div>
-     
-
-        <div class="content-slider-content">
-          <h1> {t("acc")} </h1>
-        </div>
-     
-
-        <div class="content-slider-content">
-          <h1> {t("Inv")} </h1>
-        </div>
-     
-
-        <div class="content-slider-content">
-          <h1>{t("Med")}</h1>
-        </div>
-     
-
-        <div class="content-slider-content">
-          <h1> {t("Furn")} </h1>
-        </div>
-     
-
-        <div class="content-slider-content">
-          <h1> {t("Pr")} </h1>
-        </div>
-     
-
-        <div class="content-slider-content">
-          <h1> {t("Maintenance")} </h1>
-        </div>
-     
-
-        <div class="content-slider-content">
-          <h1>{t("Maintenance")} </h1>
-        </div>
-      </Marquee>
+  <Marquee pauseOnHover={true} direction="left" className="py-4 bg-gradient-to-r from-Main-color to-sky-600">
+  {[
+    "SERVICES_WE_PROVIDE",
+    "Cloud_Based_Solutions",
+    "Desktop_Applications",
+    "ERP",
+    "Inv_acc",
+    "acc",
+    "Inv",
+    "Med",
+    "Furn",
+    "Pr",
+    "Maintenance",
+  ].map((key, index) => (
+    <div key={index} className="mx-3">
+      <div className="bg-[#e9edf1] text-Main-color px-5 py-3 rounded-lg shadow-lg  min-w-max text-center">
+        <h1 className="text-base font-semibold whitespace-nowrap">{t(key)}</h1>
+      </div>
+    </div>
+  ))}
+</Marquee>
     </div>
   );
 }

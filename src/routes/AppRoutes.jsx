@@ -7,6 +7,9 @@ import About from "../pages/About";
 import News from "../pages/News";
 import Contact from "../pages/Contact";
 import ProductDetails from "../components/ProductDetails";
+import ClientGrid from "../pages/ClientGrid";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
+import TermsAndConditions from "../pages/TermsAndConditions";
 
 function App() {
   return (
@@ -18,10 +21,15 @@ function App() {
           <Route index element={<Home />} />
           <Route path="products" element={<Products />} />
           <Route path="/products/:slug" element={<ProductDetails/>} />
+
+          <Route path="/AllClients" element={<ClientGrid/>} />
           <Route path="services" element={<Services />} />
           <Route path="about" element={<About />} />
           <Route path="news" element={<News/>} />
           <Route path="contact" element={<Contact />} />
+
+          <Route path="PrivacyPolicy" element={<PrivacyPolicy />} />
+         <Route path="TermsAndConditions" element={<TermsAndConditions />} />
           
           </Route>
 
