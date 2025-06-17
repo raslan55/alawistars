@@ -6,6 +6,7 @@ import Servslide from "../components/Servslide";
 import HeroSection from "../components/HeroSection";
 import CTA from "../components/CTA";
 import { useTranslation } from "react-i18next";
+import SeoHelmet from "../components/SeoHelmet";
 
 function Home() {
   const { t } = useTranslation();
@@ -13,6 +14,7 @@ function Home() {
 
   return (
     <div>
+      <SeoHelmet pageKey="home" />
      <HeroSection/>
       <About/>
       <Servslide/>

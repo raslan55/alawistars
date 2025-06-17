@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
 import AppFooter from "../components/Footer";
+import SeoHelmet from "../components/SeoHelmet";
 
 const MainLayout = () => {
   const { i18n } = useTranslation();
@@ -19,6 +20,10 @@ const MainLayout = () => {
 
   return (
     <div className=" min-h-screen">
+
+   <SeoHelmet pageKey="default" />
+
+
       {/* Header */}
       <Header />
 

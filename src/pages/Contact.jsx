@@ -15,6 +15,7 @@ import { useTranslation } from "react-i18next";
 import contact_img from "../assets/Images/7016016.jpg";
 import { motion } from "framer-motion";
 import ContactInfoCard from "../components/ContactInfoCard"; // Import the new component
+import SeoHelmet from "../components/SeoHelmet";
 
 const ContactPage = () => {
   const { t } = useTranslation();
@@ -45,6 +46,8 @@ const ContactPage = () => {
   }
 };
   return (
+    <> 
+     <SeoHelmet pageKey="contact" />
     <div className="px-4 py-12 max-w-7xl mx-auto text-justify">
       <h2 className="text-3xl font-bold text-center mb-12 text-Main-color">
         {t("contact")}
@@ -398,6 +401,7 @@ const ContactPage = () => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 

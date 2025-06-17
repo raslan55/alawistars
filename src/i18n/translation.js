@@ -13,6 +13,26 @@ const resources = {
       news: "News",
       contact: "Contact Us",
       title: "alawistars",
+      meta_default_title: "Al-Alawi Stars Computer Systems",
+meta_default_description: "Advanced software and tech solutions since 1994.",
+
+meta_home_title: "Home | Al-Alawi Stars",
+meta_home_description: "Welcome to Al-Alawi Stars – your source for comprehensive and innovative tech solutions.",
+
+meta_products_title: "Products | Al-Alawi Stars",
+meta_products_description: "Explore our premium collection of software products and technical systems.",
+
+meta_services_title: "Services | Al-Alawi Stars",
+meta_services_description: "We provide integrated technology services to support your company’s goals.",
+
+meta_about_title: "About Us | Al-Alawi Stars",
+meta_about_description: "Learn about our journey and expertise in software and systems.",
+
+meta_news_title: "News | Al-Alawi Stars",
+meta_news_description: "Follow the latest company updates and technology news.",
+
+meta_contact_title: "Contact Us | Al-Alawi Stars",
+meta_contact_description: "Reach out to us for inquiries or technical support.",
       CompanyName: "Nujoum Al Alawi Computer Systems",
       companyDescription:
         "Nujoum Al Alawi Computer Systems was launched in 1994 to provide For the Saudi society and economy aspiring for growth and leadership At that time, software solutions and electronic systems in addition to For various types of technical services and products Developed that keeps pace with the aspirations of companies and private institutions at that time, and in order to contribute from During its role in facilitating the management function and improving production, Governance and control of work, and was able from the first moment From its launch, gaining the trust of its customers and consolidating its position As a reliable and indispensable technology partner for many Government and private agencies, and continued to provide performance Distinguished and providing advanced technical services and products Through which it was able to enrich the system Management and the world of systems, software and modern technology in the Kingdom, and helped it achieve huge leaps in The size of its outputs, its profit margins, and its level of excellence in Work, management and organization, and tracked in this framework An ever-evolving working methodology based primarily on customer satisfaction and providing perfect and reliable products and services, Nojoom Al Alawi became the number one service provider and seller Expert technology with more than 10,000 companies and institutions Inside and outside the Kingdom",
@@ -591,6 +611,28 @@ copyRights: "Sinmarsoft . All rights reserved.",
       companyDescription:
         "انطلقت نجوم العلاوي لنظم الكمبيوتر عام ١٩٩٤ لتوفر للمجتمع والاقتصاد السعودي الطامح للنمو والريادة آنذاك الحلول البرمجية والأنظمة الالكترونية بالإضافة لأنواع متعددة من الخدمات والمنتجات التقنية المتطورة التي تتواكب مع تطلعات الشركات والمؤسسات الخاصة في ذلك الوقت، ولكي تساهم من خلال دورها في تسهيل وظيفة الإدارة وتحسين الإنتاج ، وحوكمة وضبط العمل، واستطاعت منذ اللحظة الأولى من انطلاقها كسب ثقة عملائها وترسيخ مكانتها كشريك تقني موثوق ولا غنى عنه لدى الكثير من الجهات الحكومية والخاصة، واستمرت على تقديم الأداء المتميز وتقديم الخدمات والمنتجات التقنية المتطورة والتي استطاعت من خلالها العمل على إثراء منظومة الإدارة وعالم الأنظمة والبرمجيات والتكنولوجيا الحديثة بالمملكة، وساعدتها في تحقيق قفزات هائلة في حجم مخرجاتها وهوامش أرباحها ومستوى تميزها في العمل والإدارة والتنظيم، وتتبعت في هذا الإطار منهجية عمل دائمة التطور ترتكز في المقام الأول على رضا العملاء وتقديم منتجات وخدمات مثالية وموثوقة، فأصبحت نجوم العلاوى مزود الخدمة الأول وبائع التقنية الخبير لدى ما يزيد عن ١٠ آلاف شركة ومؤسسة داخل وخارج المملكة.",
       title: "نجوم العلاوي",
+      meta_default_title: "نجوم العلاوي لنظم الكمبيوتر",
+meta_default_description: "الحلول التقنية والبرمجيات المتطورة منذ عام 1994.",
+
+meta_home_title: "الرئيسية | نجوم العلاوي",
+meta_home_description: "مرحبًا بكم في نجوم العلاوي، نقدم حلولًا تقنية شاملة ومبتكرة.",
+
+meta_products_title: "المنتجات | نجوم العلاوي",
+meta_products_description: "استعرض مجموعتنا المميزة من المنتجات البرمجية والأنظمة التقنية.",
+
+meta_services_title: "الخدمات | نجوم العلاوي",
+meta_services_description: "نوفر خدمات تقنية متكاملة لدعم احتياجات شركتك وتحقيق أهدافك.",
+
+meta_about_title: "من نحن | نجوم العلاوي",
+meta_about_description: "تعرّف على تاريخنا وخبراتنا في عالم الأنظمة والبرمجيات.",
+
+meta_news_title: "الأخبار | نجوم العلاوي",
+meta_news_description: "تابع آخر أخبار الشركة والتحديثات التقنية.",
+
+meta_contact_title: "اتصل بنا | نجوم العلاوي",
+meta_contact_description: "تواصل معنا لأي استفسار أو دعم تقني.",
+
+
       footertext:
         "أن نكون شركة رائدة ومعترف بها عالميًا في مجال صناعة البرمجيات",
       Our_Location: "العنوان ",
