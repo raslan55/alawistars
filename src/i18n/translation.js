@@ -572,6 +572,9 @@ client_name_19: "Al-Ghad Company",
 client_details_19: "5 Branches",
 client_name_20: "Dr. Ahmed Basha Complex",
 client_details_20: "Dental & Esthetic Services",
+
+copyRights: "Sinmarsoft . All rights reserved.",
+
     },
 
   },
@@ -1110,6 +1113,8 @@ client_name_19: "شركة الغد",
 client_details_19: "5 فروع",
 client_name_20: "مجمع الدكتور أحمد باشا",
 client_details_20: "خدمات أسنان وتجميل",
+
+copyRights: "جميع الحقوق محفوظة لشركة سنمار سوفت",
     },
   },
 };

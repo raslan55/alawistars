@@ -17,7 +17,7 @@ export default function Products() {
   return (
     <section className="py-12  relative z-10 overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row items-center gap-12 mb-20 px-4">
+        <div className="flex flex-col lg:flex-row items-center gap-12 mb-10 px-4">
           {/* Left: Image */}
           <motion.div
             className="w-full lg:w-1/2"

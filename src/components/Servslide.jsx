@@ -24,7 +24,7 @@ const { t } = useTranslation();
     "Maintenance",
   ].map((key, index) => (
     <div key={index} className="mx-3">
-      <div className="bg-[#e9edf1] text-Main-color px-5 py-3 rounded-lg shadow-lg  min-w-max text-center">
+      <div className="bg-[#fff] text-Main-color px-3 py-3 rounded-sm shadow-lg  min-w-max text-center">
         <h1 className="text-base font-semibold whitespace-nowrap">{t(key)}</h1>
       </div>
     </div>

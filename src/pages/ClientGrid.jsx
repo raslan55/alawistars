@@ -11,7 +11,7 @@ export default function ClientGrid() {
 
   return (
     <div className="container mx-auto px-4 py-12">
-      <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-10">
+      <h2 className="text-4xl font-extrabold text-center text-Main-color mb-10">
         {t('our_clients_title')}
       </h2>
 
@@ -30,7 +30,7 @@ export default function ClientGrid() {
 
             </div>
             
-            <h3 className="text-lg font-bold text-gray-800 mb-1">
+            <h3 className="text-lg font-bold text-Main-color mb-1">
               {t(`client_name_${index}`)}
             </h3>
             {/* Optional: Add client-specific details if available */}

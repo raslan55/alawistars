@@ -24,7 +24,7 @@ export default function AppFooter() {
   const { t } = useTranslation();
 
   return (
-    <Footer container className="bg-[#F0F8FD] text-text-color  shadow-lg">
+    <Footer container className="bg-[#F0F8FD] text-Main-color  shadow-lg">
       <div className="w-full px-4 py-8 ">
         {/* Top Section: 4 Columns */}
         {/* <div className="flex flex-wrap  items-center  ">
@@ -46,15 +46,16 @@ export default function AppFooter() {
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <FooterCopyright
             href="https://sinmarsoftco.com/"
-            by=" all Copyright are reserved to Sinmarsoft"
+            by={t("copyRights")}
+             
             year={new Date().getFullYear()}
-            className="capitalize"
+            className="capitalize text-Main-color text-lg"
           />
 
           <div className="flex flex-wrap items-center gap-4">
             <FooterLinkGroup className="flex ">
-              <Link to="/PrivacyPolicy" className="text-text-color ms-2">{t("Privacy_Policy")}</Link>
-              <Link to="/TermsAndConditions" className="text-text-color ms-2">{t("Terms_Conditions")}  </Link>
+              <Link to="/PrivacyPolicy" className="text-Main-color ms-4  text-lg hover:underline ">{t("Privacy_Policy")}</Link>
+              <Link to="/TermsAndConditions" className="text-Main-color ms-4 text-lg hover:underline">{t("Terms_Conditions")}  </Link>
 
             </FooterLinkGroup>
 
@@ -63,23 +64,27 @@ export default function AppFooter() {
                 href="https://www.facebook.com/alawistars/"
                 target="blank"
                 icon={BsFacebook}
+                className="text-Main-color"
               />
               <FooterIcon
                 href="https://www.instagram.com/alawistarsest"
                 target="blank"
                 icon={BsInstagram}
+                  className="text-Main-color"
               />
 
               <FooterIcon
                 href="https://x.com/i/flow/login?redirect_after_login=%2Falawistars"
                 target="blank"
                 icon={BsTwitterX}
+                  className="text-Main-color"
               />
 
               <FooterIcon
                 href="https://www.youtube.com/channel/UCCtcpoFpthrM_CcjZZ6XT6Q"
                 target="blank"
                 icon={BsYoutube}
+                  className="text-Main-color"
               />
 
             </div>

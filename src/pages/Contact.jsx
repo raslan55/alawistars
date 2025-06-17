@@ -230,6 +230,16 @@ const ContactPage = () => {
                     +966 12 6040681
                   </a> 
             
+  / 
+                  &nbsp;
+                  <a
+                    href="tel:+966 12 6040681"
+                    className="text-Main-color hover:underline"
+                    dir="ltr"
+                  >
+                    +966 126452986
+                  </a> 
+            
                 </>
               }
             />

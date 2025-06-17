@@ -49,7 +49,7 @@ export default function Partenrs() {
     <>
       <section className="py-12 relative z-10 overflow-hidden">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col lg:flex-row items-center gap-12 mb-10">
+          <div className="flex flex-col lg:flex-row items-center gap-12 mb-5">
             <motion.div
               className="w-full lg:w-1/2"
               whileHover={{ scale: 1.05 }}
@@ -58,7 +58,7 @@ export default function Partenrs() {
               <img
                 src={Handshake}
                 alt="Handshake"
-                className="rounded-xl w-full h-auto object-cover p-5"
+                className="rounded-xl w-full  object-cover p-5"
               />
             </motion.div>
 
@@ -103,7 +103,7 @@ export default function Partenrs() {
               {images.map((img) => (
                 <SwiperSlide
                   key={img.id}
-                  className="bg-white p-5 rounded-3xl   cursor-grab"
+                  className="bg-white p-2 border-2 border-dotted  border-Main-color rounded-2xl shadow   cursor-grab"
                 >
                   <img
                     src={img.src}
