@@ -173,38 +173,52 @@ const AboutUs = () => {
     
     </section>
 
-   <section className="bg-gray-50 py-16 px-6 md:px-20">
-  <div className="max-w-6xl mx-auto grid md:grid-cols-2 
-  gap-12 items-center ">
-    
-    {/* النص */}
-   <div className="animate-fade-in">
-  <h2 className="text-3xl font-bold text-blue-900 mb-6 border-b-2 border-blue-200 pb-2 inline-block">
-    {t("MANAGER_TITLE")}
-  </h2>
-  <p className="text-sm text-gray-600 mb-4">
-    {t("MANAGER_DATE")}
-  </p>
-  <p className="text-lg leading-loose text-gray-900 tracking-wide">
-    {t("MANAGER_PARAGRAPH")}<br />
-    {t("MANAGER_PARAGRAPH_2")}<br />
-    {t("MANAGER_PARAGRAPH_3")}
-  </p>
-</div>
-    {/* الصورة */}
-    <div className="flex justify-center animate-slide-in-left">
-      <div className="relative group">
-        <img
-          src={Manger}
-          alt="المدير العام"
-          className="rounded-3xl shadow-xl w-full h-auto transition-transform duration-300 group-hover:scale-105"
-        />
-      
-      </div>
+<section className="bg-gray-50 py-16 px-6 md:px-20">
+  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+
+    {/* المدير العام */}
+    <div className="flex flex-col   animate-fade-in">
+      <img
+        src={Manger} // تأكد من أن الصورة مستوردة باسم Manager
+        alt="المدير العام"
+        className="rounded-3xl shadow-xl w-full mb-6 transition-transform duration-300 hover:scale-105"
+      />
+      <h2 className="text-2xl  md:text-3xl font-bold text-blue-900 mb-4 ">
+        {t("MANAGER_TITLE")}
+      </h2>
+      <p className="text-sm text-gray-600 mb-2">
+        {t("MANAGER_DATE")}
+      </p>
+      <p className="text-base md:text-lg leading-loose text-gray-900 tracking-wide">
+        {t("MANAGER_PARAGRAPH")}
+        {t("MANAGER_PARAGRAPH_2")}
+        {t("MANAGER_PARAGRAPH_3")}
+      </p>
+    </div>
+
+    {/* المدير الفني */}
+    <div className="flex flex-col ">
+      <img
+        src={Manger} // تأكد من أن الصورة مستوردة باسم TechnicalManager
+        alt="المدير الفني"
+        className="rounded-3xl shadow-xl w-full mb-6 transition-transform duration-300 hover:scale-105"
+      />
+      <h2 className="text-2xl md:text-3xl font-bold text-blue-900 mb-4 ">
+        {t("TECHNICAL_MANAGER_TITLE")}
+      </h2>
+      <p className="text-sm text-gray-600 mb-2">
+        {t("TECHNICAL_MANAGER_DATE")}
+      </p>
+      <p className="text-base md:text-lg leading-loose text-gray-900 tracking-wide">
+        {t("TECHNICAL_MANAGER_PARAGRAPH")}<br />
+        {t("TECHNICAL_MANAGER_PARAGRAPH_2")}<br />
+        {t("TECHNICAL_MANAGER_PARAGRAPH_3")}
+      </p>
     </div>
 
   </div>
 </section>
+
 
    <CTA heading={t("About_Started")} subheading={t("About_CTA_Text")} />
 
