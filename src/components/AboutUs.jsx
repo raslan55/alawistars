@@ -14,6 +14,7 @@ import {
   FaEye,
   FaBullseye,
 } from "react-icons/fa";
+import Manger from "../assets/images/erp-business-management-flat-isometric-3d-illustration-vector.jpg"; // Adjust the path as necessary
 import CTA from "./CTA";
 
 const AboutUs = () => {
@@ -169,13 +170,43 @@ const AboutUs = () => {
         </div>
        
       </div>
-
+    
     </section>
 
-   <CTA 
-  heading={t("About_Started")} 
-  subheading={t("About_CTA_Text")} 
-/>
+   <section className="bg-gray-50 py-16 px-6 md:px-20">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 
+  gap-12 items-center ">
+    
+    {/* النص */}
+   <div className="animate-fade-in">
+  <h2 className="text-4xl font-extrabold text-Main-color mb-4">
+    {t("MANAGER_TITLE")}
+  </h2>
+  <p className="text-sm text-gray-600 mb-4">
+    {t("MANAGER_DATE")}
+  </p>
+  <p className="text-lg leading-loose text-gray-900 tracking-wide">
+    {t("MANAGER_PARAGRAPH")}<br />
+    {t("MANAGER_PARAGRAPH_2")}<br />
+    {t("MANAGER_PARAGRAPH_3")}
+  </p>
+</div>
+    {/* الصورة */}
+    <div className="flex justify-center animate-slide-in-left">
+      <div className="relative group">
+        <img
+          src={Manger}
+          alt="المدير العام"
+          className="rounded-3xl shadow-xl w-full h-auto transition-transform duration-300 group-hover:scale-105"
+        />
+      
+      </div>
+    </div>
+
+  </div>
+</section>
+
+   <CTA heading={t("About_Started")} subheading={t("About_CTA_Text")} />
 
      </>
   );

@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 
 export default function SeoHelmet({ pageKey = "default" }) {
   const { t, i18n } = useTranslation();
-
   const title = t(`meta_${pageKey}_title`);
   const description = t(`meta_${pageKey}_description`);
 
