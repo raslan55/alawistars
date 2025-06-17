@@ -179,7 +179,7 @@ const AboutUs = () => {
     
     {/* النص */}
    <div className="animate-fade-in">
-  <h2 className="text-4xl font-extrabold text-Main-color mb-4">
+  <h2 className="text-3xl font-bold text-blue-900 mb-6 border-b-2 border-blue-200 pb-2 inline-block">
     {t("MANAGER_TITLE")}
   </h2>
   <p className="text-sm text-gray-600 mb-4">
