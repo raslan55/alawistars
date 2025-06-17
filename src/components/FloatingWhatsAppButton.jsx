@@ -26,7 +26,7 @@ const FloatingWhatsAppButton = ({ phoneNumber, message }) => {
       href={whatsappUrl}
       target="_blank" // Opens the link in a new tab.
       rel="noopener noreferrer" // Security best practice for target="_blank" links.
-      className="fixed bottom-25 right-6 bg-[#41c052] hover:bg-[#41c052] text-white p-4 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110 flex items-center justify-center z-50 focus:outline-none focus:ring-4 focus:ring-green-300"
+      className="fixed bottom-25 right-6 bg-[#41c052] hover:bg-[#41c052] text-white p-4 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110 flex items-center justify-center z-250 focus:outline-none focus:ring-4 focus:ring-green-300"
       aria-label="Chat on WhatsApp" // Provides an accessible label for screen readers.
     >
       {/* WhatsApp SVG Icon */}
