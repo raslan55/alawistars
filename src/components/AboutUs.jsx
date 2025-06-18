@@ -14,7 +14,8 @@ import {
   FaEye,
   FaBullseye,
 } from "react-icons/fa";
-import Manger from "../assets/images/erp-business-management-flat-isometric-3d-illustration-vector.jpg"; // Adjust the path as necessary
+import CTO from "../assets/images/erp-business-management-flat-isometric-3d-illustration-vector.jpg"; // Adjust the path as necessary
+import Manger from "../assets/images/10102644.jpg"; // Adjust the path as necessary
 import CTA from "./CTA";
 
 const AboutUs = () => {
@@ -130,7 +131,7 @@ const AboutUs = () => {
                 className="bg-white shadow-md rounded-xl p-6 text-start border border-gray-200 transition-transform transform hover:-translate-y-1 hover:shadow-2xl"
               >
                 <div className="mb-4">
-                  <div className="w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-tr from-Main-color to-indigo-500 shadow-md">
+                  <div className="w-14 h-14 flex items-center justify-center rounded-full bg-Main-color shadow-md">
                     {item.icon}
                   </div>
                 </div>
@@ -158,7 +159,7 @@ const AboutUs = () => {
                 key={idx}
                 className="bg-white p-6 rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1"
               >
-                <div className="w-14 h-14 flex items-center justify-center mb-4 rounded-full bg-gradient-to-tr from-Main-color to-indigo-500 text-white shadow-md mx-auto">
+                <div className="w-14 h-14 flex items-center justify-center mb-4 rounded-full bg-Main-color text-white shadow-md mx-auto">
                   {item.icon}
                 </div>
                 <h4 className="text-lg font-semibold text-text-color text-center">
@@ -173,7 +174,7 @@ const AboutUs = () => {
     
     </section>
 
-<section className="bg-gray-50 py-16 px-6 md:px-20">
+<section className="bg-gray-50 py-10 px-6 md:px-20">
   <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
 
     {/* المدير العام */}
@@ -181,9 +182,9 @@ const AboutUs = () => {
       <img
         src={Manger} // تأكد من أن الصورة مستوردة باسم Manager
         alt="المدير العام"
-        className="rounded-3xl shadow-xl w-full mb-6 transition-transform duration-300 hover:scale-105"
+        className="rounded-xl shadow-lg w-full h-90 mb-3 transition-transform duration-300 hover:scale-105"
       />
-      <h2 className="text-2xl  md:text-3xl font-bold text-blue-900 mb-4 ">
+      <h2 className="text-2xl  md:text-3xl font-bold mt-5 text-Main-color mb-4 ">
         {t("MANAGER_TITLE")}
       </h2>
       <p className="text-sm text-gray-600 mb-2">
@@ -197,13 +198,14 @@ const AboutUs = () => {
     </div>
 
     {/* المدير الفني */}
+    
     <div className="flex flex-col ">
       <img
-        src={Manger} // تأكد من أن الصورة مستوردة باسم TechnicalManager
+        src={CTO} // تأكد من أن الصورة مستوردة باسم TechnicalManager
         alt="المدير الفني"
-        className="rounded-3xl shadow-xl w-full mb-6 transition-transform duration-300 hover:scale-105"
+        className="rounded-xl shadow-lg w-full h-90 mb-3 transition-transform duration-300 hover:scale-105"
       />
-      <h2 className="text-2xl md:text-3xl font-bold text-blue-900 mb-4 ">
+      <h2 className="text-2xl md:text-3xl font-bold mt-5 text-Main-color mb-4 ">
         {t("TECHNICAL_MANAGER_TITLE")}
       </h2>
       <p className="text-sm text-gray-600 mb-2">

@@ -14,25 +14,32 @@ const resources = {
       contact: "Contact Us",
       title: "alawistars",
       meta_default_title: "Al-Alawi Stars Computer Systems",
-meta_default_description: "Advanced software and tech solutions since 1994.",
+      meta_default_description:
+        "Advanced software and tech solutions since 1994.",
 
-meta_home_title: "Home | Al-Alawi Stars",
-meta_home_description: "Welcome to Al-Alawi Stars – your source for comprehensive and innovative tech solutions.",
+      meta_home_title: "Home | Al-Alawi Stars",
+      meta_home_description:
+        "Welcome to Al-Alawi Stars – your source for comprehensive and innovative tech solutions.",
 
-meta_products_title: "Products | Al-Alawi Stars",
-meta_products_description: "Explore our premium collection of software products and technical systems.",
+      meta_products_title: "Products | Al-Alawi Stars",
+      meta_products_description:
+        "Explore our premium collection of software products and technical systems.",
 
-meta_services_title: "Services | Al-Alawi Stars",
-meta_services_description: "We provide integrated technology services to support your company’s goals.",
+      meta_services_title: "Services | Al-Alawi Stars",
+      meta_services_description:
+        "We provide integrated technology services to support your company’s goals.",
 
-meta_about_title: "About Us | Al-Alawi Stars",
-meta_about_description: "Learn about our journey and expertise in software and systems.",
+      meta_about_title: "About Us | Al-Alawi Stars",
+      meta_about_description:
+        "Learn about our journey and expertise in software and systems.",
 
-meta_news_title: "News | Al-Alawi Stars",
-meta_news_description: "Follow the latest company updates and technology news.",
+      meta_news_title: "News | Al-Alawi Stars",
+      meta_news_description:
+        "Follow the latest company updates and technology news.",
 
-meta_contact_title: "Contact Us | Al-Alawi Stars",
-meta_contact_description: "Reach out to us for inquiries or technical support.",
+      meta_contact_title: "Contact Us | Al-Alawi Stars",
+      meta_contact_description:
+        "Reach out to us for inquiries or technical support.",
       CompanyName: "Nujoum Al Alawi Computer Systems",
       companyDescription:
         "Nujoum Al Alawi Computer Systems was launched in 1994 to provide For the Saudi society and economy aspiring for growth and leadership At that time, software solutions and electronic systems in addition to For various types of technical services and products Developed that keeps pace with the aspirations of companies and private institutions at that time, and in order to contribute from During its role in facilitating the management function and improving production, Governance and control of work, and was able from the first moment From its launch, gaining the trust of its customers and consolidating its position As a reliable and indispensable technology partner for many Government and private agencies, and continued to provide performance Distinguished and providing advanced technical services and products Through which it was able to enrich the system Management and the world of systems, software and modern technology in the Kingdom, and helped it achieve huge leaps in The size of its outputs, its profit margins, and its level of excellence in Work, management and organization, and tracked in this framework An ever-evolving working methodology based primarily on customer satisfaction and providing perfect and reliable products and services, Nojoom Al Alawi became the number one service provider and seller Expert technology with more than 10,000 companies and institutions Inside and outside the Kingdom",
@@ -55,46 +62,55 @@ meta_contact_description: "Reach out to us for inquiries or technical support.",
       Stories: "Real Stories, Real Results",
       Testimonial_text:
         "Read what our clients have to say about their journey with us. We’re proud to deliver value that speaks for itself.",
- Testimonial_name_1: "Yousef Saeed A. Bawazeer Trading Est.",
-  Testimonial_Location_1: "Jeddah, Saudi Arabia",
-  Testimonial_text_1: "We appreciate the efforts of Najoom Al-Alawi Computer Systems in maintaining and developing our programs (sales and accounting). Our trust in them is permanent, as they are a key partner in our success. We hope for the continuation of this distinguished performance. Thank you very much.",
+      Testimonial_name_1: "Yousef Saeed A. Bawazeer Trading Est.",
+      Testimonial_Location_1: "Jeddah, Saudi Arabia",
+      Testimonial_text_1:
+        "We appreciate the efforts of Najoom Al-Alawi Computer Systems in maintaining and developing our programs (sales and accounting). Our trust in them is permanent, as they are a key partner in our success. We hope for the continuation of this distinguished performance. Thank you very much.",
 
-  Testimonial_name_2: "Basamat Al-Osra Dental Clinics Complex",
-  Testimonial_Location_2: "Najran, Saudi Arabia",
-  Testimonial_text_2: "We thank Najoom Al-Alawi and Sinmar program for their excellent cooperation, quick response, and technical support over 4 years, which positively impacted our clinic's operations. We wish you continued progress and prosperity.",
+      Testimonial_name_2: "Basamat Al-Osra Dental Clinics Complex",
+      Testimonial_Location_2: "Najran, Saudi Arabia",
+      Testimonial_text_2:
+        "We thank Najoom Al-Alawi and Sinmar program for their excellent cooperation, quick response, and technical support over 4 years, which positively impacted our clinic's operations. We wish you continued progress and prosperity.",
 
-  Testimonial_name_3: "Moussa Taqneya Al-Qata' Al-Jadeedah for Trading", // Updated for "تقنية القطع الجديدة" based on previous analysis
-  Testimonial_Location_3: "Jeddah, Saudi Arabia",
-  Testimonial_text_3: "We extend thanks to Najoom Al-Alawi and Sinmar Application Systems for their efforts in maintaining and developing the distinguished programs we rely on for inventory, sales, and accounting. We value our partnership and wish you continued excellence.",
+      Testimonial_name_3: "Moussa Taqneya Al-Qata' Al-Jadeedah for Trading", // Updated for "تقنية القطع الجديدة" based on previous analysis
+      Testimonial_Location_3: "Jeddah, Saudi Arabia",
+      Testimonial_text_3:
+        "We extend thanks to Najoom Al-Alawi and Sinmar Application Systems for their efforts in maintaining and developing the distinguished programs we rely on for inventory, sales, and accounting. We value our partnership and wish you continued excellence.",
 
-  Testimonial_name_4: "Cosmoline Clinic Dr. Hasan AbuHathrah",
-  Testimonial_Location_4: "Kingdom of Saudi Arabia",
-  Testimonial_text_4: "A certificate of thanks and appreciation to Najoom Al-Alawi and Sinmar program for their continuous support in making our work successful and developing it. We express our sincere gratitude for your valuable efforts and effective contribution.",
+      Testimonial_name_4: "Cosmoline Clinic Dr. Hasan AbuHathrah",
+      Testimonial_Location_4: "Kingdom of Saudi Arabia",
+      Testimonial_text_4:
+        "A certificate of thanks and appreciation to Najoom Al-Alawi and Sinmar program for their continuous support in making our work successful and developing it. We express our sincere gratitude for your valuable efforts and effective contribution.",
 
-  Testimonial_name_5: "Shadow Lighting Trading Est.", // Updated for "خيال الضوء" based on previous analysis
-  Testimonial_Location_5: "Jeddah, Saudi Arabia",
-  Testimonial_text_5: "We express our pride and gratitude for the numerous achievements and beneficial efforts you have provided. Your expertise and quick response helped us overcome challenges. We extend our highest appreciation and wish you continued success.",
-  
-  Testimonial_name_6: "Rashed Mohamed Alhamed Company",
-  Testimonial_Location_6: "Riyadh, Saudi Arabia",
-  Testimonial_text_6: "We thank Najoom Al-Alawi and Sinmar Application Systems for their continuous maintenance and development of our programs (inventory, sales, and accounting). Our trust in you is permanent as a key partner in our success, and we hope for your continued distinguished performance.",
+      Testimonial_name_5: "Shadow Lighting Trading Est.", // Updated for "خيال الضوء" based on previous analysis
+      Testimonial_Location_5: "Jeddah, Saudi Arabia",
+      Testimonial_text_5:
+        "We express our pride and gratitude for the numerous achievements and beneficial efforts you have provided. Your expertise and quick response helped us overcome challenges. We extend our highest appreciation and wish you continued success.",
 
-  Testimonial_name_7: "Middle Sea Modern Wire Telecom Co.",
-  Testimonial_Location_7: "Jeddah, Saudi Arabia",
-  Testimonial_text_7: "A letter of thanks and appreciation to the manager of Najoom Al-Alawi Computer Systems for their continuous efforts in developing Sinmar's accounting systems. We are proud to keep pace with your progress, and we wish you continuous success and prosperity. Our sincere thanks to you.",
+      Testimonial_name_6: "Rashed Mohamed Alhamed Company",
+      Testimonial_Location_6: "Riyadh, Saudi Arabia",
+      Testimonial_text_6:
+        "We thank Najoom Al-Alawi and Sinmar Application Systems for their continuous maintenance and development of our programs (inventory, sales, and accounting). Our trust in you is permanent as a key partner in our success, and we hope for your continued distinguished performance.",
 
-  Testimonial_name_8: "Mohamad Khalil Fageeh Speciality Medical Center",
-  Testimonial_Location_8: "Kingdom of Saudi Arabia",
-  Testimonial_text_8: "We thank Najoom Al-Alawi and Sinmar program for their constructive cooperation in quality control and developing computer usage for clinic operations. We appreciate your professionalism and excellent service, and wish you further progress and prosperity.",
+      Testimonial_name_7: "Middle Sea Modern Wire Telecom Co.",
+      Testimonial_Location_7: "Jeddah, Saudi Arabia",
+      Testimonial_text_7:
+        "A letter of thanks and appreciation to the manager of Najoom Al-Alawi Computer Systems for their continuous efforts in developing Sinmar's accounting systems. We are proud to keep pace with your progress, and we wish you continuous success and prosperity. Our sincere thanks to you.",
 
-  Testimonial_name_9: "Abdullah Saleh Bin Eid Al Yahiyya Est. For Trading",
-  Testimonial_Location_9: "Riyadh, Saudi Arabia",
-  Testimonial_text_9: "Thanks and appreciation to Najoom Al-Alawi and Sinmar Application Systems for the maintenance and development of our programs (inventory, sales, accounting). Our trust in you is permanent as a success partner, and we hope for your continued excellence. We extend our sincere thanks and appreciation.",
+      Testimonial_name_8: "Mohamad Khalil Fageeh Speciality Medical Center",
+      Testimonial_Location_8: "Kingdom of Saudi Arabia",
+      Testimonial_text_8:
+        "We thank Najoom Al-Alawi and Sinmar program for their constructive cooperation in quality control and developing computer usage for clinic operations. We appreciate your professionalism and excellent service, and wish you further progress and prosperity.",
 
-  Testimonial_name_10: "Tareq & Yasien Co. Limited", // Adding the last one (Tareq & Yasien Co.)
-  Testimonial_Location_10: "Makkah Al-Mukarramah, Saudi Arabia",
-  Testimonial_text_10: "With all pride and appreciation, TYAMCO extends profound thanks to Najoom Al-Alawi Computer Systems, Sinmar program, for their efforts in developing the program and assisting us in solving problems. We wish you continued success.",
+      Testimonial_name_9: "Abdullah Saleh Bin Eid Al Yahiyya Est. For Trading",
+      Testimonial_Location_9: "Riyadh, Saudi Arabia",
+      Testimonial_text_9:
+        "Thanks and appreciation to Najoom Al-Alawi and Sinmar Application Systems for the maintenance and development of our programs (inventory, sales, accounting). Our trust in you is permanent as a success partner, and we hope for your continued excellence. We extend our sincere thanks and appreciation.",
 
+      Testimonial_name_10: "Tareq & Yasien Co. Limited", // Adding the last one (Tareq & Yasien Co.)
+      Testimonial_Location_10: "Makkah Al-Mukarramah, Saudi Arabia",
+      Testimonial_text_10:
+        "With all pride and appreciation, TYAMCO extends profound thanks to Najoom Al-Alawi Computer Systems, Sinmar program, for their efforts in developing the program and assisting us in solving problems. We wish you continued success.",
 
       Partners_Heading: " Meet our  partners",
       Partners_text: "We’ve 10000+ Dedicated Partners",
@@ -238,7 +254,7 @@ meta_contact_description: "Reach out to us for inquiries or technical support.",
       WAN: "Wide Area Networks (WAN)",
       WAN_text:
         "We provide wide area networks with advanced equipment and infrastructure, connecting users across large geographic areas efficiently and cost-effectively.",
-      Full_Name: " Full Name",
+      Full_Name: " Name of the establishment or company",
       Phones: " Phone Numbers",
       Subject: "Subject",
       Message: "Message",
@@ -551,63 +567,65 @@ meta_contact_description: "Reach out to us for inquiries or technical support.",
       Tech_Started: "Innovative Tech Solutions to Grow Your Business",
       Tech_CTA_Text:
         "Take advantage of our smart systems designed for various industries — start evolving today",
-        our_clients_title: "Our Valued Partners & Clients",
-client_name_1: "Hira Building Stars Establishment",
-client_details_1: "Construction & Development",
-client_name_2: "Al-Alawi Establishment",
-client_details_2: "5 Branches",
-client_name_3: "Omar Wali Asaad Establishment",
-client_details_3: "General Trade",
-client_name_4: "Advanced Science Establishment",
-client_details_4: "Educational Solutions",
-client_name_5: "Layan Saudi Company",
-client_details_5: "Industrial Solutions",
-client_name_6: "Al-Hayat Pharmacies Group",
-client_details_6: "10 Branches",
-client_name_7: "Lamar Medical Complex",
-client_details_7: "Healthcare Services",
-client_name_8: "Saqoor Al-Saudiah Pharmacy",
-client_details_8: "Pharmaceuticals",
-client_name_9: "Tarim Makkah Establishment",
-client_details_9: "5 Branches",
-client_name_10: "Al-Amoudi Al-Qashou Company",
-client_details_10: "Contracting",
-client_name_11: "Golden Decision for Trading",
-client_details_11: "Diverse Trading",
-client_name_12: "Memadia for Medicines & Herbs Establishment",
-client_details_12: "Medical Supplies",
-client_name_13: "Burhan Al-Qana'a Establishment",
-client_details_13: "Consulting Services",
-client_name_14: "Al-Furaih Property Management",
-client_details_14: "5 Branches",
-client_name_15: "Medical Breakdown Establishment",
-client_details_15: "Medical Services",
-client_name_16: "Rafed Mohamed Alhamed Company",
-client_details_16: "5 Branches",
-client_name_17: "Mohamed Ejaz Al-Qahtani Establishment",
-client_details_17: "Real Estate Development",
-client_name_18: "Al-Emarat Economic Center Company",
-client_details_18: "Economic Consulting",
-client_name_19: "Al-Ghad Company",
-client_details_19: "5 Branches",
-client_name_20: "Dr. Ahmed Basha Complex",
-client_details_20: "Dental & Esthetic Services",
-
-copyRights: "Sinmarsoft . All rights reserved.",
-MANAGER_TITLE: "Manager's Message",
-MANAGER_DATE: "📅 May 23, 2021",
-MANAGER_PARAGRAPH: "There is no doubt that information technology is the language of this era, and the need to develop and implement it in our business community is extremely urgent—especially with the comprehensive economic renaissance currently taking place in the Kingdom across all sectors.",
-MANAGER_PARAGRAPH_2: "Therefore, our goal is to help elevate this sector to be among the ranks of advanced nations and to support the business sector in relying on technology in all its activities.",
-MANAGER_PARAGRAPH_3: "Out of love for our country and our community, we established this entity to contribute—if even a little—to the development of our beloved Kingdom, hand in hand with the building of this generous nation. May Allah protect it from all harm.",
-TECHNICAL_MANAGER_TITLE: "Message from the Technical Manager",
-TECHNICAL_MANAGER_DATE: " 📅 May 20, 2021",
-TECHNICAL_MANAGER_PARAGRAPH: "Anyone observing the current state of investment in information technology can see that this sector is one of the most fertile after the oil sector, and it is heavily relied upon—after God—for facilitating and simplifying operations.",
-TECHNICAL_MANAGER_PARAGRAPH_2: "The technology sector in general is rapidly evolving to keep up with business development and acceleration, making it a promising field for investment.",
-TECHNICAL_MANAGER_PARAGRAPH_3: "This has driven us to invest in it with dedication and focus, recognizing the importance of technology, and striving to advance our technical systems until they stand, God willing, among the leading exporters of technology."
-
-
+      our_clients_title: "Our Valued Partners & Clients",
+      client_name_1: "Hira Building Stars Establishment",
+      client_details_1: "Construction & Development",
+      client_name_2: "Al-Alawi Establishment",
+      client_details_2: "5 Branches",
+      client_name_3: "Omar Wali Asaad Establishment",
+      client_details_3: "General Trade",
+      client_name_4: "Advanced Science Establishment",
+      client_details_4: "Educational Solutions",
+      client_name_5: "Layan Saudi Company",
+      client_details_5: "Industrial Solutions",
+      client_name_6: "Al-Hayat Pharmacies Group",
+      client_details_6: "10 Branches",
+      client_name_7: "Lamar Medical Complex",
+      client_details_7: "Healthcare Services",
+      client_name_8: "Saqoor Al-Saudiah Pharmacy",
+      client_details_8: "Pharmaceuticals",
+      client_name_9: "Tarim Makkah Establishment",
+      client_details_9: "5 Branches",
+      client_name_10: "Al-Amoudi Al-Qashou Company",
+      client_details_10: "Contracting",
+      client_name_11: "Golden Decision for Trading",
+      client_details_11: "Diverse Trading",
+      client_name_12: "Memadia for Medicines & Herbs Establishment",
+      client_details_12: "Medical Supplies",
+      client_name_13: "Burhan Al-Qana'a Establishment",
+      client_details_13: "Consulting Services",
+      client_name_14: "Al-Furaih Property Management",
+      client_details_14: "5 Branches",
+      client_name_15: "Medical Breakdown Establishment",
+      client_details_15: "Medical Services",
+      client_name_16: "Rafed Mohamed Alhamed Company",
+      client_details_16: "5 Branches",
+      client_name_17: "Mohamed Ejaz Al-Qahtani Establishment",
+      client_details_17: "Real Estate Development",
+      client_name_18: "Al-Emarat Economic Center Company",
+      client_details_18: "Economic Consulting",
+      client_name_19: "Al-Ghad Company",
+      client_details_19: "5 Branches",
+      client_name_20: "Dr. Ahmed Basha Complex",
+      client_details_20: "Dental & Esthetic Services",
+      copyRights: "Sinmarsoft . All rights reserved.",
+      MANAGER_TITLE: "Manager's Message",
+      MANAGER_DATE: "📅 May 23, 2021",
+      MANAGER_PARAGRAPH:
+        "There is no doubt that information technology is the language of this era, and the need to develop and implement it in our business community is extremely urgent—especially with the comprehensive economic renaissance currently taking place in the Kingdom across all sectors.",
+      MANAGER_PARAGRAPH_2:
+        "Therefore, our goal is to help elevate this sector to be among the ranks of advanced nations and to support the business sector in relying on technology in all its activities.",
+      MANAGER_PARAGRAPH_3:
+        "Out of love for our country and our community, we established this entity to contribute—if even a little—to the development of our beloved Kingdom, hand in hand with the building of this generous nation. May Allah protect it from all harm.",
+      TECHNICAL_MANAGER_TITLE: "Message from the Technical Manager",
+      TECHNICAL_MANAGER_DATE: " 📅 May 20, 2021",
+      TECHNICAL_MANAGER_PARAGRAPH:
+        "Anyone observing the current state of investment in information technology can see that this sector is one of the most fertile after the oil sector, and it is heavily relied upon—after God—for facilitating and simplifying operations.",
+      TECHNICAL_MANAGER_PARAGRAPH_2:
+        "The technology sector in general is rapidly evolving to keep up with business development and acceleration, making it a promising field for investment.",
+      TECHNICAL_MANAGER_PARAGRAPH_3:
+        "This has driven us to invest in it with dedication and focus, recognizing the importance of technology, and striving to advance our technical systems until they stand, God willing, among the leading exporters of technology.",
     },
-
   },
 
   ar: {
@@ -623,26 +641,30 @@ TECHNICAL_MANAGER_PARAGRAPH_3: "This has driven us to invest in it with dedicati
         "انطلقت نجوم العلاوي لنظم الكمبيوتر عام ١٩٩٤ لتوفر للمجتمع والاقتصاد السعودي الطامح للنمو والريادة آنذاك الحلول البرمجية والأنظمة الالكترونية بالإضافة لأنواع متعددة من الخدمات والمنتجات التقنية المتطورة التي تتواكب مع تطلعات الشركات والمؤسسات الخاصة في ذلك الوقت، ولكي تساهم من خلال دورها في تسهيل وظيفة الإدارة وتحسين الإنتاج ، وحوكمة وضبط العمل، واستطاعت منذ اللحظة الأولى من انطلاقها كسب ثقة عملائها وترسيخ مكانتها كشريك تقني موثوق ولا غنى عنه لدى الكثير من الجهات الحكومية والخاصة، واستمرت على تقديم الأداء المتميز وتقديم الخدمات والمنتجات التقنية المتطورة والتي استطاعت من خلالها العمل على إثراء منظومة الإدارة وعالم الأنظمة والبرمجيات والتكنولوجيا الحديثة بالمملكة، وساعدتها في تحقيق قفزات هائلة في حجم مخرجاتها وهوامش أرباحها ومستوى تميزها في العمل والإدارة والتنظيم، وتتبعت في هذا الإطار منهجية عمل دائمة التطور ترتكز في المقام الأول على رضا العملاء وتقديم منتجات وخدمات مثالية وموثوقة، فأصبحت نجوم العلاوى مزود الخدمة الأول وبائع التقنية الخبير لدى ما يزيد عن ١٠ آلاف شركة ومؤسسة داخل وخارج المملكة.",
       title: "نجوم العلاوي",
       meta_default_title: "نجوم العلاوي لنظم الكمبيوتر",
-meta_default_description: "الحلول التقنية والبرمجيات المتطورة منذ عام 1994.",
+      meta_default_description:
+        "الحلول التقنية والبرمجيات المتطورة منذ عام 1994.",
 
-meta_home_title: "الرئيسية | نجوم العلاوي",
-meta_home_description: "مرحبًا بكم في نجوم العلاوي، نقدم حلولًا تقنية شاملة ومبتكرة.",
+      meta_home_title: "الرئيسية | نجوم العلاوي",
+      meta_home_description:
+        "مرحبًا بكم في نجوم العلاوي، نقدم حلولًا تقنية شاملة ومبتكرة.",
 
-meta_products_title: "المنتجات | نجوم العلاوي",
-meta_products_description: "استعرض مجموعتنا المميزة من المنتجات البرمجية والأنظمة التقنية.",
+      meta_products_title: "المنتجات | نجوم العلاوي",
+      meta_products_description:
+        "استعرض مجموعتنا المميزة من المنتجات البرمجية والأنظمة التقنية.",
 
-meta_services_title: "الخدمات | نجوم العلاوي",
-meta_services_description: "نوفر خدمات تقنية متكاملة لدعم احتياجات شركتك وتحقيق أهدافك.",
+      meta_services_title: "الخدمات | نجوم العلاوي",
+      meta_services_description:
+        "نوفر خدمات تقنية متكاملة لدعم احتياجات شركتك وتحقيق أهدافك.",
 
-meta_about_title: "من نحن | نجوم العلاوي",
-meta_about_description: "تعرّف على تاريخنا وخبراتنا في عالم الأنظمة والبرمجيات.",
+      meta_about_title: "من نحن | نجوم العلاوي",
+      meta_about_description:
+        "تعرّف على تاريخنا وخبراتنا في عالم الأنظمة والبرمجيات.",
 
-meta_news_title: "الأخبار | نجوم العلاوي",
-meta_news_description: "تابع آخر أخبار الشركة والتحديثات التقنية.",
+      meta_news_title: "الأخبار | نجوم العلاوي",
+      meta_news_description: "تابع آخر أخبار الشركة والتحديثات التقنية.",
 
-meta_contact_title: "اتصل بنا | نجوم العلاوي",
-meta_contact_description: "تواصل معنا لأي استفسار أو دعم تقني.",
-
+      meta_contact_title: "اتصل بنا | نجوم العلاوي",
+      meta_contact_description: "تواصل معنا لأي استفسار أو دعم تقني.",
 
       footertext:
         "أن نكون شركة رائدة ومعترف بها عالميًا في مجال صناعة البرمجيات",
@@ -658,7 +680,7 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       Digital_Started: "ابدأ رحلتك الرقمية اليوم",
       Digital_CTA_Text:
         "اكتشف أنظمتنا الرقمية المتطورة وتواصل معنا لتحديد الأنسب لنشاطك التجاري",
-      Full_Name: "الأسم بالكامل ",
+      Full_Name: "  اسم المنشأة او الشركة  ",
       Phones: " ارقام الهاتف ",
       Subject: "الموضوع",
       Message: "الرسالة",
@@ -682,45 +704,55 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       Testimonial_text:
         "اقرأ آراء عملائنا حول رحلتهم معنا. نفخر بتقديم قيمة حقيقية.",
 
-         Testimonial_name_1: "مؤسسة يوسف سعيد أبو بكر باوزير التجارية",
-  Testimonial_Location_1: "جدة، السعودية",
-  Testimonial_text_1: "نقدر جهود نجوم العلاوي لنظم الكمبيوتر في صيانة وتطوير برامجنا (المبيعات والمحاسبة) وثقتنا بهم دائمة، فهم شريك أساسي في نجاحنا. نأمل استمرار هذا الأداء المتميز وشكرًا جزيلاً.",
+      Testimonial_name_1: "مؤسسة يوسف سعيد أبو بكر باوزير التجارية",
+      Testimonial_Location_1: "جدة، السعودية",
+      Testimonial_text_1:
+        "نقدر جهود نجوم العلاوي لنظم الكمبيوتر في صيانة وتطوير برامجنا (المبيعات والمحاسبة) وثقتنا بهم دائمة، فهم شريك أساسي في نجاحنا. نأمل استمرار هذا الأداء المتميز وشكرًا جزيلاً.",
 
-  Testimonial_name_2: "مجمع بسمات الأسرة الطبي",
-  Testimonial_Location_2: "نجران، السعودية",
-  Testimonial_text_2: "نشكر نجوم العلاوي وبرنامج سنمار على حسن التعامل وسرعة الاستجابة والدعم الفني طوال 4 سنوات، مما كان له أثر إيجابي في تنظيم عمل المجمع. نتمنى لكم المزيد من التقدم والازدهار.",
+      Testimonial_name_2: "مجمع بسمات الأسرة الطبي",
+      Testimonial_Location_2: "نجران، السعودية",
+      Testimonial_text_2:
+        "نشكر نجوم العلاوي وبرنامج سنمار على حسن التعامل وسرعة الاستجابة والدعم الفني طوال 4 سنوات، مما كان له أثر إيجابي في تنظيم عمل المجمع. نتمنى لكم المزيد من التقدم والازدهار.",
 
-  Testimonial_name_3: "مؤسسة تقنية القطع الجديدة للتجارة", // Updated based on previous analysis
-  Testimonial_Location_3: "جدة، السعودية",
-  Testimonial_text_3: "نقدم الشكر والعرفان لنجوم العلاوي ونظم سنمار التطبيقية، لجهودهم في صيانة وتطوير البرامج المتميزة التي نعتمد عليها في المخزون والمبيعات والمحاسبة. نثمن شراكتنا ونتمنى استمرار تميزكم.",
+      Testimonial_name_3: "مؤسسة تقنية القطع الجديدة للتجارة", // Updated based on previous analysis
+      Testimonial_Location_3: "جدة، السعودية",
+      Testimonial_text_3:
+        "نقدم الشكر والعرفان لنجوم العلاوي ونظم سنمار التطبيقية، لجهودهم في صيانة وتطوير البرامج المتميزة التي نعتمد عليها في المخزون والمبيعات والمحاسبة. نثمن شراكتنا ونتمنى استمرار تميزكم.",
 
-  Testimonial_name_4: "مجمع عيادات د. حسن أبو حثرة الطبية",
-  Testimonial_Location_4: "المملكة العربية السعودية",
-  Testimonial_text_4: "شهادة شكر وتقدير لمؤسسة نجوم العلاوي وبرنامج سنمار على دعمهم المستمر في إنجاح وتطوير عملنا. نُعرب عن خالص شكرنا وامتناننا لجهودكم القيمة ومساهمتكم الفعالة.",
+      Testimonial_name_4: "مجمع عيادات د. حسن أبو حثرة الطبية",
+      Testimonial_Location_4: "المملكة العربية السعودية",
+      Testimonial_text_4:
+        "شهادة شكر وتقدير لمؤسسة نجوم العلاوي وبرنامج سنمار على دعمهم المستمر في إنجاح وتطوير عملنا. نُعرب عن خالص شكرنا وامتناننا لجهودكم القيمة ومساهمتكم الفعالة.",
 
-  Testimonial_name_5: "مؤسسة خيال الضوء التجارية", // Updated based on previous analysis
-  Testimonial_Location_5: "جدة، السعودية",
-  Testimonial_text_5: "نُعرب عن فخرنا وامتناننا للإنجازات العديدة والجهود المفيدة التي قدمتموها لنا. خبراتكم واستجابتكم السريعة ساعدتنا على تخطي الصعاب. لكم أسمى آيات الشكر والتقدير، ونتمنى لكم دوام التوفيق.",
+      Testimonial_name_5: "مؤسسة خيال الضوء التجارية", // Updated based on previous analysis
+      Testimonial_Location_5: "جدة، السعودية",
+      Testimonial_text_5:
+        "نُعرب عن فخرنا وامتناننا للإنجازات العديدة والجهود المفيدة التي قدمتموها لنا. خبراتكم واستجابتكم السريعة ساعدتنا على تخطي الصعاب. لكم أسمى آيات الشكر والتقدير، ونتمنى لكم دوام التوفيق.",
 
-  Testimonial_name_6: "شركة راشد محمد المحمد الحمد",
-  Testimonial_Location_6: "الرياض، السعودية",
-  Testimonial_text_6: "نشكر شركة نجوم العلاوي ونظم سنمار التطبيقية على الصيانة والتطوير المستمر لبرامجنا (المخزون والمبيعات والمحاسبة). ثقتنا بكم شريك دائم في نجاحنا، ونأمل استمرار هذا الأداء المتميز.",
+      Testimonial_name_6: "شركة راشد محمد المحمد الحمد",
+      Testimonial_Location_6: "الرياض، السعودية",
+      Testimonial_text_6:
+        "نشكر شركة نجوم العلاوي ونظم سنمار التطبيقية على الصيانة والتطوير المستمر لبرامجنا (المخزون والمبيعات والمحاسبة). ثقتنا بكم شريك دائم في نجاحنا، ونأمل استمرار هذا الأداء المتميز.",
 
-  Testimonial_name_7: "شركة البحر المتوسط للاتصالات السلكية الحديثة",
-  Testimonial_Location_7: "جدة، السعودية",
-  Testimonial_text_7: "خطاب شكر وتقدير لمدير مؤسسة نجوم العلاوي لنظم الكمبيوتر على جهودهم المستمرة في تطوير أنظمة سنمار المحاسبية. نفخر بمواكبة تقدمكم، ونتمنى لكم دوام النجاح والتوفيق. لكم منا جزيل الشكر.",
+      Testimonial_name_7: "شركة البحر المتوسط للاتصالات السلكية الحديثة",
+      Testimonial_Location_7: "جدة، السعودية",
+      Testimonial_text_7:
+        "خطاب شكر وتقدير لمدير مؤسسة نجوم العلاوي لنظم الكمبيوتر على جهودهم المستمرة في تطوير أنظمة سنمار المحاسبية. نفخر بمواكبة تقدمكم، ونتمنى لكم دوام النجاح والتوفيق. لكم منا جزيل الشكر.",
 
-  Testimonial_name_8: "مجمع محمد خليل فقيه الطبي التخصصي",
-  Testimonial_Location_8: "المملكة العربية السعودية",
-  Testimonial_text_8: "نشكر نجوم العلاوي وبرنامج سنمار على التعاون البناء في ضبط الجودة وتطوير استخدام الكمبيوتر لتنظيم العمل بالعيادات. نُقدر احترافيتكم وتعاملكم المتميز، ونتمنى لكم المزيد من التقدير والازدهار.",
+      Testimonial_name_8: "مجمع محمد خليل فقيه الطبي التخصصي",
+      Testimonial_Location_8: "المملكة العربية السعودية",
+      Testimonial_text_8:
+        "نشكر نجوم العلاوي وبرنامج سنمار على التعاون البناء في ضبط الجودة وتطوير استخدام الكمبيوتر لتنظيم العمل بالعيادات. نُقدر احترافيتكم وتعاملكم المتميز، ونتمنى لكم المزيد من التقدير والازدهار.",
 
-  Testimonial_name_9: "مؤسسة عبدالله صالح بن عبد اليحيى للتجارة",
-  Testimonial_Location_9: "الرياض، السعودية",
-  Testimonial_text_9: "شكر وتقدير لنجوم العلاوي ونظم سنمار التطبيقية على صيانة وتطوير برامجنا (المخزون، المبيعات، المحاسبة). ثقتنا بكم دائمة كشريك نجاح، ونأمل استمرار تميزكم. لكم منا جزيل الشكر والعرفان.",
+      Testimonial_name_9: "مؤسسة عبدالله صالح بن عبد اليحيى للتجارة",
+      Testimonial_Location_9: "الرياض، السعودية",
+      Testimonial_text_9:
+        "شكر وتقدير لنجوم العلاوي ونظم سنمار التطبيقية على صيانة وتطوير برامجنا (المخزون، المبيعات، المحاسبة). ثقتنا بكم دائمة كشريك نجاح، ونأمل استمرار تميزكم. لكم منا جزيل الشكر والعرفان.",
 
-  Testimonial_name_10: "شركة طارق وياسين المحدودة", // Adding the last one (Tareq & Yasien Co.)
-  Testimonial_Location_10: "مكة المكرمة، السعودية",
-  Testimonial_text_10: "بكل الاعتزاز والفخر والتقدير، تتقدم تيامكو بخالص الشكر لنجوم العلاوي ونظم سنمار لجهودهم في تطوير البرنامج والمساعدة في حل المشكلات. نتمنى لكم دوام التوفيق.",
+      Testimonial_name_10: "شركة طارق وياسين المحدودة", // Adding the last one (Tareq & Yasien Co.)
+      Testimonial_Location_10: "مكة المكرمة، السعودية",
+      Testimonial_text_10:
+        "بكل الاعتزاز والفخر والتقدير، تتقدم تيامكو بخالص الشكر لنجوم العلاوي ونظم سنمار لجهودهم في تطوير البرنامج والمساعدة في حل المشكلات. نتمنى لكم دوام التوفيق.",
       Partners_text: "لدينا أكثر من 10000 شريك",
       Hero_heading: "الحل الذكي لإدارة أعمالك وتتبع المخزون بكل سهولة",
       Hero_text:
@@ -774,16 +806,13 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       serv_Disc:
         " نظام لإدارة شركات الخدمات العامة وتوزيع المهام وتقديم تقارير الأداء.",
       fuel: "سنمار لمحطات الوقود ",
-      Fule_Disc:
-        "نظام محطات الوقود لإدارة الضخ والمخزون، والمحاسبة اليومية لكل مضخة.",
+      Fule_Disc:"نظام محطات الوقود لإدارة الضخ والمخزون، والمحاسبة اليومية لكل مضخة.",
       Our_Product: "منتجاتنا",
       Our_Product_h: "دور نجوم العلاوي لأنظمة الكمبيوتر",
-      Our_Product_p:
-        "دعم بيئة العمل والإنتاج وتعزيز قيمة التقنيات الحديثة والبرمجيات والأنظمة التي تخدم الشركات والمؤسسات ورواد الأعمال والاقتصاد في المملكة العربية السعودية وعملائنا في الخارج من خلال توفير حلول تقنية مبتكرة وعالية الجودة بأسعار تنافسية.",
+      Our_Product_p:"دعم بيئة العمل والإنتاج وتعزيز قيمة التقنيات الحديثة والبرمجيات والأنظمة التي تخدم الشركات والمؤسسات ورواد الأعمال والاقتصاد في المملكة العربية السعودية وعملائنا في الخارج من خلال توفير حلول تقنية مبتكرة وعالية الجودة بأسعار تنافسية.",
       Explore_More: "  حلولنا المبتكرة ",
       Our_Partners: "شركاؤنا ",
-      Our_Partners_p:
-        "عملاؤنا هم شركاؤنا في النجاح بفضل الله؛ حيث تمتلك شركة نجوم العلوي لأنظمة الحاسب الآلي أكثر من 10000 عميل حتى الآن في جميع التخصصات، وحققت نجاحاً باهراً في وقت قصير من خلال إنتاج البرمجيات المتميزة، هؤلاء بعض عملائنا الذين تشرفنا بخدمتهم",
+      Our_Partners_p:"عملاؤنا هم شركاؤنا في النجاح بفضل الله؛ حيث تمتلك شركة نجوم العلوي لأنظمة الحاسب الآلي أكثر من 10000 عميل حتى الآن في جميع التخصصات، وحققت نجاحاً باهراً في وقت قصير من خلال إنتاج البرمجيات المتميزة، هؤلاء بعض عملائنا الذين تشرفنا بخدمتهم",
       Partners_Heading: "تعرف على شركائنا",
       ReadMore: "شاهد المزيد",
       SUBSCRIBERS: "المشتركين",
@@ -791,45 +820,26 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       AWARDS: "الجوائز",
       Ourproducts: "المنتجات والحلول",
       Ourproducts_text: "اكتشف حلولًا ذكية ومرنة لتحسين أداء أعمالك.",
-
       Show: "اطّلع على المزيد",
       our_mission: "رسالتنا",
       our_vision: "رؤيتنا",
       our_values: "قيمنا",
-
-      mission_text:
-        "دعم بيئة العمل وتعزيز قيمة التقنيات والأنظمة الحديثة التي تخدم الشركات والمؤسسات ورواد الأعمال. نعمل على تطوير الحلول التقنية وفقًا لأعلى المعايير وبأسلوب تنافسي يتناسب مع حاجة العملاء.",
-
-      vision_text:
-        "نسعى لتوسيع نطاق عملنا محليًا وعالميًا، لنصبح الخيار الأفضل لعملائنا من خلال تطبيق أفضل الممارسات التقنية وتوفير حلول موثوقة ومبتكرة تخدم جميع القطاعات.",
-
+      mission_text:"دعم بيئة العمل وتعزيز قيمة التقنيات والأنظمة الحديثة التي تخدم الشركات والمؤسسات ورواد الأعمال. نعمل على تطوير الحلول التقنية وفقًا لأعلى المعايير وبأسلوب تنافسي يتناسب مع حاجة العملاء.",
+      vision_text:"نسعى لتوسيع نطاق عملنا محليًا وعالميًا، لنصبح الخيار الأفضل لعملائنا من خلال تطبيق أفضل الممارسات التقنية وتوفير حلول موثوقة ومبتكرة تخدم جميع القطاعات.",
       value_1_title: "التفاني",
-      value_1_text:
-        "نقدم أعلى مستويات الخدمة والالتزام بالتسليم في الوقت المحدد مع دعم كامل لاحتياجات عملائنا في جميع المراحل.",
-
+      value_1_text:"نقدم أعلى مستويات الخدمة والالتزام بالتسليم في الوقت المحدد مع دعم كامل لاحتياجات عملائنا في جميع المراحل.",
       value_2_title: "الخصوصية",
-      value_2_text:
-        "نحرص على توفير الأنظمة والحلول التي تضمن سرية البيانات وتمنح المستخدم الثقة في تحقيق أفضل أداء ونتائج.",
-
+      value_2_text:"نحرص على توفير الأنظمة والحلول التي تضمن سرية البيانات وتمنح المستخدم الثقة في تحقيق أفضل أداء ونتائج.",
       value_3_title: "الثقة",
-      value_3_text:
-        "نبني علاقات طويلة الأمد مبنية على الثقة والمصداقية مع عملائنا وشركائنا لتحقيق أهداف مشتركة.",
-
+      value_3_text:"نبني علاقات طويلة الأمد مبنية على الثقة والمصداقية مع عملائنا وشركائنا لتحقيق أهداف مشتركة.",
       value_4_title: "الإبداع",
-      value_4_text:
-        "نقدم حلولاً مبتكرة بطرق غير تقليدية، تميزنا في السوق وتجعل من خدماتنا ذات قيمة حقيقية.",
-
+      value_4_text:"نقدم حلولاً مبتكرة بطرق غير تقليدية، تميزنا في السوق وتجعل من خدماتنا ذات قيمة حقيقية.",
       value_5_title: "التطوير",
-      value_5_text:
-        "نطور أنفسنا دائمًا وندعم فرق العمل لضمان تقديم أحدث التقنيات والحلول وفق أفضل الممارسات.",
-
+      value_5_text:"نطور أنفسنا دائمًا وندعم فرق العمل لضمان تقديم أحدث التقنيات والحلول وفق أفضل الممارسات.",
       value_6_title: "الذكاء التقني",
-      value_6_text:
-        "نمزج بين المعرفة التقنية العميقة وفهم احتياجات العملاء لنقدم حلولًا ذكية تواكب متغيرات السوق.",
-
+      value_6_text:"نمزج بين المعرفة التقنية العميقة وفهم احتياجات العملاء لنقدم حلولًا ذكية تواكب متغيرات السوق.",
       why_choose_us: "لماذا نحن؟",
-      why_choose_us_desc:
-        "نقدّم حلولًا إبداعية. نستخدم مهارات القيادة عبر الوسائط قبل تطوير الابتكار. نبني منصات قياسية دون تطبيقات معقدة. نتقدم بسهولة عبر التعاون وتبادل الأفكار",
+      why_choose_us_desc:"نقدّم حلولًا إبداعية. نستخدم مهارات القيادة عبر الوسائط قبل تطوير الابتكار. نبني منصات قياسية دون تطبيقات معقدة. نتقدم بسهولة عبر التعاون وتبادل الأفكار",
       reason_1_title: "فريق عمل محترف",
       reason_2_title: "تنفيذ الأعمال باحترافية",
       reason_3_title: "خدمات مجانية مدى الحياة",
@@ -838,32 +848,22 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       Started: " مرحبًا بك في نجوم العلاوي ",
       CTA_Text: " حلول برمجية متكاملة لإدارة أعمالك بكفاءة واحترافية",
       Tech_Solutions: "حلولنا التقنية",
-      Tech_Text:
-        "  نعزز تميز عملائنا ونمنحهم كفاءة تشغيلية دائمة من خلال تقديم أفضل  الحلول التقنية.",
+      Tech_Text:" نعزز تميز عملائنا ونمنحهم كفاءة تشغيلية دائمة من خلال تقديم أفضل  الحلول التقنية.",
       pc: "أجهزة الكمبيوتر",
-      Pc_text:
-        "لدينا فريق عمل استثنائي يلبي حاجة عملائنا ويوفر لهم أجهزة الكمبيوتر من سيرفرات أو وحدات طرفية من أفضل وأقوى العلامات التجارية، وكذلك الأجهزة ذات المواصفات الخاصة لنمكنهم من الإبداع والإنجاز.",
-
+      Pc_text:"لدينا فريق عمل استثنائي يلبي حاجة عملائنا ويوفر لهم أجهزة الكمبيوتر من سيرفرات أو وحدات طرفية من أفضل وأقوى العلامات التجارية، وكذلك الأجهزة ذات المواصفات الخاصة لنمكنهم من الإبداع والإنجاز.",
       OS: "البرامج التشغيلية",
-      Os_text:
-        "نوفر حاجة عملائنا من برامج التشغيل المختلفة مثل برامج الويندوز الأصلية، برامج الأوفيس، وأنظمة تشغيل السيرفرات والوحدات الطرفية المناسبة.",
+      Os_text:"نوفر حاجة عملائنا من برامج التشغيل المختلفة مثل برامج الويندوز الأصلية، برامج الأوفيس، وأنظمة تشغيل السيرفرات والوحدات الطرفية المناسبة.",
       PS: "أنظمة الحماية",
-      PS_text:
-        "نقوم بتوريد أنظمة مكافحة الفيروسات، ومكافحة الهكر والاختراق لتعزيز الأمن السيبراني وحماية الأجهزة والبيانات.",
-
+      PS_text:"نقوم بتوريد أنظمة مكافحة الفيروسات، ومكافحة الهكر والاختراق لتعزيز الأمن السيبراني وحماية الأجهزة والبيانات.",
       Ha: "ملحقات الأجهزة",
-      Ha_text:
-        "نوفر طابعات، ماسحات ضوئية، ونقاط بيع وغيرهم من الملحقات عالية الجودة ذات العمر الطويل والسعر المميز.",
+      Ha_text: "نوفر طابعات، ماسحات ضوئية، ونقاط بيع وغيرهم من الملحقات عالية الجودة ذات العمر الطويل والسعر المميز.",
       LAN: "الشبكات المحلية (LAN)",
-      LAN_text:
-        "نبني شبكات اتصال محلية للمنازل والمكاتب والمنشآت الصغيرة، ونوفر المعدات وخدمات الصيانة والدعم الفني الكامل.",
+      LAN_text:  "نبني شبكات اتصال محلية للمنازل والمكاتب والمنشآت الصغيرة، ونوفر المعدات وخدمات الصيانة والدعم الفني الكامل.",
       WAN: "الشبكات واسعة النطاق (WAN)",
-      WAN_text:
-        "نوفر الشبكات الواسعة بمعدات وبنية تحتية متقدمة، لربط المستخدمين بمناطق جغرافية كبيرة بفعالية وبتكلفة مناسبة.",
+      WAN_text:"نوفر الشبكات الواسعة بمعدات وبنية تحتية متقدمة، لربط المستخدمين بمناطق جغرافية كبيرة بفعالية وبتكلفة مناسبة.",
       CTA_About: "   لماذا نحن ؟",
       Features: "المواصفات ",
       Sales_Email: " البريد الإلكتروني للمبيعات",
-
       Inv_acc_feature_1: "شجرة محاسبية حتى 10 مستويات فرعية",
       Inv_acc_feature_2: "تصدير إلى Excel و Word و PDF و Txt",
       Inv_acc_feature_3: "إمكانية حفظ نسخ من المستندات داخل قيد اليومية",
@@ -879,7 +879,6 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       Inv_acc_feature_13: "الأصول الثابتة واحتساب الإهلاك",
       Inv_acc_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
       Inv_acc_feature_15: "تقارير تفصيلية متنوعة وخيارات عرض مخصصة",
-
       Inv_feature_1: "يدعم ضريبة القيمة المضافة المتغيرة",
       Inv_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
       Inv_feature_3: "إمكانية حفظ صور للصنف داخل ملف الصنف",
@@ -894,14 +893,10 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       Inv_feature_12: "متعدد اللغات",
       Inv_feature_13: "بدائل للأصناف وربطها بملف الأصناف",
       Inv_feature_14: "سندات جرد تلقائي والاستيراد من إكسل",
-      Inv_feature_15:
-        "إصدار طلبيات مقترحة أتوماتيكيًا حسب حركة الصنف والتعديل عليها",
-      Inv_feature_16:
-        "التعامل مع الموردين بالعملة الأصلية للمورد واحتساب آلي للتكلفة",
-      Inv_feature_17: "رسوم بيانية لحركة المبيعات والمشتريات",
-      Inv_feature_18:
-        "أكثر من 300 تقرير شامل ولمتابعة جميع حركات المخزون بالتفصيل",
-
+      Inv_feature_15:"إصدار طلبيات مقترحة أتوماتيكيًا حسب حركة الصنف والتعديل عليها",
+      Inv_feature_16: "التعامل مع الموردين بالعملة الأصلية للمورد واحتساب آلي للتكلفة",
+      Inv_feature_17:"رسوم بيانية لحركة المبيعات والمشتريات",
+      Inv_feature_18: "أكثر من 300 تقرير شامل ولمتابعة جميع حركات المخزون بالتفصيل",
       acc_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
       acc_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
       acc_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
@@ -918,7 +913,6 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       acc_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
       acc_feature_15: "تقارير مفصلة ومتنوعة وخيارات عرضها حسب الطلب",
       acc_feature_16: "إعادة تقييم أصل ثابت",
-
       Med_feature_1: "يدعم ضريبة القيمة المضافة المتغيرة",
       Med_feature_2: "شاشة سهلة الاستخدام متعددة الوظائف لفاتورة المريض",
       Med_feature_3: "التصدير إلى Excel, Word, PDF, Txt",
@@ -938,46 +932,34 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       Med_feature_17: "جدولة مواعيد المرضى وربطها مع الطبيب المعالج",
       Med_feature_18: "رسمة الأسنان وإمكانية اختيار السن المعالج",
       Med_feature_19: "برامج متابعة الحمل والعلاج الطبيعي",
-
       fuel_feature_1: "يعمل مع جميع محطات البنزين الكبيرة والصغيرة",
       fuel_feature_2: "إمكانية إضافة عدد غير محدود من الطرمبات والخزانات",
       fuel_feature_3: "سهولة في الاستخدام من خلال شاشة الفواتير والسندات",
       fuel_feature_4: "متابعة لحركة البنزين والديزل والكيروسين وغيرها",
       fuel_feature_5: "إمكانية بيع خدمات خارجية متنوعة مثل الغسيل وغيرها",
-      fuel_feature_6:
-        "إمكانية فتح حساب للعملاء والموردين ومتابعة أرصدتهم وتنوع التقارير عنهم",
-      fuel_feature_7:
-        "إمكانية حساب الكمية المتطايرة عند إدخال المشتريات من الوقود ومشتقاته",
-      fuel_feature_8:
-        "إمكانية مراقبة الوقود وصرفه من خلال تقارير شاملة عن الطرمبات",
+      fuel_feature_6: "إمكانية فتح حساب للعملاء والموردين ومتابعة أرصدتهم وتنوع التقارير عنهم",
+      fuel_feature_7:"إمكانية حساب الكمية المتطايرة عند إدخال المشتريات من الوقود ومشتقاته",
+      fuel_feature_8:"إمكانية مراقبة الوقود وصرفه من خلال تقارير شاملة عن الطرمبات",
       fuel_feature_9: "متابعة السداد للموردين والعملاء الآجل أفراد أو شركات",
       fuel_feature_10: "متابعة الأرصدة المتبقية من الوقود في جميع الخزانات",
       fuel_feature_11: "إمكانية تحديد أسعار خاصة للعملاء الآجل",
-      fuel_feature_12:
-        "إمكانية تغيير الأسعار في أي وقت حسب متطلبات الجهة المعنية",
-      fuel_feature_13:
-        "تقارير عن المبيعات والمشتريات اليومية وسهولة الوصول للتقارير المالية",
-      fuel_feature_14:
-        "ربط النظام بنظام سنمار للمحاسبة وترحيل الحركات اليومية إلى قيود آلية",
+      fuel_feature_12:"إمكانية تغيير الأسعار في أي وقت حسب متطلبات الجهة المعنية",
+      fuel_feature_13:"تقارير عن المبيعات والمشتريات اليومية وسهولة الوصول للتقارير المالية",
+      fuel_feature_14:"ربط النظام بنظام سنمار للمحاسبة وترحيل الحركات اليومية إلى قيود آلية",
       fuel_feature_15: "تقارير شاملة ومفصلة ومصنفة لمتابعة جميع المستندات",
       fuel_feature_16: "إمكانية مراقبة العمل عن بُعد دون عناء",
       fuel_feature_17: "إمكانية ربط الفروع عن بُعد",
-      fuel_feature_18:
-        "إمكانية إضافة الأنشطة الإضافية مثل مغسلة سيارات أو بنشر أو غيره",
+      fuel_feature_18:"إمكانية إضافة الأنشطة الإضافية مثل مغسلة سيارات أو بنشر أو غيره",
       fuel_feature_19: "إمكانية إصدار كوبونات للعملاء ومتابعتها",
-
       serv_feature_1: "مناسب لجميع قطاعات بيع الخدمات بكل مرونة وسهولة",
-      serv_feature_2:
-        "يدعم ضريبة القيمة المضافة المتغيرة حسب توجيهات الهيئة العامة للزكاة والدخل",
+      serv_feature_2:"يدعم ضريبة القيمة المضافة المتغيرة حسب توجيهات الهيئة العامة للزكاة والدخل",
       serv_feature_3: "تعريف بأسعار الخدمات حسب أنواعها",
       serv_feature_4: "سهولة تحويل سند الاستلام أو عرض الأسعار إلى فاتورة",
-      serv_feature_5:
-        "متابعة الحركة المالية للعملاء والموردين حسب تقارير شاملة",
+      serv_feature_5:"متابعة الحركة المالية للعملاء والموردين حسب تقارير شاملة",
       serv_feature_6: "سند استلام مبسط وشامل لحاجة المغاسل",
       serv_feature_7: "تقارير ربحية الفواتير حسب الفترة الزمنية المطلوبة",
       serv_feature_8: "شاشات رسم بياني لتسهيل قرارات الإدارة",
-      serv_feature_9:
-        "تقارير وافية عن حركة المبيعات حسب الفترة الزمنية المطلوبة",
+      serv_feature_9:"تقارير وافية عن حركة المبيعات حسب الفترة الزمنية المطلوبة",
       serv_feature_10: "سندات قبض وصرف وتسوية مبسطة",
       serv_feature_11: "كشف حساب للعميل خلال أي فترة زمنية مطلوبة",
       serv_feature_12: "إمكانية تقديم عروض أسعار بالخدمات وأسعارها",
@@ -989,13 +971,10 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       serv_feature_18: "كشوف حسابات للعملاء",
       serv_feature_19: "تقارير عن أرباح الفواتير",
       serv_feature_20: "رسم بياني للمبيعات الشهرية",
-
       Maintenance_feature_1: "شاشات سهلة لتجهيز المعلومات الأولية للنظام",
-      Maintenance_feature_2:
-        "معلومات الأقسام والمهندسين وربط كل قسم بالفني أو المهندس",
+      Maintenance_feature_2:"معلومات الأقسام والمهندسين وربط كل قسم بالفني أو المهندس",
       Maintenance_feature_3: "معلومات خدمات الورشة وربطها بالقسم المختص",
-      Maintenance_feature_4:
-        "يدعم ضريبة القيمة المضافة المتغيرة حسب توجيهات الهيئة العامة للزكاة والدخل",
+      Maintenance_feature_4:"يدعم ضريبة القيمة المضافة المتغيرة حسب توجيهات الهيئة العامة للزكاة والدخل",
       Maintenance_feature_5: "خاصية التصدير إلى Excel و Word و PDF",
       Maintenance_feature_6: "إرسال رسائل تذكيرية للعملاء S.M.S",
       Maintenance_feature_7:
@@ -1043,7 +1022,6 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       Maintenance_feature_34: "يمكن ربط أكثر من سيارة في عميل واحد",
       Maintenance_feature_35:
         "نسخ احتياطي تلقائي للبيانات في السيرفر والوسائط الخارجية",
-
       Car_sale_feature_1: "شاشة متكاملة لإدخال معلومات السيارات",
       Car_sale_feature_2:
         "شاشات فرعية خاصة للموديلات والمواصفات والإضافات...الخ.",
@@ -1065,7 +1043,6 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       Car_sale_feature_13: "رسم بياني للمبيعات والمشتريات",
       Car_sale_feature_14: "تقارير خاصة للأرباح والخسائر",
       Car_sale_feature_15: "أكثر من 50 تقرير مفصل وشامل",
-
       Hr_feature_1:
         "مرونة كاملة لإدخال معلومات الموظف الشخصية و المؤهلات والخبرات",
       Hr_feature_2: "إمكانية حفظ وأرشفة المستندات الخاصة بكل موظف",
@@ -1089,7 +1066,6 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
         "متابعة الحضور والانصراف للموظفين والتأثير في مسير الرواتب",
       Hr_feature_19: "احتساب التأمينات الاجتماعية للسعوديين والمقيمين",
       Hr_feature_20: "نظام مرن لتتبع وتحليل الأداء الوظيفي السنوي والشهري",
-
       Commu_feature_1: "ربط الفروع بالمركز الرئيسي",
       Commu_feature_2: "إمكانية ربط حتى 99 فرع مع بعضهم",
       Commu_feature_3: "يحتوي النظام على 3 طرق للربط يمكن للعميل الاختيار منها",
@@ -1112,12 +1088,9 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       Commu_feature_14: "دعم فني للتأكد من تكامل الربط بين الفروع",
       Commu_feature_15:
         "أمان عالي وتشفير لحماية البيانات أثناء النقل بين الفروع",
-
       Tech_Started: "حلول تقنية مبتكرة لنمو أعمالك",
       Tech_CTA_Text:
         "استفد من أنظمتنا الذكية المصممة لتلائم مختلف المجالات وابدأ التطوير الآن",
-
-
       Inv_acc_feature_16: "إعادة تقييم الأصل الثابت",
       Sending: "جارٍ الإرسال...",
       Message_Sent_Successfully: "تم إرسال الرسالة بنجاح.",
@@ -1125,63 +1098,66 @@ meta_contact_description: "تواصل معنا لأي استفسار أو دعم
       About_Started: " من نحن ولماذا سنمار؟  ",
       About_CTA_Text:
         "تعرف على رؤيتنا ورسالتنا وكيف نعمل لنجعل التقنية في خدمة أعمالك",
-        our_clients_title: "شركاؤنا وعملاؤنا الكرام",
-client_name_1: "مؤسسة حراء نجوم البناء",
-client_details_1: "مقاولات وتطوير",
-client_name_2: "مؤسسة العليوي",
-client_details_2: "5 فروع",
-client_name_3: "مؤسسة عمر ولي أسعد",
-client_details_3: "تجارة عامة",
-client_name_4: "مؤسسة العلوم المتطورة",
-client_details_4: "حلول تعليمية",
-client_name_5: "شركة ليان السعودية",
-client_details_5: "حلول صناعية",
-client_name_6: "مجموعة صيدليات الحياة",
-client_details_6: "10 فروع",
-client_name_7: "مجمع لمار الطبي",
-client_details_7: "خدمات صحية",
-client_name_8: "صيدلية صقور السعودية",
-client_details_8: "أدوية",
-client_name_9: "مؤسسة طارم مكة",
-client_details_9: "5 فروع",
-client_name_10: "الشركة العمودي للقشوع",
-client_details_10: "مقاولات",
-client_name_11: "القرار الذهبي للتجارة",
-client_details_11: "تجارة متنوعة",
-client_name_12: "مؤسسة ميماديا للأدوية والأعشاب",
-client_details_12: "مستلزمات طبية",
-client_name_13: "مؤسسة برهان القناعة",
-client_details_13: "استشارات",
-client_name_14: "إدارة أملاك الفريح منصب",
-client_details_14: "5 فروع",
-client_name_15: "مؤسسة فكة الطبية",
-client_details_15: "خدمات طبية",
-client_name_16: "شركة رافد محمد المحمد الحمد",
-client_details_16: "5 فروع",
-client_name_17: "مؤسسة محمد إجاز القحطاني",
-client_details_17: "تطوير عقاري",
-client_name_18: "شركة مركز الإمارات الاقتصادي",
-client_details_18: "استشارات اقتصادية",
-client_name_19: "شركة الغد",
-client_details_19: "5 فروع",
-client_name_20: "مجمع الدكتور أحمد باشا",
-client_details_20: "خدمات أسنان وتجميل",
-
-copyRights: "جميع الحقوق محفوظة لشركة سنمار سوفت",
-
-MANAGER_TITLE: "كلمة المدير العام",
-MANAGER_DATE: "📅 23 مايو 2021",
-MANAGER_PARAGRAPH: "إنه مما لا شك فيه أن تقنية المعلومات هي لغة هذا العصر، وأن الحاجة إلى تطويرها وتفعيلها في مجتمع أعمالنا لهي حاجة ماسة جداً، لاسيما مع ما تشهده المملكة اليوم من نهضة اقتصادية شاملة في جميع القطاعات.",
-MANAGER_PARAGRAPH_2: "ولذلك، فهدفنا هو المساهمة في النهوض بهذا القطاع للارتقاء به إلى مصاف الدول المتقدمة، ومساعدة قطاع الأعمال للاعتماد على التقنية في جميع نشاطاته.",
-MANAGER_PARAGRAPH_3: "وإنه لمن منطلق حبنا لوطننا ومجتمعنا، فلقد أسسنا هذا الكيان للمساهمة ولو بشيء يسير في نهضة مملكتنا الحبيبة، يداً بيد مع بناء هذا الوطن المعطاء. حفظه الله من كل سوء.",
-
-  TECHNICAL_MANAGER_TITLE: " كلمة المدير الفني",
-TECHNICAL_MANAGER_DATE: " 📅 20 مايو 2021",
-TECHNICAL_MANAGER_PARAGRAPH: "إن الناظر اليوم لواقع الاستثمار في تقنية المعلومات ليبصر أن هذا القطاع هو من أخصب قطاعات الاستثمار بعد قطاع النفط وعليه الاعتماد بعد الله في تيسير وتسهيل الأعمال.",
-TECHNICAL_MANAGER_PARAGRAPH_2: "كما أن قطاع التكنولوجيا بشكل عام هو قطاع متطور بشكل سريع لمواكبة التطور في الأعمال وتسريعها وهو مجال خصب للاستثمار.",
-TECHNICAL_MANAGER_PARAGRAPH_3: "مما حد بنا للاستثمار فيه جاعلين نصب أعيننا أهمية التقنية فبدأنا على الحرص والتفاني للارتقاء بمنظومة التقنية لتقف بسواعد رجالها في مطاف مصدري التقنية بمشيئة الله تعالى."
-
+      our_clients_title: "شركاؤنا وعملاؤنا الكرام",
+      client_name_1: "مؤسسة حراء نجوم البناء",
+      client_details_1: "مقاولات وتطوير",
+      client_name_2: "مؤسسة العليوي",
+      client_details_2: "5 فروع",
+      client_name_3: "مؤسسة عمر ولي أسعد",
+      client_details_3: "تجارة عامة",
+      client_name_4: "مؤسسة العلوم المتطورة",
+      client_details_4: "حلول تعليمية",
+      client_name_5: "شركة ليان السعودية",
+      client_details_5: "حلول صناعية",
+      client_name_6: "مجموعة صيدليات الحياة",
+      client_details_6: "10 فروع",
+      client_name_7: "مجمع لمار الطبي",
+      client_details_7: "خدمات صحية",
+      client_name_8: "صيدلية صقور السعودية",
+      client_details_8: "أدوية",
+      client_name_9: "مؤسسة طارم مكة",
+      client_details_9: "5 فروع",
+      client_name_10: "الشركة العمودي للقشوع",
+      client_details_10: "مقاولات",
+      client_name_11: "القرار الذهبي للتجارة",
+      client_details_11: "تجارة متنوعة",
+      client_name_12: "مؤسسة ميماديا للأدوية والأعشاب",
+      client_details_12: "مستلزمات طبية",
+      client_name_13: "مؤسسة برهان القناعة",
+      client_details_13: "استشارات",
+      client_name_14: "إدارة أملاك الفريح منصب",
+      client_details_14: "5 فروع",
+      client_name_15: "مؤسسة فكة الطبية",
+      client_details_15: "خدمات طبية",
+      client_name_16: "شركة رافد محمد المحمد الحمد",
+      client_details_16: "5 فروع",
+      client_name_17: "مؤسسة محمد إجاز القحطاني",
+      client_details_17: "تطوير عقاري",
+      client_name_18: "شركة مركز الإمارات الاقتصادي",
+      client_details_18: "استشارات اقتصادية",
+      client_name_19: "شركة الغد",
+      client_details_19: "5 فروع",
+      client_name_20: "مجمع الدكتور أحمد باشا",
+      client_details_20: "خدمات أسنان وتجميل",
+      copyRights: "جميع الحقوق محفوظة لشركة سنمار سوفت",
+      MANAGER_TITLE: "كلمة المدير العام",
+      MANAGER_DATE: "📅 23 مايو 2021",
+      MANAGER_PARAGRAPH:
+        "إنه مما لا شك فيه أن تقنية المعلومات هي لغة هذا العصر، وأن الحاجة إلى تطويرها وتفعيلها في مجتمع أعمالنا لهي حاجة ماسة جداً، لاسيما مع ما تشهده المملكة اليوم من نهضة اقتصادية شاملة في جميع القطاعات.",
+      MANAGER_PARAGRAPH_2:
+        "ولذلك، فهدفنا هو المساهمة في النهوض بهذا القطاع للارتقاء به إلى مصاف الدول المتقدمة، ومساعدة قطاع الأعمال للاعتماد على التقنية في جميع نشاطاته.",
+      MANAGER_PARAGRAPH_3:
+        "وإنه لمن منطلق حبنا لوطننا ومجتمعنا، فلقد أسسنا هذا الكيان للمساهمة ولو بشيء يسير في نهضة مملكتنا الحبيبة، يداً بيد مع بناء هذا الوطن المعطاء. حفظه الله من كل سوء.",
+      TECHNICAL_MANAGER_TITLE: " كلمة المدير الفني",
+      TECHNICAL_MANAGER_DATE: " 📅 20 مايو 2021",
+      TECHNICAL_MANAGER_PARAGRAPH:
+        "إن الناظر اليوم لواقع الاستثمار في تقنية المعلومات ليبصر أن هذا القطاع هو من أخصب قطاعات الاستثمار بعد قطاع النفط وعليه الاعتماد بعد الله في تيسير وتسهيل الأعمال.",
+      TECHNICAL_MANAGER_PARAGRAPH_2:
+        "كما أن قطاع التكنولوجيا بشكل عام هو قطاع متطور بشكل سريع لمواكبة التطور في الأعمال وتسريعها وهو مجال خصب للاستثمار.",
+      TECHNICAL_MANAGER_PARAGRAPH_3:
+        "مما حد بنا للاستثمار فيه جاعلين نصب أعيننا أهمية التقنية فبدأنا على الحرص والتفاني للارتقاء بمنظومة التقنية لتقف بسواعد رجالها في مطاف مصدري التقنية بمشيئة الله تعالى.",
     },
+
   },
 };
 

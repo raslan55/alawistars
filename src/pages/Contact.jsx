@@ -357,6 +357,7 @@ const ContactPage = () => {
             value={formData.phone}
             onChange={handleChange}
             placeholder={t("Phone")}
+            required
             className="w-full border border-gray-300 rounded px-4 py-2 text-justify focus:ring-Main-color focus:border-Main-color"
           />
           <input
