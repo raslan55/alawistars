@@ -41,7 +41,7 @@ const Header = () => {
         <Navbar fluid rounded>
           <NavbarBrand as={Link} to="/">
             {/* Logo */}
-            <img src={Logo} className="w-50" />
+            <img src={Logo} className="sm:w-50 w-40" />
           </NavbarBrand>
 
           <NavbarToggle />
