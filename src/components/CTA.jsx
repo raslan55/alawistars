@@ -33,15 +33,16 @@ export default function CTA({ heading, subheading }) {
               <BsFillTelephoneFill className="w-5 h-5" />
             </div>
 
-            <div className="text-left leading-tight">
+            <div className="text-left leading-tight" >
               <p className="text-sm font-bold">{t("Call_US")}</p>
-              <p className="text-md font-bold" dir="ltr">
+              <p className="text-md font-bold" dir="ltr" >
                 +966 50 619 4863
               </p>
+
             </div>
           </a>
 
-          {/* زر التواصل */}
+          {/* زر الــتواصل */}
           <Link
             to="/contact"
             className="flex items-center justify-center gap-3 bg-white text-Main-color px-5 py-4 font-bold rounded-md shadow-md hover:scale-105 transition-transform duration-300 min-w-[220px] h-[70px] sm:h-[80px]"

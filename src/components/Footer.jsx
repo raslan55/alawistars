@@ -18,14 +18,15 @@ export default function AppFooter() {
 
   return (
     <Footer container className="bg-[#F0F8FD] text-Main-color shadow-lg">
-      <div className="w-full px-4 sm:py-8">
+      <div className="w-full px-4 ">
         {/* Divider */}
-        <FooterDivider className="sm:my-6" />
+        <FooterDivider className="sm:my-1" />
 
         {/* Bottom Section */}
         <div className="flex flex-col sm:flex-row justify-between items-center
                         gap-4 flex-wrap text-center sm:text-left">
           {/* Copyright */}
+
           <FooterCopyright
             href="https://sinmarsoftco.com/"
             by={t("copyRights")}
@@ -38,17 +39,21 @@ export default function AppFooter() {
             {/* Policy Links */}
             <FooterLinkGroup className="flex flex-wrap justify-center sm:justify-start">
               <Link
+
                 to="/PrivacyPolicy"
                 className="text-Main-color text-base sm:text-lg ms-4 hover:underline"
               >
                 {t("Privacy_Policy")}
+
               </Link>
               <Link
                 to="/TermsAndConditions"
                 className="text-Main-color text-base sm:text-lg ms-4 hover:underline"
               >
                 {t("Terms_Conditions")}
+
               </Link>
+
             </FooterLinkGroup>
 
             {/* Social Icons */}
