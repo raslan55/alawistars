@@ -14,7 +14,7 @@ import {
   FaEye,
   FaBullseye,
 } from "react-icons/fa";
-import CTO from "../assets/images/erp-business-management-flat-isometric-3d-illustration-vector.jpg"; // Adjust the path as necessary
+import CTO from "../assets/images/CTO.jpg"; // Adjust the path as necessary
 import Manger from "../assets/images/10102644.jpg"; // Adjust the path as necessary
 import CTA from "./CTA";
 
@@ -201,7 +201,7 @@ const AboutUs = () => {
     
     <div className="flex flex-col ">
       <img
-        src={CTO} // تأكد من أن الصورة مستوردة باسم TechnicalManager
+        src={CTO}  TechnicalManager
         alt="المدير الفني"
         className="rounded-xl shadow-lg w-full h-90 mb-3 transition-transform duration-300 hover:scale-105"
       />
