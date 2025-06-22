@@ -9,7 +9,7 @@ const { t } = useTranslation();
 
   return (
     <div>
-  <Marquee pauseOnHover={true} direction="left" className="py-4 bg-gradient-to-r from-Main-color to-sky-600">
+  <Marquee pauseOnHover={true} direction="left" className="sm:py-4 bg-gradient-to-r from-Main-color to-sky-600">
   {[
     "SERVICES_WE_PROVIDE",
     "Cloud_Based_Solutions",

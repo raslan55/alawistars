@@ -43,101 +43,103 @@ export default function Partenrs() {
   const { t, i18n } = useTranslation();
   const isRTL = i18n.dir() === "rtl";
   const MotionLink = motion(Link);
-
   const dir = i18n.language === "ar" ? "rtl" : "ltr";
+
   return (
-    <>
-      <section className="py-12 relative z-10 overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col lg:flex-row items-center gap-12 mb-5">
-            <motion.div
-              className="w-full lg:w-1/2"
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "easeIn", tween: 300 }}
-            >
-              <img
-                src={Handshake}
-                alt="Handshake"
-                className="rounded-xl w-full  object-cover p-5"
-              />
-            </motion.div>
+    <section className="py-4 sm:py-12 relative z-10 overflow-hidden">
+      <div className="container mx-auto px-4">
+        {/* Top: Image and Text */}
+        <div className="flex flex-col lg:flex-row items-center gap-12 mb-5">
+          <motion.div
+            className="w-full lg:w-1/2 mt-10 lg:mt-0"
+            whileHover={{ scale: 1.05 }}
+            transition={{ type: "easeIn", tween: 300 }}
+          >
+            <img
+              src={Handshake}
+              alt="Handshake"
+              className="rounded-xl w-full object-cover p-5"
+            />
+          </motion.div>
 
-            <div className="w-full lg:w-1/2">
-              <h2 className="text-3xl sm:text-4xl font-bold capitalize text-Main-color  mb-4">
-                {t("Our_Partners")}
-              </h2>
-              <p className="text-text-color  mb-6 leading-relaxed max-w-xl mx-auto lg:mx-0 text-lg">
-                {t("Our_Partners_p")}
-              </p>
-            </div>
-          </div>
-
-          <div className="text-center mb-8 px-4">
-            <h2 className="text-3xl sm:text-4xl font-bold capitalize text-Main-color  mb-4">
-              {t("Partners_Heading")}
+          <div className="w-full lg:w-1/2">
+            <h2 className="text-3xl sm:text-4xl font-bold capitalize text-Main-color mb-4">
+              {t("Our_Partners")}
             </h2>
-            <h2 className="text-text-color text-sm sm:text-xl md:text-[22px] font-normal text-text-two max-w-xl mx-auto mb-8 leading-relaxed">
-              {t("Partners_text")}
-            </h2>
-          </div>
-
-          <div className="px-4 mb-12 ">
-            <Swiper
-              key={i18n.language}
-              dir={dir}
-              modules={[Thumbs, Keyboard, Autoplay]}
-              spaceBetween={20}
-              slidesPerView={6}
-              autoplay={{
-                delay: 1500,
-                disableOnInteraction: false,
-              }}
-              keyboard={{ enabled: true }}
-              breakpoints={{
-                320: { slidesPerView: 2 },
-                640: { slidesPerView: 3 },
-                768: { slidesPerView: 4 },
-                1024: { slidesPerView: 6 },
-              }}
-            >
-              {images.map((img) => (
-                <SwiperSlide
-                  key={img.id}
-                  className="bg-white p-2 border-2 border-dotted  border-Main-color rounded-2xl shadow   cursor-grab"
-                >
-                  <img
-                    src={img.src}
-                    alt={img.alt}
-                    className="w-full h-auto object-contain"
-                  />
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-
-          <div className="flex items-center justify-center">
-            <MotionLink
-              className="btn-primary flex items-center group text-center justify-center px-6 py-3 rounded-md shadow-md text-white font-bold bg-Main-color hover:bg-Main-color-dark transition-colors duration-300"
-              whileHover={{ scale: 1.1 }}
-              to={"/AllClients"}
-              whileTap={{ scale: 0.95 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              {isRTL ? (
-                <>
-                  {t("ReadMore")}
-                  <FaArrowLeftLong className="ms-3 transition-transform duration-300 group-hover:-translate-x-1" />
-                </>
-              ) : (
-                <>
-                  {t("ReadMore")}
-                  <FaArrowRightLong className="ms-3 transition-transform duration-300 group-hover:translate-x-1" />
-                </>
-              )}
-            </MotionLink>
+            <p className="text-text-color text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 mb-6">
+              {t("Our_Partners_p")}
+            </p>
           </div>
         </div>
-      </section>
-    </>
+
+        {/* Title above slider */}
+        <div className="text-center mb-8 px-4">
+          <h2 className="text-3xl sm:text-4xl font-bold capitalize text-Main-color mb-4">
+            {t("Partners_Heading")}
+          </h2>
+          <h2 className="text-text-color text-sm sm:text-xl md:text-[22px] font-normal text-text-two max-w-xl mx-auto mb-8 leading-relaxed">
+            {t("Partners_text")}
+          </h2>
+        </div>
+
+        {/* Slider */}
+        <div className="px-4 mb-12">
+          <Swiper
+            key={i18n.language}
+            dir={dir}
+            modules={[Thumbs, Keyboard, Autoplay]}
+            spaceBetween={20}
+            slidesPerView={6}
+            autoplay={{
+              delay: 1500,
+              disableOnInteraction: false,
+            }}
+            keyboard={{ enabled: true }}
+            breakpoints={{
+              320: { slidesPerView: 2 },
+              640: { slidesPerView: 3 },
+              768: { slidesPerView: 4 },
+              1024: { slidesPerView: 6 },
+            }}
+          >
+            {images.map((img) => (
+              <SwiperSlide
+                key={img.id}
+                className="bg-white p-2 min-h-[100px] border-2 border-dotted border-Main-color rounded-2xl shadow cursor-grab"
+              >
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  className="w-full h-[80px] object-contain"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+
+        {/* Button */}
+        <div className="flex items-center justify-center">
+          <MotionLink
+            className="btn-primary flex items-center group text-center justify-center px-6 py-3 rounded-md shadow-md text-white font-bold bg-Main-color hover:bg-Main-color-dark transition-colors duration-300"
+            whileHover={{ scale: 1.1 }}
+            to={"/AllClients"}
+            whileTap={{ scale: 0.95 }}
+            transition={{ type: "spring", stiffness: 300 }}
+          >
+            {isRTL ? (
+              <>
+                {t("ReadMore")}
+                <FaArrowLeftLong className="ms-3 transition-transform duration-300 group-hover:-translate-x-1" />
+              </>
+            ) : (
+              <>
+                {t("ReadMore")}
+                <FaArrowRightLong className="ms-3 transition-transform duration-300 group-hover:translate-x-1" />
+              </>
+            )}
+          </MotionLink>
+        </div>
+      </div>
+    </section>
   );
 }

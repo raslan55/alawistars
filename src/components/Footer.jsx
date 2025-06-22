@@ -1,94 +1,83 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { FaPhone } from "react-icons/fa6";
-import { FaFax } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import { FiClock } from "react-icons/fi";
 import {
   Footer,
   FooterBrand,
   FooterCopyright,
   FooterDivider,
   FooterIcon,
-  FooterLink,
   FooterLinkGroup,
-  FooterTitle,
 } from "flowbite-react";
 
 import Logo from "../assets/Images/ngom2.png";
 import { BsYoutube, BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
-import { BiMap } from "react-icons/bi";
 
 export default function AppFooter() {
   const { t } = useTranslation();
 
   return (
-    <Footer container className="bg-[#F0F8FD] text-Main-color  shadow-lg">
-      <div className="w-full px-4 py-8 ">
-        {/* Top Section: 4 Columns */}
-        {/* <div className="flex flex-wrap  items-center  ">
-          <div className="w-full flex flex-col items-center ">
-            <FooterBrand
-              className="w-100 h-auto "
-              href=""
-              src={Logo}
-              alt="alawistars Logo"
-              name="alawistars"
-            />
-            <p className="py-2.5  mb-2">{t("footertext")}</p>
-          </div>
-        </div> */}
-
-        <FooterDivider className="my-6" />
+    <Footer container className="bg-[#F0F8FD] text-Main-color shadow-lg">
+      <div className="w-full px-4 sm:py-8">
+        {/* Divider */}
+        <FooterDivider className="sm:my-6" />
 
         {/* Bottom Section */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="flex flex-col sm:flex-row justify-between items-center
+                        gap-4 flex-wrap text-center sm:text-left">
+          {/* Copyright */}
           <FooterCopyright
             href="https://sinmarsoftco.com/"
             by={t("copyRights")}
-             
             year={new Date().getFullYear()}
-            className="capitalize text-Main-color text-lg"
+            className="capitalize text-Main-color text-base sm:text-lg"
           />
 
-          <div className="flex flex-wrap items-center gap-4">
-            <FooterLinkGroup className="flex ">
-              <Link to="/PrivacyPolicy" className="text-Main-color ms-4  text-lg hover:underline ">{t("Privacy_Policy")}</Link>
-              <Link to="/TermsAndConditions" className="text-Main-color ms-4 text-lg hover:underline">{t("Terms_Conditions")}  </Link>
-
+          {/* Links + Social Icons */}
+          <div className="flex flex-col sm:flex-row items-center gap-4 flex-wrap">
+            {/* Policy Links */}
+            <FooterLinkGroup className="flex flex-wrap justify-center sm:justify-start">
+              <Link
+                to="/PrivacyPolicy"
+                className="text-Main-color text-base sm:text-lg ms-4 hover:underline"
+              >
+                {t("Privacy_Policy")}
+              </Link>
+              <Link
+                to="/TermsAndConditions"
+                className="text-Main-color text-base sm:text-lg ms-4 hover:underline"
+              >
+                {t("Terms_Conditions")}
+              </Link>
             </FooterLinkGroup>
 
-            <div className="flex gap-4">
+            {/* Social Icons */}
+            <div className="flex gap-4 justify-center sm:justify-start">
               <FooterIcon
                 href="https://www.facebook.com/alawistars/"
-                target="blank"
+                target="_blank"
                 icon={BsFacebook}
-                className="text-Main-color"
+                className="text-Main-color hover:scale-110 transition-transform duration-300"
               />
               <FooterIcon
                 href="https://www.instagram.com/alawistarsest"
-                target="blank"
+                target="_blank"
                 icon={BsInstagram}
-                  className="text-Main-color"
+                className="text-Main-color hover:scale-110 transition-transform duration-300"
               />
-
               <FooterIcon
                 href="https://x.com/i/flow/login?redirect_after_login=%2Falawistars"
-                target="blank"
+                target="_blank"
                 icon={BsTwitterX}
-                  className="text-Main-color"
+                className="text-Main-color hover:scale-110 transition-transform duration-300"
               />
-
               <FooterIcon
                 href="https://www.youtube.com/channel/UCCtcpoFpthrM_CcjZZ6XT6Q"
-                target="blank"
+                target="_blank"
                 icon={BsYoutube}
-                  className="text-Main-color"
+                className="text-Main-color hover:scale-110 transition-transform duration-300"
               />
-
             </div>
-
           </div>
         </div>
       </div>

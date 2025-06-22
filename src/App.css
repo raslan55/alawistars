@@ -52,7 +52,7 @@ position: absolute;
     background-image: url('./assets/Images/bg2.png');
     background-position: center center;
     background-repeat: no-repeat;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 
@@ -100,4 +100,32 @@ position: absolute;
 .slick-dots {
       bottom: -35px;
 
+}
+
+
+@media (max-width: 767px) {
+   .mobile-menu-custom {
+    flex-direction: column;
+    gap: 1.25rem; /* مسافة بين الروابط */
+    padding: 1.5rem;
+    background: #F0F8FD;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .mobile-menu-custom .AL_Link {
+    text-align: center;
+    font-size: 17px;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    color: #1e293b;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+
+  .mobile-menu-custom .AL_Link:hover {
+    background-color: #e0f0fc;
+    transform: scale(1.02);
+  }
 }
