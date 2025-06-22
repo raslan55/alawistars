@@ -9,7 +9,7 @@ export default function CTA({ heading, subheading }) {
 
   return (
     <section className="bg-gradient-to-r from-Main-color to-sky-600 text-white py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10 text-center md:text-left">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
         
         {/* النص التعريفي */}
         <div className="flex-1 w-full max-w-xl">

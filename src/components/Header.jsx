@@ -88,6 +88,7 @@ const Header = () => {
                   className="sm:w-6 sm:h-4  object-cover"
                 />
               </button>
+              
             </div>
           </NavbarCollapse>
         </Navbar>
