@@ -21,22 +21,22 @@ const { className, style, onClick } = props;
       onClick={onClick}
     >
       <svg
-        width="40"
-        height="41"
-        viewBox="0 0 40 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect y="0.874512" width="40" height="40" rx="20" fill="#1b6ba9" />
-        <path
-          d="M16.91 28.7946L23.43 22.2746C24.2 21.5046 24.2 20.2446 23.43 19.4746L16.91 12.9546"
-          stroke="white"
-          stroke-width="1.5"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
+    xmlns="http://www.w3.org/2000/svg"
+    width={40}
+    height={41}
+    fill="none"
+    
+  >
+    <rect width={40} height={40} y={0.875} fill="#1b6ba9" rx={20} />
+    <path
+      stroke="#fff"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeMiterlimit={10}
+      strokeWidth={1.5}
+      d="m16.91 28.795 6.52-6.52c.77-.77.77-2.03 0-2.8l-6.52-6.52"
+    />
+  </svg>
     </div>
   );
 }
