@@ -66,7 +66,7 @@ const Header = () => {
               {t("contact")}
             </NavLink>
             {/* Language Switcher */}
-            <div className="flex sm:flex-row flex-col items-center gap-2 sm-mt-0 mt-3">
+            <div className="flex sm:flex-row flex-col items-center gap-2 sm:mt-0 mt-3">
               <button
                 onClick={() => changeLanguage("en")}
                 className="px-2 py-1 rounded "
