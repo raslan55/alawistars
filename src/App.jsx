@@ -5,10 +5,11 @@ import "./i18n/translation"
 import FloatingWhatsAppButton from "./components/FloatingWhatsAppButton";
 function App() {
   return (
-    <>
-      <AppRoutes />
+      <>
+      <AppRoutes  />
       <FloatingWhatsAppButton phoneNumber="+966504139270" message="Hello, I need assistance!" /> 
-   </>
+      </>
+
   );
 }
 

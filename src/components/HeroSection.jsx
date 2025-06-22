@@ -13,9 +13,6 @@ import { useTranslation } from "react-i18next";
 export default function HeroSection() {
   const { t, i18n } = useTranslation();
   const isRTL = i18n.dir() === "rtl";
-
-
-
   const MotionLink = motion(Link);
   return (
     <div>

@@ -263,26 +263,20 @@ const resources = {
       working_hours: " working hours",
       Jeddah_working_hours: " 9 AM - 6 PM ",
       Riyadh_working_hours: " 9 AM - 6 PM",
-      address_1_contact:
-        "Malaz Area – Sitten St. – Alyah Commercial Center -1st Floor – Office 1",
-      address_2_contact:
-        "Bughdadiah Area, Hail St., Hail Comm. Center, 2nd Floor,Office 21",
+      address_1_contact:"Malaz Area – Sitten St. – Alyah Commercial Center -1st Floor – Office 1",
+      address_2_contact:"Bughdadiah Area, Hail St., Hail Comm. Center, 2nd Floor,Office 21",
       CTA_About: "Why us ? ",
       Sales_Email: " Sales Email",
       Features: "Features",
 
       Inv_acc_feature_1: "Accounting tree up to 10 sub-levels",
       Inv_acc_feature_2: "Export to Excel, Word, PDF, Txt",
-      Inv_acc_feature_3:
-        "The ability to save copies of documents within the journal entry",
+      Inv_acc_feature_3: "The ability to save copies of documents within the journal entry",
       Inv_acc_feature_4: "In addition to 99 branches",
-      Inv_acc_feature_5:
-        "The advantage of multiple and individual cost centers",
+      Inv_acc_feature_5: "The advantage of multiple and individual cost centers",
       Inv_acc_feature_6: "SQL Server database",
-      Inv_acc_feature_7:
-        "A bond of receipt or cash disbursement in a sequence independent of the term",
-      Inv_acc_feature_8:
-        "The possibility of separating the cash and check in the exchange receivable",
+      Inv_acc_feature_7: "A bond of receipt or cash disbursement in a sequence independent of the term",
+      Inv_acc_feature_8: "The possibility of separating the cash and check in the exchange receivable",
       Inv_acc_feature_9: "Auto backup",
       Inv_acc_feature_10: "A multi-year and branch account statement",
       Inv_acc_feature_11: "A multi-year and branched general professor",
@@ -298,10 +292,8 @@ const resources = {
       acc_feature_4: "Add up to 99 branches",
       acc_feature_5: "Support for multiple and individual cost centers",
       acc_feature_6: "SQL Server database",
-      acc_feature_7:
-        "Cash receipt/payment voucher with separate numbering from credit",
-      acc_feature_8:
-        "Separate handling of cash and checks in receipts/payments",
+      acc_feature_7:"Cash receipt/payment voucher with separate numbering from credit",
+      acc_feature_8:"Separate handling of cash and checks in receipts/payments",
       acc_feature_9: "Automatic backup",
       acc_feature_10: "Multi-year, multi-branch account statements",
       acc_feature_11: "Multi-year, multi-branch general ledger",
@@ -325,32 +317,42 @@ const resources = {
       Inv_feature_12: "Multi-language support",
       Inv_feature_13: "Item alternatives linked to the item file",
       Inv_feature_14: "Automatic inventory vouchers and Excel import",
-      Inv_feature_15:
-        "Auto-generate suggested orders based on item movement with editing options",
-      Inv_feature_16:
-        "Deal with suppliers in their original currency with automatic cost calculation",
+      Inv_feature_15:"Auto-generate suggested orders based on item movement with editing options",
+      Inv_feature_16: "Deal with suppliers in their original currency with automatic cost calculation",
       Inv_feature_17: "Sales and purchase movement charts",
       Inv_feature_18: "Over 300 detailed reports for full inventory tracking",
 
-      Pr_feature_1: "Pr feature 1",
-      Pr_feature_2: "Pr feature 2",
-      Pr_feature_3: "Pr feature 3",
-      Pr_feature_4: "Pr feature 4",
-      Pr_feature_5: "Pr feature 5",
-      Pr_feature_6: "Pr feature 6",
-      Pr_feature_7: "Pr feature 7",
-      Pr_feature_8: "Pr feature 8",
-      Pr_feature_9: "Pr feature 9",
-      Pr_feature_10: "Pr feature 10",
 
-      Furn_feature_1: "Furn feature 1",
-      Furn_feature_2: "Furn feature 2",
-      Furn_feature_3: "Furn feature 3",
-      Furn_feature_4: "Furn feature 4",
-      Furn_feature_5: "Furn feature 5",
-      Furn_feature_6: "Furn feature 6",
-      Furn_feature_7: "Furn feature 7",
-      Furn_feature_8: "Furn feature 8",
+
+   Pr_feature_1:  "Accounting tree up to 10 sub-levels",
+Pr_feature_2:  "Export to Excel, Word, PDF, Txt",
+Pr_feature_3:  "Ability to save document images inside journal entries",
+Pr_feature_4:  "Add up to 99 branches",
+Pr_feature_5:  "Multi and single cost center support",
+Pr_feature_6:  "SQL Server database",
+Pr_feature_7:  "Cash receipt or payment vouchers with independent sequence",
+Pr_feature_8:  "Separation of cash and cheque in receipts and payments",
+Pr_feature_9:  "Automatic backup",
+Pr_feature_10: "Multi-year, multi-branch account statements",
+Pr_feature_11: "Multi-year, multi-branch general ledger",
+Pr_feature_12: "Independent permissions for each user",
+Pr_feature_13: "Fixed assets and depreciation calculation",
+Pr_feature_14: "Support for handling L/Cs (Letters of Credit)",
+Pr_feature_15: "Detailed and customizable reports",
+Pr_feature_16: "Fixed asset revaluation",
+
+
+
+   Furn_feature_1: "Accounting tree up to 10 sub-levels",
+Furn_feature_2: "Export to Excel, Word, PDF, Txt",
+Furn_feature_3: "Ability to save document images inside journal entries",
+Furn_feature_4: "Add up to 99 branches",
+Furn_feature_5: "Multi and single cost center support",
+Furn_feature_6: "SQL Server database",
+Furn_feature_7: "Cash receipt or payment vouchers with independent sequence",
+Furn_feature_8: "Separation of cash and cheque in receipts and payments",
+
+
       Med_feature_1: "Supports variable VAT",
       Med_feature_2: "User-friendly multi-function patient invoice screen",
       Med_feature_3: "Export to Excel, Word, PDF, Txt",
@@ -358,44 +360,34 @@ const resources = {
       Med_feature_5: "Integration with Waseel and D.H.S companies",
       Med_feature_6: "Automatic claim submission to insurance companies",
       Med_feature_7: "SQL Server database",
-      Med_feature_8:
-        "Includes a complete electronic medical record for doctors",
+      Med_feature_8: "Includes a complete electronic medical record for doctors",
       Med_feature_9: "Automatic backup",
       Med_feature_10: "Detailed support for insurance contracts per agreement",
       Med_feature_11: "Independent permissions for each user",
       Med_feature_12: "Integration with pharmacy and general accounting",
       Med_feature_13: "Multi-language support",
-      Med_feature_14:
-        "Supports radiology and lab departments with result archiving",
+      Med_feature_14: "Supports radiology and lab departments with result archiving",
       Med_feature_15: "SMS messaging feature",
       Med_feature_16: "Issuing and checking sick leaves",
       Med_feature_17: "Patient appointment scheduling linked to the doctor",
       Med_feature_18: "Dental charting with treated tooth selection",
       Med_feature_19: "Pregnancy and physiotherapy follow-up programs",
 
-      Maintenance_feature_1:
-        "Easy screens to prepare the system’s initial data",
-      Maintenance_feature_2:
-        "Department and engineer info with linking each department to technicians or engineers",
-      Maintenance_feature_3:
-        "Workshop service info linked to relevant departments",
+      Maintenance_feature_1: "Easy screens to prepare the system’s initial data",
+      Maintenance_feature_2: "Department and engineer info with linking each department to technicians or engineers",
+      Maintenance_feature_3: "Workshop service info linked to relevant departments",
       Maintenance_feature_4: "Supports variable VAT as per ZATCA guidelines",
-      Maintenance_feature_5: "Export to Excel, Word, and PDF",
-      Maintenance_feature_6: "Send reminder SMS messages to customers",
-      Maintenance_feature_7: "Multiple payment methods: Cash, SPAN, Visa, etc.",
-      Maintenance_feature_8:
-        "E-invoice creation and integration with accounting system",
-      Maintenance_feature_9:
-        "Open multiple job cards for one vehicle and track step-by-step",
-      Maintenance_feature_10:
-        "Easy vehicle data entry and search within the workshop",
+      Maintenance_feature_5:  "Export to Excel, Word, and PDF",
+      Maintenance_feature_6:  "Send reminder SMS messages to customers",
+      Maintenance_feature_7:  "Multiple payment methods: Cash, SPAN, Visa, etc.",
+      Maintenance_feature_8:  "E-invoice creation and integration with accounting system",
+      Maintenance_feature_9:  "Open multiple job cards for one vehicle and track step-by-step",
+      Maintenance_feature_10: "Easy vehicle data entry and search within the workshop",
       Maintenance_feature_11: "Track vehicle status easily",
-      Maintenance_feature_12:
-        "Track technician and engineer activity through detailed reports",
+      Maintenance_feature_12: "Track technician and engineer activity through detailed reports",
       Maintenance_feature_13: "Track spare parts issued to workshop vehicles",
       Maintenance_feature_14: "Monitor workshop stock levels",
-      Maintenance_feature_15:
-        "Monitor external purchase invoices related to workshop vehicles",
+      Maintenance_feature_15: "Monitor external purchase invoices related to workshop vehicles",
       Maintenance_feature_16:
         "Easily create job orders and capture client requirements",
       Maintenance_feature_17:
@@ -863,7 +855,34 @@ const resources = {
       WAN_text:"نوفر الشبكات الواسعة بمعدات وبنية تحتية متقدمة، لربط المستخدمين بمناطق جغرافية كبيرة بفعالية وبتكلفة مناسبة.",
       CTA_About: "   لماذا نحن ؟",
       Features: "المواصفات ",
+
       Sales_Email: " البريد الإلكتروني للمبيعات",
+      Pr_feature_1:  "شجرة محاسبة حتى 10 مستويات فرعية",
+Pr_feature_2:  "التصدير إلى Excel, Word, PDF, Txt",
+Pr_feature_3:  "إمكانية حفظ صور من المستندات داخل قيد اليومية",
+Pr_feature_4:  "إضافة حتى 99 فرع",
+Pr_feature_5:  "ميزة مراكز التكلفة المتعددة والفردية",
+Pr_feature_6:  "قاعدة بيانات SQL Server",
+Pr_feature_7:  "سند قبض أو صرف نقدي بتسلسل مستقل عن الآجل",
+Pr_feature_8:  "إمكانية فصل النقدي والشيك في القبض والصرف",
+Pr_feature_9:  "النسخ الاحتياطي التلقائي",
+Pr_feature_10: "كشف حساب متعدد السنوات والفروع",
+Pr_feature_11: "أستاذ عام متعدد السنوات والفروع",
+Pr_feature_12: "صلاحيات مستقلة لكل مستخدم",
+Pr_feature_13: "الأصول الثابتة واحتساب الإهلاكات",
+Pr_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
+Pr_feature_15: "تقارير مفصلة ومتنوعة وخيارات عرضها حسب الطلب",
+Pr_feature_16: "إعادة تقييم أصل ثابت",
+
+Furn_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
+Furn_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
+Furn_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
+Furn_feature_4: "إضافة حتى 99 فرع",
+Furn_feature_5: "ميزة مراكز التكلفة المتعددة والفردية",
+Furn_feature_6: "قاعدة بيانات SQL Server",
+Furn_feature_7: "سند قبض أو صرف نقدي بتسلسل مستقل عن الآجل",
+Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض والصرف",
+
       Inv_acc_feature_1: "شجرة محاسبية حتى 10 مستويات فرعية",
       Inv_acc_feature_2: "تصدير إلى Excel و Word و PDF و Txt",
       Inv_acc_feature_3: "إمكانية حفظ نسخ من المستندات داخل قيد اليومية",
