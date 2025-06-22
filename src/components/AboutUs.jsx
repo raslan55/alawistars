@@ -14,8 +14,8 @@ import {
   FaEye,
   FaBullseye,
 } from "react-icons/fa";
-import CTO from "../assets/images/CTO.jpg"; // Adjust the path as necessary
-import Manger from "../assets/images/10102644.jpg"; // Adjust the path as necessary
+import CTO from "../assets/Images/CTO.jpg"; // Adjust the path as necessary
+import Manger from "../assets/Images/10102644.jpg"; // Adjust the path as necessary
 import CTA from "./CTA";
 
 const AboutUs = () => {
