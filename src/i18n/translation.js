@@ -560,46 +560,175 @@ Furn_feature_8: "Separation of cash and cheque in receipts and payments",
       Tech_CTA_Text:
         "Take advantage of our smart systems designed for various industries — start evolving today",
       our_clients_title: "Our Valued Partners & Clients",
-      client_name_1: "Hira Building Stars Establishment",
-      client_details_1: "Construction & Development",
-      client_name_2: "Al-Alawi Establishment",
-      client_details_2: "5 Branches",
-      client_name_3: "Omar Wali Asaad Establishment",
-      client_details_3: "General Trade",
-      client_name_4: "Advanced Science Establishment",
-      client_details_4: "Educational Solutions",
-      client_name_5: "Layan Saudi Company",
-      client_details_5: "Industrial Solutions",
-      client_name_6: "Al-Hayat Pharmacies Group",
-      client_details_6: "10 Branches",
-      client_name_7: "Lamar Medical Complex",
-      client_details_7: "Healthcare Services",
-      client_name_8: "Saqoor Al-Saudiah Pharmacy",
-      client_details_8: "Pharmaceuticals",
-      client_name_9: "Tarim Makkah Establishment",
-      client_details_9: "5 Branches",
-      client_name_10: "Al-Amoudi Al-Qashou Company",
-      client_details_10: "Contracting",
-      client_name_11: "Golden Decision for Trading",
-      client_details_11: "Diverse Trading",
-      client_name_12: "Memadia for Medicines & Herbs Establishment",
-      client_details_12: "Medical Supplies",
-      client_name_13: "Burhan Al-Qana'a Establishment",
-      client_details_13: "Consulting Services",
-      client_name_14: "Al-Furaih Property Management",
-      client_details_14: "5 Branches",
-      client_name_15: "Medical Breakdown Establishment",
-      client_details_15: "Medical Services",
-      client_name_16: "Rafed Mohamed Alhamed Company",
-      client_details_16: "5 Branches",
-      client_name_17: "Mohamed Ejaz Al-Qahtani Establishment",
-      client_details_17: "Real Estate Development",
-      client_name_18: "Al-Emarat Economic Center Company",
-      client_details_18: "Economic Consulting",
-      client_name_19: "Al-Ghad Company",
-      client_details_19: "5 Branches",
-      client_name_20: "Dr. Ahmed Basha Complex",
-      client_details_20: "Dental & Esthetic Services",
+
+     
+client_name_1: "Al-Markaz Al-Iqtisadi Contracting Co.",
+client_details_1: "General Contracting",
+
+client_name_2: "Spark Media Advertising Est.",
+client_details_2: "Advertising",
+
+client_name_3: "Al-Ehata Financial Company",
+client_details_3: "Financial Trading",
+
+client_name_4: "Al-Ma'moura Int’l Aviation Services Est.",
+client_details_4: "Hajj & Umrah",
+
+client_name_5: "Tamas Saudi Contracting Co.",
+client_details_5: "General Contracting",
+
+client_name_6: "Nasser Hamad Al-Houti Est. - 3 Branches",
+client_details_6: "Ceramic & Marble",
+
+client_name_7: "Naqd Investment Company",
+client_details_7: "Financial Trading",
+
+client_name_8: "Aalam Al-Ajwaa Aviation Services",
+client_details_8: "Flight Booking & Travel",
+
+client_name_9: "Hiraa Building Materials Est.",
+client_details_9: "Building Materials",
+
+client_name_10: "Sulaiman Al-Rais Sons Trading Co.",
+client_details_10: "Iron Sales",
+
+client_name_11: "Jordan Technical Agency",
+client_details_11: "Radiator Manufacturing",
+
+client_name_12: "Al-Forat Al-Awsat Trading",
+client_details_12: "Electrical Appliances",
+
+client_name_13: "Al-Shatta Hotel Group",
+client_details_13: "Hotel Services",
+
+client_name_14: "Prince Mutaib Property Management",
+client_details_14: "Commercial Center Leasing",
+
+client_name_15: "Fifth Corner Est.",
+client_details_15: "Hajj & Umrah",
+
+client_name_16: "Al-Forat Al-Awsat Trading",
+client_details_16: "Electrical Appliances",
+
+client_name_17: "Al-Amoudi Aluminum Co.",
+client_details_17: "Aluminum & Accessories",
+
+client_name_18: "Talae Mekka Est. - 5 Branches",
+client_details_18: "Aluminum & Accessories",
+
+client_name_19: "Al-Wajih Sports Company",
+client_details_19: "Electrical Appliances",
+
+client_name_20: "Al-Futouh Company - 4 Branches",
+client_details_20: "Aluminum & Accessories",
+
+client_name_21: "Al-Manea Clothing Est. - Najran (6 Branches)",
+client_details_21: "Clothing Sales",
+
+client_name_22: "Bajaafar Electronics Est. - 2 Branches",
+client_details_22: "Electrical Appliances",
+
+client_name_23: "Al-Awael Est. - 5 Branches",
+client_details_23: "Aluminum & Accessories",
+
+client_name_24: "Tihama Oasis Supermarket",
+client_details_24: "Supermarket",
+
+client_name_25: "Saad Omar Al-Waal Trading Est.",
+client_details_25: "Home & Restaurant Supplies",
+
+client_name_26: "Al-Hafiti Est. - 5 Branches",
+client_details_26: "Aluminum & Accessories",
+
+client_name_27: "Al-Manea Clothing Est. - Najran (6 Branches)",
+client_details_27: "Clothing Sales",
+
+client_name_28: "Eshraqet Al-Ibtisama Pharmacy",
+client_details_28: "Pharmacy",
+
+client_name_29: "Al-Shakerin Dental Clinics - 4 Branches",
+client_details_29: "Clinics",
+
+client_name_30: "Enaya & Nadhara Medical Complex",
+client_details_30: "Clinics",
+
+client_name_31: "Protein House Est.",
+client_details_31: "Protein & Vitamins",
+
+client_name_32: "Dimas Medical Complex",
+client_details_32: "Clinics",
+
+client_name_33: "Dr. Ahmed Abanmi Medical Complex",
+client_details_33: "Clinics",
+
+client_name_34: "Lamar Medical Complex",
+client_details_34: "Clinics",
+
+client_name_35: "Al-Wasj Medical Center",
+client_details_35: "Clinics",
+
+client_name_36: "Safwa Saudi Pharmacy",
+client_details_36: "Pharmacy",
+
+client_name_37: "Khalid Medical Est. - 2 Branches",
+client_details_37: "Medical Devices & Supplies",
+
+client_name_38: "Al-Hayat Pharmacy Group - 10 Branches",
+client_details_38: "Pharmacy",
+
+client_name_39: "Sadk Specialized Clinics Complex",
+client_details_39: "Clinics",
+
+client_name_40: "Dr. Hassan Al-Bar Specialized Hospital & Clinics",
+client_details_40: "Clinics",
+
+client_name_41: "Abdullah Salem Al-Qathmi Stores - 3 Branches",
+client_details_41: "Truck Spare Parts",
+
+client_name_42: "Rashed Mohammed Al-Hamad Co. - 6 Branches",
+client_details_42: "Car Spare Parts",
+
+client_name_43: "Al-Alwan Est. - 5 Branches",
+client_details_43: "Car Spare Parts",
+
+client_name_44: "Ali Hassan Al-Sayed Stores - 5 Branches",
+client_details_44: "Car Spare Parts",
+
+client_name_45: "Al-Olola Trading Est.",
+client_details_45: "Truck Spare Parts",
+
+client_name_46: "Al-Eid Stores - 3 Branches",
+client_details_46: "Truck Spare Parts",
+
+client_name_47: "Saleh Mohammed Al-Muhaileb Est. - 12 Branches",
+client_details_47: "Car Spare Parts",
+
+client_name_48: "Abdullah Al-Saadi & Sons Co. - 6 Branches",
+client_details_48: "Truck Spare Parts",
+
+client_name_49: "Al-Madawalat Auto Parts Co. - 3 Branches",
+client_details_49: "Car Spare Parts",
+
+client_name_50: "Al-Taqwa Auto Parts Est. - 3 Branches",
+client_details_50: "Car Spare Parts",
+
+client_name_51: "Mohammed Nahar Al-Qahtani Est. - 25 Branches",
+client_details_51: "Car Spare Parts",
+
+client_name_52: "Al-Madawalat Auto Parts Co. - 3 Branches",
+client_details_52: "Car Spare Parts",
+
+client_name_53: "Khalid Ayad Al-Harbi Est. - 3 Branches",
+client_details_53: "Truck Spare Parts",
+
+client_name_54: "Al-Kathiri Automotive Co.",
+client_details_54: "Car Sales",
+
+client_name_55: "Al-Mughlooth Stores - 3 Branches",
+client_details_55: "Car Spare Parts",
+
+
+
       copyRights: "Sinmarsoft . All rights reserved.",
       MANAGER_TITLE: "Manager's Message",
       MANAGER_DATE: "📅 May 23, 2021",
@@ -1117,47 +1246,173 @@ Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض
       About_Started: " من نحن ولماذا سنمار؟  ",
       About_CTA_Text:
         "تعرف على رؤيتنا ورسالتنا وكيف نعمل لنجعل التقنية في خدمة أعمالك",
+        
       our_clients_title: "شركاؤنا وعملاؤنا الكرام",
-      client_name_1: "مؤسسة حراء نجوم البناء",
-      client_details_1: "مقاولات وتطوير",
-      client_name_2: "مؤسسة العليوي",
-      client_details_2: "5 فروع",
-      client_name_3: "مؤسسة عمر ولي أسعد",
-      client_details_3: "تجارة عامة",
-      client_name_4: "مؤسسة العلوم المتطورة",
-      client_details_4: "حلول تعليمية",
-      client_name_5: "شركة ليان السعودية",
-      client_details_5: "حلول صناعية",
-      client_name_6: "مجموعة صيدليات الحياة",
-      client_details_6: "10 فروع",
-      client_name_7: "مجمع لمار الطبي",
-      client_details_7: "خدمات صحية",
-      client_name_8: "صيدلية صقور السعودية",
-      client_details_8: "أدوية",
-      client_name_9: "مؤسسة طارم مكة",
-      client_details_9: "5 فروع",
-      client_name_10: "الشركة العمودي للقشوع",
-      client_details_10: "مقاولات",
-      client_name_11: "القرار الذهبي للتجارة",
-      client_details_11: "تجارة متنوعة",
-      client_name_12: "مؤسسة ميماديا للأدوية والأعشاب",
-      client_details_12: "مستلزمات طبية",
-      client_name_13: "مؤسسة برهان القناعة",
-      client_details_13: "استشارات",
-      client_name_14: "إدارة أملاك الفريح منصب",
-      client_details_14: "5 فروع",
-      client_name_15: "مؤسسة فكة الطبية",
-      client_details_15: "خدمات طبية",
-      client_name_16: "شركة رافد محمد المحمد الحمد",
-      client_details_16: "5 فروع",
-      client_name_17: "مؤسسة محمد إجاز القحطاني",
-      client_details_17: "تطوير عقاري",
-      client_name_18: "شركة مركز الإمارات الاقتصادي",
-      client_details_18: "استشارات اقتصادية",
-      client_name_19: "شركة الغد",
-      client_details_19: "5 فروع",
-      client_name_20: "مجمع الدكتور أحمد باشا",
-      client_details_20: "خدمات أسنان وتجميل",
+
+      client_name_1: "شركة المركز الاقتصادي للمقاولات",
+      client_details_1: "   مقاولات عامة     ",
+      client_name_2: "  مؤسسة سبارك ميديا للدعاية والاعلان ",
+      client_details_2: "دعاية واعلان ",
+      client_name_3: "   شركة الاحاطة المالية",
+      client_details_3: "  تداول اوراق مالية ",
+      client_name_4: "       مؤسسة المعمورة الدولية لخدمات الطيران ",
+      client_details_4: "  حج وعمرة ",
+      client_name_5: "    شركة تماس السعودية للمقاولات",
+      client_details_5: "  مقاولات عامة ",
+      client_name_6: "   مؤسسة ناصر حمد الحوطي - 3 فروع ",
+      client_details_6: "سيراميك ورخام ",
+      client_name_7: " شركة النقد الاستثمارية",
+      client_details_7: "تداول اوراق مالية  ",
+      client_name_8: "  عالم الاجواء لخدمات الطيران",
+      client_details_8: "حجوزات طيران ورحلات",
+      client_name_9: "    مؤسسة حراء لمواد البناء   ",
+      client_details_9: " مواد بناء  ",
+      client_name_10: "  شركة ابناء سليمان الريس للتجارة ",
+      client_details_10: "بيع حديد",
+      client_name_11: " الوكالة الفنية الاردنية",
+      client_details_11: "تصنيع رديترات ",
+      client_name_12: "   الفرات الاوسط للتجارة   ",
+      client_details_12: "  اجهزة كهربائية",
+      client_name_13: "  مجموعة الشطة الفندقية",
+      client_details_13: "خدمات فندقية",
+      client_name_14: "إدارة أملاك الأمير  متعب ",
+      client_details_14: " تأجير مراكز تجارية",
+      client_name_15: "  مؤسسة الركن الخامس",
+      client_details_15: " حج وعمرة",
+
+      client_name_16: "الفرات الاوسط للتجارة",
+      client_details_16: "اجهزة كهربائية ",
+      client_name_17: " شركة العمودي للالمنيوم   ",
+      client_details_17: "    المنيوم واكسسوار ",
+      client_name_18: "   مؤسسة طلائع مكة - 5 فروع ",
+      client_details_18: "  المنيوم واكسسوار ",
+      client_name_19: " شركة الوجية للرياضة ",
+      client_details_19: "     اجهزة كهربائية     ",
+      client_name_20: "    شركة الفتوح - 4 فروع ",
+      client_details_20: "  المنيوم واكسسوار ",
+
+      client_name_21: "   مؤسسة المانع التجارية للملابس نجران - 6 فروع ",
+      client_details_21: "   بيع ملابس  ",
+
+      client_name_22: "  مؤسسة باجعفر للإلكترونيات فرعين",
+      client_details_22: "    اجهزة كهربائية ",
+
+      client_name_23: "  مؤسسة الاوائل - 5 فروع",
+      client_details_23: "   المنيوم واكسسوار ",
+
+      client_name_24: "   سوبرماركت واحة تهامة ",
+      client_details_24: "    سوبرماركت ",
+
+
+      client_name_25: "        مؤسسة سعد عمر الوعل للتجارة",
+      client_details_25: "   ادوات منزلية وتجهيزات مطاعم ",
+
+      client_name_26: "        مؤسسة الحفيتي - 5 فروع",
+      client_details_26: "              المنيوم واكسسوار ",
+
+      client_name_27: "     مؤسسة المانع التجارية للملابس نجران - 6 فروع",
+      client_details_27: "               بيع ملابس ",
+
+
+      client_name_28: "          صيدلية اشراقة الابتسامة ",
+      client_details_28: "    صيدلية ",
+
+      client_name_29: "   عيادات الشاكرين للأسنان - 4 فروع",
+      client_details_29: "    عيادات ",
+
+      client_name_30: "    مجمع عيادات عناية ونضارة الطبية",
+      client_details_30: "    عيادات ",
+
+      client_name_31: "   مؤسسة بيت البروتين",
+      client_details_31: "    بروتين وفيتامين ",
+
+      client_name_32: "  مجمع ديماس الطبي ",
+      client_details_32: "    عيادات  ",
+
+
+      client_name_33: "          مجمع الدكتور احمد ابانمي الطبي ",
+      client_details_33: "    عيادات  ",
+
+      client_name_34: "             مجمع لمار الطبي         ",
+      client_details_34: "    عيادات  ",
+
+      client_name_35: "             مستوصف الوسج الطبي      ",
+      client_details_35: "    عيادات  ",
+ 
+      client_name_36: "     صيدلية صفوة السعودية ",
+      client_details_36: "    صيدلية  ",
+ 
+
+      client_name_37: "        مؤسسة خالد الطبية - فرعين",
+      client_details_37: "     اداوت واجهزة طبية  ",
+ 
+
+      client_name_38: "    مجموعة صيدلية الحياة - 10 فروع ",
+      client_details_38: "     صيدلية     ",
+ 
+
+      client_name_39:   "       مجمع عيادات سدك التخصصية ",
+      client_details_39: "     عيادات     ",
+ 
+      client_name_40: "     مستشفى وعيادات الدكتور حسن البار التخصصية",
+      client_details_40: "     عيادات     ",
+
+
+      client_name_41: "    محلات عبد الله سالم القثمي - 3 فروع ",
+      client_details_41: "     قطع غيار شاحنات     ",
+
+
+      client_name_42: "    شركة راشد محمد الحمد - 6 فروع",
+      client_details_42: "        قطع غيار سيارات ",
+ 
+
+      client_name_43: "        مؤسسة العلوان - 5 فروع",
+      client_details_43: "        قطع غيار سيارات ",
+
+ 
+      client_name_44: "   محلات علي حسن السيد - 5 فروع",
+      client_details_44: "        قطع غيار سيارات ",
+
+
+      client_name_45: "      مؤسسة العلولا التجاريه",
+      client_details_45: "          قطع غيار شاحنات ",
+
+      client_name_46: "      محلات العيد - 3 فروع ",
+      client_details_46: "          قطع غيار شاحنات ",
+
+
+      client_name_47: "        مؤسسة صالح محمد عبد الرحمن المهيلب - 12 فرع",
+      client_details_47: "     قطع غيار سيارات",
+
+      client_name_48: "           شركة عبد الله السعدي واولاده - 6 فروع",
+      client_details_48: "     قطع غيار شاحنات",
+ 
+      client_name_49: "    شركة المداولات لقطع غيار السيارات - 3 فروع ",
+      client_details_49: "  قطع غيار سيارات",
+
+      client_name_50: "    مؤسسة التقوى لقطع غيار السيارات - 3 فروع      ",
+      client_details_50: "  قطع غيار سيارات",
+ 
+      client_name_51: "    مؤسسة محمد نهار القحطاني 25 فرع     ",
+      client_details_51: "  قطع غيار سيارات",
+
+      client_name_52: "    شركة المداولات لقطع غيار السيارات - 3 فروع    ",
+      client_details_52: "  قطع غيار سيارات",
+ 
+      client_name_53: "   مؤسسة خالد عياد الحربي - 3 فروع   ",
+      client_details_53: "  قطع غيار قطع غيار شاحنات",
+ 
+      client_name_54: "  شركة الكثيري للسيارات",
+      client_details_54: "  مبيعات سيارات    ",
+
+      client_name_55: " محلات المغلوث - 3 فروع",
+      client_details_55: "    قطع غيار سيارات ",
+ 
+
+
+
+
+
       copyRights: "جميع الحقوق محفوظة لشركة سنمار سوفت",
       MANAGER_TITLE: "كلمة المدير العام",
       MANAGER_DATE: "📅 23 مايو 2021",

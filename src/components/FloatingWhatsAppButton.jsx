@@ -23,15 +23,17 @@ const FloatingWhatsAppButton = ({ phoneNumber, message }) => {
     // 'bottom-6 right-6' places it 6 units from the bottom and right edges.
     // Styling classes provide the green background, text color, padding, rounded shape,
     // shadow, transition effects for hover, flexbox for icon centering, and accessibility focus styles.
+    
     <a
       href={whatsappUrl}
       target="_blank" // Opens the link in a new tab.
       rel="noopener noreferrer" // Security best practice for target="_blank" links.
-      className="fixed bottom-25 right-6 bg-[#41c052] hover:bg-text-color text-white p-4 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110 flex items-center justify-center z-250 focus:outline-none focus:ring-4 focus:ring-green-300"
+      className="fixed bottom-25 right-6 bg-[#41c052] hover:bg-[#41c052c0] text-white p-4 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110 flex items-center justify-center z-250 focus:outline-none focus:ring-4 focus:ring-green-300"
       aria-label="Chat on WhatsApp" // Provides an accessible label for screen readers.
-    >
+>
       {/* WhatsApp SVG Icon */}
       {/* This inline SVG provides the WhatsApp logo within the button. */}
+
      <FaWhatsapp className='w-8 h-8' />
 
     </a>

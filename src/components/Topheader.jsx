@@ -10,13 +10,11 @@ export default function Topheader() {
     <div
       className="flex flex-col md:flex-row items-center md:items-center md:justify-between
                  gap-4
-                 md:gap-0 h-auto md:h-[50px] bg-gradient-to-r from-Main-color to-sky-600 shadow-sm p-4"
-    >
+                 md:gap-0 h-auto md:h-[50px] bg-gradient-to-r from-Main-color to-sky-600 shadow-sm p-4" >
       <div
         className="flex flex-col sm:flex-row sm:items-center
                  gap-2
-                 md:gap-8"
-      >
+                 md:gap-8" >
         <div className="flex items-center gap-2 ">
           <h6 className="text-lg text-white">
             <FaPhone />

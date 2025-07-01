@@ -46,56 +46,56 @@ const testimonials = [
     name: "Testimonial_name_1",
     location: "Testimonial_Location_1",
     text: "Testimonial_text_1",
-    //image: "public/Logos/1.png", // Example image path
+    image: "public/Logos/1.png", // Example image path
   },
   {
     id: "testimonial_1",
     name: "Testimonial_name_2",
     location: "Testimonial_Location_2",
     text: "Testimonial_text_2",
-    //image: "public/Logos/2.png",
+    image: "public/Logos/2.png",
   },
   {
     id: "testimonial_2",
     name: "Testimonial_name_3",
     location: "Testimonial_Location_3",
     text: "Testimonial_text_3",
-  //  image: "public/Logos/3.png",
+   image: "public/Logos/3.png",
   },
   {
     id: "testimonial_3",
     name: "Testimonial_name_4",
     location: "Testimonial_Location_4",
     text: "Testimonial_text_4",
-  //  image: "public/Logos/4.png",
+    image: "public/Logos/4.png",
   },
   {
     id: "testimonial_4",
     name: "Testimonial_name_5",
     location: "Testimonial_Location_5",
     text: "Testimonial_text_5",
-   // image: "public/Logos/5.png",
+   image: "public/Logos/5.png",
   },
   {
     id: "testimonial_5",
     name: "Testimonial_name_6",
     location: "Testimonial_Location_6",
     text: "Testimonial_text_6",
-  //  image: "public/Logos/6.png",
+   image: "public/Logos/6.png",
   },
   {
     id: "testimonial_6",
     name: "Testimonial_name_7",
     location: "Testimonial_Location_7",
     text: "Testimonial_text_7",
-   // image: "public/Logos/7.png",
+   image: "public/Logos/7.png",
   },
   {
     id: "testimonial_7",
     name: "Testimonial_name_8",
     location: "Testimonial_Location_8",
     text: "Testimonial_text_8",
-  //  image: "public/Logos/8.png",
+  image: "public/Logos/8.png",
   },
   {
     id: "testimonial_8",
@@ -109,7 +109,7 @@ const testimonials = [
     name: "Testimonial_name_10",
     location: "Testimonial_Location_10",
     text: "Testimonial_text_10",
- //   image: "public/Logos/10.png",
+    image: "public/Logos/10.png",
   },
 ];
 
@@ -153,17 +153,17 @@ const testimonials = [
               <p className={`${isRTL ? 'text-end' : 'text-start'} text-[#001E60] leading-relaxed pt-8 text-[15px] font-normal sm:text-base`}>
                 {t(item.text)}
               </p>
-              <div className={`flex items-center  mt-4 gap-2 ${isRTL ? 'justify-end' : 'justify-start'}`}>
+              <div className={`flex items-center justify-evenly mt-4 gap-2  ${isRTL ? 'justify-end' : 'justify-start'}`}>
                 {/* Image if available */}
                 {/* You might conditionally render an image here or outside this div */}
              
-                {/* <img
+               <img
                   src={item.image} // Using a single avatar for all
                   alt={t(item.name)}
                   className="w-30 h-30 rounded-full object-fill" // Example styling
                 />
-                  */}
-                <div className={`${isRTL ? 'text-end' : 'text-start'}`}>
+                 
+                <div className={`${isRTL ?'text-end':'text-start'}`}>
                   <p className="font-semibold text-[#001E60] text-sm sm:text-base">
                     {t(item.name)}
                   </p>
