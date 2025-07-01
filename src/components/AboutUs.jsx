@@ -150,14 +150,15 @@ const AboutUs = () => {
               {reasons.map((item, idx) => (
                 <div
                   key={idx}
-                  className="bg-white p-6 rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1"
-                >
+                  className="bg-white p-6 rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1" >
                   <div className="w-14 h-14 flex items-center justify-center mb-4 rounded-full bg-Main-color text-white shadow-md mx-auto">
                     {item.icon}
                   </div>
+
                   <h4 className="text-lg font-semibold text-text-color text-center">
                     {item.title}
                   </h4>
+
                 </div>
               ))}
             </div>
@@ -178,7 +179,7 @@ const AboutUs = () => {
               {t("MANAGER_TITLE")}
             </h2>
             <p className="text-sm text-gray-600 mb-2">{t("MANAGER_DATE")}</p>
-            <p className="text-base md:text-lg leading-loose text-gray-900 tracking-wide">
+            <p className="text-base md:text-lg leading text-gray-900 tracking-wide">
               {t("MANAGER_PARAGRAPH")}
               {t("MANAGER_PARAGRAPH_2")}
               {t("MANAGER_PARAGRAPH_3")}
@@ -200,7 +201,7 @@ const AboutUs = () => {
             <p className="text-sm text-gray-600 mb-2">
               {t("TECHNICAL_MANAGER_DATE")}
             </p>
-            <p className="text-base md:text-lg leading-loose text-gray-900 tracking-wide">
+            <p className="text-base md:text-lg leading text-gray-900 tracking-wide">
               {t("TECHNICAL_MANAGER_PARAGRAPH")}
               <br />
               {t("TECHNICAL_MANAGER_PARAGRAPH_2")}

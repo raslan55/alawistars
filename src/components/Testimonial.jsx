@@ -46,79 +46,82 @@ const testimonials = [
     name: "Testimonial_name_1",
     location: "Testimonial_Location_1",
     text: "Testimonial_text_1",
-    image: "public/Logos/1.png", // Example image path
+    image: "/Logos/1.png", // Example image path
   },
   {
     id: "testimonial_1",
     name: "Testimonial_name_2",
     location: "Testimonial_Location_2",
     text: "Testimonial_text_2",
-    image: "public/Logos/2.png",
+    image: "/Logos/2.png",
   },
   {
     id: "testimonial_2",
     name: "Testimonial_name_3",
     location: "Testimonial_Location_3",
     text: "Testimonial_text_3",
-   image: "public/Logos/3.png",
+   image: "/Logos/3.png",
   },
   {
     id: "testimonial_3",
     name: "Testimonial_name_4",
     location: "Testimonial_Location_4",
     text: "Testimonial_text_4",
-    image: "public/Logos/4.png",
+    image: "/Logos/4.png",
   },
   {
     id: "testimonial_4",
     name: "Testimonial_name_5",
     location: "Testimonial_Location_5",
     text: "Testimonial_text_5",
-   image: "public/Logos/5.png",
+   image: "/Logos/5.png",
   },
+
   {
     id: "testimonial_5",
     name: "Testimonial_name_6",
     location: "Testimonial_Location_6",
     text: "Testimonial_text_6",
-   image: "public/Logos/6.png",
+   image: "/Logos/6.png",
   },
   {
     id: "testimonial_6",
     name: "Testimonial_name_7",
     location: "Testimonial_Location_7",
     text: "Testimonial_text_7",
-   image: "public/Logos/7.png",
+   image: "/Logos/7.png",
   },
+
   {
     id: "testimonial_7",
     name: "Testimonial_name_8",
     location: "Testimonial_Location_8",
     text: "Testimonial_text_8",
-  image: "public/Logos/8.png",
+  image: "/Logos/8.png",
   },
+
   {
     id: "testimonial_8",
     name: "Testimonial_name_9",
     location: "Testimonial_Location_9",
     text: "Testimonial_text_9",
-    image: "public/Logos/9.png",
+    image: "/Logos/9.png",
   },
   {
     id: "testimonial_9",
     name: "Testimonial_name_10",
     location: "Testimonial_Location_10",
     text: "Testimonial_text_10",
-    image: "public/Logos/10.png",
+    image: "/Logos/10.png",
   },
-];
+
+];  
 
   return (
     <section className="py-12 bg-[#EEF5FF] px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-10">
         <div className="relative inline-block mb-4">
           <h2 className="text-text-Main text-[25px] md:text-[42px] font-semibold text-Main-color leading">
-          
             {t("Testimonial")}
           </h2>
         </div>
