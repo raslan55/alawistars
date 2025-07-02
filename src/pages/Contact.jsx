@@ -316,6 +316,7 @@ const ContactPage = () => {
 
       </div>
 
+
       {/* Contact Form Section (remains the same as it's already well-styled) */}
       <div className="flex flex-col md:flex-row items-center gap-8 bg-white rounded-lg shadow-md p-6">
         <div className="md:w-1/2">

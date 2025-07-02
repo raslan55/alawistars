@@ -13,7 +13,7 @@ export default function Testimonial() {
   const settings = {
     arrows: true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 1000,
     swipeToSlide: true,
     speed: 3000,
@@ -46,35 +46,35 @@ const testimonials = [
     name: "Testimonial_name_1",
     location: "Testimonial_Location_1",
     text: "Testimonial_text_1",
-    image: "/Logos/1.png", // Example image path
+    image: "/Logos/ارض الجوال.png", // Example image path
   },
   {
     id: "testimonial_1",
     name: "Testimonial_name_2",
     location: "Testimonial_Location_2",
     text: "Testimonial_text_2",
-    image: "/Logos/2.png",
+    image: "/Logos/المركز العالمي للفايبرجلاس.png",
   },
   {
     id: "testimonial_2",
     name: "Testimonial_name_3",
     location: "Testimonial_Location_3",
     text: "Testimonial_text_3",
-   image: "/Logos/3.png",
+   image: "/Logos/شركة افاق التميز الطبية.png",
   },
   {
     id: "testimonial_3",
     name: "Testimonial_name_4",
     location: "Testimonial_Location_4",
     text: "Testimonial_text_4",
-    image: "/Logos/4.png",
+    image: "/Logos/شركة صحة آدم الطبية.png",
   },
   {
     id: "testimonial_4",
     name: "Testimonial_name_5",
     location: "Testimonial_Location_5",
     text: "Testimonial_text_5",
-   image: "/Logos/5.png",
+   image: "/Logos/شركة مدن الطب الطبية.png",
   },
 
   {
@@ -82,14 +82,14 @@ const testimonials = [
     name: "Testimonial_name_6",
     location: "Testimonial_Location_6",
     text: "Testimonial_text_6",
-   image: "/Logos/6.png",
+   image: "/Logos/شركة مسارات الجيل للتجارة.png",
   },
   {
     id: "testimonial_6",
     name: "Testimonial_name_7",
     location: "Testimonial_Location_7",
     text: "Testimonial_text_7",
-   image: "/Logos/7.png",
+   image: "/Logos/شركة المطرودي للتجارة.png",
   },
 
   {
@@ -97,7 +97,7 @@ const testimonials = [
     name: "Testimonial_name_8",
     location: "Testimonial_Location_8",
     text: "Testimonial_text_8",
-  image: "/Logos/8.png",
+  image: "/Logos/شركة تبارك و راية التجارية.png",
   },
 
   {
@@ -112,7 +112,7 @@ const testimonials = [
     name: "Testimonial_name_10",
     location: "Testimonial_Location_10",
     text: "Testimonial_text_10",
-    image: "/Logos/10.png",
+    image: "/Logos/مؤسسة قطع واكثر للتجارة2.png ",
   },
 
 ];  
@@ -146,9 +146,11 @@ const testimonials = [
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
+
                   <path
                     d="M31.6803 20.698C31.6803 25.339 27.9213 29.098 23.2803 29.098H22.7203C21.4813 29.098 20.4803 28.097 20.4803 26.858C20.4803 25.619 21.4813 24.618 22.7203 24.618H23.2803C25.4433 24.618 27.2003 22.861 27.2003 20.698V20.138H22.7203C20.2493 20.138 18.2403 18.129 18.2403 15.658V11.178C18.2403 8.707 20.2493 6.698 22.7203 6.698H27.2003C29.6713 6.698 31.6803 8.707 31.6803 11.178V20.698ZM13.7603 20.698C13.7603 25.339 10.0013 29.098 5.36031 29.098H4.80031C3.56131 29.098 2.56031 28.097 2.56031 26.858C2.56031 25.619 3.56131 24.618 4.80031 24.618H5.36031C7.52331 24.618 9.28031 22.861 9.28031 20.698V20.138H4.80031C2.32931 20.138 0.320312 18.129 0.320312 15.658V11.178C0.320312 8.707 2.32931 6.698 4.80031 6.698H9.28031C11.7513 6.698 13.7603 8.707 13.7603 11.178V20.698Z"
                     fill="#1b6ba9"
+
                   />
                 </svg>
               </span>
@@ -156,15 +158,17 @@ const testimonials = [
               <p className={`${isRTL ? 'text-end' : 'text-start'} text-[#001E60] leading-relaxed pt-8 text-[15px] font-normal sm:text-base`}>
                 {t(item.text)}
               </p>
-              <div className={`flex items-center justify-evenly mt-4 gap-2  ${isRTL ? 'justify-end' : 'justify-start'}`}>
+              <div className={`flex items-center justify-between  mt-4`}>
                 {/* Image if available */}
                 {/* You might conditionally render an image here or outside this div */}
-             
-               <img
+                <div> 
+                  <img
                   src={item.image} // Using a single avatar for all
                   alt={t(item.name)}
-                  className="w-30 h-30 rounded-full object-fill" // Example styling
-                />
+                  className="w-35 h-35   object-fill" // Example styling
+                /> 
+                </div>
+              
                  
                 <div className={`${isRTL ?'text-end':'text-start'}`}>
                   <p className="font-semibold text-[#001E60] text-sm sm:text-base">
@@ -174,6 +178,7 @@ const testimonials = [
                     {t(item.location)}
                   </p>
                 </div>
+                
               </div>
             </div>
           </div>

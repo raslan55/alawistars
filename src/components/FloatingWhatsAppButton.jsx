@@ -1,42 +1,68 @@
 import React from 'react';
-import { FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp, FaPhoneAlt, FaEnvelope, FaTelegramPlane,FaInstagram ,FaFacebook } from "react-icons/fa";
 
-/**
- * FloatingWhatsAppButton Component
- *
- * A fixed-position button that, when clicked, opens a WhatsApp chat
- * with a specified phone number and pre-filled message.
- *
- * @param {object} props - The component props.
- * @param {string} props.phoneNumber - The phone number for the WhatsApp chat (e.g., "1234567890").
- * @param {string} props.message - The pre-filled message for the WhatsApp chat.
- */
 
-const FloatingWhatsAppButton = ({ phoneNumber, message }) => {
-  // Construct the WhatsApp URL using the provided phone number and message.
-  // encodeURIComponent is used to ensure the message is correctly formatted for a URL.
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+const FloatingWhatsAppButton  = () =>  {
+const contacts = [
+    {
+      href: "https://wa.me/201234567890?text=السلام عليكم، لدي استفسار...",
+      icon: <FaWhatsapp className="w-5 h-5" />,
+      bg: "bg-[#41c052]",
+      label: "واتساب",
+    },
+
+    {
+      href: "tel:+201234567890",
+      icon: <FaPhoneAlt className="w-5 h-5" />,
+      bg: "bg-[#1b6ba9]",
+      label: "اتصال مباشر",
+    },
+
+     {
+      href: "https://www.facebook.com/alawistars/",
+      icon: <FaFacebook className="w-5 h-5" />,
+      bg: "bg-[#0866ff]",
+      label: "facebook",
+    },
+
+     {
+      href: "https://www.instagram.com/alawistarsest/#",
+
+      icon: <FaInstagram  className="w-5 h-5" />,
+      bg: "bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045]",
+      label: "instagram",
+    },
+
+    {
+      href: "mailto:your@email.com",
+      icon: <FaEnvelope className="w-5 h-5" />,
+      bg: "bg-[#ffc704]",
+      label: "إيميل",
+    },
+    {
+      href: "https://t.me/yourusername",
+      icon: <FaTelegramPlane className="w-5 h-5" />,
+      bg: "bg-[#0088cc]",
+      label: "تليجرام",
+    },
+  ];
 
   return (
-    // The anchor tag creates the clickable button.
-    // 'fixed' positions it relative to the viewport.
-    // 'bottom-6 right-6' places it 6 units from the bottom and right edges.
-    // Styling classes provide the green background, text color, padding, rounded shape,
-    // shadow, transition effects for hover, flexbox for icon centering, and accessibility focus styles.
-    
-    <a
-      href={whatsappUrl}
-      target="_blank" // Opens the link in a new tab.
-      rel="noopener noreferrer" // Security best practice for target="_blank" links.
-      className="fixed bottom-25 right-6 bg-[#41c052] hover:bg-[#41c052c0] text-white p-4 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110 flex items-center justify-center z-250 focus:outline-none focus:ring-4 focus:ring-green-300"
-      aria-label="Chat on WhatsApp" // Provides an accessible label for screen readers.
->
-      {/* WhatsApp SVG Icon */}
-      {/* This inline SVG provides the WhatsApp logo within the button. */}
-
-     <FaWhatsapp className='w-8 h-8' />
-
-    </a>
+  <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
+      {contacts.map((contact, idx) => (
+        <a
+          key={idx}
+          href={contact.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`${contact.bg} text-white p-3 rounded-full shadow-lg hover:scale-110 transition-all duration-300 flex items-center justify-center`}
+          aria-label={contact.label}
+        >
+          {contact.icon}
+        </a>
+      ))}
+    </div>
   );
 };
 
