@@ -1,6 +1,7 @@
 import React from 'react';
-import { FaWhatsapp, FaPhoneAlt, FaEnvelope, FaTelegramPlane,FaInstagram ,FaFacebook } from "react-icons/fa";
+import { FaWhatsapp, FaPhoneAlt, FaEnvelope, FaTwitter ,FaInstagram ,FaFacebook } from "react-icons/fa";
 
+import { FaXTwitter } from "react-icons/fa6";
 
 
 const FloatingWhatsAppButton  = () =>  {
@@ -11,9 +12,9 @@ const contacts = [
       bg: "bg-[#41c052]",
       label: "واتساب",
     },
-
+     
     {
-      href: "tel:+201234567890",
+      href: "tel:+966506194863",
       icon: <FaPhoneAlt className="w-5 h-5" />,
       bg: "bg-[#1b6ba9]",
       label: "اتصال مباشر",
@@ -33,23 +34,24 @@ const contacts = [
       bg: "bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045]",
       label: "instagram",
     },
+ {
+      href: "https://x.com/alawistars?lang=ar",
 
+      icon: <FaXTwitter className="w-5 h-5" />,
+      bg: "bg-[#0866ff]",
+      label: "twitter",
+    },
     {
-      href: "mailto:your@email.com",
+      href: "mailto:info@alawistars.com",
       icon: <FaEnvelope className="w-5 h-5" />,
       bg: "bg-[#ffc704]",
       label: "إيميل",
     },
-    {
-      href: "https://t.me/yourusername",
-      icon: <FaTelegramPlane className="w-5 h-5" />,
-      bg: "bg-[#0088cc]",
-      label: "تليجرام",
-    },
+   
   ];
 
   return (
-  <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
+  <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-100">
       {contacts.map((contact, idx) => (
         <a
           key={idx}

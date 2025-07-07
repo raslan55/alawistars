@@ -35,8 +35,10 @@ export default function CTA({ heading, subheading }) {
 
             <div className="text-left leading-tight" >
               <p className="text-sm font-bold">{t("Call_US")}</p>
-              <p className="text-md font-bold" dir="ltr" >
+              <p className="text-md font-bold" dir="ltr">
+              <a href="tel:+966506194863" className="hover:underline">
                 +966 50 619 4863
+              </a>
               </p>
 
             </div>

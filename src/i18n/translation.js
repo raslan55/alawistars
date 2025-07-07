@@ -62,55 +62,66 @@ const resources = {
       Stories: "Real Stories, Real Results",
       Testimonial_text:
         "Read what our clients have to say about their journey with us. We’re proud to deliver value that speaks for itself.",
-      Testimonial_name_1: "Yousef Saeed A. Bawazeer Trading Est.",
+
+      Testimonial_name_1: "Alama Al-Zarqa Trading Co.",
       Testimonial_Location_1: "Jeddah, Saudi Arabia",
       Testimonial_text_1:
-        "We appreciate the efforts of Najoom Al-Alawi Computer Systems in maintaining and developing our programs (sales and accounting). Our trust in them is permanent, as they are a key partner in our success. We hope for the continuation of this distinguished performance. Thank you very much.",
+        "We appreciate the efforts of Nojoom Al-Alawi for the maintenance and development of our programs. Our trust in them is continuous, as they are a key partner in our success. We hope for the continuation of this excellent performance. Thank you very much.",
 
-      Testimonial_name_2: "Basamat Al-Osra Dental Clinics Complex",
-      Testimonial_Location_2: "Najran, Saudi Arabia",
+      Testimonial_name_2: "Alpha Meem Trading Co.",
+      Testimonial_Location_2: "Riyadh, Saudi Arabia",
       Testimonial_text_2:
-        "We thank Najoom Al-Alawi and Sinmar program for their excellent cooperation, quick response, and technical support over 4 years, which positively impacted our clinic's operations. We wish you continued progress and prosperity.",
+        "We thank Nojoom Al-Alawi and the Sinmar system for their professionalism, quick response, and technical support over the past 4 years, which positively impacted the organization of our center. We wish you continued progress and prosperity.",
 
-      Testimonial_name_3: "Moussa Taqneya Al-Qata' Al-Jadeedah for Trading", // Updated for "تقنية القطع الجديدة" based on previous analysis
+      Testimonial_name_3: "Spert Medical Co.",
       Testimonial_Location_3: "Jeddah, Saudi Arabia",
       Testimonial_text_3:
-        "We extend thanks to Najoom Al-Alawi and Sinmar Application Systems for their efforts in maintaining and developing the distinguished programs we rely on for inventory, sales, and accounting. We value our partnership and wish you continued excellence.",
+        "We extend our thanks and gratitude to Nojoom Al-Alawi and Sinmar Systems for their efforts in maintaining and developing the excellent programs we rely on for inventory, sales, and accounting. We value our partnership and wish you continued excellence.",
 
-      Testimonial_name_4: "Cosmoline Clinic Dr. Hasan AbuHathrah",
-      Testimonial_Location_4: "Kingdom of Saudi Arabia",
+      Testimonial_name_4: "Sihhat Adam Medical Co.",
+      Testimonial_Location_4: "Saudi Arabia",
       Testimonial_text_4:
-        "A certificate of thanks and appreciation to Najoom Al-Alawi and Sinmar program for their continuous support in making our work successful and developing it. We express our sincere gratitude for your valuable efforts and effective contribution.",
+        "A certificate of appreciation to Nojoom Al-Alawi and the Sinmar system for their continuous support in the success and development of our operations. We sincerely thank you for your valuable efforts and effective contributions.",
 
-      Testimonial_name_5: "Shadow Lighting Trading Est.", // Updated for "خيال الضوء" based on previous analysis
+      Testimonial_name_5: "Madun Al-Tibb Medical Co.",
       Testimonial_Location_5: "Jeddah, Saudi Arabia",
       Testimonial_text_5:
-        "We express our pride and gratitude for the numerous achievements and beneficial efforts you have provided. Your expertise and quick response helped us overcome challenges. We extend our highest appreciation and wish you continued success.",
+        "We proudly express our gratitude for the many achievements and valuable efforts you have provided. Your expertise and quick response have helped us overcome challenges. You have our utmost thanks and appreciation, and we wish you continued success.",
 
-      Testimonial_name_6: "Rashed Mohamed Alhamed Company",
+      Testimonial_name_6: "Rashed Mohammed Al-Hamad Co.",
       Testimonial_Location_6: "Riyadh, Saudi Arabia",
       Testimonial_text_6:
-        "We thank Najoom Al-Alawi and Sinmar Application Systems for their continuous maintenance and development of our programs (inventory, sales, and accounting). Our trust in you is permanent as a key partner in our success, and we hope for your continued distinguished performance.",
+        "We thank Nojoom Al-Alawi and Sinmar Systems for the ongoing maintenance and development of our programs (inventory, sales, and accounting). Our trust in you is a lasting partnership for success, and we hope this excellent performance continues.",
 
-      Testimonial_name_7: "Middle Sea Modern Wire Telecom Co.",
+      Testimonial_name_7: "Al-Matroodi Trading Co.",
       Testimonial_Location_7: "Jeddah, Saudi Arabia",
       Testimonial_text_7:
-        "A letter of thanks and appreciation to the manager of Najoom Al-Alawi Computer Systems for their continuous efforts in developing Sinmar's accounting systems. We are proud to keep pace with your progress, and we wish you continuous success and prosperity. Our sincere thanks to you.",
+        "A letter of thanks and appreciation to the Director of Nojoom Al-Alawi for their continuous efforts in developing the Sinmar accounting systems. We are proud to keep up with your progress and wish you lasting success. Our deepest thanks to you.",
 
-      Testimonial_name_8: "Mohamad Khalil Fageeh Speciality Medical Center",
-      Testimonial_Location_8: "Kingdom of Saudi Arabia",
+      Testimonial_name_8: "Tabarak & Raya Trading Co.",
+      Testimonial_Location_8: "Saudi Arabia",
       Testimonial_text_8:
-        "We thank Najoom Al-Alawi and Sinmar program for their constructive cooperation in quality control and developing computer usage for clinic operations. We appreciate your professionalism and excellent service, and wish you further progress and prosperity.",
+        "We thank the Nojoom Al-Alawi team and Sinmar Systems for the fruitful collaboration in developing our commercial systems and improving work efficiency. We highly value your professionalism and commitment, and look forward to more shared success.",
 
-      Testimonial_name_9: "Abdullah Saleh Bin Eid Al Yahiyya Est. For Trading",
+      Testimonial_name_9: "Jaser Fahad Al-Jaser Trading Establishment",
       Testimonial_Location_9: "Riyadh, Saudi Arabia",
       Testimonial_text_9:
-        "Thanks and appreciation to Najoom Al-Alawi and Sinmar Application Systems for the maintenance and development of our programs (inventory, sales, accounting). Our trust in you is permanent as a success partner, and we hope for your continued excellence. We extend our sincere thanks and appreciation.",
+        "Thanks and appreciation to Nojoom Al-Alawi and Sinmar Systems for maintaining and developing our programs (inventory, sales, accounting). Our trust in you is continuous as a success partner, and we hope your excellence continues. Sincere thanks and gratitude.",
 
-      Testimonial_name_10: "Tareq & Yasien Co. Limited", // Adding the last one (Tareq & Yasien Co.)
-      Testimonial_Location_10: "Makkah Al-Mukarramah, Saudi Arabia",
+      Testimonial_name_10: "Qata’ Wa Akthar Trading Establishment",
+      Testimonial_Location_10: "Riyadh, Saudi Arabia",
       Testimonial_text_10:
-        "With all pride and appreciation, TYAMCO extends profound thanks to Najoom Al-Alawi Computer Systems, Sinmar program, for their efforts in developing the program and assisting us in solving problems. We wish you continued success.",
+        "With pride, appreciation, and gratitude, Qata’ Wa Akthar extends sincere thanks to Nojoom Al-Alawi and Sinmar Systems for their efforts in program development and problem solving. We wish you continued success.",
+
+      Testimonial_name_11: "Masarat Al-Jeel Trading Co.",
+      Testimonial_Location_11: "Riyadh, Saudi Arabia",
+      Testimonial_text_11:
+        "Thanks and appreciation to Nojoom Al-Alawi and Sinmar Systems for maintaining and developing our programs (inventory, sales, accounting). Our trust in you is continuous as a success partner, and we hope your excellence continues. Sincere thanks and gratitude.",
+
+      Testimonial_name_12: "Nasser Sulaiman Sattam Al-Juhani Trading Est.",
+      Testimonial_Location_12: "Riyadh, Saudi Arabia",
+      Testimonial_text_12:
+        "Thanks and appreciation to Nojoom Al-Alawi and the Sinmar system for maintaining and developing our programs. Our trust in you is continuous as a success partner, and we hope your excellence continues. Many thanks to you.",
 
       Partners_Heading: " Meet our  partners",
       Partners_text: "We’ve 10000+ Dedicated Partners",
@@ -263,20 +274,26 @@ const resources = {
       working_hours: " working hours",
       Jeddah_working_hours: " 9 AM - 6 PM ",
       Riyadh_working_hours: " 9 AM - 6 PM",
-      address_1_contact:"Malaz Area – Sitten St. – Alyah Commercial Center -1st Floor – Office 1",
-      address_2_contact:"Bughdadiah Area, Hail St., Hail Comm. Center, 2nd Floor,Office 21",
+      address_1_contact:
+        "Malaz Area – Sitten St. – Alyah Commercial Center -1st Floor – Office 1",
+      address_2_contact:
+        "Bughdadiah Area, Hail St., Hail Comm. Center, 2nd Floor,Office 21",
       CTA_About: "Why us ? ",
       Sales_Email: " Sales Email",
       Features: "Features",
 
       Inv_acc_feature_1: "Accounting tree up to 10 sub-levels",
       Inv_acc_feature_2: "Export to Excel, Word, PDF, Txt",
-      Inv_acc_feature_3: "The ability to save copies of documents within the journal entry",
+      Inv_acc_feature_3:
+        "The ability to save copies of documents within the journal entry",
       Inv_acc_feature_4: "In addition to 99 branches",
-      Inv_acc_feature_5: "The advantage of multiple and individual cost centers",
+      Inv_acc_feature_5:
+        "The advantage of multiple and individual cost centers",
       Inv_acc_feature_6: "SQL Server database",
-      Inv_acc_feature_7: "A bond of receipt or cash disbursement in a sequence independent of the term",
-      Inv_acc_feature_8: "The possibility of separating the cash and check in the exchange receivable",
+      Inv_acc_feature_7:
+        "A bond of receipt or cash disbursement in a sequence independent of the term",
+      Inv_acc_feature_8:
+        "The possibility of separating the cash and check in the exchange receivable",
       Inv_acc_feature_9: "Auto backup",
       Inv_acc_feature_10: "A multi-year and branch account statement",
       Inv_acc_feature_11: "A multi-year and branched general professor",
@@ -292,8 +309,10 @@ const resources = {
       acc_feature_4: "Add up to 99 branches",
       acc_feature_5: "Support for multiple and individual cost centers",
       acc_feature_6: "SQL Server database",
-      acc_feature_7:"Cash receipt/payment voucher with separate numbering from credit",
-      acc_feature_8:"Separate handling of cash and checks in receipts/payments",
+      acc_feature_7:
+        "Cash receipt/payment voucher with separate numbering from credit",
+      acc_feature_8:
+        "Separate handling of cash and checks in receipts/payments",
       acc_feature_9: "Automatic backup",
       acc_feature_10: "Multi-year, multi-branch account statements",
       acc_feature_11: "Multi-year, multi-branch general ledger",
@@ -317,41 +336,40 @@ const resources = {
       Inv_feature_12: "Multi-language support",
       Inv_feature_13: "Item alternatives linked to the item file",
       Inv_feature_14: "Automatic inventory vouchers and Excel import",
-      Inv_feature_15:"Auto-generate suggested orders based on item movement with editing options",
-      Inv_feature_16: "Deal with suppliers in their original currency with automatic cost calculation",
+      Inv_feature_15:
+        "Auto-generate suggested orders based on item movement with editing options",
+      Inv_feature_16:
+        "Deal with suppliers in their original currency with automatic cost calculation",
       Inv_feature_17: "Sales and purchase movement charts",
       Inv_feature_18: "Over 300 detailed reports for full inventory tracking",
 
+      Pr_feature_1: "Accounting tree up to 10 sub-levels",
+      Pr_feature_2: "Export to Excel, Word, PDF, Txt",
+      Pr_feature_3: "Ability to save document images inside journal entries",
+      Pr_feature_4: "Add up to 99 branches",
+      Pr_feature_5: "Multi and single cost center support",
+      Pr_feature_6: "SQL Server database",
+      Pr_feature_7:
+        "Cash receipt or payment vouchers with independent sequence",
+      Pr_feature_8: "Separation of cash and cheque in receipts and payments",
+      Pr_feature_9: "Automatic backup",
+      Pr_feature_10: "Multi-year, multi-branch account statements",
+      Pr_feature_11: "Multi-year, multi-branch general ledger",
+      Pr_feature_12: "Independent permissions for each user",
+      Pr_feature_13: "Fixed assets and depreciation calculation",
+      Pr_feature_14: "Support for handling L/Cs (Letters of Credit)",
+      Pr_feature_15: "Detailed and customizable reports",
+      Pr_feature_16: "Fixed asset revaluation",
 
-
-   Pr_feature_1:  "Accounting tree up to 10 sub-levels",
-Pr_feature_2:  "Export to Excel, Word, PDF, Txt",
-Pr_feature_3:  "Ability to save document images inside journal entries",
-Pr_feature_4:  "Add up to 99 branches",
-Pr_feature_5:  "Multi and single cost center support",
-Pr_feature_6:  "SQL Server database",
-Pr_feature_7:  "Cash receipt or payment vouchers with independent sequence",
-Pr_feature_8:  "Separation of cash and cheque in receipts and payments",
-Pr_feature_9:  "Automatic backup",
-Pr_feature_10: "Multi-year, multi-branch account statements",
-Pr_feature_11: "Multi-year, multi-branch general ledger",
-Pr_feature_12: "Independent permissions for each user",
-Pr_feature_13: "Fixed assets and depreciation calculation",
-Pr_feature_14: "Support for handling L/Cs (Letters of Credit)",
-Pr_feature_15: "Detailed and customizable reports",
-Pr_feature_16: "Fixed asset revaluation",
-
-
-
-   Furn_feature_1: "Accounting tree up to 10 sub-levels",
-Furn_feature_2: "Export to Excel, Word, PDF, Txt",
-Furn_feature_3: "Ability to save document images inside journal entries",
-Furn_feature_4: "Add up to 99 branches",
-Furn_feature_5: "Multi and single cost center support",
-Furn_feature_6: "SQL Server database",
-Furn_feature_7: "Cash receipt or payment vouchers with independent sequence",
-Furn_feature_8: "Separation of cash and cheque in receipts and payments",
-
+      Furn_feature_1: "Accounting tree up to 10 sub-levels",
+      Furn_feature_2: "Export to Excel, Word, PDF, Txt",
+      Furn_feature_3: "Ability to save document images inside journal entries",
+      Furn_feature_4: "Add up to 99 branches",
+      Furn_feature_5: "Multi and single cost center support",
+      Furn_feature_6: "SQL Server database",
+      Furn_feature_7:
+        "Cash receipt or payment vouchers with independent sequence",
+      Furn_feature_8: "Separation of cash and cheque in receipts and payments",
 
       Med_feature_1: "Supports variable VAT",
       Med_feature_2: "User-friendly multi-function patient invoice screen",
@@ -360,34 +378,44 @@ Furn_feature_8: "Separation of cash and cheque in receipts and payments",
       Med_feature_5: "Integration with Waseel and D.H.S companies",
       Med_feature_6: "Automatic claim submission to insurance companies",
       Med_feature_7: "SQL Server database",
-      Med_feature_8: "Includes a complete electronic medical record for doctors",
+      Med_feature_8:
+        "Includes a complete electronic medical record for doctors",
       Med_feature_9: "Automatic backup",
       Med_feature_10: "Detailed support for insurance contracts per agreement",
       Med_feature_11: "Independent permissions for each user",
       Med_feature_12: "Integration with pharmacy and general accounting",
       Med_feature_13: "Multi-language support",
-      Med_feature_14: "Supports radiology and lab departments with result archiving",
+      Med_feature_14:
+        "Supports radiology and lab departments with result archiving",
       Med_feature_15: "SMS messaging feature",
       Med_feature_16: "Issuing and checking sick leaves",
       Med_feature_17: "Patient appointment scheduling linked to the doctor",
       Med_feature_18: "Dental charting with treated tooth selection",
       Med_feature_19: "Pregnancy and physiotherapy follow-up programs",
 
-      Maintenance_feature_1: "Easy screens to prepare the system’s initial data",
-      Maintenance_feature_2: "Department and engineer info with linking each department to technicians or engineers",
-      Maintenance_feature_3: "Workshop service info linked to relevant departments",
+      Maintenance_feature_1:
+        "Easy screens to prepare the system’s initial data",
+      Maintenance_feature_2:
+        "Department and engineer info with linking each department to technicians or engineers",
+      Maintenance_feature_3:
+        "Workshop service info linked to relevant departments",
       Maintenance_feature_4: "Supports variable VAT as per ZATCA guidelines",
-      Maintenance_feature_5:  "Export to Excel, Word, and PDF",
-      Maintenance_feature_6:  "Send reminder SMS messages to customers",
-      Maintenance_feature_7:  "Multiple payment methods: Cash, SPAN, Visa, etc.",
-      Maintenance_feature_8:  "E-invoice creation and integration with accounting system",
-      Maintenance_feature_9:  "Open multiple job cards for one vehicle and track step-by-step",
-      Maintenance_feature_10: "Easy vehicle data entry and search within the workshop",
+      Maintenance_feature_5: "Export to Excel, Word, and PDF",
+      Maintenance_feature_6: "Send reminder SMS messages to customers",
+      Maintenance_feature_7: "Multiple payment methods: Cash, SPAN, Visa, etc.",
+      Maintenance_feature_8:
+        "E-invoice creation and integration with accounting system",
+      Maintenance_feature_9:
+        "Open multiple job cards for one vehicle and track step-by-step",
+      Maintenance_feature_10:
+        "Easy vehicle data entry and search within the workshop",
       Maintenance_feature_11: "Track vehicle status easily",
-      Maintenance_feature_12: "Track technician and engineer activity through detailed reports",
+      Maintenance_feature_12:
+        "Track technician and engineer activity through detailed reports",
       Maintenance_feature_13: "Track spare parts issued to workshop vehicles",
       Maintenance_feature_14: "Monitor workshop stock levels",
-      Maintenance_feature_15: "Monitor external purchase invoices related to workshop vehicles",
+      Maintenance_feature_15:
+        "Monitor external purchase invoices related to workshop vehicles",
       Maintenance_feature_16:
         "Easily create job orders and capture client requirements",
       Maintenance_feature_17:
@@ -561,173 +589,170 @@ Furn_feature_8: "Separation of cash and cheque in receipts and payments",
         "Take advantage of our smart systems designed for various industries — start evolving today",
       our_clients_title: "Our Valued Partners & Clients",
 
-     
-client_name_1: "Al-Markaz Al-Iqtisadi Contracting Co.",
-client_details_1: "General Contracting",
+      client_name_1: "Al-Markaz Al-Iqtisadi Contracting Co.",
+      client_details_1: "General Contracting",
 
-client_name_2: "Spark Media Advertising Est.",
-client_details_2: "Advertising",
+      client_name_2: "Spark Media Advertising Est.",
+      client_details_2: "Advertising",
 
-client_name_3: "Al-Ehata Financial Company",
-client_details_3: "Financial Trading",
+      client_name_3: "Al-Ehata Financial Company",
+      client_details_3: "Financial Trading",
 
-client_name_4: "Al-Ma'moura Int’l Aviation Services Est.",
-client_details_4: "Hajj & Umrah",
+      client_name_4: "Al-Ma'moura Int’l Aviation Services Est.",
+      client_details_4: "Hajj & Umrah",
 
-client_name_5: "Tamas Saudi Contracting Co.",
-client_details_5: "General Contracting",
+      client_name_5: "Tamas Saudi Contracting Co.",
+      client_details_5: "General Contracting",
 
-client_name_6: "Nasser Hamad Al-Houti Est. - 3 Branches",
-client_details_6: "Ceramic & Marble",
+      client_name_6: "Nasser Hamad Al-Houti Est. - 3 Branches",
+      client_details_6: "Ceramic & Marble",
 
-client_name_7: "Naqd Investment Company",
-client_details_7: "Financial Trading",
+      client_name_7: "Naqd Investment Company",
+      client_details_7: "Financial Trading",
 
-client_name_8: "Aalam Al-Ajwaa Aviation Services",
-client_details_8: "Flight Booking & Travel",
+      client_name_8: "Aalam Al-Ajwaa Aviation Services",
+      client_details_8: "Flight Booking & Travel",
 
-client_name_9: "Hiraa Building Materials Est.",
-client_details_9: "Building Materials",
+      client_name_9: "Hiraa Building Materials Est.",
+      client_details_9: "Building Materials",
 
-client_name_10: "Sulaiman Al-Rais Sons Trading Co.",
-client_details_10: "Iron Sales",
+      client_name_10: "Sulaiman Al-Rais Sons Trading Co.",
+      client_details_10: "Iron Sales",
 
-client_name_11: "Jordan Technical Agency",
-client_details_11: "Radiator Manufacturing",
+      client_name_11: "Jordan Technical Agency",
+      client_details_11: "Radiator Manufacturing",
 
-client_name_12: "Al-Forat Al-Awsat Trading",
-client_details_12: "Electrical Appliances",
+      client_name_12: "Al-Forat Al-Awsat Trading",
+      client_details_12: "Electrical Appliances",
 
-client_name_13: "Al-Shatta Hotel Group",
-client_details_13: "Hotel Services",
+      client_name_13: "Al-Shatta Hotel Group",
+      client_details_13: "Hotel Services",
 
-client_name_14: "Prince Mutaib Property Management",
-client_details_14: "Commercial Center Leasing",
+      client_name_14: "Prince Mutaib Property Management",
+      client_details_14: "Commercial Center Leasing",
 
-client_name_15: "Fifth Corner Est.",
-client_details_15: "Hajj & Umrah",
+      client_name_15: "Fifth Corner Est.",
+      client_details_15: "Hajj & Umrah",
 
-client_name_16: "Al-Forat Al-Awsat Trading",
-client_details_16: "Electrical Appliances",
+      client_name_16: "Al-Forat Al-Awsat Trading",
+      client_details_16: "Electrical Appliances",
 
-client_name_17: "Al-Amoudi Aluminum Co.",
-client_details_17: "Aluminum & Accessories",
+      client_name_17: "Al-Amoudi Aluminum Co.",
+      client_details_17: "Aluminum & Accessories",
 
-client_name_18: "Talae Mekka Est. - 5 Branches",
-client_details_18: "Aluminum & Accessories",
+      client_name_18: "Talae Mekka Est. - 5 Branches",
+      client_details_18: "Aluminum & Accessories",
 
-client_name_19: "Al-Wajih Sports Company",
-client_details_19: "Electrical Appliances",
+      client_name_19: "Al-Wajih Sports Company",
+      client_details_19: "Electrical Appliances",
 
-client_name_20: "Al-Futouh Company - 4 Branches",
-client_details_20: "Aluminum & Accessories",
+      client_name_20: "Al-Futouh Company - 4 Branches",
+      client_details_20: "Aluminum & Accessories",
 
-client_name_21: "Al-Manea Clothing Est. - Najran (6 Branches)",
-client_details_21: "Clothing Sales",
+      client_name_21: "Al-Manea Clothing Est. - Najran (6 Branches)",
+      client_details_21: "Clothing Sales",
 
-client_name_22: "Bajaafar Electronics Est. - 2 Branches",
-client_details_22: "Electrical Appliances",
+      client_name_22: "Bajaafar Electronics Est. - 2 Branches",
+      client_details_22: "Electrical Appliances",
 
-client_name_23: "Al-Awael Est. - 5 Branches",
-client_details_23: "Aluminum & Accessories",
+      client_name_23: "Al-Awael Est. - 5 Branches",
+      client_details_23: "Aluminum & Accessories",
 
-client_name_24: "Tihama Oasis Supermarket",
-client_details_24: "Supermarket",
+      client_name_24: "Tihama Oasis Supermarket",
+      client_details_24: "Supermarket",
 
-client_name_25: "Saad Omar Al-Waal Trading Est.",
-client_details_25: "Home & Restaurant Supplies",
+      client_name_25: "Saad Omar Al-Waal Trading Est.",
+      client_details_25: "Home & Restaurant Supplies",
 
-client_name_26: "Al-Hafiti Est. - 5 Branches",
-client_details_26: "Aluminum & Accessories",
+      client_name_26: "Al-Hafiti Est. - 5 Branches",
+      client_details_26: "Aluminum & Accessories",
 
-client_name_27: "Al-Manea Clothing Est. - Najran (6 Branches)",
-client_details_27: "Clothing Sales",
+      client_name_27: "Al-Manea Clothing Est. - Najran (6 Branches)",
+      client_details_27: "Clothing Sales",
 
-client_name_28: "Eshraqet Al-Ibtisama Pharmacy",
-client_details_28: "Pharmacy",
+      client_name_28: "Eshraqet Al-Ibtisama Pharmacy",
+      client_details_28: "Pharmacy",
 
-client_name_29: "Al-Shakerin Dental Clinics - 4 Branches",
-client_details_29: "Clinics",
+      client_name_29: "Al-Shakerin Dental Clinics - 4 Branches",
+      client_details_29: "Clinics",
 
-client_name_30: "Enaya & Nadhara Medical Complex",
-client_details_30: "Clinics",
+      client_name_30: "Enaya & Nadhara Medical Complex",
+      client_details_30: "Clinics",
 
-client_name_31: "Protein House Est.",
-client_details_31: "Protein & Vitamins",
+      client_name_31: "Protein House Est.",
+      client_details_31: "Protein & Vitamins",
 
-client_name_32: "Dimas Medical Complex",
-client_details_32: "Clinics",
+      client_name_32: "Dimas Medical Complex",
+      client_details_32: "Clinics",
 
-client_name_33: "Dr. Ahmed Abanmi Medical Complex",
-client_details_33: "Clinics",
+      client_name_33: "Dr. Ahmed Abanmi Medical Complex",
+      client_details_33: "Clinics",
 
-client_name_34: "Lamar Medical Complex",
-client_details_34: "Clinics",
+      client_name_34: "Lamar Medical Complex",
+      client_details_34: "Clinics",
 
-client_name_35: "Al-Wasj Medical Center",
-client_details_35: "Clinics",
+      client_name_35: "Al-Wasj Medical Center",
+      client_details_35: "Clinics",
 
-client_name_36: "Safwa Saudi Pharmacy",
-client_details_36: "Pharmacy",
+      client_name_36: "Safwa Saudi Pharmacy",
+      client_details_36: "Pharmacy",
 
-client_name_37: "Khalid Medical Est. - 2 Branches",
-client_details_37: "Medical Devices & Supplies",
+      client_name_37: "Khalid Medical Est. - 2 Branches",
+      client_details_37: "Medical Devices & Supplies",
 
-client_name_38: "Al-Hayat Pharmacy Group - 10 Branches",
-client_details_38: "Pharmacy",
+      client_name_38: "Al-Hayat Pharmacy Group - 10 Branches",
+      client_details_38: "Pharmacy",
 
-client_name_39: "Sadk Specialized Clinics Complex",
-client_details_39: "Clinics",
+      client_name_39: "Sadk Specialized Clinics Complex",
+      client_details_39: "Clinics",
 
-client_name_40: "Dr. Hassan Al-Bar Specialized Hospital & Clinics",
-client_details_40: "Clinics",
+      client_name_40: "Dr. Hassan Al-Bar Specialized Hospital & Clinics",
+      client_details_40: "Clinics",
 
-client_name_41: "Abdullah Salem Al-Qathmi Stores - 3 Branches",
-client_details_41: "Truck Spare Parts",
+      client_name_41: "Abdullah Salem Al-Qathmi Stores - 3 Branches",
+      client_details_41: "Truck Spare Parts",
 
-client_name_42: "Rashed Mohammed Al-Hamad Co. - 6 Branches",
-client_details_42: "Car Spare Parts",
+      client_name_42: "Rashed Mohammed Al-Hamad Co. - 6 Branches",
+      client_details_42: "Car Spare Parts",
 
-client_name_43: "Al-Alwan Est. - 5 Branches",
-client_details_43: "Car Spare Parts",
+      client_name_43: "Al-Alwan Est. - 5 Branches",
+      client_details_43: "Car Spare Parts",
 
-client_name_44: "Ali Hassan Al-Sayed Stores - 5 Branches",
-client_details_44: "Car Spare Parts",
+      client_name_44: "Ali Hassan Al-Sayed Stores - 5 Branches",
+      client_details_44: "Car Spare Parts",
 
-client_name_45: "Al-Olola Trading Est.",
-client_details_45: "Truck Spare Parts",
+      client_name_45: "Al-Olola Trading Est.",
+      client_details_45: "Truck Spare Parts",
 
-client_name_46: "Al-Eid Stores - 3 Branches",
-client_details_46: "Truck Spare Parts",
+      client_name_46: "Al-Eid Stores - 3 Branches",
+      client_details_46: "Truck Spare Parts",
 
-client_name_47: "Saleh Mohammed Al-Muhaileb Est. - 12 Branches",
-client_details_47: "Car Spare Parts",
+      client_name_47: "Saleh Mohammed Al-Muhaileb Est. - 12 Branches",
+      client_details_47: "Car Spare Parts",
 
-client_name_48: "Abdullah Al-Saadi & Sons Co. - 6 Branches",
-client_details_48: "Truck Spare Parts",
+      client_name_48: "Abdullah Al-Saadi & Sons Co. - 6 Branches",
+      client_details_48: "Truck Spare Parts",
 
-client_name_49: "Al-Madawalat Auto Parts Co. - 3 Branches",
-client_details_49: "Car Spare Parts",
+      client_name_49: "Al-Madawalat Auto Parts Co. - 3 Branches",
+      client_details_49: "Car Spare Parts",
 
-client_name_50: "Al-Taqwa Auto Parts Est. - 3 Branches",
-client_details_50: "Car Spare Parts",
+      client_name_50: "Al-Taqwa Auto Parts Est. - 3 Branches",
+      client_details_50: "Car Spare Parts",
 
-client_name_51: "Mohammed Nahar Al-Qahtani Est. - 25 Branches",
-client_details_51: "Car Spare Parts",
+      client_name_51: "Mohammed Nahar Al-Qahtani Est. - 25 Branches",
+      client_details_51: "Car Spare Parts",
 
-client_name_52: "Al-Madawalat Auto Parts Co. - 3 Branches",
-client_details_52: "Car Spare Parts",
+      client_name_52: "Al-Madawalat Auto Parts Co. - 3 Branches",
+      client_details_52: "Car Spare Parts",
 
-client_name_53: "Khalid Ayad Al-Harbi Est. - 3 Branches",
-client_details_53: "Truck Spare Parts",
+      client_name_53: "Khalid Ayad Al-Harbi Est. - 3 Branches",
+      client_details_53: "Truck Spare Parts",
 
-client_name_54: "Al-Kathiri Automotive Co.",
-client_details_54: "Car Sales",
+      client_name_54: "Al-Kathiri Automotive Co.",
+      client_details_54: "Car Sales",
 
-client_name_55: "Al-Mughlooth Stores - 3 Branches",
-client_details_55: "Car Spare Parts",
-
-
+      client_name_55: "Al-Mughlooth Stores - 3 Branches",
+      client_details_55: "Car Spare Parts",
 
       copyRights: "Sinmarsoft . All rights reserved.",
       MANAGER_TITLE: "Manager's Message",
@@ -757,7 +782,7 @@ client_details_55: "Car Spare Parts",
       about: "معلومات عنا",
       news: "الأخبار",
       contact: "اتصل بنا",
-      CompanyName: "نجوم العلاوي لنظم الكمبيوتر ",
+      CompanyName: " شركة نجوم العلاوى لنظم الكمبيوتر",
       companyDescription:
         "انطلقت نجوم العلاوي لنظم الكمبيوتر عام ١٩٩٤ لتوفر للمجتمع والاقتصاد السعودي الطامح للنمو والريادة آنذاك الحلول البرمجية والأنظمة الالكترونية بالإضافة لأنواع متعددة من الخدمات والمنتجات التقنية المتطورة التي تتواكب مع تطلعات الشركات والمؤسسات الخاصة في ذلك الوقت، ولكي تساهم من خلال دورها في تسهيل وظيفة الإدارة وتحسين الإنتاج ، وحوكمة وضبط العمل، واستطاعت منذ اللحظة الأولى من انطلاقها كسب ثقة عملائها وترسيخ مكانتها كشريك تقني موثوق ولا غنى عنه لدى الكثير من الجهات الحكومية والخاصة، واستمرت على تقديم الأداء المتميز وتقديم الخدمات والمنتجات التقنية المتطورة والتي استطاعت من خلالها العمل على إثراء منظومة الإدارة وعالم الأنظمة والبرمجيات والتكنولوجيا الحديثة بالمملكة، وساعدتها في تحقيق قفزات هائلة في حجم مخرجاتها وهوامش أرباحها ومستوى تميزها في العمل والإدارة والتنظيم، وتتبعت في هذا الإطار منهجية عمل دائمة التطور ترتكز في المقام الأول على رضا العملاء وتقديم منتجات وخدمات مثالية وموثوقة، فأصبحت نجوم العلاوى مزود الخدمة الأول وبائع التقنية الخبير لدى ما يزيد عن ١٠ آلاف شركة  داخل وخارج المملكة.",
       title: "نجوم العلاوي",
@@ -821,27 +846,30 @@ client_details_55: "Car Spare Parts",
       time: " ص 8:00  - 12:30 م 3:00 م - 7:30 م",
       Testimonial: "ماذا قالوا عنا",
       Stories: "قصص واقعية، نتائج حقيقية",
-      Testimonial_text: "اقرأ آراء عملائنا حول رحلتهم معنا. نفخر بتقديم قيمة حقيقية.",
-      Testimonial_name_1: "مؤسسة يوسف سعيد أبو بكر باوزير التجارية",
+      Testimonial_text:
+        "اقرأ آراء عملائنا حول رحلتهم معنا. نفخر بتقديم قيمة حقيقية.",
+
+      Testimonial_name_1: "شركة علامة الزرقاء للتجارة",
       Testimonial_Location_1: "جدة، السعودية",
-      Testimonial_text_1:"نقدر جهود نجوم العلاوي لنظم الكمبيوتر في صيانة وتطوير برامجنا (المبيعات والمحاسبة) وثقتنا بهم دائمة، فهم شريك أساسي في نجاحنا. نأمل استمرار هذا الأداء المتميز وشكرًا جزيلاً.",
-      Testimonial_name_2: "مجمع بسمات الأسرة الطبي",
-      Testimonial_Location_2: "نجران، السعودية",
+      Testimonial_text_1:
+        "نقدر جهود نجوم العلاوي لنظم الكمبيوتر في صيانة وتطوير برامجنا  وثقتنا بهم دائمة، فهم شريك أساسي في نجاحنا. نأمل استمرار هذا الأداء المتميز وشكرًا جزيلاً.",
+      Testimonial_name_2: "شركة الفا ميم للتجارة",
+      Testimonial_Location_2: "الرياض ، السعودية",
       Testimonial_text_2: "نشكر نجوم العلاوي وبرنامج سنمار على حسن التعامل وسرعة الاستجابة والدعم الفني طوال 4 سنوات، مما كان له أثر إيجابي في تنظيم عمل المجمع. نتمنى لكم المزيد من التقدم والازدهار.",
-      Testimonial_name_3: "مؤسسة تقنية القطع الجديدة للتجارة", // Updated based on previous analysis
+      Testimonial_name_3: " شركة سبرت الطبية   ", // Updated based on previous analysis
       Testimonial_Location_3: "جدة، السعودية",
-      Testimonial_text_3:"نقدم الشكر والعرفان لنجوم العلاوي ونظم سنمار التطبيقية، لجهودهم في صيانة وتطوير البرامج المتميزة التي نعتمد عليها في المخزون والمبيعات والمحاسبة. نثمن شراكتنا ونتمنى استمرار تميزكم.",  
-      Testimonial_name_4: "مجمع عيادات د. حسن أبو حثرة الطبية",
+      Testimonial_text_3: "نقدم الشكر والعرفان شركة نجوم العلاوى لنظم الكمبيوتر ، لجهودهم في صيانة وتطوير البرامج المتميزة التي نعتمد عليها في المخزون والمبيعات والمحاسبة. نثمن شراكتنا ونتمنى استمرار تميزكم.",
+      Testimonial_name_4: "شركة صحة آدم الطبية",
       Testimonial_Location_4: "المملكة العربية السعودية",
       Testimonial_text_4:
         "شهادة شكر وتقدير لشركة  نجوم العلاوي وبرنامج سنمار على دعمهم المستمر في إنجاح وتطوير عملنا. نُعرب عن خالص شكرنا وامتناننا لجهودكم القيمة ومساهمتكم الفعالة.",
 
-      Testimonial_name_5: "مؤسسة خيال الضوء التجارية", // Updated based on previous analysis
+      Testimonial_name_5: "شركة مدن الطب الطبية", // Updated based on previous analysis
       Testimonial_Location_5: "جدة، السعودية",
       Testimonial_text_5:
         "نُعرب عن فخرنا وامتناننا للإنجازات العديدة والجهود المفيدة التي قدمتموها لنا. خبراتكم واستجابتكم السريعة ساعدتنا على تخطي الصعاب. لكم أسمى آيات الشكر والتقدير، ونتمنى لكم دوام التوفيق.",
 
-      Testimonial_name_6: "شركة راشد محمد المحمد الحمد",
+      Testimonial_name_6: "شركة راشد محمد  الحمد",
       Testimonial_Location_6: "الرياض، السعودية",
       Testimonial_text_6:
         "نشكر شركة نجوم العلاوي ونظم سنمار التطبيقية على الصيانة والتطوير المستمر لبرامجنا (المخزون والمبيعات والمحاسبة). ثقتنا بكم شريك دائم في نجاحنا، ونأمل استمرار هذا الأداء المتميز.",
@@ -856,15 +884,26 @@ client_details_55: "Car Spare Parts",
       Testimonial_text_8:
         "نشكر فريق نجوم العلاوي وشركة سنمار على التعاون المثمر في تطوير أنظمتنا التجارية وتحسين كفاءة العمل. نُثمّن احترافيتكم العالية والتزامكم، ونتطلع إلى المزيد من النجاحات المشتركة",
 
-      Testimonial_name_9: "مؤسسة عبدالله صالح بن عبد اليحيى للتجارة",
+      Testimonial_name_9: " مؤسسة جاسر فهد الجاسر التجارية",
       Testimonial_Location_9: "الرياض، السعودية",
       Testimonial_text_9:
         "شكر وتقدير لنجوم العلاوي ونظم سنمار التطبيقية على صيانة وتطوير برامجنا (المخزون، المبيعات، المحاسبة). ثقتنا بكم دائمة كشريك نجاح، ونأمل استمرار تميزكم. لكم منا جزيل الشكر والعرفان.",
 
       Testimonial_name_10: "   مؤسسة قطع واكثر للتجارة ", // Adding the last one (Tareq & Yasien Co.)
-      Testimonial_Location_10: " الرياض، السعودية",
+      Testimonial_Location_10: " الرياض ، السعودية",
       Testimonial_text_10:
         "بكل الاعتزاز والفخر والتقدير، تتقدم  قطع واكثر بخالص الشكر لنجوم العلاوي ونظم سنمار لجهودهم في تطوير البرنامج والمساعدة في حل المشكلات. نتمنى لكم دوام التوفيق.",
+
+      Testimonial_name_11: " شركة مسارات الجيل للتجارة  ",
+      Testimonial_Location_11: "الرياض، السعودية",
+      Testimonial_text_11:
+        "شكر وتقدير لنجوم العلاوي ونظم سنمار التطبيقية على صيانة وتطوير برامجنا (المخزون، المبيعات، المحاسبة). ثقتنا بكم دائمة كشريك نجاح، ونأمل استمرار تميزكم. لكم منا جزيل الشكر والعرفان.",
+
+      Testimonial_name_12: " مؤسسة ناصر سليمان سطام الجهني التجارية ",
+      Testimonial_Location_12: "الرياض، السعودية",
+      Testimonial_text_12:
+        "شكر وتقدير لنجوم العلاوي ونظام سنمار  على صيانة وتطوير برامجنا . ثقتنا بكم دائمة كشريك نجاح، ونأمل استمرار تميزكم. لكم منا جزيل الشكر .",
+
       Partners_text: "لدينا أكثر من 10000 شريك",
       Hero_heading: "الحل الذكي لإدارة أعمالك وتتبع المخزون بكل سهولة",
       Hero_text:
@@ -918,13 +957,16 @@ client_details_55: "Car Spare Parts",
       serv_Disc:
         " نظام لإدارة شركات الخدمات العامة وتوزيع المهام وتقديم تقارير الأداء.",
       fuel: "سنمار لمحطات الوقود ",
-      Fule_Disc:"نظام محطات الوقود لإدارة الضخ والمخزون، والمحاسبة اليومية لكل مضخة.",
+      Fule_Disc:
+        "نظام محطات الوقود لإدارة الضخ والمخزون، والمحاسبة اليومية لكل مضخة.",
       Our_Product: "منتجاتنا",
-      Our_Product_h: "دور نجوم العلاوي لأنظمة الكمبيوتر",
-      Our_Product_p:"دعم بيئة العمل والإنتاج وتعزيز قيمة التقنيات الحديثة والبرمجيات والأنظمة التي تخدم الشركات والمؤسسات ورواد الأعمال والاقتصاد في المملكة العربية السعودية وعملائنا في الخارج من خلال توفير حلول تقنية مبتكرة وعالية الجودة بأسعار تنافسية.",
+      Our_Product_h: "دور نجوم العلاوى لنظم الكمبيوتر",
+      Our_Product_p:
+        "دعم بيئة العمل والإنتاج وتعزيز قيمة التقنيات الحديثة والبرمجيات والأنظمة التي تخدم الشركات والمؤسسات ورواد الأعمال والاقتصاد في المملكة العربية السعودية وعملائنا في الخارج من خلال توفير حلول تقنية مبتكرة وعالية الجودة بأسعار تنافسية.",
       Explore_More: "  حلولنا المبتكرة ",
       Our_Partners: "شركاؤنا ",
-      Our_Partners_p:"عملاؤنا هم شركاؤنا في النجاح بفضل الله؛ حيث تمتلك شركة نجوم العلوي لأنظمة الحاسب الآلي أكثر من 10000 عميل حتى الآن في جميع التخصصات، وحققت نجاحاً باهراً في وقت قصير من خلال إنتاج البرمجيات المتميزة، هؤلاء بعض عملائنا الذين تشرفنا بخدمتهم",
+      Our_Partners_p:
+        "عملاؤنا هم شركاؤنا في النجاح بفضل الله؛ حيث تمتلك شركة   نجوم العلاوى لنظم الكمبيوتر لأنظمة الحاسب الآلي أكثر من 10000 عميل حتى الآن في جميع التخصصات، وحققت نجاحاً باهراً في وقت قصير من خلال إنتاج البرمجيات المتميزة، هؤلاء بعض عملائنا الذين تشرفنا بخدمتهم",
       Partners_Heading: "تعرف على شركائنا",
       ReadMore: "شاهد المزيد",
       SUBSCRIBERS: "المشتركين",
@@ -933,25 +975,35 @@ client_details_55: "Car Spare Parts",
       Ourproducts: "المنتجات والحلول",
       Ourproducts_text: "اكتشف حلولًا ذكية ومرنة لتحسين أداء أعمالك.",
       Show: "اطّلع على المزيد",
+
       our_mission: "رسالتنا",
       our_vision: "رؤيتنا",
       our_values: "قيمنا",
-      mission_text:"دعم بيئة العمل وتعزيز قيمة التقنيات والأنظمة الحديثة التي تخدم الشركات والمؤسسات ورواد الأعمال. نعمل على تطوير الحلول التقنية وفقًا لأعلى المعايير وبأسلوب تنافسي يتناسب مع حاجة العملاء.",
-      vision_text:"نسعى لتوسيع نطاق عملنا محليًا وعالميًا، لنصبح الخيار الأفضل لعملائنا من خلال تطبيق أفضل الممارسات التقنية وتوفير حلول موثوقة ومبتكرة تخدم جميع القطاعات.",
+      mission_text:
+        "دعم بيئة العمل وتعزيز قيمة التقنيات والأنظمة الحديثة التي تخدم الشركات والمؤسسات ورواد الأعمال. نعمل على تطوير الحلول التقنية وفقًا لأعلى المعايير وبأسلوب تنافسي يتناسب مع حاجة العملاء.",
+      vision_text:
+        "نسعى لتوسيع نطاق عملنا محليًا وعالميًا، لنصبح الخيار الأفضل لعملائنا من خلال تطبيق أفضل الممارسات التقنية وتوفير حلول موثوقة ومبتكرة تخدم جميع القطاعات.",
       value_1_title: "التفاني",
-      value_1_text:"نقدم أعلى مستويات الخدمة والالتزام بالتسليم في الوقت المحدد مع دعم كامل لاحتياجات عملائنا في جميع المراحل.",
+      value_1_text:
+        "نقدم أعلى مستويات الخدمة والالتزام بالتسليم في الوقت المحدد مع دعم كامل لاحتياجات عملائنا في جميع المراحل.",
       value_2_title: "الخصوصية",
-      value_2_text:"نحرص على توفير الأنظمة والحلول التي تضمن سرية البيانات وتمنح المستخدم الثقة في تحقيق أفضل أداء ونتائج.",
+      value_2_text:
+        "نحرص على توفير الأنظمة والحلول التي تضمن سرية البيانات وتمنح المستخدم الثقة في تحقيق أفضل أداء ونتائج.",
       value_3_title: "الثقة",
-      value_3_text:"نبني علاقات طويلة الأمد مبنية على الثقة والمصداقية مع عملائنا وشركائنا لتحقيق أهداف مشتركة.",
+      value_3_text:
+        "نبني علاقات طويلة الأمد مبنية على الثقة والمصداقية مع عملائنا وشركائنا لتحقيق أهداف مشتركة.",
       value_4_title: "الإبداع",
-      value_4_text:"نقدم حلولاً مبتكرة بطرق غير تقليدية، تميزنا في السوق وتجعل من خدماتنا ذات قيمة حقيقية.",
+      value_4_text:
+        "نقدم حلولاً مبتكرة بطرق غير تقليدية، تميزنا في السوق وتجعل من خدماتنا ذات قيمة حقيقية.",
       value_5_title: "التطوير",
-      value_5_text:"نطور أنفسنا دائمًا وندعم فرق العمل لضمان تقديم أحدث التقنيات والحلول وفق أفضل الممارسات.",
+      value_5_text:
+        "نطور أنفسنا دائمًا وندعم فرق العمل لضمان تقديم أحدث التقنيات والحلول وفق أفضل الممارسات.",
       value_6_title: "الذكاء التقني",
-      value_6_text:"نمزج بين المعرفة التقنية العميقة وفهم احتياجات العملاء لنقدم حلولًا ذكية تواكب متغيرات السوق.",
+      value_6_text:
+        "نمزج بين المعرفة التقنية العميقة وفهم احتياجات العملاء لنقدم حلولًا ذكية تواكب متغيرات السوق.",
       why_choose_us: "لماذا نحن؟",
-      why_choose_us_desc:"نقدّم حلولًا إبداعية. نستخدم مهارات القيادة عبر الوسائط قبل تطوير الابتكار. نبني منصات قياسية دون تطبيقات معقدة. نتقدم بسهولة عبر التعاون وتبادل الأفكار",
+      why_choose_us_desc:
+        "نقدّم حلولًا إبداعية. نستخدم مهارات القيادة عبر الوسائط قبل تطوير الابتكار. نبني منصات قياسية دون تطبيقات معقدة. نتقدم بسهولة عبر التعاون وتبادل الأفكار",
       reason_1_title: "فريق عمل محترف",
       reason_2_title: "تنفيذ الأعمال باحترافية",
       reason_3_title: "خدمات مجانية مدى الحياة",
@@ -960,48 +1012,55 @@ client_details_55: "Car Spare Parts",
       Started: " مرحبًا بك في نجوم العلاوي ",
       CTA_Text: " حلول برمجية متكاملة لإدارة أعمالك بكفاءة واحترافية",
       Tech_Solutions: "حلولنا التقنية",
-      Tech_Text:" نعزز تميز عملائنا ونمنحهم كفاءة تشغيلية دائمة من خلال تقديم أفضل  الحلول التقنية.",
+      Tech_Text:
+        " نعزز تميز عملائنا ونمنحهم كفاءة تشغيلية دائمة من خلال تقديم أفضل  الحلول التقنية.",
       pc: "أجهزة الكمبيوتر",
-      Pc_text:"لدينا فريق عمل استثنائي يلبي حاجة عملائنا ويوفر لهم أجهزة الكمبيوتر من سيرفرات أو وحدات طرفية من أفضل وأقوى العلامات التجارية، وكذلك الأجهزة ذات المواصفات الخاصة لنمكنهم من الإبداع والإنجاز.",
+      Pc_text:
+        "لدينا فريق عمل استثنائي يلبي حاجة عملائنا ويوفر لهم أجهزة الكمبيوتر من سيرفرات أو وحدات طرفية من أفضل وأقوى العلامات التجارية، وكذلك الأجهزة ذات المواصفات الخاصة لنمكنهم من الإبداع والإنجاز.",
       OS: "البرامج التشغيلية",
-      Os_text:"نوفر حاجة عملائنا من برامج التشغيل المختلفة مثل برامج الويندوز الأصلية، برامج الأوفيس، وأنظمة تشغيل السيرفرات والوحدات الطرفية المناسبة.",
+      Os_text:
+        "نوفر حاجة عملائنا من برامج التشغيل المختلفة مثل برامج الويندوز الأصلية، برامج الأوفيس، وأنظمة تشغيل السيرفرات والوحدات الطرفية المناسبة.",
       PS: "أنظمة الحماية",
-      PS_text:"نقوم بتوريد أنظمة مكافحة الفيروسات، ومكافحة الهكر والاختراق لتعزيز الأمن السيبراني وحماية الأجهزة والبيانات.",
+      PS_text:
+        "نقوم بتوريد أنظمة مكافحة الفيروسات، ومكافحة الهكر والاختراق لتعزيز الأمن السيبراني وحماية الأجهزة والبيانات.",
       Ha: "ملحقات الأجهزة",
-      Ha_text: "نوفر طابعات، ماسحات ضوئية، ونقاط بيع وغيرهم من الملحقات عالية الجودة ذات العمر الطويل والسعر المميز.",
+      Ha_text:
+        "نوفر طابعات، ماسحات ضوئية، ونقاط بيع وغيرهم من الملحقات عالية الجودة ذات العمر الطويل والسعر المميز.",
       LAN: "الشبكات المحلية (LAN)",
-      LAN_text:  "نبني شبكات اتصال محلية للمنازل والمكاتب والمنشآت الصغيرة، ونوفر المعدات وخدمات الصيانة والدعم الفني الكامل.",
+      LAN_text:
+        "نبني شبكات اتصال محلية للمنازل والمكاتب والمنشآت الصغيرة، ونوفر المعدات وخدمات الصيانة والدعم الفني الكامل.",
       WAN: "الشبكات واسعة النطاق (WAN)",
-      WAN_text:"نوفر الشبكات الواسعة بمعدات وبنية تحتية متقدمة، لربط المستخدمين بمناطق جغرافية كبيرة بفعالية وبتكلفة مناسبة.",
+      WAN_text:
+        "نوفر الشبكات الواسعة بمعدات وبنية تحتية متقدمة، لربط المستخدمين بمناطق جغرافية كبيرة بفعالية وبتكلفة مناسبة.",
       CTA_About: "   لماذا نحن ؟",
       Features: "المواصفات ",
 
       Sales_Email: " البريد الإلكتروني للمبيعات",
-      Pr_feature_1:  "شجرة محاسبة حتى 10 مستويات فرعية",
-Pr_feature_2:  "التصدير إلى Excel, Word, PDF, Txt",
-Pr_feature_3:  "إمكانية حفظ صور من المستندات داخل قيد اليومية",
-Pr_feature_4:  "إضافة حتى 99 فرع",
-Pr_feature_5:  "ميزة مراكز التكلفة المتعددة والفردية",
-Pr_feature_6:  "قاعدة بيانات SQL Server",
-Pr_feature_7:  "سند قبض أو صرف نقدي بتسلسل مستقل عن الآجل",
-Pr_feature_8:  "إمكانية فصل النقدي والشيك في القبض والصرف",
-Pr_feature_9:  "النسخ الاحتياطي التلقائي",
-Pr_feature_10: "كشف حساب متعدد السنوات والفروع",
-Pr_feature_11: "أستاذ عام متعدد السنوات والفروع",
-Pr_feature_12: "صلاحيات مستقلة لكل مستخدم",
-Pr_feature_13: "الأصول الثابتة واحتساب الإهلاكات",
-Pr_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
-Pr_feature_15: "تقارير مفصلة ومتنوعة وخيارات عرضها حسب الطلب",
-Pr_feature_16: "إعادة تقييم أصل ثابت",
+      Pr_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
+      Pr_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
+      Pr_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
+      Pr_feature_4: "إضافة حتى 99 فرع",
+      Pr_feature_5: "ميزة مراكز التكلفة المتعددة والفردية",
+      Pr_feature_6: "قاعدة بيانات SQL Server",
+      Pr_feature_7: "سند قبض أو صرف نقدي بتسلسل مستقل عن الآجل",
+      Pr_feature_8: "إمكانية فصل النقدي والشيك في القبض والصرف",
+      Pr_feature_9: "النسخ الاحتياطي التلقائي",
+      Pr_feature_10: "كشف حساب متعدد السنوات والفروع",
+      Pr_feature_11: "أستاذ عام متعدد السنوات والفروع",
+      Pr_feature_12: "صلاحيات مستقلة لكل مستخدم",
+      Pr_feature_13: "الأصول الثابتة واحتساب الإهلاكات",
+      Pr_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
+      Pr_feature_15: "تقارير مفصلة ومتنوعة وخيارات عرضها حسب الطلب",
+      Pr_feature_16: "إعادة تقييم أصل ثابت",
 
-Furn_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
-Furn_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
-Furn_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
-Furn_feature_4: "إضافة حتى 99 فرع",
-Furn_feature_5: "ميزة مراكز التكلفة المتعددة والفردية",
-Furn_feature_6: "قاعدة بيانات SQL Server",
-Furn_feature_7: "سند قبض أو صرف نقدي بتسلسل مستقل عن الآجل",
-Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض والصرف",
+      Furn_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
+      Furn_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
+      Furn_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
+      Furn_feature_4: "إضافة حتى 99 فرع",
+      Furn_feature_5: "ميزة مراكز التكلفة المتعددة والفردية",
+      Furn_feature_6: "قاعدة بيانات SQL Server",
+      Furn_feature_7: "سند قبض أو صرف نقدي بتسلسل مستقل عن الآجل",
+      Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض والصرف",
 
       Inv_acc_feature_1: "شجرة محاسبية حتى 10 مستويات فرعية",
       Inv_acc_feature_2: "تصدير إلى Excel و Word و PDF و Txt",
@@ -1032,10 +1091,13 @@ Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض
       Inv_feature_12: "متعدد اللغات",
       Inv_feature_13: "بدائل للأصناف وربطها بملف الأصناف",
       Inv_feature_14: "سندات جرد تلقائي والاستيراد من إكسل",
-      Inv_feature_15:"إصدار طلبيات مقترحة أتوماتيكيًا حسب حركة الصنف والتعديل عليها",
-      Inv_feature_16: "التعامل مع الموردين بالعملة الأصلية للمورد واحتساب آلي للتكلفة",
-      Inv_feature_17:"رسوم بيانية لحركة المبيعات والمشتريات",
-      Inv_feature_18: "أكثر من 300 تقرير شامل ولمتابعة جميع حركات المخزون بالتفصيل",
+      Inv_feature_15:
+        "إصدار طلبيات مقترحة أتوماتيكيًا حسب حركة الصنف والتعديل عليها",
+      Inv_feature_16:
+        "التعامل مع الموردين بالعملة الأصلية للمورد واحتساب آلي للتكلفة",
+      Inv_feature_17: "رسوم بيانية لحركة المبيعات والمشتريات",
+      Inv_feature_18:
+        "أكثر من 300 تقرير شامل ولمتابعة جميع حركات المخزون بالتفصيل",
       acc_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
       acc_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
       acc_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
@@ -1076,29 +1138,39 @@ Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض
       fuel_feature_3: "سهولة في الاستخدام من خلال شاشة الفواتير والسندات",
       fuel_feature_4: "متابعة لحركة البنزين والديزل والكيروسين وغيرها",
       fuel_feature_5: "إمكانية بيع خدمات خارجية متنوعة مثل الغسيل وغيرها",
-      fuel_feature_6: "إمكانية فتح حساب للعملاء والموردين ومتابعة أرصدتهم وتنوع التقارير عنهم",
-      fuel_feature_7:"إمكانية حساب الكمية المتطايرة عند إدخال المشتريات من الوقود ومشتقاته",
-      fuel_feature_8:"إمكانية مراقبة الوقود وصرفه من خلال تقارير شاملة عن الطرمبات",
+      fuel_feature_6:
+        "إمكانية فتح حساب للعملاء والموردين ومتابعة أرصدتهم وتنوع التقارير عنهم",
+      fuel_feature_7:
+        "إمكانية حساب الكمية المتطايرة عند إدخال المشتريات من الوقود ومشتقاته",
+      fuel_feature_8:
+        "إمكانية مراقبة الوقود وصرفه من خلال تقارير شاملة عن الطرمبات",
       fuel_feature_9: "متابعة السداد للموردين والعملاء الآجل أفراد أو شركات",
       fuel_feature_10: "متابعة الأرصدة المتبقية من الوقود في جميع الخزانات",
       fuel_feature_11: "إمكانية تحديد أسعار خاصة للعملاء الآجل",
-      fuel_feature_12:"إمكانية تغيير الأسعار في أي وقت حسب متطلبات الجهة المعنية",
-      fuel_feature_13:"تقارير عن المبيعات والمشتريات اليومية وسهولة الوصول للتقارير المالية",
-      fuel_feature_14:"ربط النظام بنظام سنمار للمحاسبة وترحيل الحركات اليومية إلى قيود آلية",
+      fuel_feature_12:
+        "إمكانية تغيير الأسعار في أي وقت حسب متطلبات الجهة المعنية",
+      fuel_feature_13:
+        "تقارير عن المبيعات والمشتريات اليومية وسهولة الوصول للتقارير المالية",
+      fuel_feature_14:
+        "ربط النظام بنظام سنمار للمحاسبة وترحيل الحركات اليومية إلى قيود آلية",
       fuel_feature_15: "تقارير شاملة ومفصلة ومصنفة لمتابعة جميع المستندات",
       fuel_feature_16: "إمكانية مراقبة العمل عن بُعد دون عناء",
       fuel_feature_17: "إمكانية ربط الفروع عن بُعد",
-      fuel_feature_18:"إمكانية إضافة الأنشطة الإضافية مثل مغسلة سيارات أو بنشر أو غيره",
+      fuel_feature_18:
+        "إمكانية إضافة الأنشطة الإضافية مثل مغسلة سيارات أو بنشر أو غيره",
       fuel_feature_19: "إمكانية إصدار كوبونات للعملاء ومتابعتها",
       serv_feature_1: "مناسب لجميع قطاعات بيع الخدمات بكل مرونة وسهولة",
-      serv_feature_2:"يدعم ضريبة القيمة المضافة المتغيرة حسب توجيهات الهيئة العامة للزكاة والدخل",
+      serv_feature_2:
+        "يدعم ضريبة القيمة المضافة المتغيرة حسب توجيهات الهيئة العامة للزكاة والدخل",
       serv_feature_3: "تعريف بأسعار الخدمات حسب أنواعها",
       serv_feature_4: "سهولة تحويل سند الاستلام أو عرض الأسعار إلى فاتورة",
-      serv_feature_5:"متابعة الحركة المالية للعملاء والموردين حسب تقارير شاملة",
+      serv_feature_5:
+        "متابعة الحركة المالية للعملاء والموردين حسب تقارير شاملة",
       serv_feature_6: "سند استلام مبسط وشامل لحاجة المغاسل",
       serv_feature_7: "تقارير ربحية الفواتير حسب الفترة الزمنية المطلوبة",
       serv_feature_8: "شاشات رسم بياني لتسهيل قرارات الإدارة",
-      serv_feature_9:"تقارير وافية عن حركة المبيعات حسب الفترة الزمنية المطلوبة",
+      serv_feature_9:
+        "تقارير وافية عن حركة المبيعات حسب الفترة الزمنية المطلوبة",
       serv_feature_10: "سندات قبض وصرف وتسوية مبسطة",
       serv_feature_11: "كشف حساب للعميل خلال أي فترة زمنية مطلوبة",
       serv_feature_12: "إمكانية تقديم عروض أسعار بالخدمات وأسعارها",
@@ -1111,9 +1183,11 @@ Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض
       serv_feature_19: "تقارير عن أرباح الفواتير",
       serv_feature_20: "رسم بياني للمبيعات الشهرية",
       Maintenance_feature_1: "شاشات سهلة لتجهيز المعلومات الأولية للنظام",
-      Maintenance_feature_2:"معلومات الأقسام والمهندسين وربط كل قسم بالفني أو المهندس",
+      Maintenance_feature_2:
+        "معلومات الأقسام والمهندسين وربط كل قسم بالفني أو المهندس",
       Maintenance_feature_3: "معلومات خدمات الورشة وربطها بالقسم المختص",
-      Maintenance_feature_4:"يدعم ضريبة القيمة المضافة المتغيرة حسب توجيهات الهيئة العامة للزكاة والدخل",
+      Maintenance_feature_4:
+        "يدعم ضريبة القيمة المضافة المتغيرة حسب توجيهات الهيئة العامة للزكاة والدخل",
       Maintenance_feature_5: "خاصية التصدير إلى Excel و Word و PDF",
       Maintenance_feature_6: "إرسال رسائل تذكيرية للعملاء S.M.S",
       Maintenance_feature_7:
@@ -1237,7 +1311,7 @@ Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض
       About_Started: " من نحن ولماذا سنمار؟  ",
       About_CTA_Text:
         "تعرف على رؤيتنا ورسالتنا وكيف نعمل لنجعل التقنية في خدمة أعمالك",
-        
+
       our_clients_title: "شركاؤنا وعملاؤنا الكرام",
 
       client_name_1: "شركة المركز الاقتصادي للمقاولات",
@@ -1294,7 +1368,6 @@ Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض
       client_name_24: "   سوبرماركت واحة تهامة ",
       client_details_24: "    سوبرماركت ",
 
-
       client_name_25: "        مؤسسة سعد عمر الوعل للتجارة",
       client_details_25: "   ادوات منزلية وتجهيزات مطاعم ",
 
@@ -1303,7 +1376,6 @@ Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض
 
       client_name_27: "     مؤسسة المانع التجارية للملابس نجران - 6 فروع",
       client_details_27: "               بيع ملابس ",
-
 
       client_name_28: "          صيدلية اشراقة الابتسامة ",
       client_details_28: "    صيدلية ",
@@ -1320,7 +1392,6 @@ Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض
       client_name_32: "  مجمع ديماس الطبي ",
       client_details_32: "    عيادات  ",
 
-
       client_name_33: "          مجمع الدكتور احمد ابانمي الطبي ",
       client_details_33: "    عيادات  ",
 
@@ -1329,41 +1400,33 @@ Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض
 
       client_name_35: "             مستوصف الوسج الطبي      ",
       client_details_35: "    عيادات  ",
- 
+
       client_name_36: "     صيدلية صفوة السعودية ",
       client_details_36: "    صيدلية  ",
- 
 
       client_name_37: "        مؤسسة خالد الطبية - فرعين",
       client_details_37: "     اداوت واجهزة طبية  ",
- 
 
       client_name_38: "    مجموعة صيدلية الحياة - 10 فروع ",
       client_details_38: "     صيدلية     ",
- 
 
-      client_name_39:   "       مجمع عيادات سدك التخصصية ",
+      client_name_39: "       مجمع عيادات سدك التخصصية ",
       client_details_39: "     عيادات     ",
- 
+
       client_name_40: "     مستشفى وعيادات الدكتور حسن البار التخصصية",
       client_details_40: "     عيادات     ",
-
 
       client_name_41: "    محلات عبد الله سالم القثمي - 3 فروع ",
       client_details_41: "     قطع غيار شاحنات     ",
 
-
       client_name_42: "    شركة راشد محمد الحمد - 6 فروع",
       client_details_42: "        قطع غيار سيارات ",
- 
 
       client_name_43: "        مؤسسة العلوان - 5 فروع",
       client_details_43: "        قطع غيار سيارات ",
 
- 
       client_name_44: "   محلات علي حسن السيد - 5 فروع",
       client_details_44: "        قطع غيار سيارات ",
-
 
       client_name_45: "      مؤسسة العلولا التجاريه",
       client_details_45: "          قطع غيار شاحنات ",
@@ -1371,38 +1434,32 @@ Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض
       client_name_46: "      محلات العيد - 3 فروع ",
       client_details_46: "          قطع غيار شاحنات ",
 
-
       client_name_47: "        مؤسسة صالح محمد عبد الرحمن المهيلب - 12 فرع",
       client_details_47: "     قطع غيار سيارات",
 
       client_name_48: "           شركة عبد الله السعدي واولاده - 6 فروع",
       client_details_48: "     قطع غيار شاحنات",
- 
+
       client_name_49: "    شركة المداولات لقطع غيار السيارات - 3 فروع ",
       client_details_49: "  قطع غيار سيارات",
 
       client_name_50: "    مؤسسة التقوى لقطع غيار السيارات - 3 فروع      ",
       client_details_50: "  قطع غيار سيارات",
- 
+
       client_name_51: "    مؤسسة محمد نهار القحطاني 25 فرع     ",
       client_details_51: "  قطع غيار سيارات",
 
       client_name_52: "    شركة المداولات لقطع غيار السيارات - 3 فروع    ",
       client_details_52: "  قطع غيار سيارات",
- 
+
       client_name_53: "   مؤسسة خالد عياد الحربي - 3 فروع   ",
       client_details_53: "  قطع غيار قطع غيار شاحنات",
- 
+
       client_name_54: "  شركة الكثيري للسيارات",
       client_details_54: "  مبيعات سيارات    ",
 
       client_name_55: " محلات المغلوث - 3 فروع",
       client_details_55: "    قطع غيار سيارات ",
- 
-
-
-
-
 
       copyRights: "جميع الحقوق محفوظة لشركة سنمار سوفت",
       MANAGER_TITLE: "كلمة المدير العام",
@@ -1422,7 +1479,6 @@ Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض
       TECHNICAL_MANAGER_PARAGRAPH_3:
         "مما حد بنا للاستثمار فيه جاعلين نصب أعيننا أهمية التقنية فبدأنا على الحرص والتفاني للارتقاء بمنظومة التقنية لتقف بسواعد رجالها في مطاف مصدري التقنية بمشيئة الله تعالى.",
     },
-
   },
 };
 

@@ -46,21 +46,21 @@ const testimonials = [
     name: "Testimonial_name_1",
     location: "Testimonial_Location_1",
     text: "Testimonial_text_1",
-    image: "/Logos/ارض الجوال.png", // Example image path
+    image: "/Logos/شركة علامة الزرقاء للتجارة.png", // Example image path
   },
   {
     id: "testimonial_1",
     name: "Testimonial_name_2",
     location: "Testimonial_Location_2",
     text: "Testimonial_text_2",
-    image: "/Logos/المركز العالمي للفايبرجلاس.png",
+    image: "/Logos/شركة الفا ميم للتجارة.png",
   },
   {
     id: "testimonial_2",
     name: "Testimonial_name_3",
     location: "Testimonial_Location_3",
     text: "Testimonial_text_3",
-   image: "/Logos/شركة افاق التميز الطبية.png",
+   image: "/Logos/شركة سبرت الطبية.png",
   },
   {
     id: "testimonial_3",
@@ -82,7 +82,7 @@ const testimonials = [
     name: "Testimonial_name_6",
     location: "Testimonial_Location_6",
     text: "Testimonial_text_6",
-   image: "/Logos/شركة مسارات الجيل للتجارة.png",
+   image: "/Logos/راشد الحمد.jpg",
   },
   {
     id: "testimonial_6",
@@ -105,7 +105,7 @@ const testimonials = [
     name: "Testimonial_name_9",
     location: "Testimonial_Location_9",
     text: "Testimonial_text_9",
-    image: "/Logos/9.png",
+    image: "/Logos/مؤسسة جاسر فهد الجاسر التجارية.png",
   },
   {
     id: "testimonial_9",
@@ -115,6 +115,21 @@ const testimonials = [
     image: "/Logos/مؤسسة قطع واكثر للتجارة2.png ",
   },
 
+ {
+    id: "testimonial_10",
+    name: "Testimonial_name_11",
+    location: "Testimonial_Location_11",
+    text: "Testimonial_text_11",
+    image: "/Logos/شركة مسارات الجيل للتجارة.png",
+  },
+
+   {
+    id: "testimonial_11",
+    name: "Testimonial_name_12",
+    location: "Testimonial_Location_12",
+    text: "Testimonial_text_12",
+    image: "/Logos/مؤسسة ناصر سليمان سطام الجهني التجارية.png",
+  },
 ];  
 
   return (
