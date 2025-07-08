@@ -23,6 +23,7 @@ import P from "../assets/Images/Partenrs/6.jpg";
 import O from "../assets/Images/Partenrs/5.jpg";
 import I from "../assets/Images/Partenrs/31.jpg";
 
+
 const images = [
   { id: "one", src: One, alt: "Image One" },
   { id: "two", src: Two, alt: "Image Two" },
@@ -30,6 +31,17 @@ const images = [
   { id: "four", src: Four, alt: "Image Four" },
   { id: "five", src: Five, alt: "Image Five" },
   { id: "six", src: Six, alt: "Image Six" },
+  { id: "seven", src: "/Logos/ارض الجوال.png", alt: "Image Seven" },
+  { id: "eight", src: "/Logos/شركة الفا ميم للتجارة.png", alt: "Image Eight" },
+  { id: "nine", src: "/Logos/المركز العالمي للفايبرجلاس.png", alt: "Image Nine" },
+  { id: "ten", src: "/Logos/مؤسسة قطع واكثر للتجارة.png", alt: "Image Ten" },
+  { id: "eleven", src: "/Logos/ميدياتور.png", alt: "Image Eleven" },
+  { id: "twelve", src: "/Logos/شركة صحة آدم الطبية.png", alt: "Image Twelve" },
+  { id: "thirteen", src: "/Logos/شركة مدن الطب الطبية.png", alt: "Image Thirteen" },
+  { id: "fourteen", src: "/Logos/راشد الحمد.jpg", alt: "Image Fourteen" },
+  { id: "fifteen", src: "/Logos/شركة المطرودي للتجارة.png", alt: "Image Fifteen" },
+  { id: "sixteen", src: "/Logos/مؤسسة ناصر سليمان سطام الجهني التجارية.png", alt: "Image Sixteen" },
+  { id: "seventeen", src: "/Logos/موسسة مقابض الابواب للتجارة.png", alt: "Image Seventeen" },
   { id: "z", src: z, alt: "Image Z" },
   { id: "q", src: q, alt: "Image Q" },
   { id: "u", src: U, alt: "Image U" },
@@ -38,6 +50,7 @@ const images = [
   { id: "o", src: O, alt: "Image O" },
   { id: "i", src: I, alt: "Image I" },
 ];
+
 
 export default function Partenrs() {
   const { t, i18n } = useTranslation();

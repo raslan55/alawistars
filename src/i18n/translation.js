@@ -975,7 +975,6 @@ const resources = {
       Ourproducts: "المنتجات والحلول",
       Ourproducts_text: "اكتشف حلولًا ذكية ومرنة لتحسين أداء أعمالك.",
       Show: "اطّلع على المزيد",
-
       our_mission: "رسالتنا",
       our_vision: "رؤيتنا",
       our_values: "قيمنا",

@@ -34,7 +34,8 @@ const Header = () => {
       <Topheader />
 
       <header
-        className={`sticky top-0 bg-white z-110 transition-all duration-300 ease-in-out ${
+        className={`sticky top-0 bg-white z-110 transition-all
+           duration-300 ease-in-out ${
           isScrolled ? "shadow-lg  bg-gray-50" : ""
         }`}
       >

@@ -13,10 +13,10 @@ export default function Testimonial() {
   const settings = {
     arrows: true,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1000,
     swipeToSlide: true,
-    speed: 3000,
+    speed: 5000,
     slidesToShow: 2,
     slidesToScroll: 1,
     nextArrow: <CustomNextArrow />,

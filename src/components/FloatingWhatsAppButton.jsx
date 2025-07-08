@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const FloatingWhatsAppButton  = () =>  {
 const contacts = [
     {
-      href: "https://wa.me/201234567890?text=السلام عليكم، لدي استفسار...",
+      href: "https://wa.me/201234567890?text= السلام عليكم،أحتاج دعمًا من فريق شركة نجوم العلاوي بخصوص إحدى الخدمات ،شكرا مقدمًا.",
       icon: <FaWhatsapp className="w-5 h-5" />,
       bg: "bg-[#41c052]",
       label: "واتساب",
