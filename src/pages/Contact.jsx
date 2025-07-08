@@ -37,7 +37,7 @@ const ContactPage = () => {
   setStatus("sending");
 
   try {
-    await axios.post("http://localhost:5000/api/contact", formData);
+    await axios.post("https://alwai-apis.vercel.app/contact", formData);
     setStatus("success");
     setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
   } catch (error) {
