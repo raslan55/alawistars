@@ -14,12 +14,13 @@ import Topheader from "./Topheader";
 
 const Header = () => {
   const { t, i18n } = useTranslation();
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); // ✅ للتحكم في حالة القائمة
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    setIsOpen(false); // ✅ قفل القائمة عند تغيير اللغة
   };
-
-  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,6 +30,9 @@ const Header = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const closeMenu = () => setIsOpen(false); // ✅ تستخدم بعد الضغط على أي عنصر
+
   return (
     <>
       <Topheader />
@@ -41,60 +45,40 @@ const Header = () => {
       >
         <Navbar fluid rounded>
           <NavbarBrand as={Link} to="/">
-            {/* Logo */}
             <img src={Logo} className="sm:w-50 w-40" />
           </NavbarBrand>
 
-          <NavbarToggle />
+          {/* ✅ نربط toggle بالحالة */}
+          <NavbarToggle onClick={() => setIsOpen(!isOpen)} />
 
-          <NavbarCollapse className="text-text-color gap-7 mobile-menu-custom">
-            <NavLink to="/" className="AL_Link font-bold">
+          <NavbarCollapse className={`text-text-color gap-7 mobile-menu-custom ${isOpen ? "block" : "hidden"} sm:flex`}>
+            <NavLink to="/" className="AL_Link font-bold" onClick={closeMenu}>
               {t("home")}
             </NavLink>
-            <NavLink to="/products" className="AL_Link font-bold">
+            <NavLink to="/products" className="AL_Link font-bold" onClick={closeMenu}>
               {t("products")}
             </NavLink>
-            <NavLink to="/services" className="AL_Link font-bold">
+            <NavLink to="/services" className="AL_Link font-bold" onClick={closeMenu}>
               {t("services")}
             </NavLink>
-            <NavLink to="/about" className="AL_Link font-bold">
+            <NavLink to="/about" className="AL_Link font-bold" onClick={closeMenu}>
               {t("about")}
             </NavLink>
-            {/* <NavLink to="/news" className="font-bold">
-              {t("news")}
-            </NavLink> */}
-            <NavLink to="/contact" className="AL_Link font-bold">
+            <NavLink to="/contact" className="AL_Link font-bold" onClick={closeMenu}>
               {t("contact")}
             </NavLink>
-            {/* Language Switcher */}
-            <div className="flex sm:flex-row flex-col items-center gap-2 sm:mt-0 mt-3">
-              <button
-                onClick={() => changeLanguage("en")}
-                className="px-2 py-1 rounded "
-              >
-                <img
-                  src="https://flagcdn.com/w40/us.png"
-                  alt="English"
-                  className="sm:w-6 sm:h-4 object-cover"
-                />
-              </button>
 
-              <button
-                onClick={() => changeLanguage("ar")}
-                className="px-2 py-1 rounded "
-              >
-                <img
-                  src="https://flagcdn.com/w40/sa.png"
-                  alt="Arabic"
-                  className="sm:w-6 sm:h-4  object-cover"
-                />
+            <div className="flex sm:flex-row flex-col items-center gap-2 sm:mt-0 mt-3">
+              <button onClick={() => changeLanguage("en")} className="px-2 py-1 rounded ">
+                <img src="https://flagcdn.com/w40/us.png" alt="English" className="sm:w-6 sm:h-4 object-cover" />
               </button>
-              
+              <button onClick={() => changeLanguage("ar")} className="px-2 py-1 rounded ">
+                <img src="https://flagcdn.com/w40/sa.png" alt="Arabic" className="sm:w-6 sm:h-4 object-cover" />
+              </button>
             </div>
           </NavbarCollapse>
         </Navbar>
       </header>
-      
     </>
   );
 };
