@@ -66,22 +66,22 @@ const resources = {
       Testimonial_name_1: "Blue Mark.",
       Testimonial_Location_1: "Jeddah, Saudi Arabia",
       Testimonial_text_1:
-        "We appreciate the efforts of Nojoom Al-Alawi for the maintenance and development of our programs. Our trust in them is continuous, as they are a key partner in our success. We hope for the continuation of this excellent performance. Thank you very much.",
+        "We appreciate the efforts of Alawistars for Information Systems for the maintenance and development of our programs. Our trust in them is continuous, as they are a key partner in our success. We hope for the continuation of this excellent performance. Thank you very much.",
 
       Testimonial_name_2: "Alpha Meem Store.",
       Testimonial_Location_2: "Riyadh, Saudi Arabia",
       Testimonial_text_2:
-        "We thank Nojoom Al-Alawi and the Sinmar system for their professionalism, quick response, and technical support over the past 4 years, which positively impacted the organization of our center. We wish you continued progress and prosperity.",
+        "We thank Alawistars for Information Systems and the Sinmar system for their professionalism, quick response, and technical support over the past 4 years, which positively impacted the organization of our center. We wish you continued progress and prosperity.",
 
       Testimonial_name_3: "Spert Medical .",
       Testimonial_Location_3: "Jeddah, Saudi Arabia",
       Testimonial_text_3:
-        "We extend our thanks and gratitude to Nojoom Al-Alawi and Sinmar Systems for their efforts in maintaining and developing the excellent programs we rely on for inventory, sales, and accounting. We value our partnership and wish you continued excellence.",
+        "We extend our thanks and gratitude to Alawistars for Information Systems and Sinmar Systems for their efforts in maintaining and developing the excellent programs we rely on for inventory, sales, and accounting. We value our partnership and wish you continued excellence.",
 
       Testimonial_name_4: "Adam Medical Co.",
       Testimonial_Location_4: "Saudi Arabia",
       Testimonial_text_4:
-        "A certificate of appreciation to Nojoom Al-Alawi and the Sinmar system for their continuous support in the success and development of our operations. We sincerely thank you for your valuable efforts and effective contributions.",
+        "A certificate of appreciation to Alawistars for Information Systems and the Sinmar system for their continuous support in the success and development of our operations. We sincerely thank you for your valuable efforts and effective contributions.",
 
       Testimonial_name_5: "Medical Cities.",
       Testimonial_Location_5: "Jeddah, Saudi Arabia",
@@ -91,37 +91,37 @@ const resources = {
       Testimonial_name_6: "Rashed Mohammed Al-Hamad Co.",
       Testimonial_Location_6: "Riyadh, Saudi Arabia",
       Testimonial_text_6:
-        "We thank Nojoom Al-Alawi and Sinmar Systems for the ongoing maintenance and development of our programs (inventory, sales, and accounting). Our trust in you is a lasting partnership for success, and we hope this excellent performance continues.",
+        "We thank Alawistars for Information Systems and Sinmar Systems for the ongoing maintenance and development of our programs (inventory, sales, and accounting). Our trust in you is a lasting partnership for success, and we hope this excellent performance continues.",
 
       Testimonial_name_7: "Ahmed Ibrahim Al-Matroody Trading Co.",
       Testimonial_Location_7: "Jeddah, Saudi Arabia",
       Testimonial_text_7:
-        "A letter of thanks and appreciation to the Director of Nojoom Al-Alawi for their continuous efforts in developing the Sinmar accounting systems. We are proud to keep up with your progress and wish you lasting success. Our deepest thanks to you.",
+        "A letter of thanks and appreciation to the Director of Alawistars for Information Systems for their continuous efforts in developing the Sinmar accounting systems. We are proud to keep up with your progress and wish you lasting success. Our deepest thanks to you.",
 
       Testimonial_name_8: "Tabarak & Raya Company.",
       Testimonial_Location_8: "Saudi Arabia",
       Testimonial_text_8:
-        "We thank the Nojoom Al-Alawi team and Sinmar Systems for the fruitful collaboration in developing our commercial systems and improving work efficiency. We highly value your professionalism and commitment, and look forward to more shared success.",
+        "We thank the Alawistars for Information Systems team and Sinmar Systems for the fruitful collaboration in developing our commercial systems and improving work efficiency. We highly value your professionalism and commitment, and look forward to more shared success.",
 
       Testimonial_name_9: "AL-JASSER ",
       Testimonial_Location_9: "Riyadh, Saudi Arabia",
       Testimonial_text_9:
-        "Thanks and appreciation to Nojoom Al-Alawi and Sinmar Systems for maintaining and developing our programs (inventory, sales, accounting). Our trust in you is continuous as a success partner, and we hope your excellence continues. Sincere thanks and gratitude.",
+        "Thanks and appreciation to Alawistars for Information Systems and Sinmar Systems for maintaining and developing our programs (inventory, sales, accounting). Our trust in you is continuous as a success partner, and we hope your excellence continues. Sincere thanks and gratitude.",
 
       Testimonial_name_10: "Parts & More ",
       Testimonial_Location_10: "Riyadh, Saudi Arabia",
       Testimonial_text_10:
-        "With pride, appreciation, and gratitude, Qata’ Wa Akthar extends sincere thanks to Nojoom Al-Alawi and Sinmar Systems for their efforts in program development and problem solving. We wish you continued success.",
+        "With pride, appreciation, and gratitude, Qata’ Wa Akthar extends sincere thanks to Alawistars for Information Systems and Sinmar Systems for their efforts in program development and problem solving. We wish you continued success.",
 
       Testimonial_name_11: "Masarat Al-Jeel Trading Co.",
       Testimonial_Location_11: "Riyadh, Saudi Arabia",
       Testimonial_text_11:
-        "Thanks and appreciation to Nojoom Al-Alawi and Sinmar Systems for maintaining and developing our programs (inventory, sales, accounting). Our trust in you is continuous as a success partner, and we hope your excellence continues. Sincere thanks and gratitude.",
+        "Thanks and appreciation to Alawistars for Information Systems and Sinmar Systems for maintaining and developing our programs (inventory, sales, accounting). Our trust in you is continuous as a success partner, and we hope your excellence continues. Sincere thanks and gratitude.",
 
       Testimonial_name_12: "Nasser Sulaiman Sattam Al-Juhani Trading Est.",
       Testimonial_Location_12: "Riyadh, Saudi Arabia",
       Testimonial_text_12:
-        "Thanks and appreciation to Nojoom Al-Alawi and the Sinmar system for maintaining and developing our programs. Our trust in you is continuous as a success partner, and we hope your excellence continues. Many thanks to you.",
+        "Thanks and appreciation to Alawistars for Information Systems and the Sinmar system for maintaining and developing our programs. Our trust in you is continuous as a success partner, and we hope your excellence continues. Many thanks to you.",
 
       Partners_Heading: " Meet our  partners",
       Partners_text: "We’ve 10000+ Dedicated Partners",
