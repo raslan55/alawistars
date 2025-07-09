@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import CustomPrevArrow from "./CustomPrevArrow";
 import CustomNextArrow from "./CustomNextArrow";
+import { FaQuoteRight,FaQuoteLeft } from "react-icons/fa6";
 
 export default function Testimonial() {
   const { i18n, t } = useTranslation();
@@ -153,24 +154,13 @@ const testimonials = [
           <div key={item.id || index} className="px-3 sm:px-4">
             <div className="bg-white p-5 sm:p-6 rounded-3xl relative YaShadow h-full min-h-[200px] flex flex-col justify-between">
               {/* SVG icon positioning based on RTL/LTR */}
-              <span className={`absolute top-4 ${isRTL ? 'right-4 ' : 'left-4'}`}>
-                <svg
-                  width="32"
-                  height="33"
-                  viewBox="0 0 32 33"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+              <span className={`absolute top-4  ${isRTL ? 'right-4 ' : 'left-4'} `}>
 
-                  <path
-                    d="M31.6803 20.698C31.6803 25.339 27.9213 29.098 23.2803 29.098H22.7203C21.4813 29.098 20.4803 28.097 20.4803 26.858C20.4803 25.619 21.4813 24.618 22.7203 24.618H23.2803C25.4433 24.618 27.2003 22.861 27.2003 20.698V20.138H22.7203C20.2493 20.138 18.2403 18.129 18.2403 15.658V11.178C18.2403 8.707 20.2493 6.698 22.7203 6.698H27.2003C29.6713 6.698 31.6803 8.707 31.6803 11.178V20.698ZM13.7603 20.698C13.7603 25.339 10.0013 29.098 5.36031 29.098H4.80031C3.56131 29.098 2.56031 28.097 2.56031 26.858C2.56031 25.619 3.56131 24.618 4.80031 24.618H5.36031C7.52331 24.618 9.28031 22.861 9.28031 20.698V20.138H4.80031C2.32931 20.138 0.320312 18.129 0.320312 15.658V11.178C0.320312 8.707 2.32931 6.698 4.80031 6.698H9.28031C11.7513 6.698 13.7603 8.707 13.7603 11.178V20.698Z"
-                    fill="#1b6ba9"
+                {isRTL ? <FaQuoteRight className="text-Main-color text-5xl "/> : <FaQuoteLeft className="text-Main-color text-5xl"/>}
 
-                  />
-                </svg>
               </span>
               {/* Text alignment based on RTL/LTR */}
-              <p className={`${isRTL ? 'text-end' : 'text-start'} text-[#001E60] leading-relaxed pt-8 text-[15px] font-normal sm:text-base`}>
+              <p className={`${isRTL ? 'text-end' : 'text-start'} text-[#001E60] leading-relaxed pt-10 text-[15px] font-normal sm:text-base`}>
                 {t(item.text)}
               </p>
               <div className={`flex items-center justify-between  mt-4`}>

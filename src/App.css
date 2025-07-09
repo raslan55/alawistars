@@ -55,6 +55,9 @@ position: absolute;
     padding-top: 20px;
 }
 
+.swiper {
+  overflow: visible;
+}
 
  .swiper-pagination {
             bottom: 0px !important;

@@ -118,7 +118,7 @@ export default function Partenrs() {
             {images.map((img) => (
               <SwiperSlide
                 key={img.id}
-                className="bg-white p-2 min-h-[100px]   border-Main-color rounded-2xl shadow-xl cursor-grab" >
+                className="bg-white p-2 min-h-[100px]   border-Main-color rounded-2xl shadow-md cursor-grab" >
                 <img
                   src={img.src}
                   alt={img.alt}
