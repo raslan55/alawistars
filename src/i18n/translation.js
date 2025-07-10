@@ -531,8 +531,7 @@ const resources = {
       serv_feature_2: "Supports variable VAT according to ZATCA regulations",
       serv_feature_3: "Define service pricing by type",
       serv_feature_4: "Easily convert receipts or quotations into invoices",
-      serv_feature_5:
-        "Track financial transactions with clients and suppliers via comprehensive reports",
+      serv_feature_5:  "Track financial transactions with clients and suppliers via comprehensive reports",
       serv_feature_6: "Simple and complete receipt voucher for laundries",
       serv_feature_7: "Profit reports per invoice for any time period",
       serv_feature_8: "Graphical dashboards to support management decisions",
@@ -548,20 +547,15 @@ const resources = {
       serv_feature_18: "Client account statements",
       serv_feature_19: "Invoice profit reports",
       serv_feature_20: "Monthly sales graph",
-
       fuel_feature_1: "Compatible with all large and small fuel stations",
       fuel_feature_2: "Unlimited pumps and tanks can be added",
       fuel_feature_3: "User-friendly interface for invoices and vouchers",
-      fuel_feature_4:
-        "Track movement of gasoline, diesel, kerosene, and others",
+      fuel_feature_4:  "Track movement of gasoline, diesel, kerosene, and others",
       fuel_feature_5: "Sell various external services like car wash, etc.",
-      fuel_feature_6:
-        "Create customer and supplier accounts with balance and reports tracking",
-      fuel_feature_7:
-        "Calculate evaporated fuel quantity upon receiving purchases",
+      fuel_feature_6: "Create customer and supplier accounts with balance and reports tracking",
+      fuel_feature_7: "Calculate evaporated fuel quantity upon receiving purchases",
       fuel_feature_8: "Monitor fuel usage with detailed pump reports",
-      fuel_feature_9:
-        "Track payments to suppliers and credit customers (individuals or companies)",
+      fuel_feature_9: "Track payments to suppliers and credit customers (individuals or companies)",
       fuel_feature_10: "Monitor remaining fuel balances in all tanks",
       fuel_feature_11: "Assign special pricing for credit customers",
       fuel_feature_12:
