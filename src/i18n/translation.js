@@ -558,23 +558,17 @@ const resources = {
       fuel_feature_9: "Track payments to suppliers and credit customers (individuals or companies)",
       fuel_feature_10: "Monitor remaining fuel balances in all tanks",
       fuel_feature_11: "Assign special pricing for credit customers",
-      fuel_feature_12:
-        "Change prices anytime according to authority requirements",
-      fuel_feature_13:
-        "Daily sales/purchase reports and easy access to financial data",
-      fuel_feature_14:
-        "Integration with Sinmar Accounting and auto-posting to journal entries",
-      fuel_feature_15:
-        "Comprehensive, categorized, and detailed document reports",
+      fuel_feature_12: "Change prices anytime according to authority requirements",
+      fuel_feature_13: "Daily sales/purchase reports and easy access to financial data",
+      fuel_feature_14: "Integration with Sinmar Accounting and auto-posting to journal entries",
+      fuel_feature_15:"Comprehensive, categorized, and detailed document reports",
       fuel_feature_16: "Remote work monitoring with ease",
       fuel_feature_17: "Remote branch connectivity",
       fuel_feature_18: "Add extra services like car wash, tire repair, etc.",
       fuel_feature_19: "Issue and track customer coupons",
-
       Digital_Started: "Start Your Digital Journey Today",
       Digital_CTA_Text:
         "Explore our advanced digital systems and contact us to find the perfect fit for your business",
-
       About_Started: " Who are we and why Sinmar? ",
       About_CTA_Text:
         "Learn about our vision, mission, and how we work to make technology serve your business.",
