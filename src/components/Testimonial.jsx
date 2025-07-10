@@ -8,6 +8,26 @@ import CustomPrevArrow from "./CustomPrevArrow";
 import CustomNextArrow from "./CustomNextArrow";
 import { FaQuoteRight,FaQuoteLeft } from "react-icons/fa6";
 
+import One_img from "../assets/Images/Testmonial/Logos/BlueMark.png";
+import Two_img from "../assets/Images/Testmonial/Logos/ACMS.png";
+import Three_img from "../assets/Images/Testmonial/Logos/Spert.png";
+import Four_img from "../assets/Images/Testmonial/Logos/Adam.png";
+import Five_img from "../assets/Images/Testmonial/Logos/Medical_cites.png";
+import Six_img from "../assets/Images/Testmonial/Logos/AHM.jpg";
+import Seven_img from "../assets/Images/Testmonial/Logos/Ahmed.png";
+import Eight_img from "../assets/Images/Testmonial/Logos/Tabark.png";
+import Nine_img from "../assets/Images/Testmonial/Logos/Al-Jasser.png";
+import Ten_img from "../assets/Images/Testmonial/Logos/Parts&More2.png";
+import Eleven_img from "../assets/Images/Testmonial/Logos/MJC.png";
+import Twelve_img from "../assets/Images/Testmonial/Logos/MML.png";
+
+
+
+
+
+
+
+
 export default function Testimonial() {
   const { i18n, t } = useTranslation();
   const isRTL = i18n.language === 'ar';
@@ -47,35 +67,35 @@ const testimonials = [
     name: "Testimonial_name_1",
     location: "Testimonial_Location_1",
     text: "Testimonial_text_1",
-    image: "/Logos/شركة علامة الزرقاء للتجارة.png", // Example image path
+    image: One_img,
   },
   {
     id: "testimonial_1",
     name: "Testimonial_name_2",
     location: "Testimonial_Location_2",
     text: "Testimonial_text_2",
-    image: "/Logos/شركة الفا ميم للتجارة.png",
+    image: Two_img,
   },
   {
     id: "testimonial_2",
-    name: "Testimonial_name_3",
+    name: "Testimonial_name_3",         
     location: "Testimonial_Location_3",
-    text: "Testimonial_text_3",
-   image: "/Logos/شركة سبرت الطبية.png",
+    text: "Testimonial_text_3",   
+   image: Three_img,
   },
   {
     id: "testimonial_3",
     name: "Testimonial_name_4",
     location: "Testimonial_Location_4",
     text: "Testimonial_text_4",
-    image: "/Logos/شركة صحة آدم الطبية.png",
+   image:   Four_img,
   },
   {
     id: "testimonial_4",
     name: "Testimonial_name_5",
     location: "Testimonial_Location_5",
     text: "Testimonial_text_5",
-   image: "/Logos/شركة مدن الطب الطبية.png",
+   image:     Five_img,
   },
 
   {
@@ -83,14 +103,14 @@ const testimonials = [
     name: "Testimonial_name_6",
     location: "Testimonial_Location_6",
     text: "Testimonial_text_6",
-   image: "/Logos/راشد الحمد.jpg",
+   image: Six_img,
   },
   {
     id: "testimonial_6",
     name: "Testimonial_name_7",
     location: "Testimonial_Location_7",
     text: "Testimonial_text_7",
-   image: "/Logos/شركة المطرودي للتجارة.png",
+   image: Seven_img,
   },
 
   {
@@ -98,7 +118,7 @@ const testimonials = [
     name: "Testimonial_name_8",
     location: "Testimonial_Location_8",
     text: "Testimonial_text_8",
-  image: "/Logos/شركة تبارك و راية التجارية.png",
+  image: Eight_img,
   },
 
   {
@@ -106,14 +126,14 @@ const testimonials = [
     name: "Testimonial_name_9",
     location: "Testimonial_Location_9",
     text: "Testimonial_text_9",
-    image: "/Logos/مؤسسة جاسر فهد الجاسر التجارية.png",
+    image: Nine_img,
   },
   {
     id: "testimonial_9",
     name: "Testimonial_name_10",
     location: "Testimonial_Location_10",
     text: "Testimonial_text_10",
-    image: "/Logos/مؤسسة قطع واكثر للتجارة2.png ",
+    image: Ten_img,
   },
 
  {
@@ -121,7 +141,7 @@ const testimonials = [
     name: "Testimonial_name_11",
     location: "Testimonial_Location_11",
     text: "Testimonial_text_11",
-    image: "/Logos/شركة مسارات الجيل للتجارة.png",
+    image: Eleven_img,
   },
 
    {
@@ -129,7 +149,7 @@ const testimonials = [
     name: "Testimonial_name_12",
     location: "Testimonial_Location_12",
     text: "Testimonial_text_12",
-    image: "/Logos/مؤسسة ناصر سليمان سطام الجهني التجارية.png",
+    image: Twelve_img,
   },
 ];  
 

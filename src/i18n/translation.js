@@ -5,39 +5,39 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      welcome: "Welcome to Alawistars!",
+      welcome: "Welcome to Alawistars for Information Systems!",
       home: "Home",
       products: "Products",
       services: "Services",
       about: "About Us",
       news: "News",
       contact: "Contact Us",
-      title: "alawistars",
-      meta_default_title: "Al-Alawi Stars Computer Systems",
+      title: "Alawistars for Information Systems",
+      meta_default_title: "Alawistars for Information Systems",
       meta_default_description:
         "Advanced software and tech solutions since 1994.",
 
-      meta_home_title: "Home | Al-Alawi Stars",
+      meta_home_title: "Home |Alawistars",
       meta_home_description:
-        "Welcome to Al-Alawi Stars – your source for comprehensive and innovative tech solutions.",
+        "Welcome to Alawistars– your source for comprehensive and innovative tech solutions.",
 
-      meta_products_title: "Products | Al-Alawi Stars",
+      meta_products_title: "Products | Alawistars",
       meta_products_description:
         "Explore our premium collection of software products and technical systems.",
 
-      meta_services_title: "Services | Al-Alawi Stars",
+      meta_services_title: "Services | Alawistars",
       meta_services_description:
         "We provide integrated technology services to support your company’s goals.",
 
-      meta_about_title: "About Us | Al-Alawi Stars",
+      meta_about_title: "About Us | Alawistars",
       meta_about_description:
         "Learn about our journey and expertise in software and systems.",
 
-      meta_news_title: "News | Al-Alawi Stars",
+      meta_news_title: "News | Alawistars",
       meta_news_description:
         "Follow the latest company updates and technology news.",
 
-      meta_contact_title: "Contact Us | Al-Alawi Stars",
+      meta_contact_title: "Contact Us | Alawistars",
       meta_contact_description:
         "Reach out to us for inquiries or technical support.",
       CompanyName: "Alawistars for Information Systems",
@@ -123,7 +123,7 @@ const resources = {
       Testimonial_text_12:
         "Thanks and appreciation to Alawistars for Information Systems and the Sinmar system for maintaining and developing our programs. Our trust in you is continuous as a success partner, and we hope your excellence continues. Many thanks to you.",
 
-      Partners_Heading: " Meet our  partners",
+      Partners_Heading: "Meet our  partners",
       Partners_text: "We’ve 10000+ Dedicated Partners",
       Hero_heading:
         "The Smart Solution for Managing Your Business and Tracking Inventory  with Ease",
@@ -187,7 +187,7 @@ const resources = {
         " Supporting the work and production environment and enhancing the value of  modern technologies, software, and systems that serve companies, institutions, entrepreneurs, and the economy in Saudi Arabia and our customers abroad by providing innovative, high-quality technical solutions at competitive prices.",
       Explore_More: "Our innovative solutions",
       Our_Partners_p:
-        "Our clients are our partners in success, thanks to God; Alawi Stars for Computer Systems has more than 10,000 clients so far in all disciplines, and achieved a great success in a short time through the production of the distinct software, these are some of our clients that we had the honor to serve them",
+        "Our clients are our partners in success,  Alawistars for Information Systems has more than 10,000 clients so far in all disciplines, and achieved a great success in a short time through the production of the distinct software, these are some of our clients that we had the honor to serve them",
       Our_Partners: " Our Partners  ",
       ReadMore: "Read More",
       SUBSCRIBERS: "SUBSCRIBERS",
@@ -887,24 +887,24 @@ const resources = {
       Testimonial_name_9: " مؤسسة جاسر فهد الجاسر التجارية",
       Testimonial_Location_9: "الرياض، السعودية",
       Testimonial_text_9:
-        "شكر وتقدير لنجوم العلاوي ونظم سنمار التطبيقية على صيانة وتطوير برامجنا (المخزون، المبيعات، المحاسبة). ثقتنا بكم دائمة كشريك نجاح، ونأمل استمرار تميزكم. لكم منا جزيل الشكر والعرفان.",
+        "شكر وتقدير لنجوم العلاوي و التطبيقية على صيانة وتطوير برامجنا (المخزون، المبيعات، المحاسبة). ثقتنا بكم دائمة كشريك نجاح، ونأمل استمرار تميزكم. لكم منا جزيل الشكر والعرفان.",
 
       Testimonial_name_10: "   مؤسسة قطع واكثر للتجارة ", // Adding the last one (Tareq & Yasien Co.)
       Testimonial_Location_10: " الرياض ، السعودية",
       Testimonial_text_10:
-        "بكل الاعتزاز والفخر والتقدير، تتقدم  قطع واكثر بخالص الشكر لنجوم العلاوي ونظم سنمار لجهودهم في تطوير البرنامج والمساعدة في حل المشكلات. نتمنى لكم دوام التوفيق.",
+        "بكل الاعتزاز والفخر والتقدير، تتقدم  قطع واكثر بخالص الشكر لنجوم العلاوي  لجهودهم في تطوير البرنامج والمساعدة في حل المشكلات. نتمنى لكم دوام التوفيق.",
 
       Testimonial_name_11: " شركة مسارات الجيل للتجارة  ",
       Testimonial_Location_11: "الرياض، السعودية",
       Testimonial_text_11:
-        "شكر وتقدير لنجوم العلاوي ونظم سنمار التطبيقية على صيانة وتطوير برامجنا (المخزون، المبيعات، المحاسبة). ثقتنا بكم دائمة كشريك نجاح، ونأمل استمرار تميزكم. لكم منا جزيل الشكر والعرفان.",
+        "شكر وتقدير لنجوم العلاوي والتطبيقية على صيانة وتطوير برامجنا (المخزون، المبيعات، المحاسبة). ثقتنا بكم دائمة كشريك نجاح، ونأمل استمرار تميزكم. لكم منا جزيل الشكر والعرفان.",
 
       Testimonial_name_12: " مؤسسة ناصر سليمان سطام الجهني التجارية ",
       Testimonial_Location_12: "الرياض، السعودية",
       Testimonial_text_12:
         "شكر وتقدير لنجوم العلاوي ونظام سنمار  على صيانة وتطوير برامجنا . ثقتنا بكم دائمة كشريك نجاح، ونأمل استمرار تميزكم. لكم منا جزيل الشكر .",
 
-      Partners_text: "لدينا أكثر من 10000 شريك",
+      Partners_text: "شركاؤنا هم سر نجاحنا واستمراريتنا",
       Hero_heading: "الحل الذكي لإدارة أعمالك وتتبع المخزون بكل سهولة",
       Hero_text:
         " معتمد من هيئة الزكاة والضريبة والجمارك السعودية للفوترة الإلكترونية (المرحلتين الأولى والثانية)",
@@ -966,8 +966,8 @@ const resources = {
       Explore_More: "  حلولنا المبتكرة ",
       Our_Partners: "شركاؤنا ",
       Our_Partners_p:
-        "عملاؤنا هم شركاؤنا في النجاح بفضل الله؛ حيث تمتلك شركة   نجوم العلاوى لنظم الكمبيوتر لأنظمة الحاسب الآلي أكثر من 10000 عميل حتى الآن في جميع التخصصات، وحققت نجاحاً باهراً في وقت قصير من خلال إنتاج البرمجيات المتميزة، هؤلاء بعض عملائنا الذين تشرفنا بخدمتهم",
-      Partners_Heading: "تعرف على شركائنا",
+        "عملاؤنا هم شركاؤنا في النجاح حيث تمتلك  شركة نجوم العلاوى لنظم الكمبيوتر أكثر من 10000 عميل حتى الآن في جميع التخصصات، وحققت نجاحاً باهراً في وقت قصير من خلال إنتاج البرمجيات المتميزة، هؤلاء بعض عملائنا الذين تشرفنا بخدمتهم",
+      Partners_Heading: "تعرف على شركاؤنا ",
       ReadMore: "شاهد المزيد",
       SUBSCRIBERS: "المشتركين",
       PROJECTS: "المشاريع",
@@ -990,7 +990,7 @@ const resources = {
         "نحرص على توفير الأنظمة والحلول التي تضمن سرية البيانات وتمنح المستخدم الثقة في تحقيق أفضل أداء ونتائج.",
       value_3_title: "الثقة",
       value_3_text:
-        "نبني علاقات طويلة الأمد مبنية على الثقة والمصداقية مع عملائنا وشركائنا لتحقيق أهداف مشتركة.",
+        "نبني علاقات طويلة الأمد مبنية على الثقة والمصداقية مع عملائنا و شركاؤنا  لتحقيق أهداف مشتركة.",
       value_4_title: "الإبداع",
       value_4_text:
         "نقدم حلولاً مبتكرة بطرق غير تقليدية، تميزنا في السوق وتجعل من خدماتنا ذات قيمة حقيقية.",
@@ -1311,7 +1311,7 @@ const resources = {
       About_CTA_Text:
         "تعرف على رؤيتنا ورسالتنا وكيف نعمل لنجعل التقنية في خدمة أعمالك",
 
-      our_clients_title: "شركاؤنا وعملاؤنا الكرام",
+      our_clients_title:  "  بعض من شركاؤنا وعملاؤنا الكرام",
 
       client_name_1: "شركة المركز الاقتصادي للمقاولات",
       client_details_1: "   مقاولات عامة     ",

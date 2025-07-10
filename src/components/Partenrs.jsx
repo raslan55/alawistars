@@ -12,9 +12,20 @@ import Handshake from "../assets/Images/94840700-5748-4046-8c48-30862b81abd1.jpg
 import One from "../assets/Images/Partenrs/15.jpg";
 import Two from "../assets/Images/Partenrs/16.jpg";
 import Three from "../assets/Images/Partenrs/17.jpg";
-import Four from "../assets/Images/Partenrs/1_1.jpg";
+import Four from "../assets/Images/Testmonial/Logos/AHM.jpg";
 import Five from "../assets/Images/Partenrs/26.jpg";
 import Six from "../assets/Images/Partenrs/27.jpg";
+import seven from "../assets/Images/Testmonial/Logos/Ahmed.png";
+import eight from "../assets/Images/Testmonial/Logos/ACMS.png";
+import nine from "../assets/Images/Testmonial/Logos/Nawa.png";
+import ten from "../assets/Images/Testmonial/Logos/BlueMark.png";
+import eleven from "../assets/Images/Testmonial/Logos/Parts&More.png";
+import twelve from "../assets/Images/Testmonial/Logos/MJC.png";
+import thirteen from "../assets/Images/Testmonial/Logos/Medical_cites.png";
+import fourteen from "../assets/Images/Testmonial/Logos/MML.png";
+import fifteen from "../assets/Images/Testmonial/Logos/Doors.png";
+import sixteen from "../assets/Images/Testmonial/Logos/GG.png";
+import seventeen from "../assets/Images/Testmonial/Logos/Hadid.png";
 import z from "../assets/Images/Partenrs/30.jpg";
 import q from "../assets/Images/Partenrs/2_0.jpg";
 import U from "../assets/Images/Partenrs/9.jpg";
@@ -31,17 +42,17 @@ const images = [
   { id: "four", src: Four, alt: "Image Four" },
   { id: "five", src: Five, alt: "Image Five" },
   { id: "six", src: Six, alt: "Image Six" },
-  { id: "seven", src: "/Logos/ارض الجوال.png", alt: "Image Seven" },
-  { id: "eight", src: "/Logos/شركة الفا ميم للتجارة.png", alt: "Image Eight" },
-  { id: "nine", src: "/Logos/المركز العالمي للفايبرجلاس.png", alt: "Image Nine" },
-  { id: "ten", src: "/Logos/مؤسسة قطع واكثر للتجارة.png", alt: "Image Ten" },
-  { id: "eleven", src: "/Logos/ميدياتور.png", alt: "Image Eleven" },
-  { id: "twelve", src: "/Logos/شركة صحة آدم الطبية.png", alt: "Image Twelve" },
-  { id: "thirteen", src: "/Logos/شركة مدن الطب الطبية.png", alt: "Image Thirteen" },
-  { id: "fourteen", src: "/Logos/راشد الحمد.jpg", alt: "Image Fourteen" },
-  { id: "fifteen", src: "/Logos/شركة المطرودي للتجارة.png", alt: "Image Fifteen" },
-  { id: "sixteen", src: "/Logos/مؤسسة ناصر سليمان سطام الجهني التجارية.png", alt: "Image Sixteen" },
-  { id: "seventeen", src: "/Logos/موسسة مقابض الابواب للتجارة.png", alt: "Image Seventeen" },
+  { id: "seven", src: seven, alt: "Image Eight" },
+  { id: "eight", src: eight, alt: "Image Eight" },
+  { id: "nine", src: nine, alt: "Image Nine" },
+  { id: "ten", src: ten, alt: "Image Ten" },
+  { id: "eleven", src: eleven, alt: "Image Eleven" },
+  { id: "twelve", src: twelve, alt: "Image Twelve" },
+  { id: "thirteen", src: thirteen, alt: "Image Thirteen" },
+  { id: "fourteen", src: fourteen, alt: "Image Fourteen" },
+  { id: "fifteen", src: fifteen, alt: "Image Fifteen" },
+  { id: "sixteen", src: sixteen, alt: "Image Sixteen" },
+  { id: "seventeen", src: seventeen, alt: "Image Seventeen" },
   { id: "z", src: z, alt: "Image Z" },
   { id: "q", src: q, alt: "Image Q" },
   { id: "u", src: U, alt: "Image U" },
@@ -50,7 +61,6 @@ const images = [
   { id: "o", src: O, alt: "Image O" },
   { id: "i", src: I, alt: "Image I" },
 ];
-
 
 export default function Partenrs() {
   const { t, i18n } = useTranslation();
@@ -118,7 +128,8 @@ export default function Partenrs() {
             {images.map((img) => (
               <SwiperSlide
                 key={img.id}
-                className="bg-white p-2 min-h-[100px]   border-Main-color rounded-2xl shadow-md cursor-grab" >
+                className="bg-white p-2 min-h-[100px]   border-Main-color rounded-2xl shadow-md cursor-grab"
+              >
                 <img
                   src={img.src}
                   alt={img.alt}
