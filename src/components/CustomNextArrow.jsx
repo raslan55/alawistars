@@ -20,12 +20,12 @@ const { className, style, onClick } = props;
       }}
       onClick={onClick}
     >
-      <svg
+      
+   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={40}
     height={41}
     fill="none"
-    
   >
     <rect width={40} height={40} y={0.875} fill="#1b6ba9" rx={20} />
     <path
@@ -37,6 +37,7 @@ const { className, style, onClick } = props;
       d="m16.91 28.795 6.52-6.52c.77-.77.77-2.03 0-2.8l-6.52-6.52"
     />
   </svg>
+
     </div>
   );
 }

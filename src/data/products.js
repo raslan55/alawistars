@@ -37,7 +37,7 @@ const products = [
     image: "/Productes/furnished_apartments.webp",
     slug: "furnished-apartments",
     description: "Furn_Disc",
-    features: [...Array(16)].map((_, i) => `Furn_feature_${i + 1}`),
+    features: [...Array(8)].map((_, i) => `Furn_feature_${i + 1}`),
   },
   {
     id: 6,
@@ -53,8 +53,9 @@ const products = [
     image: "/Productes/car_maintenance.webp",
     slug: "car-maintenance",
     description: "Maintenance_Disc",
-    features: [...Array(40)].map((_, i) => `Maintenance_feature_${i + 1}`),
+    features: [...Array(35)].map((_, i) => `Maintenance_feature_${i + 1}`),
   },
+  
   {
     id: 8,
     title: "Car_sale",

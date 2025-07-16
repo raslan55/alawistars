@@ -6,9 +6,8 @@ import SeoHelmet from '../components/SeoHelmet'
 export default function About() {
   return (
     <div>
- <SeoHelmet pageKey="about" />
- <AboutUs/>
-
+    <SeoHelmet pageKey="about" />
+    <AboutUs/>  
     </div>
   )
 }

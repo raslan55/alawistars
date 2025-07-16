@@ -11,20 +11,19 @@ import SeoHelmet from "../components/SeoHelmet";
 function Home() {
   const { t } = useTranslation();
 
-
   return (
     <div>
       <SeoHelmet pageKey="home" />
-     <HeroSection/>
+      <HeroSection/>
       <About/>
       <Servslide/>
       <Products/>
       <Testimonial/>
       <Partenrs/>
+
         <CTA 
           heading={t("Started")} 
-         subheading={t("CTA_Text")} />
-
+          subheading={t("CTA_Text")} />
 
     </div>
   );

@@ -10,6 +10,7 @@ import ProductDetails from "../components/ProductDetails";
 import ClientGrid from "../pages/ClientGrid";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import TermsAndConditions from "../pages/TermsAndConditions";
+import NotFound from "../pages/NotFound";
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
 
           <Route path="PrivacyPolicy" element={<PrivacyPolicy />} />
          <Route path="TermsAndConditions" element={<TermsAndConditions />} />
-          
+              <Route path="*" element={<NotFound />} />
           </Route>
 
       </Routes>

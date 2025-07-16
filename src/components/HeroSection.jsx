@@ -76,6 +76,7 @@ export default function HeroSection() {
         </div>
 
         {/* Right Image */}
+        
         <motion.div
           className="md:w-1/2 flex justify-center mt-1 md:mt-0"
           whileHover={{ scale: 1.05 }}
@@ -86,6 +87,7 @@ export default function HeroSection() {
             alt="Inventory Management"
             className="max-w-full h-auto"
           />
+
         </motion.div>
       </section>
     </div>

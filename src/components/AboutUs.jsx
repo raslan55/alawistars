@@ -14,10 +14,9 @@ import {
   FaEye,
   FaBullseye,
 } from "react-icons/fa";
-import CTO from "../assets/Images/CTO.jpg"; // Adjust the path as necessary
+import CTO from "../assets/Images/CTO.jpg";         // Adjust the path as necessary
 import Manger from "../assets/Images/10102644.jpg"; // Adjust the path as necessary
 import CTA from "./CTA";
-
 const AboutUs = () => {
   const { t } = useTranslation();
 
@@ -86,6 +85,7 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
+
         <div className="max-w-7xl mx-auto text-center space-y-20">
           {/* Vision & Mission */}
           <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-stretch">
@@ -113,30 +113,29 @@ const AboutUs = () => {
           </div>
 
           {/* Our Values */}
-          <div>
-            <h2 className="text-4xl font-bold text-Main-color mb-10">
-              {t("our_values")}
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {values.map((item, idx) => (
-                <div
-                  key={idx}
-                  className="bg-white shadow-md rounded-xl p-6 text-start border border-gray-200 transition-transform transform hover:-translate-y-1 hover:shadow-2xl"
-                >
-                  <div className="mb-4">
-                    <div className="w-14 h-14 flex items-center justify-center rounded-full bg-Main-color shadow-md">
-                      {item.icon}
+            <div>
+              <h2 className="text-4xl font-bold text-Main-color mb-10">
+                {t("our_values")}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                {values.map((item, idx) => (
+                  <div
+                    key={idx}
+                    className="bg-white shadow-md rounded-xl p-6 text-start border border-gray-200 transition-transform transform hover:-translate-y-1 hover:shadow-2xl"
+                  >
+                    <div className="mb-4">
+                      <div className="w-14 h-14 flex items-center justify-center rounded-full bg-Main-color shadow-md">
+                        {item.icon}
+                      </div>
                     </div>
+                    <h4 className="text-xl font-semibold mb-2 text-text-color capitalize">
+                      {item.title}
+                    </h4>
+                    <p className="text-text-color  text-sm">{item.desc}</p>
                   </div>
-                  <h4 className="text-xl font-semibold mb-2 text-text-color capitalize">
-                    {item.title}
-                  </h4>
-                  <p className="text-text-color  text-sm">{item.desc}</p>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
-
           {/* Why Choose Us */}
           <div className="text-center space-y-8">
             <h2 className="text-4xl font-bold text-Main-color uppercase">
@@ -163,7 +162,9 @@ const AboutUs = () => {
               ))}
             </div>
           </div>
+
         </div>
+
       </section>
 
       <section className="bg-gray-50 py-10 px-6 md:px-20">

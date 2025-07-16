@@ -12,6 +12,7 @@ export default function CTA({ heading, subheading }) {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
         
         {/* النص التعريفي */}
+
         <div className="flex-1 w-full max-w-xl">
           <h2 className="text-lg sm:text-xl lg:text-3xl font-bold text-white">
             {heading}
@@ -21,7 +22,7 @@ export default function CTA({ heading, subheading }) {
           </h3>
         </div>
 
-        {/* أزرار التواصل */}
+         {/* أزرار التواصل */}
         <div className="flex flex-wrap items-center justify-center sm:justify-start gap-4 w-full sm:w-auto">
           
           {/* زر الاتصال */}
@@ -55,6 +56,7 @@ export default function CTA({ heading, subheading }) {
             <span>{t("contact")}</span>
           </Link>
         </div>
+        
       </div>
     </section>
   );

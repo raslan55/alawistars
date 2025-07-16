@@ -16,7 +16,6 @@ const resources = {
       meta_default_title: "Alawistars for Information Systems",
       meta_default_description:
         "Advanced software and tech solutions since 1994.",
-
       meta_home_title: "Home |Alawistars",
       meta_home_description:
         "Welcome to Alawistars– your source for comprehensive and innovative tech solutions.",
@@ -122,7 +121,6 @@ const resources = {
       Testimonial_Location_12: "Riyadh, Saudi Arabia",
       Testimonial_text_12:
         "Thanks and appreciation to Alawistars for Information Systems and the Sinmar system for maintaining and developing our programs. Our trust in you is continuous as a success partner, and we hope your excellence continues. Many thanks to you.",
-
       Partners_Heading: "Meet our  partners",
       Partners_text: "We’ve 10000+ Dedicated Partners",
       Hero_heading:
@@ -214,11 +212,9 @@ const resources = {
       value_2_title: "Privacy",
       value_2_text:
         "We are committed to providing systems and solutions that ensure data confidentiality and give users confidence in achieving the best performance and results.",
-
       value_3_title: "trust",
       value_3_text:
         "We build long-term relationships based on trust and credibility with our clients and partners to achieve common goals.",
-
       value_4_title: "Creativity",
       value_4_text:
         "We offer innovative solutions in unconventional ways, which distinguish us in the market and make our services truly valuable.",
@@ -248,14 +244,12 @@ const resources = {
       pc: "computers ",
       Pc_text:
         "We have an exceptional team dedicated to meeting our clients' needs, providing them with the best and most powerful brands of computers, servers, and peripherals, as well as devices with special specifications, enabling them to innovate and achieve.",
-
       OS: "Operating programs",
       Os_text:
         "We provide our customers with a variety of operating software, including genuine Windows software, Office software, server operating systems, and appropriate peripherals.",
       PS: " Protection systems",
       PS_text:
         "We supply antivirus, anti-hacking, and anti-piracy systems to enhance cybersecurity and protect devices and data.",
-
       Ha: "Hardware accessories",
       Ha_text:
         "We offer high-quality, long-lasting printers, scanners, POS terminals, and other accessories at an affordable price.",
@@ -281,7 +275,6 @@ const resources = {
       CTA_About: "Why us ? ",
       Sales_Email: " Sales Email",
       Features: "Features",
-
       Inv_acc_feature_1: "Accounting tree up to 10 sub-levels",
       Inv_acc_feature_2: "Export to Excel, Word, PDF, Txt",
       Inv_acc_feature_3:
@@ -302,7 +295,6 @@ const resources = {
       Inv_acc_feature_14: "The possibility of dealing with documentary credits",
       Inv_acc_feature_15: "Diverse detailed reports and custom display options",
       Inv_acc_feature_16: "Revaluation of a fixed asset",
-
       acc_feature_1: "Accounting tree with up to 10 sub-levels",
       acc_feature_2: "Export to Excel, Word, PDF, Txt",
       acc_feature_3: "Attach scanned documents to journal entries",
@@ -321,7 +313,6 @@ const resources = {
       acc_feature_14: "Support for letter of credit transactions",
       acc_feature_15: "Detailed and customizable reports",
       acc_feature_16: "Revaluation of fixed assets",
-
       Inv_feature_1: "Supports variable VAT",
       Inv_feature_2: "Export to Excel, Word, PDF, Txt",
       Inv_feature_3: "Store item images within the item file",
@@ -367,8 +358,7 @@ const resources = {
       Furn_feature_4: "Add up to 99 branches",
       Furn_feature_5: "Multi and single cost center support",
       Furn_feature_6: "SQL Server database",
-      Furn_feature_7:
-        "Cash receipt or payment vouchers with independent sequence",
+      Furn_feature_7: "Cash receipt or payment vouchers with independent sequence",
       Furn_feature_8: "Separation of cash and cheque in receipts and payments",
 
       Med_feature_1: "Supports variable VAT",
@@ -759,9 +749,12 @@ const resources = {
         "The technology sector in general is rapidly evolving to keep up with business development and acceleration, making it a promising field for investment.",
       TECHNICAL_MANAGER_PARAGRAPH_3:
         "This has driven us to invest in it with dedication and focus, recognizing the importance of technology, and striving to advance our technical systems until they stand, God willing, among the leading exporters of technology.",
+        notFound_message:    " Sorry, the page you are looking for does not exist.",
+        notFound_backToHome: "  Back to Home",
     },
   },
 
+  
   ar: {
     translation: {
       home: "الصفحة الرئيسية ",
@@ -791,8 +784,7 @@ const resources = {
         "نوفر خدمات تقنية متكاملة لدعم احتياجات شركتك وتحقيق أهدافك.",
 
       meta_about_title: "من نحن | نجوم العلاوي",
-      meta_about_description:
-        "تعرّف على تاريخنا وخبراتنا في عالم الأنظمة والبرمجيات.",
+      meta_about_description:"تعرّف على تاريخنا وخبراتنا في عالم الأنظمة والبرمجيات.",
 
       meta_news_title: "الأخبار | نجوم العلاوي",
       meta_news_description: "تابع آخر أخبار الشركة والتحديثات التقنية.",
@@ -809,7 +801,6 @@ const resources = {
       Email: "البريد الالكتروني ",
       Fax: "فاكس",
       WhatsApp: "واتس اب",
-
       Phone: "الهاتف",
       Digital_Started: "ابدأ رحلتك الرقمية اليوم",
       Digital_CTA_Text:
@@ -823,10 +814,8 @@ const resources = {
       Jeddah_Branch: "فرع جدة ",
       address_1: "الملز - شارع صلاح الدين ",
       address_2: "البغدادية الغربية",
-      address_1_contact:
-        "الملز-شارع صلاح الدين – مركز عالية  التجاري – الدور الأول – مكتب 1",
-      address_2_contact:
-        "البغدادية الغربية - شارع حائل - مركز حائل التجاري - الدور الثاني - مدخل أ - مكتب 21",
+      address_1_contact:"الملز-شارع صلاح الدين – مركز عالية  التجاري – الدور الأول – مكتب 1",
+      address_2_contact:"البغدادية الغربية - شارع حائل - مركز حائل التجاري - الدور الثاني - مدخل أ - مكتب 21",
       FAQs: "الأسئلة الشائعة ",
       Privacy_Policy: "سياسة الخصوصية",
       Terms_Conditions: "الشروط والأحكام",
@@ -834,9 +823,7 @@ const resources = {
       time: " ص 8:00  - 12:30 م 3:00 م - 7:30 م",
       Testimonial: "ماذا قالوا عنا",
       Stories: "قصص واقعية، نتائج حقيقية",
-      Testimonial_text:
-        "اقرأ آراء عملائنا حول رحلتهم معنا. نفخر بتقديم قيمة حقيقية.",
-
+      Testimonial_text:"اقرأ آراء عملائنا حول رحلتهم معنا. نفخر بتقديم قيمة حقيقية.",
       Testimonial_name_1: "شركة علامة الزرقاء للتجارة",
       Testimonial_Location_1: "جدة، السعودية",
       Testimonial_text_1:
@@ -1220,8 +1207,7 @@ const resources = {
         "نقل أوامر التشغيل غير المنتهية تلقائياً للعام الجديد بعد الإقفال السنوي",
       Maintenance_feature_33: "يمكن ربط عدة فروع لمراقبة المخزون",
       Maintenance_feature_34: "يمكن ربط أكثر من سيارة في عميل واحد",
-      Maintenance_feature_35:
-        "نسخ احتياطي تلقائي للبيانات في السيرفر والوسائط الخارجية",
+      Maintenance_feature_35:"نسخ احتياطي تلقائي للبيانات في السيرفر والوسائط الخارجية",
       Car_sale_feature_1: "شاشة متكاملة لإدخال معلومات السيارات",
       Car_sale_feature_2:
         "شاشات فرعية خاصة للموديلات والمواصفات والإضافات...الخ.",
@@ -1331,7 +1317,6 @@ const resources = {
       client_details_14: " تأجير مراكز تجارية",
       client_name_15: "  مؤسسة الركن الخامس",
       client_details_15: " حج وعمرة",
-
       client_name_16: "الفرات الاوسط للتجارة",
       client_details_16: "اجهزة كهربائية ",
       client_name_17: " شركة العمودي للالمنيوم   ",
@@ -1465,6 +1450,9 @@ const resources = {
         "كما أن قطاع التكنولوجيا بشكل عام هو قطاع متطور بشكل سريع لمواكبة التطور في الأعمال وتسريعها وهو مجال خصب للاستثمار.",
       TECHNICAL_MANAGER_PARAGRAPH_3:
         "مما حد بنا للاستثمار فيه جاعلين نصب أعيننا أهمية التقنية فبدأنا على الحرص والتفاني للارتقاء بمنظومة التقنية لتقف بسواعد رجالها في مطاف مصدري التقنية بمشيئة الله تعالى.",
+
+        notFound_message: "عذرًا، الصفحة التي تحاول الوصول إليها غير موجودة.",
+        notFound_backToHome: "العودة إلى الصفحة الرئيسية",
     },
   },
 };

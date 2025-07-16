@@ -125,6 +125,7 @@ export default function Partenrs() {
               1024: { slidesPerView: 6 },
             }}
           >
+            
             {images.map((img) => (
               <SwiperSlide
                 key={img.id}

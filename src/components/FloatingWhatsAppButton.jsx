@@ -33,7 +33,7 @@ const contacts = [
       bg: "bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045]",
       label: "Instagram",
     },
- {
+    {
       href: "https://x.com/alawistars?lang=ar",
 
       icon: <FaXTwitter className="w-5 h-5" />,
