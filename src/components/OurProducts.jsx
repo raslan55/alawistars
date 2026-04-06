@@ -9,10 +9,10 @@ const { t } = useTranslation();
   return (
     <>
       <ProductsSlider />
-       <CTA 
+        <CTA 
                heading={t("Digital_Started")} 
                subheading={t("Digital_CTA_Text")} />
-      <Testimonial/>
+        <Testimonial/>
        <hr className="h-10 border-0"/>
 
     </>

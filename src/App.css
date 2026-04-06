@@ -13,13 +13,13 @@ body{
     font-family: "Cairo", sans-serif ;
 }
 
-.active   {
+.active  {
     color: #1b6ba9;
 }
 
 .btn-primary {
-@apply  rounded-full text-center font-medium focus:outline-none focus:ring-4 h-12 px-7 text-lg bg-Main-color text-white   hover:text-Main-color hover:border-1 hover:bg-white cursor-pointer transition ease-in-out
- 
+@apply  rounded-full text-center font-medium focus:outline-none focus:ring-4 h-12 px-7 text-lg bg-Main-color text-white   hover:text-Main-color hover:border-1 hover:bg-white cursor-pointer transition ease-in-out;
+
 }
 
 .rfm-marquee-container  {
@@ -56,12 +56,13 @@ position: absolute;
 }
 
 
-
- .swiper-pagination {
+.swiper-pagination {
             bottom: 0px !important;
             text-align: center;
             
           }
+
+          
 .swiper-pagination-bullet {
   background: #d1d5db; 
   opacity: 1;
@@ -100,7 +101,6 @@ position: absolute;
 
 .slick-dots {
       bottom: -35px;
-
 }
 
 
@@ -114,7 +114,7 @@ position: absolute;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
     animation: fadeIn 0.3s ease-in-out;
   }
-
+  
   .mobile-menu-custom .AL_Link {
     text-align: center;
     font-size: 17px;
@@ -125,8 +125,11 @@ position: absolute;
     transition: background 0.3s ease, transform 0.2s ease;
   }
 
+
   .mobile-menu-custom .AL_Link:hover {
     background-color: #e0f0fc;
     transform: scale(1.02);
   }
+
 }
+

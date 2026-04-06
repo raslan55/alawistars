@@ -17,27 +17,39 @@ export default function ClientGrid() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {clientIndices.map((index) => (
+
           <div
             key={`client_${index}`}
             className="bg-white p-3 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300
                        ease-in-out transform hover:-translate-y-2
-                       flex flex-col items-center justify-center text-center border border-gray-100"
-          >
+                       flex flex-col items-center justify-center text-center border border-gray-100">
+
+
             {/* Optional: Add a placeholder for a client logo or icon */}
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-2">
               {/* You could use an SVG icon or an actual logo image here */}
-              <LiaHandshake className='text-3xl text-Main-color ' /> 
+
+              <LiaHandshake className='text-3xl text-Main-color'/> 
+
             </div>
             
             <h3 className="text-[12px] sm:text-[15px] font-bold text-Main-color mb-1">
               {t(`client_name_${index}`)}
             </h3>
+
             {/* Optional: Add client-specific details if available */}
+
             {t(`client_details_${index}`, { defaultValue: '' }) && (
+
+
               <p className="text-sm text-gray-500">
                 {t(`client_details_${index}`)}
               </p>
+
+
             )}
+
+
           </div>
         ))}
       </div>

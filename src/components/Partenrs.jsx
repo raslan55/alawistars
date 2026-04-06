@@ -7,7 +7,6 @@ import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 import "swiper/css";
 import { motion } from "framer-motion";
-
 import Handshake from "../assets/Images/94840700-5748-4046-8c48-30862b81abd1.jpg";
 import One from "../assets/Images/Partenrs/15.jpg";
 import Two from "../assets/Images/Partenrs/16.jpg";
@@ -73,6 +72,7 @@ export default function Partenrs() {
       <div className="container mx-auto px-4">
         {/* Top: Image and Text */}
         <div className="flex flex-col lg:flex-row items-center gap-12 mb-5">
+
           <motion.div
             className="w-full lg:w-1/2 mt-10 lg:mt-0"
             whileHover={{ scale: 1.05 }}
@@ -85,6 +85,7 @@ export default function Partenrs() {
             />
           </motion.div>
 
+
           <div className="w-full lg:w-1/2">
             <h2 className="text-3xl sm:text-4xl font-bold capitalize text-Main-color mb-4">
               {t("Our_Partners")}
@@ -93,6 +94,8 @@ export default function Partenrs() {
               {t("Our_Partners_p")}
             </p>
           </div>
+
+
         </div>
 
         {/* Title above slider */}

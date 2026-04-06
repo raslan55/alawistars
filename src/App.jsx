@@ -8,8 +8,8 @@ function App() {
       <>
       <AppRoutes  />
       <FloatingWhatsAppButton phoneNumber="+966504139270" message="Hello, I need assistance!" /> 
+      
       </>
-
   );
 }
 

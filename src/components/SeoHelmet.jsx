@@ -1,21 +1,27 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
-
+import useSetHtmlAttributes from "../hooks/useSetHtmlAttributes"; 
 export default function SeoHelmet({ pageKey = "default" }) {
   const { t, i18n } = useTranslation();
+  useSetHtmlAttributes(); // ← تحديث مباشر للـ <html>
+
   const title = t(`meta_${pageKey}_title`);
   const description = t(`meta_${pageKey}_description`);
-  const currentUrl = window.location.href; // عشان og:url يكون ديناميكي
+  const currentUrl = window.location.href;
 
   return (
-    <Helmet>
-      <html lang={i18n.language} dir={i18n.language === "ar" ? "rtl" : "ltr"} />
-      
+    <Helmet
+      htmlAttributes={{
+        lang: i18n.language,
+        dir: i18n.language === "ar" ? "rtl" : "ltr"
+      }}
+    >
       <title>{title}</title>
 
       {/* Meta Description */}
       <meta name="description" content={description} />
+
       {/* Open Graph */}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
@@ -30,13 +36,11 @@ export default function SeoHelmet({ pageKey = "default" }) {
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content="https://alawistars.com/Logo-preview.jpg" />
 
-      {/* Robots (اختياري داخل Helmet) */}
-      <meta name="robots" content="index, follow" />
-    </Helmet>
+      {/* Robots */}
 
+      <meta name="robots" content="index, follow" />
+
+
+    </Helmet>
   );
 }
-
-
-
-

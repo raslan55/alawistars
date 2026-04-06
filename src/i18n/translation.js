@@ -8,10 +8,88 @@ const resources = {
       welcome: "Welcome to Alawistars for Information Systems!",
       home: "Home",
       products: "Products",
+      path_products: "products",
+      all_products: "All Products",
       services: "Services",
+      path_services: "services",
       about: "About Us",
+      path_about: "about",
       news: "News",
+      path_news: "news",
       contact: "Contact Us",
+      path_contact: "contact",
+      blog: "Blog",
+      path_blog: "blog",
+      blog_subtitle: "Latest articles and stories from our team.",
+      blog_loading: "Loading blog posts...",
+      blog_no_posts: "No posts available.",
+      blog_search_label: "Search the blog",
+      blog_search_placeholder: "Search blog...",
+      blog_categories_label: "Categories",
+      blog_recent_posts: "Recent Posts",
+      blog_categories: ["Software Development", "Digital Marketing", "Artificial Intelligence", "ERP Systems", "Project Management"],
+      call_us: "Call Us",
+      blog_pagination_previous: "Previous",
+      blog_pagination_next: "Next",
+      read_more: "Read more",
+      post_not_found: "Post not found",
+      admin_login: "Admin Login",
+      admin_username: "Username",
+      admin_password: "Password",
+      admin_login_btn: "Login",
+      admin_login_error: "Invalid username or password.",
+      admin_login_success: "Authenticated successfully.",
+      admin_panel: "Blog Admin Panel",
+      admin_add_post: "Add New Post",
+      admin_form_category_label: "Category",
+      admin_form_category_placeholder: "Select category",
+      admin_form_category_add_placeholder: "Add new category",
+      admin_form_category_add_button: "Add",
+      admin_category_all: "All Categories",
+      cta_heading: "Need help? We’re here for you.",
+      cta_subheading: "Reach out to our support team for any questions or technical assistance.",
+      cta_help_title: "Need help? We are here for you.",
+      cta_help_subtitle: "Contact our support team for inquiries or technical assistance.",
+      cta_help_phone: "+966 50 619 4863",
+      cta_help_button: "Contact us",
+      admin_logout_btn: "Logout",
+      admin_edit_post: "Edit Post",
+      admin_title_en: "Title (EN)",
+      admin_title_ar: "Title (AR)",
+      admin_slug: "Slug",
+      admin_slug_hint: "Optional, auto-generated from title",
+      admin_date: "Date",
+      admin_excerpt_en: "Excerpt (EN)",
+      admin_excerpt_ar: "Excerpt (AR)",
+      admin_image: "Upload Image",
+      admin_content_en: "Content (EN)",
+      admin_content_ar: "Content (AR)",
+      admin_content_hint: "Write your content here...",
+      admin_update: "Update",
+      admin_create: "Create",
+      admin_reset: "Reset",
+      admin_posts_list: "Posts List",
+      admin_table_title: "Title",
+      admin_table_date: "Date",
+      admin_table_slug: "Slug",
+      admin_table_category: "Category",
+      admin_table_actions: "Actions",
+      admin_no_posts: "No posts yet.",
+      admin_edit_btn: "Edit",
+      admin_delete_btn: "Delete",
+      admin_delete_confirm: "Delete this post?",
+      admin_delete_success: "Post deleted.",
+      admin_create_success: "Post created.",
+      admin_update_success: "Post updated.",
+      admin_error_required: "English title and content are required.",
+      admin_error_save: "Failed to save post.",
+      Privacy_Policy: "Privacy Policy",
+      path_PrivacyPolicy: "PrivacyPolicy",
+      Terms_Conditions: "Terms & Conditions",
+      path_TermsAndConditions: "TermsAndConditions",
+      FAQs: "FAQs",
+      path_FAQ: "FAQ",
+      path_AllClients: "AllClients",
       title: "Alawistars for Information Systems",
       meta_default_title: "Alawistars for Information Systems",
       meta_default_description:
@@ -37,8 +115,10 @@ const resources = {
         "Follow the latest company updates and technology news.",
 
       meta_contact_title: "Contact Us | Alawistars",
-      meta_contact_description:
-        "Reach out to us for inquiries or technical support.",
+      meta_contact_description: "Reach out to us for inquiries or technical support.",
+      meta_blog_title: "Blog | Alawistars",
+      meta_blog_description: "Read our latest articles and updates.",
+       
       CompanyName: "Alawistars for Information Systems",
       companyDescription:
         "Alawistars for Information Systems was launched in 1994 to provide For the Saudi society and economy aspiring for growth and leadership At that time, software solutions and electronic systems in addition to For various types of technical services and products Developed that keeps pace with the aspirations of companies and private institutions at that time, and in order to contribute from During its role in facilitating the management function and improving production, Governance and control of work, and was able from the first moment From its launch, gaining the trust of its customers and consolidating its position As a reliable and indispensable technology partner for many Government and private agencies, and continued to provide performance Distinguished and providing advanced technical services and products Through which it was able to enrich the system Management and the world of systems, software and modern technology in the Kingdom, and helped it achieve huge leaps in The size of its outputs, its profit margins, and its level of excellence in Work, management and organization, and tracked in this framework An ever-evolving working methodology based primarily on customer satisfaction and providing perfect and reliable products and services, Nojoom Al Alawi became the number one service provider and seller Expert technology with more than 10,000 companies and institutions Inside and outside the Kingdom",
@@ -61,7 +141,6 @@ const resources = {
       Stories: "Real Stories, Real Results",
       Testimonial_text:
         "Read what our clients have to say about their journey with us. We’re proud to deliver value that speaks for itself.",
-
       Testimonial_name_1: "Blue Mark.",
       Testimonial_Location_1: "Jeddah, Saudi Arabia",
       Testimonial_text_1:
@@ -72,7 +151,7 @@ const resources = {
       Testimonial_text_2:
         "We thank Alawistars for Information Systems and the Sinmar system for their professionalism, quick response, and technical support over the past 4 years, which positively impacted the organization of our center. We wish you continued progress and prosperity.",
 
-      Testimonial_name_3: "Spert Medical .",
+      Testimonial_name_3: "Spert Medical.",
       Testimonial_Location_3: "Jeddah, Saudi Arabia",
       Testimonial_text_3:
         "We extend our thanks and gratitude to Alawistars for Information Systems and Sinmar Systems for their efforts in maintaining and developing the excellent programs we rely on for inventory, sales, and accounting. We value our partnership and wish you continued excellence.",
@@ -110,7 +189,7 @@ const resources = {
       Testimonial_name_10: "Parts & More ",
       Testimonial_Location_10: "Riyadh, Saudi Arabia",
       Testimonial_text_10:
-        "With pride, appreciation, and gratitude, Qata’ Wa Akthar extends sincere thanks to Alawistars for Information Systems and Sinmar Systems for their efforts in program development and problem solving. We wish you continued success.",
+        "With pride, appreciation, and gratitude, Parts & More  extends sincere thanks to Alawistars for Information Systems and Sinmar Systems for their efforts in program development and problem solving. We wish you continued success.",
 
       Testimonial_name_11: "Masarat Al-Jeel Trading Co.",
       Testimonial_Location_11: "Riyadh, Saudi Arabia",
@@ -180,7 +259,7 @@ const resources = {
       Fule_Disc:
         "Fuel station system for pumping and inventory management, and daily accounting for each pump.",
       Our_Product: "Our Products",
-      Our_Product_h: "The Role of Al-Alawi Star for Computer Systems",
+      Our_Product_h: "The Role of Al-Alawi Star for Computer Systems", 
       Our_Product_p:
         " Supporting the work and production environment and enhancing the value of  modern technologies, software, and systems that serve companies, institutions, entrepreneurs, and the economy in Saudi Arabia and our customers abroad by providing innovative, high-quality technical solutions at competitive prices.",
       Explore_More: "Our innovative solutions",
@@ -358,7 +437,8 @@ const resources = {
       Furn_feature_4: "Add up to 99 branches",
       Furn_feature_5: "Multi and single cost center support",
       Furn_feature_6: "SQL Server database",
-      Furn_feature_7: "Cash receipt or payment vouchers with independent sequence",
+      Furn_feature_7:
+        "Cash receipt or payment vouchers with independent sequence",
       Furn_feature_8: "Separation of cash and cheque in receipts and payments",
 
       Med_feature_1: "Supports variable VAT",
@@ -521,7 +601,8 @@ const resources = {
       serv_feature_2: "Supports variable VAT according to ZATCA regulations",
       serv_feature_3: "Define service pricing by type",
       serv_feature_4: "Easily convert receipts or quotations into invoices",
-      serv_feature_5:  "Track financial transactions with clients and suppliers via comprehensive reports",
+      serv_feature_5:
+        "Track financial transactions with clients and suppliers via comprehensive reports",
       serv_feature_6: "Simple and complete receipt voucher for laundries",
       serv_feature_7: "Profit reports per invoice for any time period",
       serv_feature_8: "Graphical dashboards to support management decisions",
@@ -540,18 +621,26 @@ const resources = {
       fuel_feature_1: "Compatible with all large and small fuel stations",
       fuel_feature_2: "Unlimited pumps and tanks can be added",
       fuel_feature_3: "User-friendly interface for invoices and vouchers",
-      fuel_feature_4:  "Track movement of gasoline, diesel, kerosene, and others",
+      fuel_feature_4:
+        "Track movement of gasoline, diesel, kerosene, and others",
       fuel_feature_5: "Sell various external services like car wash, etc.",
-      fuel_feature_6: "Create customer and supplier accounts with balance and reports tracking",
-      fuel_feature_7: "Calculate evaporated fuel quantity upon receiving purchases",
+      fuel_feature_6:
+        "Create customer and supplier accounts with balance and reports tracking",
+      fuel_feature_7:
+        "Calculate evaporated fuel quantity upon receiving purchases",
       fuel_feature_8: "Monitor fuel usage with detailed pump reports",
-      fuel_feature_9: "Track payments to suppliers and credit customers (individuals or companies)",
+      fuel_feature_9:
+        "Track payments to suppliers and credit customers (individuals or companies)",
       fuel_feature_10: "Monitor remaining fuel balances in all tanks",
       fuel_feature_11: "Assign special pricing for credit customers",
-      fuel_feature_12: "Change prices anytime according to authority requirements",
-      fuel_feature_13: "Daily sales/purchase reports and easy access to financial data",
-      fuel_feature_14: "Integration with Sinmar Accounting and auto-posting to journal entries",
-      fuel_feature_15:"Comprehensive, categorized, and detailed document reports",
+      fuel_feature_12:
+        "Change prices anytime according to authority requirements",
+      fuel_feature_13:
+        "Daily sales/purchase reports and easy access to financial data",
+      fuel_feature_14:
+        "Integration with Sinmar Accounting and auto-posting to journal entries",
+      fuel_feature_15:
+        "Comprehensive, categorized, and detailed document reports",
       fuel_feature_16: "Remote work monitoring with ease",
       fuel_feature_17: "Remote branch connectivity",
       fuel_feature_18: "Add extra services like car wash, tire repair, etc.",
@@ -749,20 +838,280 @@ const resources = {
         "The technology sector in general is rapidly evolving to keep up with business development and acceleration, making it a promising field for investment.",
       TECHNICAL_MANAGER_PARAGRAPH_3:
         "This has driven us to invest in it with dedication and focus, recognizing the importance of technology, and striving to advance our technical systems until they stand, God willing, among the leading exporters of technology.",
-        notFound_message:    " Sorry, the page you are looking for does not exist.",
-        notFound_backToHome: "  Back to Home",
+      notFound_message: " Sorry, the page you are looking for does not exist.",
+      notFound_backToHome: "  Back to Home",
+      faq: {
+        title: "Frequently Asked Questions",
+
+        q1: "What is Sinmar Soft ERP and when is it suitable for my company?",
+        a1: "It’s a comprehensive enterprise management system designed to automate daily operations like accounting, sales, purchasing, inventory, and HR. Ideal for small and medium businesses seeking full control over their resources.",
+
+        q2: "Is there a free trial available?",
+        a2: "Yes, you can request a free demo account to explore the system’s features and ensure it fits your business needs before subscribing.",
+
+        q3: "How do I integrate the system with ZATCA (Zakat, Tax and Customs Authority)?",
+        a3: "The system is fully compliant with ZATCA requirements and supports direct integration for electronic invoicing under Phase 2 (Integration Phase).",
+
+        q4: "Does the system support electronic invoicing?",
+        a4: "Absolutely! Sinmar Soft ERP supports automatic generation and submission of e-invoices in full compliance with ZATCA regulations.",
+
+        q5: "What is the difference between the cloud and on-premise versions?",
+        a5: "The cloud version is hosted online with automatic updates, while the on-premise version is installed on your own servers, offering full control over your data.",
+
+        q6: "Can the system be customized to fit my business type?",
+        a6: "Yes, it can be fully tailored for various industries such as retail, manufacturing, or professional services.",
+
+        q7: "How can I migrate data from a previous financial year?",
+        a7: "You can easily import historical data using the system’s migration tools or with assistance from our support team.",
+
+        q8: "What kind of post-purchase support do you provide?",
+        a8: "We offer continuous technical support, staff training, and regular system updates to ensure smooth operation.",
+
+        q9: "Can Sinmar Soft ERP integrate with other systems like POS or banks?",
+        a9: "Yes, it integrates with multiple third-party platforms via API connections including POS systems, banks, and e-commerce solutions.",
+
+        q10: "How does the system handle zakat and tax calculations?",
+        a10: "It automatically calculates zakat and VAT according to local regulations and provides ready reports for ZATCA submission.",
+
+        q11: "Is the system compliant with ZATCA Phase 2 (Integration)?",
+        a11: "Yes, Sinmar Soft ERP is ZATCA-certified and fully compliant with integration and API requirements.",
+
+        q12: "Can I access the system from a mobile device?",
+        a12: "Yes, the system is fully responsive and accessible from any device via browser or mobile app.",
+      },
+
+      privacy: {
+        title: "Privacy Policy - Sinmar Soft ERP",
+
+        section1_title: "Information Collected by Sinmar Soft ERP",
+        section1_p1:
+          "Sinmar Soft ERP collects essential information when you register or use the system to improve service quality and enhance user experience.",
+        section1_p2:
+          "This may include your name, email address, phone number, and activity data within the system such as invoices, reports, and user permissions.",
+        section1_p3:
+          "The system does not collect any financial or sensitive information without the user’s consent, and all sensitive data is securely encrypted.",
+        section1_p4:
+          "Cookies are used to improve performance and provide a smoother experience.",
+
+        section2_title: "How Information is Used",
+        section2_p1:
+          "The information collected is used to improve the system and deliver features tailored to your business needs.",
+        section2_li1: "Personalize your ERP system experience.",
+        section2_li2:
+          "Improve technical support and respond to user inquiries.",
+        section2_li3: "Analyze system performance and develop future features.",
+        section2_li4: "Communicate updates and special ERP offers.",
+        section2_p2:
+          "Email notifications are sent only to users who have opted in to receive them.",
+
+        section3_title: "Data Protection",
+        section3_p1:
+          "Sinmar Soft is committed to applying the highest security standards for storing and processing data, using SSL protocols and data encryption.",
+
+        section4_title: "Use of Cookies",
+        section4_p1:
+          "Sinmar Soft ERP uses cookies to store user preferences and improve browsing speed and functionality.",
+        section4_p2:
+          "You can disable cookies from your browser settings, but this may affect certain system features.",
+        section4_p3:
+          "Cookies are not used for marketing purposes or shared with any third parties.",
+
+        section5_title: "Information Disclosure to Third Parties",
+        section5_p1:
+          "Sinmar Soft does not share personal information with third parties unless required by law or with the user's explicit consent.",
+      },
+      terms_title: "Terms and Conditions",
+
+      section1_title: "Third-Party Service Providers",
+      section1_p1:
+        "Sinmar Soft ERP may collaborate with third-party service providers to enhance service quality and system performance analysis. These providers are only permitted to use the collected data within the scope of their assigned tasks and are not allowed to share or use it for any other purposes.",
+
+      section2_title: "Cookies",
+      section2_p1:
+        "Sinmar Soft ERP uses cookies to improve the user experience and personalize system services based on user preferences. You can disable cookies in your browser settings, but this may affect certain features or reduce system functionality.",
+
+      section3_title: "Data and Information",
+      section3_p1:
+        "Data collected by Sinmar Soft ERP is used solely to improve performance, provide technical support, and develop system features. Data is not shared with third parties unless required to deliver services or comply with legal obligations.",
+
+      section4_title: "Intellectual Property Rights",
+      section4_p1:
+        "All intellectual property rights, designs, and content related to Sinmar Soft ERP are fully reserved. Reuse, reproduction, or redistribution of any part of the system without prior written permission is strictly prohibited.",
+
+      section5_title: "Updates to Terms and Conditions",
+      section5_p1:
+        "Sinmar Soft ERP reserves the right to modify these terms and conditions at any time. Users will be notified of updates, and continued use of the system implies acceptance of the new terms.",
+
+      // Blog Page Translations
+      blog_title: "Blog",
+      blog_breadcrumb_home: "Home",
+      blog_breadcrumb_blog: "Blog",
+      blog_page_title: "Blog",
+      blog_page_subtitle: "Latest articles and stories from our team",
+      blog_search_placeholder: "Search the blog...",
+      blog_categories_title: "Categories",
+      blog_recent_posts_title: "Recent Posts",
+      blog_cta_title: "Contact Us",
+      blog_read_more: "Read More",
+      blog_no_posts: "No posts available.",
+      blog_date_badge: "Date",
+      blog_search_results: "Search Results",
+      blog_results_found: "result",
+      blog_results_not_found: "No articles found matching your search.",
+      blog_published_date: "Published on",
+      blog_by_author: "By",
+
+      // Admin Blog Dashboard
+      admin_dashboard_title: "Blog Admin Dashboard",
+      admin_total_posts: "Total Posts",
+      admin_published_posts: "Published Posts",
+      admin_add_new_post: "Add New Post",
+      admin_posts_list_title: "Posts List",
+      admin_search_posts: "Search articles...",
+      admin_table_title_col: "Title",
+      admin_table_date_col: "Date",
+      admin_table_slug_col: "Slug",
+      admin_table_actions_col: "Actions",
+      admin_edit_btn: "Edit",
+      admin_delete_btn: "Delete",
+      admin_delete_confirm_msg: "Are you sure you want to delete this post?",
+      admin_search_results_count: "result",
+      admin_no_posts_msg: "No posts yet.",
+      admin_prev_pagination: "Previous",
+      admin_next_pagination: "Next",
+      admin_page_indicator: "Page",
+      admin_of_pages: "of",
+
+      // Admin Form
+      admin_form_title: "Add New Post",
+      admin_form_title_edit: "Edit Post",
+      admin_form_title_en_label: "Title (EN)",
+      admin_form_title_ar_label: "Title (AR)",
+      admin_form_slug_label: "Slug",
+      admin_form_slug_hint: "It will be auto-generated from the title if left empty",
+      admin_form_date_label: "Date",
+      admin_form_excerpt_en_label: "Excerpt (EN)",
+      admin_form_excerpt_ar_label: "Excerpt (AR)",
+      admin_form_image_label: "Upload Image",
+      admin_form_image_drag_hint: "Drag and drop the image here or click to select",
+      admin_form_content_en_label: "Content (EN)",
+      admin_form_content_ar_label: "Content (AR)",
+      admin_form_submit_create: "Create Post",
+      admin_form_submit_update: "Update Post",
+      admin_form_reset_btn: "Reset",
+
+      // Admin Alerts
+      admin_alert_success: "Success",
+      admin_alert_error: "Error",
+      admin_alert_create_success: "Post created successfully.",
+      admin_alert_update_success: "Post updated successfully.",
+      admin_alert_delete_success: "Post deleted successfully.",
+      admin_alert_required_fields: "English title and content are required.",
+      admin_alert_save_error: "Failed to save post. Please try again.",
+
+      // Admin Toolbar
+      admin_toolbar_bold: "Bold",
+      admin_toolbar_italic: "Italic",
+      admin_toolbar_underline: "Underline",
+      admin_toolbar_list: "List",
+      admin_toolbar_link: "Link",
+
+      // Admin Pagination
+      admin_pagination_previous: "Previous",
+      admin_pagination_next: "Next",
+
+      // Stats Bar
+      admin_stats_total: "Total Posts",
+      admin_stats_published: "Published Posts",
     },
   },
 
-  
   ar: {
     translation: {
       home: "الصفحة الرئيسية ",
       products: "المنتجات",
+      path_products: "products",
+      all_products: "كل المنتجات",
       services: "الخدمات",
+      path_services: "services",
       about: "معلومات عنا",
+      path_about: "about",
       news: "الأخبار",
+      path_news: "news",
       contact: "اتصل بنا",
+      path_contact: "contact",
+      blog: "المدونة",
+      path_blog: "blog",
+      blog_subtitle: "أحدث المقالات والقصص من فريقنا.",
+      blog_loading: "جارٍ تحميل المقالات...",
+      blog_no_posts: "لا توجد مقالات متاحة.",
+      blog_search_label: "ابحث في المدونة",
+      blog_search_placeholder: "ابحث في المدونة...",
+      blog_categories_label: "التصنيفات",
+      blog_recent_posts: "أحدث المقالات",
+      blog_categories: ["تطوير البرمجيات", "التسويق الرقمي", "الذكاء الاصطناعي", "أنظمة ERP", "إدارة المشاريع"],
+      call_us: "اتصل بنا",
+      blog_pagination_previous: "السابق",
+      blog_pagination_next: "التالي",
+      read_more: "اقرأ المزيد",
+      post_not_found: "المقال غير موجود",
+      admin_login: "تسجيل دخول المسؤول",
+      admin_username: "اسم المستخدم",
+      admin_password: "كلمة المرور",
+      admin_login_btn: "دخول",
+      admin_login_error: "اسم المستخدم أو كلمة المرور غير صحيحة.",
+      admin_login_success: "تم المصادقة بنجاح.",
+      admin_panel: "لوحة تحكم المدونة",
+      admin_add_post: "إضافة منشور جديد",
+      admin_form_category_label: "التصنيف",
+      admin_form_category_placeholder: "اختر التصنيف",
+      admin_form_category_add_placeholder: "أضف تصنيف جديد",
+      admin_form_category_add_button: "أضف",
+      admin_category_all: "كل التصنيفات",
+      cta_heading: "هل تحتاج مساعدة؟ نحن هنا من أجلك.",
+      cta_subheading: "تواصل مع فريق الدعم لأي استفسارات أو مساعدة تقنية.",
+      cta_help_title: "هل تحتاج مساعدة؟ نحن هنا من أجلك.",
+      cta_help_subtitle: "تواصل مع فريق الدعم لأي استفسارات أو مساعدة تقنية.",
+      cta_help_phone: "+966 50 619 4863",
+      cta_help_button: "اتصل بنا",
+      admin_logout_btn: "تسجيل الخروج",
+      admin_edit_post: "تعديل المنشور",
+      admin_table_category: "التصنيف",
+      admin_title_en: "العنوان (EN)",
+      admin_title_ar: "العنوان (AR)",
+      admin_slug: "الرابط",
+      admin_slug_hint: "اختياري، يتم إنشاؤه تلقائياً من العنوان",
+      admin_date: "التاريخ",
+      admin_excerpt_en: "الملخص (EN)",
+      admin_excerpt_ar: "الملخص (AR)",
+      admin_image: "رفع الصورة",
+      admin_content_en: "المحتوى (EN)",
+      admin_content_ar: "المحتوى (AR)",
+      admin_content_hint: "اكتب المحتوى هنا...",
+      admin_update: "تحديث",
+      admin_create: "إنشاء",
+      admin_reset: "إعادة تعيين",
+      admin_posts_list: "قائمة المنشورات",
+      admin_table_title: "العنوان",
+      admin_table_date: "التاريخ",
+      admin_table_slug: "الرابط",
+      admin_table_actions: "الإجراءات",
+      admin_no_posts: "لا توجد منشورات حتى الآن.",
+      admin_edit_btn: "تعديل",
+      admin_delete_btn: "حذف",
+      admin_delete_confirm: "حذف هذا المنشور؟",
+      admin_delete_success: "تم حذف المنشور.",
+      admin_create_success: "تم إنشاء المنشور.",
+      admin_update_success: "تم تحديث المنشور.",
+      admin_error_required: "العنوان والمحتوى باللغة الإنجليزية مطلوبان.",
+      admin_error_save: "فشل حفظ المنشور.",
+      Privacy_Policy: "سياسة الخصوصية",
+      Terms_Conditions: "الشروط والأحكام",
+      FAQ: "الأسئلة الشائعة",
+      path_PrivacyPolicy: "PrivacyPolicy",
+      path_TermsAndConditions: "TermsAndConditions",
+      path_FAQ: "FAQ",
+      path_AllClients: "AllClients",
       CompanyName: " شركة نجوم العلاوى لنظم الكمبيوتر",
       companyDescription:
         "انطلقت نجوم العلاوي لنظم الكمبيوتر عام ١٩٩٤ لتوفر للمجتمع والاقتصاد السعودي الطامح للنمو والريادة آنذاك الحلول البرمجية والأنظمة الالكترونية بالإضافة لأنواع متعددة من الخدمات والمنتجات التقنية المتطورة التي تتواكب مع تطلعات الشركات والمؤسسات الخاصة في ذلك الوقت، ولكي تساهم من خلال دورها في تسهيل وظيفة الإدارة وتحسين الإنتاج ، وحوكمة وضبط العمل، واستطاعت منذ اللحظة الأولى من انطلاقها كسب ثقة عملائها وترسيخ مكانتها كشريك تقني موثوق ولا غنى عنه لدى الكثير من الجهات الحكومية والخاصة، واستمرت على تقديم الأداء المتميز وتقديم الخدمات والمنتجات التقنية المتطورة والتي استطاعت من خلالها العمل على إثراء منظومة الإدارة وعالم الأنظمة والبرمجيات والتكنولوجيا الحديثة بالمملكة، وساعدتها في تحقيق قفزات هائلة في حجم مخرجاتها وهوامش أرباحها ومستوى تميزها في العمل والإدارة والتنظيم، وتتبعت في هذا الإطار منهجية عمل دائمة التطور ترتكز في المقام الأول على رضا العملاء وتقديم منتجات وخدمات مثالية وموثوقة، فأصبحت نجوم العلاوى مزود الخدمة الأول وبائع التقنية الخبير لدى ما يزيد عن ١٠ آلاف شركة  داخل وخارج المملكة.",
@@ -784,13 +1133,16 @@ const resources = {
         "نوفر خدمات تقنية متكاملة لدعم احتياجات شركتك وتحقيق أهدافك.",
 
       meta_about_title: "من نحن | نجوم العلاوي",
-      meta_about_description:"تعرّف على تاريخنا وخبراتنا في عالم الأنظمة والبرمجيات.",
+      meta_about_description:
+        "تعرّف على تاريخنا وخبراتنا في عالم الأنظمة والبرمجيات.",
 
       meta_news_title: "الأخبار | نجوم العلاوي",
       meta_news_description: "تابع آخر أخبار الشركة والتحديثات التقنية.",
 
       meta_contact_title: "اتصل بنا | نجوم العلاوي",
       meta_contact_description: "تواصل معنا لأي استفسار أو دعم تقني.",
+      meta_blog_title: "المدونة | نجوم العلاوي",
+      meta_blog_description: "اقرأ أحدث المقالات والتحديثات.",
 
       footertext:
         "أن نكون شركة رائدة ومعترف بها عالميًا في مجال صناعة البرمجيات",
@@ -814,8 +1166,10 @@ const resources = {
       Jeddah_Branch: "فرع جدة ",
       address_1: "الملز - شارع صلاح الدين ",
       address_2: "البغدادية الغربية",
-      address_1_contact:"الملز-شارع صلاح الدين – مركز عالية  التجاري – الدور الأول – مكتب 1",
-      address_2_contact:"البغدادية الغربية - شارع حائل - مركز حائل التجاري - الدور الثاني - مدخل أ - مكتب 21",
+      address_1_contact:
+        "الملز-شارع صلاح الدين – مركز عالية  التجاري – الدور الأول – مكتب 1",
+      address_2_contact:
+        "البغدادية الغربية - شارع حائل - مركز حائل التجاري - الدور الثاني - مدخل أ - مكتب 21",
       FAQs: "الأسئلة الشائعة ",
       Privacy_Policy: "سياسة الخصوصية",
       Terms_Conditions: "الشروط والأحكام",
@@ -823,17 +1177,20 @@ const resources = {
       time: " ص 8:00  - 12:30 م 3:00 م - 7:30 م",
       Testimonial: "ماذا قالوا عنا",
       Stories: "قصص واقعية، نتائج حقيقية",
-      Testimonial_text:"اقرأ آراء عملائنا حول رحلتهم معنا. نفخر بتقديم قيمة حقيقية.",
+      Testimonial_text:
+        "اقرأ آراء عملائنا حول رحلتهم معنا. نفخر بتقديم قيمة حقيقية.",
       Testimonial_name_1: "شركة علامة الزرقاء للتجارة",
       Testimonial_Location_1: "جدة، السعودية",
       Testimonial_text_1:
         "نقدر جهود نجوم العلاوي لنظم الكمبيوتر في صيانة وتطوير برامجنا  وثقتنا بهم دائمة، فهم شريك أساسي في نجاحنا. نأمل استمرار هذا الأداء المتميز وشكرًا جزيلاً.",
       Testimonial_name_2: "شركة الفا ميم للتجارة",
       Testimonial_Location_2: "الرياض ، السعودية",
-      Testimonial_text_2: "نشكر نجوم العلاوي وبرنامج سنمار على حسن التعامل وسرعة الاستجابة والدعم الفني طوال 4 سنوات، مما كان له أثر إيجابي في تنظيم عمل المجمع. نتمنى لكم المزيد من التقدم والازدهار.",
+      Testimonial_text_2:
+        "نشكر نجوم العلاوي وبرنامج سنمار على حسن التعامل وسرعة الاستجابة والدعم الفني طوال 4 سنوات، مما كان له أثر إيجابي في تنظيم عمل المجمع. نتمنى لكم المزيد من التقدم والازدهار.",
       Testimonial_name_3: " شركة سبرت الطبية   ", // Updated based on previous analysis
       Testimonial_Location_3: "جدة، السعودية",
-      Testimonial_text_3: "نقدم الشكر والعرفان شركة نجوم العلاوى لنظم الكمبيوتر ، لجهودهم في صيانة وتطوير البرامج المتميزة التي نعتمد عليها في المخزون والمبيعات والمحاسبة. نثمن شراكتنا ونتمنى استمرار تميزكم.",
+      Testimonial_text_3:
+        "نقدم الشكر والعرفان شركة نجوم العلاوى لنظم الكمبيوتر ، لجهودهم في صيانة وتطوير البرامج المتميزة التي نعتمد عليها في المخزون والمبيعات والمحاسبة. نثمن شراكتنا ونتمنى استمرار تميزكم.",
       Testimonial_name_4: "شركة صحة آدم الطبية",
       Testimonial_Location_4: "المملكة العربية السعودية",
       Testimonial_text_4:
@@ -1207,7 +1564,8 @@ const resources = {
         "نقل أوامر التشغيل غير المنتهية تلقائياً للعام الجديد بعد الإقفال السنوي",
       Maintenance_feature_33: "يمكن ربط عدة فروع لمراقبة المخزون",
       Maintenance_feature_34: "يمكن ربط أكثر من سيارة في عميل واحد",
-      Maintenance_feature_35:"نسخ احتياطي تلقائي للبيانات في السيرفر والوسائط الخارجية",
+      Maintenance_feature_35:
+        "نسخ احتياطي تلقائي للبيانات في السيرفر والوسائط الخارجية",
       Car_sale_feature_1: "شاشة متكاملة لإدخال معلومات السيارات",
       Car_sale_feature_2:
         "شاشات فرعية خاصة للموديلات والمواصفات والإضافات...الخ.",
@@ -1285,7 +1643,7 @@ const resources = {
       About_CTA_Text:
         "تعرف على رؤيتنا ورسالتنا وكيف نعمل لنجعل التقنية في خدمة أعمالك",
 
-      our_clients_title:  "  بعض من شركاؤنا وعملاؤنا الكرام",
+      our_clients_title: "  بعض من شركاؤنا وعملاؤنا الكرام",
 
       client_name_1: "شركة المركز الاقتصادي للمقاولات",
       client_details_1: "   مقاولات عامة     ",
@@ -1451,8 +1809,190 @@ const resources = {
       TECHNICAL_MANAGER_PARAGRAPH_3:
         "مما حد بنا للاستثمار فيه جاعلين نصب أعيننا أهمية التقنية فبدأنا على الحرص والتفاني للارتقاء بمنظومة التقنية لتقف بسواعد رجالها في مطاف مصدري التقنية بمشيئة الله تعالى.",
 
-        notFound_message: "عذرًا، الصفحة التي تحاول الوصول إليها غير موجودة.",
-        notFound_backToHome: "العودة إلى الصفحة الرئيسية",
+      notFound_message: "عذرًا، الصفحة التي تحاول الوصول إليها غير موجودة.",
+      notFound_backToHome: "العودة إلى الصفحة الرئيسية",
+      faq: {
+        title: "الأسئلة الشائعة",
+
+        q1: "ما هو نظام Sinmar Soft ERP ومتى يكون مناسبًا لشركتي؟",
+        a1: "هو نظام متكامل لإدارة موارد المؤسسات مصمم لتبسيط العمليات اليومية مثل المحاسبة، المبيعات، المشتريات، المخزون، والموارد البشرية. يناسب الشركات الصغيرة والمتوسطة التي تبحث عن أتمتة شاملة وتحكم كامل في مواردها.",
+
+        q2: "هل يوجد حساب تجريبي مجاني للنظام؟",
+        a2: "نعم، يمكنك طلب تجربة مجانية تمكنك من استكشاف ميزات النظام واختبار توافقه مع احتياجات شركتك قبل الاشتراك.",
+
+        q3: "ما هي خطوات ربط النظام بهيئة الزكاة والضريبة والجمارك (ZATCA)؟",
+        a3: "النظام متوافق بالكامل مع متطلبات هيئة الزكاة والضريبة والجمارك في المملكة العربية السعودية، ويمكن ربطه إلكترونيًا لإصدار الفواتير الإلكترونية وفق المرحلة الثانية (تكامل).",
+
+        q4: "هل يدعم النظام الفواتير الإلكترونية؟",
+        a4: "بالتأكيد، نظام Sinmar Soft ERP يدعم إنشاء وإرسال الفواتير الإلكترونية تلقائيًا وفق لوائح هيئة الزكاة والضريبة.",
+
+        q5: "ما الفرق بين النسخة السحابية والنسخة المحلية من النظام؟",
+        a5: "النسخة السحابية تُدار عبر الإنترنت وتُحدث تلقائيًا، بينما النسخة المحلية تُثبت على خوادمك الداخلية وتمنحك تحكمًا أكبر في البيانات.",
+
+        q6: "هل يمكن تخصيص النظام ليتناسب مع نشاط شركتي؟",
+        a6: "نعم، يمكن تخصيص النظام بشكل كامل حسب نوع النشاط التجاري مثل البيع بالتجزئة، التصنيع، أو الخدمات المهنية.",
+
+        q7: "كيف يتم ترحيل بيانات السنة المالية السابقة إلى النظام؟",
+        a7: "يمكنك استيراد البيانات السابقة بسهولة عبر أدوات الترحيل التي يوفرها النظام أو من خلال فريق الدعم الفني لدينا.",
+
+        q8: "ما هي الخدمات والدعم التي تقدمها الشركة بعد الشراء؟",
+        a8: "نوفر دعمًا فنيًا متواصلًا، تدريبًا للموظفين، وتحديثات دورية للنظام لضمان أفضل أداء.",
+
+        q9: "هل يمكن للنظام التكامل مع أنظمة أخرى مثل نقاط البيع أو البنوك؟",
+        a9: "نعم، النظام يدعم التكامل مع أنظمة خارجية عبر واجهات API بما في ذلك نقاط البيع والبنوك وأنظمة التجارة الإلكترونية.",
+
+        q10: "كيف يتم احتساب الزكاة والضرائب داخل النظام؟",
+        a10: "يحسب النظام الزكاة وضريبة القيمة المضافة تلقائيًا وفق الإعدادات المحلية المحددة، ويتيح تقارير جاهزة للتقديم إلى هيئة الزكاة.",
+
+        q11: "هل يتوافق النظام مع متطلبات المرحلة الثانية من الفوترة الإلكترونية (التكاملية)؟",
+        a11: "نعم، النظام معتمد من هيئة الزكاة والضريبة والجمارك ويدعم التكامل عبر واجهات برمجية (API) مع منصة الهيئة.",
+
+        q12: "هل يمكن استخدام النظام من الهاتف المحمول؟",
+        a12: "نعم، النظام يوفر واجهة متجاوبة بالكامل ويمكن الوصول إليه من أي جهاز عبر المتصفح أو تطبيق الجوال.",
+      },
+      privacy: {
+        title: "سياسة الخصوصية - سينمار سوفت ERP",
+
+        section1_title: "المعلومات التي يجمعها نظام سينمار سوفت ERP",
+        section1_p1:
+          "يقوم نظام سينمار سوفت بجمع بعض المعلومات الأساسية عند استخدامك للنظام أو التسجيل فيه، بهدف تحسين جودة الخدمة وتقديم تجربة مخصصة.",
+        section1_p2:
+          "قد تشمل هذه المعلومات الاسم، البريد الإلكتروني، رقم الهاتف، وبيانات النشاط داخل النظام مثل الفواتير والتقارير وصلاحيات المستخدم.",
+        section1_p3:
+          "لا يقوم النظام بجمع أي بيانات مالية أو حساسة إلا بعد موافقة المستخدم، ويتم تشفير جميع البيانات الحساسة بشكل آمن.",
+        section1_p4:
+          "يستخدم النظام ملفات تعريف الارتباط (Cookies) لتحسين الأداء وتجربة المستخدم.",
+
+        section2_title: "كيفية استخدام المعلومات",
+        section2_p1:
+          "تُستخدم المعلومات التي يتم جمعها لتحسين جودة النظام وتقديم ميزات تتناسب مع احتياجات المنشأة.",
+        section2_li1: "تخصيص تجربة المستخدم داخل نظام ERP.",
+        section2_li2: "تحسين الدعم الفني والاستجابة للاستفسارات.",
+        section2_li3: "تحليل أداء النظام وتطوير الميزات المستقبلية.",
+        section2_li4: "التواصل بشأن التحديثات أو العروض الخاصة بخدمات ERP.",
+        section2_p2:
+          "يتم إرسال الإشعارات أو الرسائل البريدية فقط للمستخدمين الذين اختاروا تلقيها.",
+
+        section3_title: "حماية بياناتك",
+        section3_p1:
+          "تلتزم سينمار سوفت بتطبيق أعلى معايير الأمان في تخزين ومعالجة البيانات، باستخدام بروتوكولات SSL وتشفير البيانات الحساسة.",
+
+        section4_title: "استخدام ملفات تعريف الارتباط (Cookies)",
+        section4_p1:
+          "يستخدم نظام سينمار سوفت ملفات تعريف الارتباط لتخزين تفضيلات المستخدم وتحسين سرعة التصفح.",
+        section4_p2:
+          "يمكنك تعطيل ملفات تعريف الارتباط من إعدادات المتصفح، لكن قد يؤثر ذلك على بعض وظائف النظام.",
+        section4_p3:
+          "لا تُستخدم ملفات تعريف الارتباط لأغراض تسويقية أو لمشاركة المعلومات مع أطراف خارجية.",
+
+        section5_title: "مشاركة المعلومات مع الأطراف الثالثة",
+        section5_p1:
+          "لا تشارك سينمار سوفت أي بيانات شخصية مع أطراف خارجية إلا في حال وجود إلزام قانوني أو بعد موافقة المستخدم الصريحة.",
+      },
+
+      terms_title: "الشروط والأحكام",
+
+      section1_title: "مقدمو الخدمات من الأطراف الثالثة",
+      section1_p1:
+        "قد يتعاون نظام سينمار سوفت ERP مع مزودي خدمات من الأطراف الثالثة بهدف تحسين جودة الخدمات وتحليل أداء النظام. يُسمح لهؤلاء المزودين باستخدام البيانات فقط ضمن نطاق تقديم الخدمة ودون أي حق في مشاركتها أو استخدامها لأغراض أخرى.",
+
+      section2_title: "ملفات تعريف الارتباط (الكوكيز)",
+      section2_p1:
+        "يستخدم نظام سينمار سوفت ERP ملفات تعريف الارتباط لتحسين تجربة المستخدم وتخصيص الخدمات وفقاً لتفضيلات المستخدم. يمكنك تعطيل الكوكيز من إعدادات المتصفح، ولكن قد يؤدي ذلك إلى تعطيل بعض الميزات أو التأثير على أداء النظام.",
+
+      section3_title: "البيانات والمعلومات",
+      section3_p1:
+        "يتم استخدام البيانات التي يجمعها نظام سينمار سوفت ERP فقط لتحسين الأداء وتقديم الدعم الفني وتطوير الخدمات. لا تتم مشاركة البيانات مع أي طرف ثالث إلا إذا كان ذلك ضرورياً لتقديم الخدمة أو مطلوباً بموجب القانون.",
+
+      section4_title: "حقوق الملكية الفكرية",
+      section4_p1:
+        "جميع حقوق الملكية الفكرية والتصميمات والمحتوى التابع لنظام سينمار سوفت ERP محفوظة بالكامل. لا يُسمح بإعادة استخدام أو نسخ أي جزء من النظام دون إذن خطي مسبق من الشركة المالكة.",
+
+      section5_title: "تحديثات الشروط والأحكام",
+      section5_p1:
+        "يحتفظ نظام سينمار سوفت ERP بالحق في تعديل هذه الشروط والأحكام في أي وقت. سيتم إعلام المستخدمين بالتغييرات، ويُعتبر استمرار استخدام النظام بعد التعديل موافقة على الشروط الجديدة.",
+
+      // Blog Page Translations
+      blog_title: "المدونة",
+      blog_breadcrumb_home: "الرئيسية",
+      blog_breadcrumb_blog: "المدونة",
+      blog_page_title: "المدونة",
+      blog_page_subtitle: "أحدث المقالات والقصص من فريقنا",
+      blog_search_placeholder: "ابحث في المدونة...",
+      blog_categories_title: "التصنيفات",
+      blog_recent_posts_title: "أحدث المقالات",
+      blog_cta_title: "تواصل معنا",
+      blog_read_more: "اقرأ المزيد",
+      blog_no_posts: "لا توجد منشورات متاحة.",
+      blog_date_badge: "التاريخ",
+      blog_search_results: "نتائج البحث",
+      blog_results_found: "نتيجة",
+      blog_results_not_found: "لم نجد أي مقالات مطابقة للبحث.",
+      blog_published_date: "منشور في",
+      blog_by_author: "بقلم",
+
+      // Admin Blog Dashboard
+      admin_dashboard_title: "لوحة تحكم المدونة",
+      admin_total_posts: "إجمالي المنشورات",
+      admin_published_posts: "منشورات منشورة",
+      admin_add_new_post: "إضافة منشور",
+      admin_posts_list_title: "قائمة المنشورات",
+      admin_search_posts: "ابحث في المقالات...",
+      admin_table_title_col: "العنوان",
+      admin_table_date_col: "التاريخ",
+      admin_table_slug_col: "الرابط",
+      admin_table_actions_col: "الإجراءات",
+      admin_edit_btn: "تعديل",
+      admin_delete_btn: "حذف",
+      admin_delete_confirm_msg: "هل أنت متأكد من حذف هذا المنشور؟",
+      admin_search_results_count: "نتيجة",
+      admin_no_posts_msg: "لا توجد منشورات حتى الآن.",
+      admin_prev_pagination: "السابق",
+      admin_next_pagination: "التالي",
+      admin_page_indicator: "صفحة",
+      admin_of_pages: "من",
+
+      // Admin Form
+      admin_form_title: "إضافة منشور جديد",
+      admin_form_title_edit: "تعديل المنشور",
+      admin_form_title_en_label: "العنوان (EN)",
+      admin_form_title_ar_label: "العنوان (AR)",
+      admin_form_slug_label: "الرابط",
+      admin_form_slug_hint: "سيتم إنشاؤه تلقائياً من العنوان إذا ترك فارغاً",
+      admin_form_date_label: "التاريخ",
+      admin_form_excerpt_en_label: "الملخص (EN)",
+      admin_form_excerpt_ar_label: "الملخص (AR)",
+      admin_form_image_label: "رفع الصورة",
+      admin_form_image_drag_hint: "اسحب وأفلت الصورة هنا أو انقر للاختيار",
+      admin_form_content_en_label: "المحتوى (EN)",
+      admin_form_content_ar_label: "المحتوى (AR)",
+      admin_form_submit_create: "إنشاء المنشور",
+      admin_form_submit_update: "تحديث المنشور",
+      admin_form_reset_btn: "إعادة تعيين",
+
+      // Admin Alerts
+      admin_alert_success: "تم بنجاح",
+      admin_alert_error: "خطأ",
+      admin_alert_create_success: "تم إنشاء المنشور بنجاح.",
+      admin_alert_update_success: "تم تحديث المنشور بنجاح.",
+      admin_alert_delete_success: "تم حذف المنشور بنجاح.",
+      admin_alert_required_fields: "العنوان والمحتوى باللغة الإنجليزية مطلوبان.",
+      admin_alert_save_error: "فشل حفظ المنشور. حاول مرة أخرى.",
+
+      // Admin Toolbar
+      admin_toolbar_bold: "غامق",
+      admin_toolbar_italic: "مائل",
+      admin_toolbar_underline: "تسطير",
+      admin_toolbar_list: "قائمة",
+      admin_toolbar_link: "رابط",
+
+      // Admin Pagination
+      admin_pagination_previous: "السابق",
+      admin_pagination_next: "التالي",
+
+      // Stats Bar
+      admin_stats_total: "إجمالي المنشورات",
+      admin_stats_published: "منشورات منشورة",
     },
   },
 };

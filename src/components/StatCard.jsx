@@ -22,12 +22,13 @@ const StatCard = ({ value, suffix, label }) => {
   }, [value]);
 
   return (
-    <div className=" px-4">
+    <div className="px-4">
       <h2 className="text-3xl text-Main-color font-bold">
         {count}
         {suffix}
       </h2>
       <p className="text-sm font-bold text-gray-700 mt-1">{label}</p>
+      
     </div>
   );
 };

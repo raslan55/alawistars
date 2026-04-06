@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 import { Link } from "react-router-dom";
+import { getRoutePath, getProductSlug } from "../utils/i18nHelpers";
 
 export default function ProductsSlider() {
   const { t, i18n } = useTranslation();
@@ -19,8 +20,9 @@ export default function ProductsSlider() {
       <h2 className="text-4xl font-bold text-center text-Main-color mb-4">
         {t("Ourproducts")}
       </h2>
+      
       <h3 className="text-2xl font-bold text-center text-text-color mb-12">
-        {t("Ourproducts_text")}
+       {t("Ourproducts_text")}
       </h3>
 
       <Swiper
@@ -34,6 +36,7 @@ export default function ProductsSlider() {
           delay: 3000,
           disableOnInteraction: false,
         }}
+
         breakpoints={{
           640: { slidesPerView: 1 },
           768: { slidesPerView: 2 },
@@ -44,7 +47,7 @@ export default function ProductsSlider() {
         {products.map((product) => (
           <SwiperSlide key={product.id}>
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow hover:shadow-lg transition duration-300 h-full flex flex-col">
-              <Link to={`/products/${product.slug}`}>
+              <Link to={`/${getRoutePath("products", t)}/${getProductSlug(product, i18n.language, t)}`}>
                 <img
                   src={product.image}
                   alt={product.title}
@@ -60,7 +63,7 @@ export default function ProductsSlider() {
                   {t(product.description)}
                 </p>
                 <Link
-                  to={`/products/${product.slug}`}
+                  to={`/${getRoutePath("products", t)}/${getProductSlug(product, i18n.language, t)}`}
                   className="mt-auto flex justify-center items-center  text-Main-color px-4 py-2 rounded hover:underline transition text-center"
                 >
                   {isRTL ? (
@@ -80,6 +83,7 @@ export default function ProductsSlider() {
           </SwiperSlide>
         ))}
       </Swiper>
+
     </section>
   );
 }

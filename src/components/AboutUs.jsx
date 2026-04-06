@@ -17,6 +17,7 @@ import {
 import CTO from "../assets/Images/CTO.jpg";         // Adjust the path as necessary
 import Manger from "../assets/Images/10102644.jpg"; // Adjust the path as necessary
 import CTA from "./CTA";
+import { getRoutePath } from "../utils/i18nHelpers";
 const AboutUs = () => {
   const { t } = useTranslation();
 
@@ -185,6 +186,12 @@ const AboutUs = () => {
               {t("MANAGER_PARAGRAPH_2")}
               {t("MANAGER_PARAGRAPH_3")}
             </p>
+            <a
+              href={`/${getRoutePath("blog", t)}/manager-message`}
+              className="text-Main-color font-bold hover:underline mt-4 block"
+            >
+              {t("read_more")}
+            </a>
           </div>
 
           {/* المدير الفني */}
@@ -209,11 +216,18 @@ const AboutUs = () => {
               <br />
               {t("TECHNICAL_MANAGER_PARAGRAPH_3")}
             </p>
+            <a
+              href={`/${getRoutePath("blog", t)}/technical-manager-message`}
+              className="text-Main-color font-bold hover:underline mt-4 block"
+            >
+              {t("read_more")}
+            </a>
           </div>
         </div>
       </section>
 
       <CTA heading={t("About_Started")} subheading={t("About_CTA_Text")} />
+      
     </>
   );
 };

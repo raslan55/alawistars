@@ -56,14 +56,14 @@ export default function ProductDetails() {
               </ul>
             </div>
           )}
+
         </div>
+        
       </div>
-        <ProductsSlider />
-      
-       <CTA 
-  heading={t("Tech_Started")} 
-  subheading={t("Tech_CTA_Text")} 
-/>
+
+      <ProductsSlider />
+      <CTA heading={t("Tech_Started")} subheading={t("Tech_CTA_Text")} />
+
     </>
   );
 }

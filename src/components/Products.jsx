@@ -5,6 +5,7 @@ import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import StatsSection from "./StatsSection";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { getRoutePath } from "../utils/i18nHelpers";
 
 export default function Products() {
   const { t, i18n } = useTranslation();
@@ -16,6 +17,7 @@ export default function Products() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center  gap-3 sm:gap-12 sm:mb-10 px-4">
           {/* Left: Image */}
+          
           <motion.div
             className="w-full lg:w-1/2 mt-10 lg:mt-0"
             whileHover={{ scale: 1.05 }}
@@ -52,7 +54,7 @@ export default function Products() {
               <MotionLink
                 className="btn-primary flex items-center group text-center justify-center px-6 py-3 rounded-md shadow-md text-white font-bold bg-Main-color hover:bg-Main-color-dark transition-colors duration-300"
                 whileHover={{ scale: 1.1 }}
-                to={"/products"}
+                to={`/${getRoutePath("products", t)}`}
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
@@ -69,6 +71,8 @@ export default function Products() {
                 )}
               </MotionLink>
             </div>
+
+
           </div>
         </div>
       </div>

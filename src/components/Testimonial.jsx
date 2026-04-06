@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { motion } from "framer-motion"; 
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import CustomPrevArrow from "./CustomPrevArrow";
 import CustomNextArrow from "./CustomNextArrow";
@@ -22,12 +22,6 @@ import Eleven_img from "../assets/Images/Testmonial/Logos/MJC.png";
 import Twelve_img from "../assets/Images/Testmonial/Logos/MML.png";
 
 
-
-
-
-
-
-
 export default function Testimonial() {
   const { i18n, t } = useTranslation();
   const isRTL = i18n.language === 'ar';
@@ -41,9 +35,9 @@ export default function Testimonial() {
     slidesToShow: 2,
     slidesToScroll: 1,
     nextArrow: <CustomNextArrow />,
-    prevArrow: <CustomPrevArrow />,
-    
+    prevArrow: <CustomPrevArrow />, 
     responsive: [
+
       {
         breakpoint: 1024,
         settings: {
@@ -51,6 +45,7 @@ export default function Testimonial() {
           arrows: true, // Ensure arrows are true for this breakpoint
         },
       },
+
       { 
         breakpoint: 768,
         settings: {
@@ -69,13 +64,15 @@ const testimonials = [
     text: "Testimonial_text_1",
     image: One_img,
   },
-  {
+
+ {
     id: "testimonial_1",
     name: "Testimonial_name_2",
     location: "Testimonial_Location_2",
     text: "Testimonial_text_2",
     image: Two_img,
   },
+
   {
     id: "testimonial_2",
     name: "Testimonial_name_3",         
@@ -83,6 +80,7 @@ const testimonials = [
     text: "Testimonial_text_3",   
    image: Three_img,
   },
+
   {
     id: "testimonial_3",
     name: "Testimonial_name_4",
@@ -90,6 +88,8 @@ const testimonials = [
     text: "Testimonial_text_4",
    image:   Four_img,
   },
+
+
   {
     id: "testimonial_4",
     name: "Testimonial_name_5",
@@ -98,6 +98,7 @@ const testimonials = [
    image:     Five_img,
   },
 
+
   {
     id: "testimonial_5",
     name: "Testimonial_name_6",
@@ -105,13 +106,16 @@ const testimonials = [
     text: "Testimonial_text_6",
    image: Six_img,
   },
+
+
   {
     id: "testimonial_6",
     name: "Testimonial_name_7",
     location: "Testimonial_Location_7",
     text: "Testimonial_text_7",
-   image: Seven_img,
+    image: Seven_img,
   },
+
 
   {
     id: "testimonial_7",
@@ -121,6 +125,7 @@ const testimonials = [
   image: Eight_img,
   },
 
+
   {
     id: "testimonial_8",
     name: "Testimonial_name_9",
@@ -128,6 +133,7 @@ const testimonials = [
     text: "Testimonial_text_9",
     image: Nine_img,
   },
+
   {
     id: "testimonial_9",
     name: "Testimonial_name_10",
@@ -136,7 +142,7 @@ const testimonials = [
     image: Ten_img,
   },
 
- {
+    {
     id: "testimonial_10",
     name: "Testimonial_name_11",
     location: "Testimonial_Location_11",
@@ -186,6 +192,7 @@ const testimonials = [
               <div className={`flex items-center justify-between  mt-4`}>
                 {/* Image if available */}
                 {/* You might conditionally render an image here or outside this div */}
+
                 <div> 
                   <img
                   src={item.image} // Using a single avatar for all
@@ -194,7 +201,6 @@ const testimonials = [
                 /> 
                 </div>
               
-                 
                 <div className={`${isRTL ?'text-end':'text-start'}`}>
                   <p className="font-semibold text-[#001E60] text-sm sm:text-base">
                     {t(item.name)}

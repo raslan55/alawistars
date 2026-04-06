@@ -1,41 +1,58 @@
-import React from 'react';
+import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function TermsAndConditions() {
+  const { t } = useTranslation();
+
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
-      <h1 className="text-4xl font-extrabold  text-Main-color mb-10 leading-tight">
-        الشروط والأحكام
+      <h1 className="text-4xl font-extrabold text-Main-color mb-10 leading-tight">
+        {t("terms_title")}
       </h1>
 
-      <div className="space-y-8 text-gray-700 leading-relaxed" dir="auto"> {/* dir="auto" for auto direction detection */}
+      <div className="space-y-8 text-gray-700 leading-relaxed" dir="auto">
+        {/* القسم 1 */}
 
         <section>
-          <h2 className="text-2xl font-bold text-Main-color mb-4  ">
-            مقدمو الخدمات من الأطراف الثالثة
+          <h2 className="text-2xl font-bold text-Main-color mb-4">
+            {t("section1_title")}
           </h2>
-          <p className="mb-4  ">
-            قد يتعاقد موقع الويب هذا مع مزودي خدمة من الأطراف الثالثة لمساعدته في فهم زوار الموقع بشكل أفضل. لا يُسمح لمقدمي الخدمات هؤلاء باستخدام المعلومات التي تم جمعها نيابة عن هذا الموقع إلا لمساعدة هذا الموقع في إدارة الأعمال وتحسينها.
-          </p>
+          <p className="mb-4">{t("section1_p1")}</p>
         </section>
+
+        {/* القسم 2 */}
+        <section>
+          <h2 className="text-2xl font-bold text-Main-color mb-4">
+            {t("section2_title")}
+          </h2>
+          <p className="mb-4">{t("section2_p1")}</p>
+        </section>
+
+        {/* القسم 3 */}
+        <section>
+          <h2 className="text-2xl font-bold text-Main-color mb-4">
+            {t("section3_title")}
+          </h2>
+          <p className="mb-4">{t("section3_p1")}</p>
+        </section>
+
+        {/* القسم 4 */}
+        
+        <section>
+          <h2 className="text-2xl font-bold text-Main-color mb-4">
+            {t("section4_title")}
+          </h2>
+          <p className="mb-4">{t("section4_p1")}</p>
+        </section>
+
+        {/* القسم 5 */}
 
         <section>
-          <h2 className="text-2xl font-bold text-Main-color mb-4  ">
-            ملفات تعريف الارتباط (الكوكيز)
+          <h2 className="text-2xl font-bold text-Main-color mb-4">
+            {t("section5_title")}
           </h2>
-          <p className="mb-4  ">
-            يمكنك اختيار أن يقوم جهاز الكمبيوتر الخاص بك بتحذيرك في كل مرة يتم فيها إرسال ملف تعريف ارتباط ، أو يمكنك اختيار إيقاف تشغيل جميع ملفات تعريف الارتباط. يمكنك القيام بذلك من خلال إعدادات المتصفح (مثل Google Chrome أو Mozilla Firefox أو Apple Safari أو Microsoft Edge). كل متصفح يختلف. وبالتالي تحقق من نظام تعليمات متصفح الويب الخاص بك لمعرفة الطريقة الصحيحة لتعديل إعدادات ملفات تعريف الارتباط. إذا قمت بإيقاف تشغيل ملفات تعريف الارتباط ، فلن تتمكن من الوصول إلى العديد من الميزات التي تجعل تجربة موقعك أكثر كفاءة ولن تعمل بعض خدماتنا بشكل صحيح.
-          </p>
+          <p className="mb-4">{t("section5_p1")}</p>
         </section>
-
-        <section>
-          <h2 className="text-2xl font-bold text-Main-color mb-4  ">
-            المعلومات التي يفصح عنها هذا الموقع للأطراف الثالثة
-          </h2>
-          <p className="mb-4  ">
-            هذا الموقع لا يبيع أو يتاجر أو ينقل معلوماتك الشخصية إلى أطراف خارجية ما لم يزودك هذا الموقع بإشعار مسبق ، باستثناء ما هو موضح أدناه. مصطلح "أطراف خارجية" لا يشمل هذا الموقع. كما أنه لا يشمل شركاء استضافة مواقع الويب والأطراف الأخرى الذين يساعدون عمليات هذا الموقع أو إجراء الأعمال أو تقديم الخدمة ، طالما أن هذه الأطراف توافق على الحفاظ على سرية هذه المعلومات. قد يكون هذا الموقع أيضًا... (النص كان مقطوعًا هنا في طلبك الأصلي)
-          </p>
-        </section>
-
       </div>
     </div>
   );

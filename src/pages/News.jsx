@@ -17,18 +17,20 @@ const newsData = [
     date: '20 مايو 2021',
     image: '/images/riyadh.jpg',
   },
+  
   {
     id: 3,
     title: 'كلمة المدير العام',
     date: '23 مايو 2021',
     image: '/images/mic.jpg',
   },
+
 ];
 
 
   return (
     <div>
-       <section className="py-10 px-4 md:px-10 bg-white">
+      <section className="py-10 px-4 md:px-10 bg-white">
       <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch flex-wrap">
         {newsData.map((item) => (
           <div key={item.id} className="max-w-sm w-full bg-white shadow-md rounded-md overflow-hidden">

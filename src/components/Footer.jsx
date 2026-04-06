@@ -15,15 +15,16 @@ import { BsYoutube, BsFacebook, BsInstagram, BsTwitterX } from "react-icons/bs";
 
 export default function AppFooter() {
   const { t } = useTranslation();
-
   return (
+
     <Footer container className="bg-[#F0F8FD] text-Main-color shadow-lg">
+
       <div className="w-full px-4 ">
         {/* Divider */}
         <FooterDivider className="sm:my-1" />
 
         {/* Bottom Section */}
-        <div
+         <div
           className="flex flex-col sm:flex-row justify-between items-center
                         gap-4 flex-wrap text-center sm:text-left"
         >
@@ -51,6 +52,13 @@ export default function AppFooter() {
                 className="text-Main-color text-base sm:text-lg ms-4 hover:underline"
               >
                 {t("Terms_Conditions")}
+              </Link>
+
+                    <Link
+                to="/faq"
+                className="text-Main-color text-base sm:text-lg ms-4 hover:underline"
+              >
+                {t("faq.title")}
               </Link>
             </FooterLinkGroup>
 
@@ -82,8 +90,12 @@ export default function AppFooter() {
               />
             </div>
           </div>
-        </div>
+
+         </div>
+
       </div>
+
     </Footer>
+
   );
 }

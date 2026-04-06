@@ -4,6 +4,7 @@ import {  FaArrowRight , } from "react-icons/fa"; // Import your desired arrow i
 export default function CustomNextArrow(props) {
 const { className, style, onClick } = props;
   return (
+
     <div
       className={className}
       // Positioning for the NEXT arrow (should be on the RIGHT)
@@ -20,7 +21,7 @@ const { className, style, onClick } = props;
       }}
       onClick={onClick}
     >
-      
+
    <svg
     xmlns="http://www.w3.org/2000/svg"
     width={40}
@@ -36,7 +37,7 @@ const { className, style, onClick } = props;
       strokeWidth={1.5}
       d="m16.91 28.795 6.52-6.52c.77-.77.77-2.03 0-2.8l-6.52-6.52"
     />
-  </svg>
+   </svg>
 
     </div>
   );
