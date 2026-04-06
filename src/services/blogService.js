@@ -1,5 +1,5 @@
 const API_BASE_URL = process.env.NODE_ENV === 'production'
-  ? 'https://alawistars-backend.railway.app/api'  // Your Railway backend URL
+  ? 'https://alawistars-production.up.railway.app/api'  // Your Railway backend URL
   : 'http://localhost:5000/api';
 
 const normalize = (post) => {
