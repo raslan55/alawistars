@@ -45,7 +45,7 @@ const Blog = sequelize.define(
       allowNull: false,
     },
     image: {
-      type: DataTypes.TEXT,
+      type: DataTypes.TEXT('long'),  // LONGTEXT for large Base64 images
     },
     category: {
       type: DataTypes.STRING,
