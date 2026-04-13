@@ -1,7 +1,58 @@
 const express = require('express');
 const { Sequelize, DataTypes } = require('sequelize');
 const cors = require('cors');
+const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3');
 require('dotenv').config();
+
+// S3-compatible bucket client
+const s3 = new S3Client({
+  region: process.env.REGION || 'auto',
+  endpoint: process.env.ENDPOINT,
+  credentials: {
+    accessKeyId: process.env.ACCESS_KEY_ID,
+    secretAccessKey: process.env.SECRET_ACCESS_KEY,
+  },
+  forcePathStyle: true, // required for non-AWS S3-compatible endpoints
+});
+
+const BUCKET = process.env.BUCKET;
+
+/**
+ * Upload a base64-encoded image to S3 and return its public URL.
+ * @param {string} base64Data  - Full data URI or raw base64 string
+ * @param {string} filename    - Destination key in the bucket
+ * @returns {Promise<string>}  - Public URL of the uploaded object
+ */
+async function uploadImageToS3(base64Data, filename) {
+  // Strip the data URI prefix if present (e.g. "data:image/jpeg;base64,")
+  const matches = base64Data.match(/^data:([A-Za-z-+/]+);base64,(.+)$/);
+  let contentType = 'image/jpeg';
+  let base64Payload = base64Data;
+
+  if (matches) {
+    contentType = matches[1];
+    base64Payload = matches[2];
+  }
+
+  const buffer = Buffer.from(base64Payload, 'base64');
+
+  await s3.send(
+    new PutObjectCommand({
+      Bucket: BUCKET,
+      Key: filename,
+      Body: buffer,
+      ContentType: contentType,
+      ACL: 'public-read',
+    })
+  );
+
+  // Build the public URL from the endpoint and bucket name
+  const endpoint = process.env.ENDPOINT
+    ? process.env.ENDPOINT.replace(/\/$/, '')
+    : `https://s3.${process.env.REGION}.amazonaws.com`;
+
+  return `${endpoint}/${BUCKET}/${filename}`;
+}
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -45,7 +96,7 @@ const Blog = sequelize.define(
       allowNull: false,
     },
     image: {
-      type: DataTypes.TEXT('long'),  // LONGTEXT for large Base64 images
+      type: DataTypes.STRING(500),  // URL to S3-hosted image
     },
     category: {
       type: DataTypes.STRING,
@@ -133,14 +184,27 @@ app.post('/api/blogs', async (req, res) => {
       return res.status(400).json({ error: 'Title is required' });
     }
 
+    const blogId = body.id || createId();
     const slugBase = body.slug || generateSlug(body.title.en || body.title || 'untitled');
     const slug = await makeUniqueSlug(slugBase);
 
+    // Upload base64 image to S3 if provided, otherwise keep empty
+    let imageUrl = body.image || '';
+    if (body.image && body.image.startsWith('data:')) {
+      try {
+        const filename = `blogs/${blogId}-${Date.now()}.jpg`;
+        imageUrl = await uploadImageToS3(body.image, filename);
+      } catch (s3Error) {
+        console.error('S3 upload failed during POST /api/blogs:', s3Error);
+        return res.status(500).json({ error: 'Failed to upload image to storage: ' + s3Error.message });
+      }
+    }
+
     const payload = {
-      id: body.id || createId(),
+      id: blogId,
       slug,
       date: body.date || new Date().toISOString().split('T')[0],
-      image: body.image || '',
+      image: imageUrl,
       category: body.category || '',
       title: body.title,
       excerpt: body.excerpt,
@@ -168,6 +232,20 @@ app.put('/api/blogs/:id', async (req, res) => {
       body.slug = await makeUniqueSlug(body.slug, blog.id);
     }
 
+    // Upload new image to S3 if a base64 payload was provided; otherwise keep existing URL
+    if (body.image && body.image.startsWith('data:')) {
+      try {
+        const filename = `blogs/${blog.id}-${Date.now()}.jpg`;
+        body.image = await uploadImageToS3(body.image, filename);
+      } catch (s3Error) {
+        console.error('S3 upload failed during PUT /api/blogs/:id:', s3Error);
+        return res.status(500).json({ error: 'Failed to upload image to storage: ' + s3Error.message });
+      }
+    } else if (!body.image) {
+      // No new image supplied — preserve the existing one
+      body.image = blog.image;
+    }
+
     const updatedFields = {
       ...body,
       title: body.title,
@@ -178,6 +256,7 @@ app.put('/api/blogs/:id', async (req, res) => {
     await blog.update(updatedFields);
     res.json(blog);
   } catch (error) {
+    console.error('PUT /api/blogs/:id error:', error);
     res.status(400).json({ error: error.message });
   }
 });
