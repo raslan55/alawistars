@@ -2017,7 +2017,7 @@ const resources = {
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: "en", // Default language
+  lng: "ar", // Default language
   fallbackLng: "en",
   interpolation: {
     escapeValue: false,
