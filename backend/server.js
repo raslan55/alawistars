@@ -2,58 +2,7 @@ const path = require('path');
 const express = require('express');
 const { Sequelize, DataTypes } = require('sequelize');
 const cors = require('cors');
-const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3');
 require('dotenv').config();
-
-// S3-compatible bucket client
-const s3 = new S3Client({
-  region: process.env.REGION || 'auto',
-  endpoint: process.env.ENDPOINT,
-  credentials: {
-    accessKeyId: process.env.ACCESS_KEY_ID,
-    secretAccessKey: process.env.SECRET_ACCESS_KEY,
-  },
-  forcePathStyle: true, // required for non-AWS S3-compatible endpoints
-});
-
-const BUCKET = process.env.BUCKET;
-
-/**
- * Upload a base64-encoded image to S3 and return its public URL.
- * @param {string} base64Data  - Full data URI or raw base64 string
- * @param {string} filename    - Destination key in the bucket
- * @returns {Promise<string>}  - Public URL of the uploaded object
- */
-async function uploadImageToS3(base64Data, filename) {
-  // Strip the data URI prefix if present (e.g. "data:image/jpeg;base64,")
-  const matches = base64Data.match(/^data:([A-Za-z-+/]+);base64,(.+)$/);
-  let contentType = 'image/jpeg';
-  let base64Payload = base64Data;
-
-  if (matches) {
-    contentType = matches[1];
-    base64Payload = matches[2];
-  }
-
-  const buffer = Buffer.from(base64Payload, 'base64');
-
-  await s3.send(
-    new PutObjectCommand({
-      Bucket: BUCKET,
-      Key: filename,
-      Body: buffer,
-      ContentType: contentType,
-      ACL: 'public-read',
-    })
-  );
-
-  // Build the public URL from the endpoint and bucket name
-  const endpoint = process.env.ENDPOINT
-    ? process.env.ENDPOINT.replace(/\/$/, '')
-    : `https://s3.${process.env.REGION}.amazonaws.com`;
-
-  return `${endpoint}/${BUCKET}/${filename}`;
-}
 
 const app = express();
 const PORT = process.env.PORT || 5000;
