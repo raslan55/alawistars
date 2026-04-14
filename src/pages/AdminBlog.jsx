@@ -19,8 +19,8 @@ const initialForm = {
   image: "",
 };
 
-const MAX_IMAGE_SIZE_BYTES = 2 * 1024 * 1024; // 2 MB
-const MAX_IMAGE_SIZE_LABEL = "2 MB";
+const MAX_IMAGE_SIZE_BYTES = 1 * 1024 * 1024; // 1 MB
+const MAX_IMAGE_SIZE_LABEL = "1 MB";
 
 const packi18n = (en, ar) => ({ en: en || "", ar: ar || en || "" });
 
