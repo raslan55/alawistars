@@ -148,10 +148,14 @@ async function initializeDatabase() {
 // Routes
 app.get('/api/blogs', async (req, res) => {
   try {
+    console.log('GET /api/blogs called');
     const blogs = await Blog.findAll({ order: [['date', 'DESC']] });
+    console.log('Blogs fetched successfully:', blogs.length);
     res.json(blogs);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    console.error('GET /api/blogs error:', error);
+    console.error('Error stack:', error.stack);
+    res.status(500).json({ error: error.message, stack: error.stack });
   }
 });
 
