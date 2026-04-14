@@ -181,17 +181,8 @@ app.post('/api/blogs', async (req, res) => {
     const slugBase = body.slug || generateSlug(body.title.en || body.title || 'untitled');
     const slug = await makeUniqueSlug(slugBase);
 
-    // Upload base64 image to S3 if provided, otherwise keep empty
-    let imageUrl = body.image || '';
-    if (body.image && body.image.startsWith('data:')) {
-      try {
-        const filename = `blogs/${blogId}-${Date.now()}.jpg`;
-        imageUrl = await uploadImageToS3(body.image, filename);
-      } catch (s3Error) {
-        console.error('S3 upload failed during POST /api/blogs:', s3Error);
-        return res.status(500).json({ error: 'Failed to upload image to storage: ' + s3Error.message });
-      }
-    }
+    // Use base64 image directly if provided
+    const imageUrl = body.image || '';
 
     const payload = {
       id: blogId,
@@ -225,16 +216,8 @@ app.put('/api/blogs/:id', async (req, res) => {
       body.slug = await makeUniqueSlug(body.slug, blog.id);
     }
 
-    // Upload new image to S3 if a base64 payload was provided; otherwise keep existing URL
-    if (body.image && body.image.startsWith('data:')) {
-      try {
-        const filename = `blogs/${blog.id}-${Date.now()}.jpg`;
-        body.image = await uploadImageToS3(body.image, filename);
-      } catch (s3Error) {
-        console.error('S3 upload failed during PUT /api/blogs/:id:', s3Error);
-        return res.status(500).json({ error: 'Failed to upload image to storage: ' + s3Error.message });
-      }
-    } else if (!body.image) {
+    // Use base64 image directly if provided; otherwise keep existing value
+    if (!body.image) {
       // No new image supplied — preserve the existing one
       body.image = blog.image;
     }
