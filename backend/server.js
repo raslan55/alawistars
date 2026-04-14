@@ -149,7 +149,23 @@ async function initializeDatabase() {
 app.get('/api/blogs', async (req, res) => {
   try {
     console.log('GET /api/blogs called');
-    const blogs = await Blog.findAll({ order: [['date', 'DESC']] });
+    // Fetch only IDs sorted by date to avoid "Out of sort memory" with large LONGTEXT image columns
+    const idRecords = await Blog.findAll({
+      attributes: ['id'],
+      order: [['date', 'DESC']]
+    });
+    
+    const ids = idRecords.map(b => b.id);
+    
+    let blogs = [];
+    if (ids.length > 0) {
+      const unsortedBlogs = await Blog.findAll({
+        where: { id: ids }
+      });
+      // Re-sort the blogs according to the strictly ordered IDs
+      blogs = ids.map(id => unsortedBlogs.find(b => b.id === id)).filter(Boolean);
+    }
+    
     console.log('Blogs fetched successfully:', blogs.length);
     res.json(blogs);
   } catch (error) {
