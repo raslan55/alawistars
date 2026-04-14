@@ -5,6 +5,7 @@ import About from "../components/About";
 import Servslide from "../components/Servslide";
 import HeroSection from "../components/HeroSection";
 import CTA from "../components/CTA";
+import LatestBlogsSection from "../components/LatestBlogsSection";
 import { useTranslation } from "react-i18next";
 import SeoHelmet from "../components/SeoHelmet";
 
@@ -14,17 +15,15 @@ function Home() {
   return (
     <div>
       <SeoHelmet pageKey="home" />
-      <HeroSection/>
-      <About/>
-      <Servslide/>
-      <Products/>
-      <Testimonial/>
-      <Partenrs/>
+      <HeroSection />
+      <About />
+      <Servslide />
+      <Products />
+      <LatestBlogsSection />
+      <Testimonial />
+      <Partenrs />
 
-        <CTA 
-          heading={t("Started")} 
-          subheading={t("CTA_Text")} />
-
+      <CTA heading={t("Started")} subheading={t("CTA_Text")} />
     </div>
   );
 }

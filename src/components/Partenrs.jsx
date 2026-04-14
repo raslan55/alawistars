@@ -85,7 +85,6 @@ export default function Partenrs() {
             />
           </motion.div>
 
-
           <div className="w-full lg:w-1/2">
             <h2 className="text-3xl sm:text-4xl font-bold capitalize text-Main-color mb-4">
               {t("Our_Partners")}

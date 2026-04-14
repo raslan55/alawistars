@@ -33,7 +33,7 @@ export default function CTA({ heading, subheading }) {
           {/* زر الاتصال */}
           <a
             href="tel:+966506194863"
-            className="flex items-center gap-4 bg-white text-Main-color px-5 py-4 rounded-md shadow-md hover:scale-105 transition-transform duration-300 min-w-[220px] h-[70px] sm:h-[80px]"
+            className="flex items-center gap-4 bg-white text-Main-color px-5 py-4 rounded-md shadow-lg border border-white/90 hover:bg-slate-50 transition-all duration-300 min-w-[220px] h-[70px] sm:h-[80px]"
           >
             <div className="bg-Main-color text-white p-3 rounded-full shadow">
               <BsFillTelephoneFill className="w-5 h-5" />
@@ -50,7 +50,7 @@ export default function CTA({ heading, subheading }) {
           {/* زر الــتواصل */}
           <Link
             to={`/${getRoutePath("contact", t)}`}
-            className="flex items-center justify-center gap-3 bg-white text-Main-color px-5 py-4 font-bold rounded-md shadow-md hover:scale-105 transition-transform duration-300 min-w-[220px] h-[70px] sm:h-[80px]"
+            className="flex items-center justify-center gap-3 bg-white text-Main-color px-5 py-4 font-bold rounded-md shadow-lg border border-white/90 hover:bg-slate-50 transition-all duration-300 min-w-[220px] h-[70px] sm:h-[80px]"
           >
             <span className="bg-Main-color text-white p-3 rounded-full shadow">
               <FaRegPaperPlane className="w-5 h-5" />

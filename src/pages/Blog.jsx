@@ -151,36 +151,35 @@ export default function Blog() {
                   {currentPosts.map((post) => (
                     <article
                       key={post.id}
-                      className="group overflow-hidden rounded-[16px] bg-white shadow-[0_2px_12px_rgba(0,0,0,0.06)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_6px_20px_rgba(0,0,0,0.15)]"
+                      className="group overflow-hidden rounded-[16px] bg-[#E8F3F8] shadow-[0_10px_20px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_14px_30px_rgba(0,0,0,0.12)] min-h-[430px]"
                     >
-                      <div className="relative overflow-hidden">
+                      <div className="relative h-[45%] overflow-hidden">
                         {post.image ? (
                           <img
                             src={post.image}
                             alt={select(post.title)}
-                            className="h-52 w-full object-cover transition duration-300 group-hover:scale-105"
+                            className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
                           />
                         ) : (
-                          <div className="h-52 w-full rounded-t-[16px] bg-gradient-to-br from-slate-100 to-slate-200 flex items-center justify-center">
+                          <div className="h-full w-full bg-gradient-to-br from-slate-100 to-slate-200 flex items-center justify-center">
                             <svg className="h-12 w-12 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16V4a1 1 0 011-1h8a1 1 0 011 1v12m-5-4l-3 3m0 0l3 3m-3-3h12" />
                             </svg>
                           </div>
                         )}
-                        <span className="absolute top-3 right-3 rounded-full bg-[rgba(15,45,94,0.85)] px-3 py-1 text-xs font-bold text-white shadow-lg backdrop-blur-[4px]">
+                        <span className="absolute top-3 right-3 rounded-full bg-[#0F2D5E] px-3 py-1 text-[11px] font-bold text-white shadow-lg">
                           {post.date}
                         </span>
                       </div>
 
-                      <div className="p-6 flex flex-col h-[260px]">
-                        <h2 className="text-xl font-semibold leading-tight text-[#1A3C6E] min-h-[60px]">{select(post.title)}</h2>
-                        <p className="mt-3 text-sm text-slate-600 leading-relaxed flex-1">{select(post.excerpt)}</p>
+                      <div className="bg-white p-6 h-[55%] flex flex-col">
+                        <h2 className="text-right text-[18px] font-bold leading-tight text-slate-900">{select(post.title)}</h2>
+                        <p className="mt-4 text-right text-[14px] text-slate-600 leading-relaxed flex-1">{select(post.excerpt)}</p>
                         <Link
                           to={`/${base}/${post.slug}`}
-                          className="mt-4 inline-flex items-center justify-end gap-2 text-sm font-semibold text-[#0099CC] transition-all duration-300 hover:text-[#0F2D5E]"
+                          className="mt-4 self-start text-[#00BCD4] text-sm font-semibold transition-colors duration-300 hover:text-[#0097A7]"
                         >
-                          <span className="font-bold">{t("read_more")}</span>
-                          <span className="transform transition-transform duration-300 group-hover:translate-x-1">→</span>
+                          {t("blog_read_more")} ←
                         </Link>
                       </div>
                     </article>

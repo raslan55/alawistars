@@ -17,7 +17,6 @@ import {
 import CTO from "../assets/Images/CTO.jpg";         // Adjust the path as necessary
 import Manger from "../assets/Images/10102644.jpg"; // Adjust the path as necessary
 import CTA from "./CTA";
-import { getRoutePath } from "../utils/i18nHelpers";
 const AboutUs = () => {
   const { t } = useTranslation();
 
@@ -58,43 +57,46 @@ const AboutUs = () => {
     {
       icon: <FaUsers className="text-2xl text-white" />,
       title: t("reason_1_title"),
+      desc: t("reason_1_desc"),
     },
     {
       icon: <FaChartLine className="text-2xl text-white" />,
       title: t("reason_2_title"),
+      desc: t("reason_2_desc"),
     },
     {
       icon: <FaInfinity className="text-2xl text-white" />,
       title: t("reason_3_title"),
+      desc: t("reason_3_desc"),
     },
     {
       icon: <FaTags className="text-2xl text-white" />,
       title: t("reason_4_title"),
+      desc: t("reason_4_desc"),
     },
   ];
 
   return (
     <>
-      <section className="bg-gray-50 py-16 px-4 md:px-16">
-        <div className="max-w-6xl mx-auto ">
-          <h2 className="text-3xl font-bold text-blue-900 mb-6 border-b-2 border-blue-200 pb-2 inline-block">
+      <section className="bg-[#F8F9FA] py-12 px-4 md:px-16">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-900 mb-5 border-b-2 border-blue-200 pb-2 inline-block">
             {t("about")}
           </h2>
-          <div className="text-gray-800 leading-loose text-lg space-y-6 mb-6">
-            <p className="text-gray-800 leading-loose text-lg space-y-6 mb-6">
-              {t("companyDescription")}
-            </p>
+          <div className="max-w-4xl mx-auto text-gray-800 text-[18px] md:text-[18px] leading-relaxed space-y-5 mb-8">
+            <p>{t("companyDescriptionPart1")}</p>
+            <p>{t("companyDescriptionPart2")}</p>
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto text-center space-y-20">
+        <div className="max-w-7xl mx-auto text-center space-y-14">
           {/* Vision & Mission */}
-          <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-stretch">
+          <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-stretch">
             {/* Vision */}
-            <div className="flex-1 bg-white shadow-lg rounded-2xl p-8 text-start border-l-4 border-Main-color">
+            <div className="flex-1 bg-white shadow-sm rounded-2xl p-8 text-start border-l-4 border-Main-color transition-shadow duration-300 hover:shadow-md">
               <div className="flex items-center gap-3 mb-4">
                 <FaEye className="text-Main-color text-2xl" />
-                <h3 className="text-2xl font-bold text-Main-color capitalize">
+                <h3 className="text-2xl md:text-3xl font-bold text-Main-color capitalize">
                   {t("our_vision")}
                 </h3>
               </div>
@@ -102,10 +104,10 @@ const AboutUs = () => {
             </div>
 
             {/* Mission */}
-            <div className="flex-1 bg-white shadow-lg rounded-2xl p-8 text-start border-l-4 border-Main-color">
+            <div className="flex-1 bg-white shadow-sm rounded-2xl p-8 text-start border-l-4 border-Main-color transition-shadow duration-300 hover:shadow-md">
               <div className="flex items-center gap-3 mb-4">
                 <FaBullseye className="text-Main-color text-2xl" />
-                <h3 className="text-2xl font-bold text-Main-color capitalize">
+                <h3 className="text-2xl md:text-3xl font-bold text-Main-color capitalize">
                   {t("our_mission")}
                 </h3>
               </div>
@@ -114,115 +116,108 @@ const AboutUs = () => {
           </div>
 
           {/* Our Values */}
-            <div>
-              <h2 className="text-4xl font-bold text-Main-color mb-10">
-                {t("our_values")}
-              </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                {values.map((item, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-white shadow-md rounded-xl p-6 text-start border border-gray-200 transition-transform transform hover:-translate-y-1 hover:shadow-2xl"
-                  >
-                    <div className="mb-4">
-                      <div className="w-14 h-14 flex items-center justify-center rounded-full bg-Main-color shadow-md">
-                        {item.icon}
-                      </div>
-                    </div>
-                    <h4 className="text-xl font-semibold mb-2 text-text-color capitalize">
-                      {item.title}
-                    </h4>
-                    <p className="text-text-color  text-sm">{item.desc}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          {/* Why Choose Us */}
-          <div className="text-center space-y-8">
-            <h2 className="text-4xl font-bold text-Main-color uppercase">
-              {t("why_choose_us")}
+          <div>
+            <h2 className="text-4xl md:text-5xl font-extrabold text-Main-color mb-8">
+              {t("our_values")}
             </h2>
-            <p className="text-text-color  max-w-2xl mx-auto text-lg">
-              {t("why_choose_us_desc")}
-            </p>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 pt-6">
-              {reasons.map((item, idx) => (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+              {values.map((item, idx) => (
                 <div
                   key={idx}
-                  className="bg-white p-6 rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition-transform transform hover:-translate-y-1" >
-                  <div className="w-14 h-14 flex items-center justify-center mb-4 rounded-full bg-Main-color text-white shadow-md mx-auto">
-                    {item.icon}
+                  className="bg-white shadow-sm rounded-2xl p-6 text-start border border-transparent transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:border-Main-color"
+                >
+                  <div className="mb-4">
+                    <div className="w-14 h-14 flex items-center justify-center rounded-full bg-Main-color shadow-md">
+                      {item.icon}
+                    </div>
                   </div>
-
-                  <h4 className="text-lg font-semibold text-text-color text-center">
+                  <h4 className="text-xl font-semibold mb-2 text-text-color capitalize">
                     {item.title}
                   </h4>
-
+                  <p className="text-text-color text-sm leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
           </div>
 
+          {/* Why Choose Us */}
+          <div className="text-center space-y-6">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-Main-color uppercase">
+              {t("why_choose_us")}
+            </h2>
+            <p className="text-text-color max-w-2xl mx-auto text-lg leading-8">
+              {t("why_choose_us_desc")}
+            </p>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 pt-4">
+              {reasons.map((item, idx) => (
+                <div
+                  key={idx}
+                  className="bg-white p-6 rounded-2xl border border-transparent shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:border-Main-color"
+                >
+                  <div className="w-14 h-14 flex items-center justify-center mb-4 rounded-full bg-Main-color text-white shadow-md mx-auto">
+                    {item.icon}
+                  </div>
+
+                  <h4 className="text-lg font-semibold text-text-color text-center mb-2">
+                    {item.title}
+                  </h4>
+                  <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
 
       </section>
 
-      <section className="bg-gray-50 py-10 px-6 md:px-20">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+      <section className=" py-6 px-4 md:px-20">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* المدير العام */}
-          <div className="flex flex-col   animate-fade-in">
-            <img
-              src={Manger} // تأكد من أن الصورة مستوردة باسم Manager
-              alt="المدير العام"
-              className="rounded-xl shadow-lg w-full h-90 mb-3 transition-transform duration-300 hover:scale-105"
-            />
-            <h2 className="text-2xl  md:text-3xl font-bold mt-5 text-Main-color mb-4 ">
-              {t("MANAGER_TITLE")}
-            </h2>
-            <p className="text-sm text-gray-600 mb-2">{t("MANAGER_DATE")}</p>
-            <p className="text-base md:text-lg leading text-gray-900 tracking-wide">
-              {t("MANAGER_PARAGRAPH")}
-              {t("MANAGER_PARAGRAPH_2")}
-              {t("MANAGER_PARAGRAPH_3")}
-            </p>
-            <a
-              href={`/${getRoutePath("blog", t)}/manager-message`}
-              className="text-Main-color font-bold hover:underline mt-4 block"
-            >
-              {t("read_more")}
-            </a>
-          </div>
+          <article className="group overflow-hidden rounded-[16px] shadow-[0_8px_18px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(0,0,0,0.12)]">
+            <div className="relative overflow-hidden h-56">
+              <img
+                src={Manger}
+                alt="المدير العام"
+                className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+              />
+              <span className="absolute top-3 right-3 rounded-full bg-[#0F2D5E] px-3 py-1 text-[11px] font-bold text-white shadow-lg">
+                {t("MANAGER_DATE")}
+              </span>
+            </div>
+            <div className="bg-white p-5">
+              <h2 className="text-right text-[18px] font-bold text-slate-900 mb-2">{t("MANAGER_TITLE")}</h2>
+              <p className="text-right text-[14px] text-slate-600 leading-relaxed">
+                {t("MANAGER_PARAGRAPH")}
+                {t("MANAGER_PARAGRAPH_2")}
+                {t("MANAGER_PARAGRAPH_3")}
+              </p>
+            </div>
+          </article>
 
           {/* المدير الفني */}
-
-          <div className="flex flex-col ">
-            <img
-              src={CTO}
-              TechnicalManager
-              alt="المدير الفني"
-              className="rounded-xl shadow-lg w-full h-90 mb-3 transition-transform duration-300 hover:scale-105"
-            />
-            <h2 className="text-2xl md:text-3xl font-bold mt-5 text-Main-color mb-4 ">
-              {t("TECHNICAL_MANAGER_TITLE")}
-            </h2>
-            <p className="text-sm text-gray-600 mb-2">
-              {t("TECHNICAL_MANAGER_DATE")}
-            </p>
-            <p className="text-base md:text-lg leading text-gray-900 tracking-wide">
-              {t("TECHNICAL_MANAGER_PARAGRAPH")}
-              <br />
-              {t("TECHNICAL_MANAGER_PARAGRAPH_2")}
-              <br />
-              {t("TECHNICAL_MANAGER_PARAGRAPH_3")}
-            </p>
-            <a
-              href={`/${getRoutePath("blog", t)}/technical-manager-message`}
-              className="text-Main-color font-bold hover:underline mt-4 block"
-            >
-              {t("read_more")}
-            </a>
-          </div>
+          <article className="group overflow-hidden rounded-[16px] shadow-[0_8px_18px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(0,0,0,0.12)]">
+            <div className="relative overflow-hidden h-56">
+              <img
+                src={CTO}
+                alt="المدير الفني"
+                className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+              />
+              <span className="absolute top-3 right-3 rounded-full bg-[#0F2D5E] px-3 py-1 text-[11px] font-bold text-white shadow-lg">
+                {t("TECHNICAL_MANAGER_DATE")}
+              </span>
+            </div>
+            <div className="bg-white p-5">
+              <h2 className="text-right text-[18px] font-bold text-slate-900 mb-2"> {t("TECHNICAL_MANAGER_TITLE")} </h2>
+              <p className="text-right text-[14px] text-slate-600 leading-relaxed">
+                {t("TECHNICAL_MANAGER_PARAGRAPH")}
+                <br />
+                {t("TECHNICAL_MANAGER_PARAGRAPH_2")}
+                <br />
+                {t("TECHNICAL_MANAGER_PARAGRAPH_3")}
+              </p>
+            </div>
+          </article>
         </div>
       </section>
 

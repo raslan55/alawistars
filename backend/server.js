@@ -1,3 +1,4 @@
+const path = require('path');
 const express = require('express');
 const { Sequelize, DataTypes } = require('sequelize');
 const cors = require('cors');
@@ -5,66 +6,95 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const DEFAULT_SQLITE_PATH = path.join(__dirname, 'database.sqlite');
 
-// Middleware
+const isProduction = process.env.NODE_ENV === 'production';
+const hasPlaceholderMysqlConfig = [
+  process.env.MYSQL_DATABASE,
+  process.env.MYSQL_USER,
+  process.env.MYSQL_PASSWORD,
+].some((value) => typeof value === 'string' && value.includes('your_'));
+const useSqlite =
+  process.env.DB_DIALECT === 'sqlite' ||
+  process.env.USE_SQLITE === 'true' ||
+  hasPlaceholderMysqlConfig;
+
+const createSequelize = (dialectOverride) => {
+  const dialect = dialectOverride || (useSqlite ? 'sqlite' : 'mysql');
+
+  if (dialect === 'sqlite') {
+    return new Sequelize({
+      dialect: 'sqlite',
+      storage: process.env.SQLITE_STORAGE || DEFAULT_SQLITE_PATH,
+      logging: false,
+    });
+  }
+
+  return new Sequelize(
+    process.env.MYSQL_DATABASE || 'alawistars',
+    process.env.MYSQL_USER || 'root',
+    process.env.MYSQL_PASSWORD || '',
+    {
+      host: process.env.MYSQL_HOST || 'localhost',
+      port: process.env.MYSQL_PORT ? Number(process.env.MYSQL_PORT) : 3306,
+      dialect: 'mysql',
+      logging: false,
+    }
+  );
+};
+
+let sequelize = createSequelize();
+let Blog;
+
+const defineBlogModel = (sequelizeInstance) =>
+  sequelizeInstance.define(
+    'Blog',
+    {
+      id: {
+        type: DataTypes.STRING,
+        primaryKey: true,
+      },
+      slug: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true,
+      },
+      date: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      image: {
+        type: DataTypes.TEXT('long'),
+      },
+      category: {
+        type: DataTypes.STRING,
+      },
+      title: {
+        type: DataTypes.JSON,
+      },
+      excerpt: {
+        type: DataTypes.JSON,
+      },
+      content: {
+        type: DataTypes.JSON,
+      },
+    },
+    {
+      timestamps: false,
+      tableName: 'blogs',
+    }
+  );
+
+Blog = defineBlogModel(sequelize);
+
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production'
+  origin: isProduction
     ? ['https://alawistars.com', 'https://www.alawistars.com', 'https://alawistars-backend.railway.app']
-    : 'http://localhost:3000',  // Your frontend dev server
-  credentials: true
+    : ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:5173'],
+  credentials: true,
 }));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
-
-const sequelize = new Sequelize(
-  process.env.MYSQL_DATABASE || 'alawistars',
-  process.env.MYSQL_USER || 'root',
-  process.env.MYSQL_PASSWORD || '',
-  {
-    host: process.env.MYSQL_HOST || 'localhost',
-    port: process.env.MYSQL_PORT ? Number(process.env.MYSQL_PORT) : 3306,
-    dialect: 'mysql',
-    logging: false,
-  }
-);
-
-const Blog = sequelize.define(
-  'Blog',
-  {
-    id: {
-      type: DataTypes.STRING,
-      primaryKey: true,
-    },
-    slug: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      unique: true,
-    },
-    date: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    image: {
-      type: DataTypes.TEXT('long'),  // LONGTEXT for large Base64 images
-    },
-    category: {
-      type: DataTypes.STRING,
-    },
-    title: {
-      type: DataTypes.JSON,
-    },
-    excerpt: {
-      type: DataTypes.JSON,
-    },
-    content: {
-      type: DataTypes.JSON,
-    },
-  },
-  {
-    timestamps: false,
-    tableName: 'blogs',
-  }
-);
 
 const generateSlug = (title) =>
   title
@@ -97,9 +127,20 @@ async function initializeDatabase() {
   try {
     await sequelize.authenticate();
     await sequelize.sync();
-    console.log('MySQL connected and synced');
+    console.log(`${sequelize.getDialect()} connected and synced`);
   } catch (error) {
-    console.error('Unable to connect to MySQL:', error);
+    if (sequelize.getDialect() !== 'sqlite' && !isProduction) {
+      console.warn('MySQL connection failed. Falling back to local SQLite storage for development.');
+      console.warn(error.message);
+      sequelize = createSequelize('sqlite');
+      Blog = defineBlogModel(sequelize);
+      await sequelize.authenticate();
+      await sequelize.sync();
+      console.log('SQLite connected and synced');
+      return;
+    }
+
+    console.error('Unable to connect to database:', error);
     process.exit(1);
   }
 }
@@ -126,8 +167,11 @@ app.get('/api/blogs/:slug', async (req, res) => {
   }
 });
 
+const fs = require('fs');
+
 app.post('/api/blogs', async (req, res) => {
   try {
+    fs.appendFileSync(path.join(__dirname, 'debug-body.log'), JSON.stringify(req.body) + '\n');
     const body = req.body;
     if (!body.title || !body.title.en) {
       return res.status(400).json({ error: 'Title is required' });

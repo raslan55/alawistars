@@ -9,8 +9,13 @@ import SeoHelmet from '../components/SeoHelmet';
 export default function Products() {
   return (
     <div>
+
       <SeoHelmet pageKey="products" />
-   <OurProducts/>
+
+      <OurProducts/>
+
     </div>
+
   )
 }
+

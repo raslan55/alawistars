@@ -1,6 +1,7 @@
-const API_BASE_URL = process.env.NODE_ENV === 'production'
-  ? 'https://alawistars-production.up.railway.app/api'  // Your Railway backend URL
-  : 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ||
+  (import.meta.env.PROD
+    ? 'https://alawistars-production.up.railway.app/api'
+    : '/api');
 
 const normalize = (post) => {
   if (!post) return null;

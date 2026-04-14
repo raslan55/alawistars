@@ -27,6 +27,9 @@ const resources = {
       blog_search_placeholder: "Search blog...",
       blog_categories_label: "Categories",
       blog_recent_posts: "Recent Posts",
+      home_blog_section_title: "Latest Blogs",
+      home_blog_section_subtitle: "Keep up with our most recent news, insights, and product updates.",
+      view_all_blog_posts: "View all blog posts",
       blog_categories: ["Software Development", "Digital Marketing", "Artificial Intelligence", "ERP Systems", "Project Management"],
       call_us: "Call Us",
       blog_pagination_previous: "Previous",
@@ -120,8 +123,10 @@ const resources = {
       meta_blog_description: "Read our latest articles and updates.",
        
       CompanyName: "Alawistars for Information Systems",
-      companyDescription:
-        "Alawistars for Information Systems was launched in 1994 to provide For the Saudi society and economy aspiring for growth and leadership At that time, software solutions and electronic systems in addition to For various types of technical services and products Developed that keeps pace with the aspirations of companies and private institutions at that time, and in order to contribute from During its role in facilitating the management function and improving production, Governance and control of work, and was able from the first moment From its launch, gaining the trust of its customers and consolidating its position As a reliable and indispensable technology partner for many Government and private agencies, and continued to provide performance Distinguished and providing advanced technical services and products Through which it was able to enrich the system Management and the world of systems, software and modern technology in the Kingdom, and helped it achieve huge leaps in The size of its outputs, its profit margins, and its level of excellence in Work, management and organization, and tracked in this framework An ever-evolving working methodology based primarily on customer satisfaction and providing perfect and reliable products and services, Nojoom Al Alawi became the number one service provider and seller Expert technology with more than 10,000 companies and institutions Inside and outside the Kingdom",
+      companyDescriptionPart1:
+        "Alawistars for Information Systems was launched in 1994 to provide the Saudi society and economy aspiring for growth and leadership with software solutions, electronic systems, and a wide range of modern technical services and products.",
+      companyDescriptionPart2:
+        "From the first day, we built trust with our customers as a reliable technology partner for government and private institutions, delivering advanced systems that improve management, productivity, and business governance across more than 10,000 companies inside and outside the Kingdom.",
       footertext:
         "To be a recognized world leader and authority in the industry for Software",
       Email: "Email",
@@ -310,9 +315,13 @@ const resources = {
       why_choose_us_desc:
         "We Provide Creative Solutions. Globally engage cross-media leadership skills before cross-media innovation. Develop standardized platforms without robust applications. Conveniently go forward with collaboration and idea-sharing.",
       reason_1_title: "Professional Team Member",
+      reason_1_desc: "A skilled team that delivers technical solutions with care, reliability, and deep business understanding.",
       reason_2_title: "Implements Business  ",
+      reason_2_desc: "We turn business requirements into efficient systems that help your operations move faster and smarter.",
       reason_3_title: "Lifetime Free Services ",
+      reason_3_desc: "Ongoing support and updates to help your systems stay stable without surprise fees.",
       reason_4_title: "  Affordable Pricing Plans ",
+      reason_4_desc: "Flexible pricing that makes advanced technical solutions affordable for growing organizations.",
       Call_US: "Call us anytime",
       Started: "Welcome to Sinmar",
       CTA_Text:
@@ -1049,6 +1058,9 @@ const resources = {
       blog_search_placeholder: "ابحث في المدونة...",
       blog_categories_label: "التصنيفات",
       blog_recent_posts: "أحدث المقالات",
+      home_blog_section_title: "أحدث المدونات",
+      home_blog_section_subtitle: "تابع آخر الأخبار والرؤى والتحديثات من فريقنا.",
+      view_all_blog_posts: "عرض جميع المقالات",
       blog_categories: ["تطوير البرمجيات", "التسويق الرقمي", "الذكاء الاصطناعي", "أنظمة ERP", "إدارة المشاريع"],
       call_us: "اتصل بنا",
       blog_pagination_previous: "السابق",
@@ -1113,8 +1125,10 @@ const resources = {
       path_FAQ: "FAQ",
       path_AllClients: "AllClients",
       CompanyName: " شركة نجوم العلاوى لنظم الكمبيوتر",
-      companyDescription:
-        "انطلقت نجوم العلاوي لنظم الكمبيوتر عام ١٩٩٤ لتوفر للمجتمع والاقتصاد السعودي الطامح للنمو والريادة آنذاك الحلول البرمجية والأنظمة الالكترونية بالإضافة لأنواع متعددة من الخدمات والمنتجات التقنية المتطورة التي تتواكب مع تطلعات الشركات والمؤسسات الخاصة في ذلك الوقت، ولكي تساهم من خلال دورها في تسهيل وظيفة الإدارة وتحسين الإنتاج ، وحوكمة وضبط العمل، واستطاعت منذ اللحظة الأولى من انطلاقها كسب ثقة عملائها وترسيخ مكانتها كشريك تقني موثوق ولا غنى عنه لدى الكثير من الجهات الحكومية والخاصة، واستمرت على تقديم الأداء المتميز وتقديم الخدمات والمنتجات التقنية المتطورة والتي استطاعت من خلالها العمل على إثراء منظومة الإدارة وعالم الأنظمة والبرمجيات والتكنولوجيا الحديثة بالمملكة، وساعدتها في تحقيق قفزات هائلة في حجم مخرجاتها وهوامش أرباحها ومستوى تميزها في العمل والإدارة والتنظيم، وتتبعت في هذا الإطار منهجية عمل دائمة التطور ترتكز في المقام الأول على رضا العملاء وتقديم منتجات وخدمات مثالية وموثوقة، فأصبحت نجوم العلاوى مزود الخدمة الأول وبائع التقنية الخبير لدى ما يزيد عن ١٠ آلاف شركة  داخل وخارج المملكة.",
+      companyDescriptionPart1:
+        "انطلقت نجوم العلاوي لنظم الكمبيوتر عام ١٩٩٤ لتوفر للمجتمع والاقتصاد السعودي الطامح للنمو والريادة آنذاك الحلول البرمجية والأنظمة الالكترونية بالإضافة لأنواع متعددة من الخدمات والمنتجات التقنية المتطورة التي تتواكب مع تطلعات الشركات والمؤسسات الخاصة في ذلك الوقت.",
+      companyDescriptionPart2:
+        "منذ اللحظة الأولى من انطلاقها، نجحت في كسب ثقة عملائها وترسيخ مكانتها كشريك تقني موثوق لدى الجهات الحكومية والخاصة، واستمرت في تقديم أداء متميز وخدمات متطورة تساهم في تحسين الإدارة والإنتاج وتحقيق قفزات كبيرة في المخرجات وهوامش الأرباح.",
       title: "نجوم العلاوي",
       meta_default_title: "نجوم العلاوي لنظم الكمبيوتر",
       meta_default_description:
@@ -1336,9 +1350,13 @@ const resources = {
       why_choose_us_desc:
         "نقدّم حلولًا إبداعية. نستخدم مهارات القيادة عبر الوسائط قبل تطوير الابتكار. نبني منصات قياسية دون تطبيقات معقدة. نتقدم بسهولة عبر التعاون وتبادل الأفكار",
       reason_1_title: "فريق عمل محترف",
+      reason_1_desc: "فريق ذو خبرة يقدم حلولاً تقنية موثوقة مع فهم واضح لاحتياجات عملك.",
       reason_2_title: "تنفيذ الأعمال باحترافية",
+      reason_2_desc: "نحوّل متطلبات الأعمال إلى أنظمة فعالة تساعد عملياتك على التحرك بسرعة أكبر.",
       reason_3_title: "خدمات مجانية مدى الحياة",
+      reason_3_desc: "دعم مستمر وتحديثات دون رسوم مفاجئة للحفاظ على استقرار النظام.",
       reason_4_title: "خطط أسعار مناسبة",
+      reason_4_desc: "أسعار مرنة تجعل الحلول التقنية المتقدمة في متناول المؤسسات النامية.",
       Call_US: "اتصل بنا في اي وقت ",
       Started: " مرحبًا بك في نجوم العلاوي ",
       CTA_Text: " حلول برمجية متكاملة لإدارة أعمالك بكفاءة واحترافية",
