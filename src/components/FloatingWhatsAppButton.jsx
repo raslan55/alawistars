@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaWhatsapp, FaPhoneAlt, FaEnvelope, FaTwitter ,FaInstagram ,FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { motion, AnimatePresence } from "framer-motion";
 
 const FloatingWhatsAppButton  = () =>  {
+  const [showButtons, setShowButtons] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => setShowButtons(window.scrollY > 450);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
 const contacts = [
 
     {
@@ -55,22 +64,31 @@ const contacts = [
   ];
 
   return (
-    <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-100">
-      {contacts.map((contact, idx) => (
-         <a
-          key={idx}
-          href={contact.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`${contact.bg} text-white p-3 rounded-full shadow-lg hover:scale-110 transition-all duration-300 flex items-center justify-center 
-          ${contact.mobileOnly ? "block md:hidden" : " "}`}    
-          aria-label={contact.label} >
-          {contact.icon}
-
-        </a>
-
-      ))}
-    </div>
+    <AnimatePresence>
+      {showButtons && (
+        <motion.div
+          initial={{ y: 200, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          exit={{ y: 200, opacity: 0 }}
+          transition={{ type: "spring", stiffness: 200, damping: 20 }}
+          className="fixed bottom-6 right-6 flex flex-col gap-3 z-[100]"
+        >
+          {contacts.map((contact, idx) => (
+            <a
+              key={idx}
+              href={contact.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${contact.bg} text-white p-3 rounded-full shadow-lg hover:scale-110 transition-all duration-300 flex items-center justify-center 
+              ${contact.mobileOnly ? "block md:hidden" : ""}`}
+              aria-label={contact.label}
+            >
+              {contact.icon}
+            </a>
+          ))}
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 };
 

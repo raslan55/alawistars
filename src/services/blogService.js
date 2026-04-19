@@ -81,7 +81,10 @@ const BlogService = {
         category: fields.category || "",
         title: { en: fields.title.en || fields.title || "Untitled" },
         excerpt: { en: fields.excerpt.en || fields.excerpt || "" },
-        content: { en: fields.content.en || fields.content || "" },
+        content: { en: fields.content?.en || fields.content || "" },
+        metaTitle: { en: fields.metaTitle?.en || fields.metaTitle || "" },
+        metaDescription: { en: fields.metaDescription?.en || fields.metaDescription || "" },
+        status: fields.status || "published",
       };
 
       const response = await fetch(`${API_BASE_URL}/blogs`, {

@@ -53,9 +53,9 @@ export default function LatestBlogsSection() {
             {latestPosts.map((post) => (
               <article
                 key={post.id}
-                className="group overflow-hidden rounded-[24px] bg-[#E8F3F8] shadow-[0_10px_20px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_14px_30px_rgba(0,0,0,0.12)] min-h-[460px]"
+                className="group flex flex-col overflow-hidden rounded-[24px] bg-[#E8F3F8] shadow-[0_10px_20px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_14px_30px_rgba(0,0,0,0.12)] h-full min-h-[460px]"
               >
-                <div className="relative h-[45%] overflow-hidden">
+                <div className="relative h-64 w-full shrink-0 overflow-hidden">
                   {post.image ? (
                     <img
                       src={post.image}
@@ -73,18 +73,20 @@ export default function LatestBlogsSection() {
                   </span>
                 </div>
 
-                <div className="bg-white p-6 h-[55%] flex flex-col">
-                  <h3 className="text-right text-[18px] font-bold text-text-color mb-3 min-h-[72px]">
-                    {selectContent(post.title, lang)}
-                  </h3>
-                  <p className="text-right text-[14px] text-slate-600 flex-1 mb-5 leading-relaxed">
-                    {selectContent(post.excerpt, lang).slice(0, 120)}{selectContent(post.excerpt, lang).length > 120 ? "..." : ""}
-                  </p>
+                <div className="bg-white p-6 flex flex-1 flex-col justify-between">
+                  <div>
+                    <h3 className="text-right text-[18px] font-bold text-text-color mb-3 line-clamp-2">
+                      {selectContent(post.title, lang)}
+                    </h3>
+                    <p className="text-right text-[14px] text-slate-600 mb-5 leading-relaxed line-clamp-4">
+                      {selectContent(post.excerpt, lang) || selectContent(post.content, lang)?.replace(/<[^>]*>?/gm, '')?.slice(0, 150) + "..." || ""}
+                    </p>
+                  </div>
                   <Link
                     to={`/${base}/${post.slug}`}
-                    className="mt-auto self-start text-[#00BCD4] text-sm font-semibold transition-colors duration-300 hover:text-[#0097A7]"
+                    className="self-start text-[#00BCD4] text-sm font-semibold transition-colors duration-300 hover:text-[#0097A7] inline-flex items-center gap-1"
                   >
-                    {t("blog_read_more")} ←
+                    {t("blog_read_more")} <span dir="ltr">←</span>
                   </Link>
                 </div>
               </article>

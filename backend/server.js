@@ -78,6 +78,16 @@ const defineBlogModel = (sequelizeInstance) =>
       content: {
         type: DataTypes.JSON,
       },
+      metaTitle: {
+        type: DataTypes.JSON,
+      },
+      metaDescription: {
+        type: DataTypes.JSON,
+      },
+      status: {
+        type: DataTypes.STRING,
+        defaultValue: 'published'
+      },
     },
     {
       timestamps: false,
@@ -126,7 +136,7 @@ const makeUniqueSlug = async (baseSlug, currentId = null) => {
 async function initializeDatabase() {
   try {
     await sequelize.authenticate();
-    await sequelize.sync();
+    await sequelize.sync({ alter: true });
     console.log(`${sequelize.getDialect()} connected and synced`);
   } catch (error) {
     if (sequelize.getDialect() !== 'sqlite' && !isProduction) {
@@ -135,7 +145,7 @@ async function initializeDatabase() {
       sequelize = createSequelize('sqlite');
       Blog = defineBlogModel(sequelize);
       await sequelize.authenticate();
-      await sequelize.sync();
+      await sequelize.sync({ alter: true });
       console.log('SQLite connected and synced');
       return;
     }
@@ -213,6 +223,9 @@ app.post('/api/blogs', async (req, res) => {
       title: body.title,
       excerpt: body.excerpt,
       content: body.content,
+      metaTitle: body.metaTitle || {},
+      metaDescription: body.metaDescription || {},
+      status: body.status || 'published',
     };
 
     const blog = await Blog.create(payload);
@@ -247,6 +260,9 @@ app.put('/api/blogs/:id', async (req, res) => {
       title: body.title,
       excerpt: body.excerpt,
       content: body.content,
+      metaTitle: body.metaTitle || blog.metaTitle || {},
+      metaDescription: body.metaDescription || blog.metaDescription || {},
+      status: body.status || blog.status,
     };
 
     await blog.update(updatedFields);

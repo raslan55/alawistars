@@ -151,9 +151,9 @@ export default function Blog() {
                   {currentPosts.map((post) => (
                     <article
                       key={post.id}
-                      className="group overflow-hidden rounded-[16px] bg-[#E8F3F8] shadow-[0_10px_20px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_14px_30px_rgba(0,0,0,0.12)] min-h-[430px]"
+                      className="group flex flex-col overflow-hidden rounded-[16px] bg-[#E8F3F8] shadow-[0_10px_20px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_14px_30px_rgba(0,0,0,0.12)] h-full"
                     >
-                      <div className="relative h-[45%] overflow-hidden">
+                      <div className="relative h-56 w-full shrink-0 overflow-hidden">
                         {post.image ? (
                           <img
                             src={post.image}
@@ -172,14 +172,20 @@ export default function Blog() {
                         </span>
                       </div>
 
-                      <div className="bg-white p-6 h-[55%] flex flex-col">
-                        <h2 className="text-right text-[18px] font-bold leading-tight text-slate-900">{select(post.title)}</h2>
-                        <p className="mt-4 text-right text-[14px] text-slate-600 leading-relaxed flex-1">{select(post.excerpt)}</p>
+                      <div className="bg-white p-6 flex flex-1 flex-col justify-between">
+                        <div>
+                          <h2 className="text-right text-[18px] font-bold leading-tight text-slate-900 line-clamp-2">
+                            {select(post.title)}
+                          </h2>
+                          <p className="mt-3 text-right text-[14px] text-slate-600 leading-relaxed line-clamp-4">
+                            {select(post.excerpt) || select(post.content).replace(/<[^>]*>?/gm, '')}
+                          </p>
+                        </div>
                         <Link
                           to={`/${base}/${post.slug}`}
-                          className="mt-4 self-start text-[#00BCD4] text-sm font-semibold transition-colors duration-300 hover:text-[#0097A7]"
+                          className="mt-6 self-start text-[#00BCD4] text-sm font-semibold transition-colors duration-300 hover:text-[#0097A7] inline-flex items-center gap-1"
                         >
-                          {t("blog_read_more")} ←
+                          {t("blog_read_more")} <span dir="ltr">←</span>
                         </Link>
                       </div>
                     </article>
