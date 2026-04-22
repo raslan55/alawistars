@@ -10,7 +10,7 @@ const products = [
   {
     id: 2,
     title: "acc",
-    image: "/Productes/general_accounting.webp",
+    image: "/Productes/screen ac .webp",
     slug: "general-accounting",
     description: "acc_desc",
     features: [...Array(16)].map((_, i) => `acc_feature_${i + 1}`),

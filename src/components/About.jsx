@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "../assets/Images/[freepicdownloader.com]-counting-number-contents-atm-medium.jpg";
+import AboutImage from "../assets/Images/removalai_preview.png";
 import { FaRegFileCode } from "react-icons/fa";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";

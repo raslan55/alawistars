@@ -12,9 +12,10 @@ export default function Services() {
        <SeoHelmet pageKey="services" />
    <TechSolutions/>
   <CTA 
-  heading={t("Tech_Started")} 
-  subheading={t("Tech_CTA_Text")} 
-/>
+    heading={t("Tech_Started")} 
+    subheading={t("Tech_CTA_Text")} 
+    btnText={t("Explore_More")}
+  />
     </div>
   )
 }

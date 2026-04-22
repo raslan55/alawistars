@@ -22,7 +22,7 @@ import Eleven_img from "../assets/Images/Testmonial/Logos/MJC.png";
 import Twelve_img from "../assets/Images/Testmonial/Logos/MML.png";
 
 
-export default function Testimonial() {
+export default function Testimonial({ customTestimonials, customTitle, customSubtitle, filterIds }) {
   const { i18n, t } = useTranslation();
   const isRTL = i18n.language === 'ar';
   const settings = {
@@ -56,7 +56,7 @@ export default function Testimonial() {
     ],
   };
 
-const testimonials = [
+const defaultTestimonials = [
   {
     id: "testimonial_0", 
     name: "Testimonial_name_1",
@@ -159,63 +159,84 @@ const testimonials = [
   },
 ];  
 
+  let testimonials = customTestimonials || defaultTestimonials;
+
+  if (filterIds && filterIds.length > 0) {
+    testimonials = defaultTestimonials.filter(item => filterIds.includes(item.id));
+  }
+  
+  if (testimonials.length === 0) testimonials = defaultTestimonials;
+
   return (
-    <section className="py-12 bg-[#EEF5FF] px-4 sm:px-6 lg:px-8">
-      <div className="text-center mb-10">
+    <section className="py-20 bg-gradient-to-b from-[#eef5ffb0] to-white px-4 sm:px-6 lg:px-8 overflow-hidden font-['Cairo',sans-serif]">
+      <motion.div 
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="text-center mb-16"
+      >
         <div className="relative inline-block mb-4">
-          <h2 className="text-text-Main text-[25px] md:text-[42px] font-semibold text-Main-color leading">
-            {t("Testimonial")}
+          <span className="block w-12 h-1 bg-brand-accent mx-auto mb-4 rounded-full"></span>
+          <h2 className="text-3xl md:text-5xl font-extrabold text-Main-color">
+            {customTitle || t("Testimonial")}
           </h2>
         </div>
 
-        <p className="text-sm sm:text-xl md:text-[22px] font-normal text-text-two max-w-xl mx-auto mb-8 leading-relaxed">
-            {t("Testimonial_text")}     
-       </p>
-      </div>
+        <p className="text-lg md:text-xl font-medium text-slate-600 max-w-2xl mx-auto leading-relaxed mt-4">
+            {customSubtitle || t("Testimonial_text")}     
+        </p>
+      </motion.div>
 
-      <div className="relative max-w-6xl mx-auto px-4">
-
-         <Slider {...settings}>
+      <motion.div 
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8, delay: 0.2 }}
+        className="relative max-w-7xl mx-auto px-12"
+      >
+         <Slider {...{...settings, rtl: isRTL, dots: true, prevArrow: <CustomPrevArrow isRTL={isRTL} />, nextArrow: <CustomNextArrow isRTL={isRTL} />}}>
         {testimonials.map((item, index) => (
-          <div key={item.id || index} className="px-3 sm:px-4">
-            <div className="bg-white p-5 sm:p-6 rounded-3xl relative YaShadow h-full min-h-[200px] flex flex-col justify-between">
+          <div key={item.id || index} className="px-4 py-10">
+            <motion.div 
+              whileHover={{ y: -10 }}
+              className="bg-white p-10 rounded-[3rem] relative shadow-xl shadow-slate-200/50 border border-slate-50 h-full flex flex-col justify-between transition-all duration-500"
+            >
               {/* SVG icon positioning based on RTL/LTR */}
-              <span className={`absolute top-4  ${isRTL ? 'right-4 ' : 'left-4'} `}>
-
-                {isRTL ? <FaQuoteRight className="text-Main-color text-5xl "/> : <FaQuoteLeft className="text-Main-color text-5xl"/>}
-
+              <span className={`absolute top-1 ${isRTL ? 'right-8' : 'left-8'} opacity-[0.08]`}>
+                {isRTL ? <FaQuoteRight size={80} className="text-Main-color"/> : <FaQuoteLeft size={80} className="text-Main-color"/>}
               </span>
+
               {/* Text alignment based on RTL/LTR */}
-              <p className={`${isRTL ? 'text-end' : 'text-start'} text-[#001E60] leading-relaxed pt-10 text-[15px] font-normal sm:text-base`}>
+              <p className={`${isRTL ? 'text-end' : 'text-start'} text-slate-700 leading-relaxed pt-10 text-lg font-medium relative z-10`}>
                 {t(item.text)}
               </p>
-              <div className={`flex items-center justify-between  mt-4`}>
-                {/* Image if available */}
-                {/* You might conditionally render an image here or outside this div */}
 
-                <div> 
-                  <img
-                  src={item.image} // Using a single avatar for all
-                  alt={t(item.name)}
-                  className="w-35 h-35   object-fill" // Example styling
-                /> 
+              <div className="flex items-center gap-5 mt-10 pt-8 border-t border-slate-50">
+                <div className="flex-shrink-0"> 
+                  <div className="w-20 h-20 rounded-3xl overflow-hidden bg-slate-50 p-2 border border-slate-100 shadow-inner">
+                    <img
+                      src={item.image}
+                      alt={t(item.name)}
+                      className="w-full h-full object-contain"
+                    /> 
+                  </div>
                 </div>
               
-                <div className={`${isRTL ?'text-end':'text-start'}`}>
-                  <p className="font-semibold text-[#001E60] text-sm sm:text-base">
+                <div className={`${isRTL ? 'text-end' : 'text-start'} flex-grow`}>
+                  <p className="font-black text-Main-color text-lg">
                     {t(item.name)}
                   </p>
-                  <p className="text-xs sm:text-sm text-text-two">
+                  <p className="text-sm text-slate-500 font-bold uppercase tracking-wider">
                     {t(item.location)}
                   </p>
                 </div>
-                
               </div>
-            </div>
+            </motion.div>
           </div>
         ))}
       </Slider>
-      </div>
+      </motion.div>
     </section>
   );
 }

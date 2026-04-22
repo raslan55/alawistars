@@ -51,10 +51,26 @@ const ContactPage = () => {
   return (
     <>
       <SeoHelmet pageKey="contact" />
+      
+      {/* Premium Hero Banner */}
+      <section className="bg-gradient-to-b from-[#F0F4FA] to-white pt-16 pb-20 px-6 md:px-16 overflow-hidden border-b border-gray-100 font-['Cairo',sans-serif]">
+        <div className="max-w-6xl mx-auto text-center relative">
+          <div className="absolute -top-32 -left-32 w-64 h-64 bg-[#1b6ba9]/10 rounded-full blur-3xl"></div>
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+            <span className="inline-block py-1.5 px-4 rounded-full bg-white text-text-color font-bold text-sm mb-6 border border-[#1b6ba9]/20 shadow-sm">
+              {t("contact")}
+            </span>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-Main-color mb-4 leading-tight">
+              {t("contact")}
+            </h1>
+            <p className="text-slate-600 max-w-2xl mx-auto font-medium text-lg leading-relaxed">
+              {t("cta_help_subtitle")}
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
       <div className="px-4 py-12 max-w-7xl mx-auto text-justify">
-        <h2 className="text-3xl font-bold text-center mb-12 text-Main-color">
-          {t("contact")}
-        </h2>
 
         {/* Branches Section */}
         <div className="flex flex-col lg:flex-row gap-8 mb-16">

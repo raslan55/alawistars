@@ -2,43 +2,48 @@ import React from "react";
 import {  FaArrowRight , } from "react-icons/fa"; // Import your desired arrow icons
 
 export default function CustomNextArrow(props) {
-const { className, style, onClick } = props;
-  return (
+  const { className, style, onClick, isRTL } = props;
+  
+  // In RTL, the "Next" button physically resides on the LEFT side of the screen
+  const positionStyle = isRTL 
+    ? { left: "-60px", right: "auto" } 
+    : { right: "-60px", left: "auto" };
 
+  return (
     <div
       className={className}
-      // Positioning for the NEXT arrow (should be on the RIGHT)
       style={{
         ...style,
         display: "block",
-        right: "-30px", // Adjust this value to move it further right or closer
-        left: "auto", // Important: unset left if it was previously set, or let react-slick handle it.
+        ...positionStyle,
         zIndex: 100,
         cursor: "pointer",
-        // Center vertically (recommended)
         top: "50%",
         transform: "translateY(-50%)",
       }}
       onClick={onClick}
     >
-
-   <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={40}
-    height={41}
-    fill="none"
-  >
-    <rect width={40} height={40} y={0.875} fill="#1b6ba9" rx={20} />
-    <path
-      stroke="#fff"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeMiterlimit={10}
-      strokeWidth={1.5}
-      d="m16.91 28.795 6.52-6.52c.77-.77.77-2.03 0-2.8l-6.52-6.52"
-    />
-   </svg>
-
+      <div className="hover:scale-110 transition-transform duration-300">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={50}
+          height={50}
+          fill="none"
+        >
+          <rect width={50} height={50} fill="#1b6ba9" rx={25} className="shadow-lg" />
+          <path
+            stroke="#fff"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit={10}
+            strokeWidth={2}
+            // Flip path if RTL: Next points LEFT in Arabic flow
+            d={isRTL 
+              ? "m30.09 35-8.15-8.15c-.96-.96-.96-2.54 0-3.5L30.09 15.2" 
+              : "m19.91 35 8.15-8.15c.96-.96.96-2.54 0-3.5L19.91 15.2"}
+          />
+        </svg>
+      </div>
     </div>
   );
 }

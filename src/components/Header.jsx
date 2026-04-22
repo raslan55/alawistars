@@ -11,7 +11,6 @@ import {
 } from "flowbite-react";
 
 import Logo from "../assets/Images/ngom2.png";
-import Topheader from "./Topheader";
 import products from "../data/products"; // used for products dropdown
 import { slugify, getProductSlug, getRoutePath, findRouteKeyFromSlug } from "../utils/i18nHelpers";
 
@@ -66,14 +65,12 @@ const Header = () => {
     setIsProductsOpen(false);
   };
   return (
-    <>
-      <Topheader />
-
       <header
-        className={`sticky top-0 bg-white z-110 transition-all
-           duration-300 ease-in-out ${
-             isScrolled ? "shadow-lg  bg-gray-50" : ""
-           }`}
+        className={`sticky top-0 z-[110] transition-all duration-300 ease-in-out ${
+          isScrolled 
+            ? "glass-effect shadow-lg py-1" 
+            : "bg-white border-b border-transparent py-2"
+        }`}
       >
         <Navbar fluid rounded>
           <NavbarBrand as={Link} to="/">
@@ -230,7 +227,6 @@ const Header = () => {
           
         </Navbar>
       </header>
-    </>
   );
 };
 

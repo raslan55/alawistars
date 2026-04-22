@@ -11,7 +11,9 @@ const { t } = useTranslation();
       <ProductsSlider />
         <CTA 
                heading={t("Digital_Started")} 
-               subheading={t("Digital_CTA_Text")} />
+               subheading={t("Digital_CTA_Text")}
+               btnText={t("Show")} 
+        />
         <Testimonial/>
        <hr className="h-10 border-0"/>
 

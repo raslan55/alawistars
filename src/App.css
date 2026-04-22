@@ -6,8 +6,8 @@
 
 @theme {
     --color-Main-color:#1b6ba9;
+    --color-brand-accent:#3b82f6; 
     --color-text-color:#2c2a43;
-
 }
 body{
     font-family: "Cairo", sans-serif ;
@@ -131,5 +131,64 @@ position: absolute;
     transform: scale(1.02);
   }
 
+}
+
+/* Premium UI Enhancements */
+.glass-effect {
+  @apply backdrop-blur-md bg-white/70 border border-white/20;
+}
+
+.shimmer-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-btn::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  transform: rotate(45deg);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%) rotate(45deg); }
+  100% { transform: translateX(100%) rotate(45deg); }
+}
+
+.premium-shadow {
+  box-shadow: 0 10px 30px -10px rgba(27, 107, 169, 0.15), 0 4px 10px -2px rgba(27, 107, 169, 0.05);
+}
+
+.premium-shadow-hover:hover {
+  box-shadow: 0 20px 40px -15px rgba(27, 107, 169, 0.25);
+}
+
+.floating-anim {
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.tech-grid {
+  background-image: radial-gradient(#1b6ba915 1.5px, transparent 1.5px);
+  background-size: 30px_30px;
+}
+
+.glass-card {
+  @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-xl;
 }
 

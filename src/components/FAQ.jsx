@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { IoChevronDownOutline, IoChevronUpOutline } from "react-icons/io5";
 
-export default function FAQ() {
+export default function FAQ({ customFaqs, customTitle }) {
   const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const faqs = [
+  const defaultFaqs = [
     { question: t("faq.q1"), answer: t("faq.a1") },
     { question: t("faq.q2"), answer: t("faq.a2") },
     { question: t("faq.q3"), answer: t("faq.a3") },
@@ -19,8 +19,9 @@ export default function FAQ() {
     { question: t("faq.q10"), answer: t("faq.a10") },
     { question: t("faq.q11"), answer: t("faq.a11") },
     { question: t("faq.q12"), answer: t("faq.a12") },
-    
   ];
+
+  const faqs = customFaqs || defaultFaqs;
 
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -29,7 +30,7 @@ export default function FAQ() {
   return (
     <div className="container mx-auto px-4 py-12 max-w-4xl">
       <h1 className="text-4xl font-extrabold text-Main-color mb-10 leading-tight text-center">
-        {t("faq.title")}
+        {customTitle || t("faq.title")}
       </h1>
 
       <div className="space-y-4" dir="auto">

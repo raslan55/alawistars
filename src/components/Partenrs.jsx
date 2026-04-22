@@ -67,48 +67,113 @@ export default function Partenrs() {
   const MotionLink = motion(Link);
   const dir = i18n.language === "ar" ? "rtl" : "ltr";
 
-  return (
-    <section className="py-4 sm:py-12 relative z-10 overflow-hidden">
-      <div className="container mx-auto px-4">
-        {/* Top: Image and Text */}
-        <div className="flex flex-col lg:flex-row items-center gap-12 mb-5">
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
 
+  const itemVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  };
+
+  return (
+    <section className="py-24 relative z-10 overflow-hidden bg-white font-['Cairo',sans-serif]">
+      {/* Premium Subtle Depth Layers */}
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-Main-color/[0.03] rounded-full blur-[120px] -z-10"></div>
+      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-brand-accent/[0.02] rounded-full blur-[100px] -z-10"></div>
+
+      <div className="container mx-auto px-6 lg:px-16">
+        {/* Top: Image and Text */}
+        <div className="flex flex-col lg:flex-row items-center gap-20 mb-24">
           <motion.div
-            className="w-full lg:w-1/2 mt-10 lg:mt-0"
-            whileHover={{ scale: 1.05 }}
-            transition={{ type: "easeIn", tween: 300 }}
+            initial={{ opacity: 0, x: isRTL ? 40 : -40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="w-full lg:w-[45%]"
           >
-            <img
-              src={Handshake}
-              alt="Handshake"
-              className="rounded-xl w-full object-cover p-5"
-            />
+            <div className="relative group">
+              <div className="absolute inset-0 bg-slate-50 border border-slate-100 rounded-[3rem] transform rotate-3 -z-10 transition-transform group-hover:rotate-6 duration-500"></div>
+              <div className="absolute inset-0 bg-Main-color/[0.05] rounded-[3rem] transform -rotate-3 -z-10 transition-transform group-hover:-rotate-6 duration-500"></div>
+              <img
+                src={Handshake}
+                alt="Our Partners"
+                className="rounded-[3rem] w-full object-cover shadow-2xl border-8 border-white relative z-10"
+              />
+            </div>
           </motion.div>
 
-          <div className="w-full lg:w-1/2">
-            <h2 className="text-3xl sm:text-4xl font-bold capitalize text-Main-color mb-4">
-              {t("Our_Partners")}
-            </h2>
-            <p className="text-text-color text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 mb-6">
-              {t("Our_Partners_p")}
-            </p>
-          </div>
+          <motion.div 
+            initial={{ opacity: 0, x: isRTL ? -40 : 40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="w-full lg:w-[55%] space-y-8 text-start"
+          >
+            <div className="space-y-4">
+              <span className="inline-flex items-center gap-3 py-2 px-5 rounded-full bg-Main-color/[0.07] text-Main-color font-black text-xs tracking-widest uppercase border border-Main-color/10">
+                <span className="w-2 h-2 rounded-full bg-Main-color animate-pulse"></span>
+                {t("Our_Partners")}
+              </span>
+              <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-Main-color leading-[1.1]">
+                {t("Partners_Heading")}
+              </h2>
+              <p className="text-slate-600 text-lg md:text-xl leading-relaxed font-medium">
+                {t("Our_Partners_p")}
+              </p>
+            </div>
 
-
+            {/* Premium Expertise Grid */}
+            <div className="grid grid-cols-2 gap-6 pt-4">
+              {[
+                { title: t("pc"), count: "500+", color: "bg-blue-500" },
+                { title: t("ERP"), count: "1000+", color: "bg-indigo-500" },
+                { title: t("PS"), count: "2000+", color: "bg-emerald-500" },
+                { title: t("maintenance"), count: "300+", color: "bg-orange-500" }
+              ].map((stat, i) => (
+                <div 
+                  key={i} 
+                  className="group p-7 rounded-[2rem] bg-white border border-slate-100 shadow-sm hover:shadow-xl hover:border-Main-color/20 transition-all duration-500 relative overflow-hidden"
+                >
+                  <div className={`absolute top-0 ${isRTL ? 'right-0' : 'left-0'} w-1.5 h-full ${stat.color} opacity-40 group-hover:opacity-100 transition-opacity`}></div>
+                  <div className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} w-12 h-12 ${stat.color} opacity-[0.05] rounded-full transform group-hover:scale-[3] transition-transform duration-700`}></div>
+                  
+                  <h4 className="text-3xl font-black text-Main-color mb-1 relative z-10 transition-transform group-hover:translate-x-1">{stat.count}</h4>
+                  <p className="text-slate-500 text-sm font-black uppercase tracking-wider relative z-10">{stat.title}</p>
+                </div>
+              ))}
+            </div>
+          </motion.div>
         </div>
 
         {/* Title above slider */}
-        <div className="text-center mb-8 px-4">
-          <h2 className="text-3xl sm:text-4xl font-bold capitalize text-Main-color mb-4">
-            {t("Partners_Heading")}
-          </h2>
-          <h2 className="text-text-color text-sm sm:text-xl md:text-[22px] font-normal text-text-two max-w-xl mx-auto mb-8 leading-relaxed">
-            {t("Partners_text")}
-          </h2>
-        </div>
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <div className="max-w-2xl mx-auto space-y-4">
+             {/* <h3 className="text-2xl md:text-3xl font-bold text-slate-800 tracking-tight">
+               {t("Partners_text")}
+             </h3> */}
+             <div className="w-16 h-1 bg-brand-accent mx-auto rounded-full"></div>
+          </div>
+        </motion.div>
 
-        {/* Slider */}
-        <div className="px-4 mb-12">
+        {/* Logo Slider */}
+        <motion.div 
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          className="mb-16"
+        >
           <Swiper
             key={i18n.language}
             dir={dir}
@@ -116,52 +181,47 @@ export default function Partenrs() {
             spaceBetween={20}
             slidesPerView={6}
             autoplay={{
-              delay: 1500,
+              delay: 2500,
               disableOnInteraction: false,
             }}
+            loop={true}
             keyboard={{ enabled: true }}
             breakpoints={{
               320: { slidesPerView: 2 },
-              640: { slidesPerView: 3 },
+              480: { slidesPerView: 3 },
               768: { slidesPerView: 4 },
               1024: { slidesPerView: 6 },
             }}
+            className="pb-8"
           >
-            
             {images.map((img) => (
               <SwiperSlide
                 key={img.id}
-                className="bg-white p-2 min-h-[100px]   border-Main-color rounded-2xl shadow-md cursor-grab"
+                className="bg-white p-6 min-h-[120px] rounded-2xl shadow-sm border border-slate-50 flex items-center justify-center hover:shadow-md transition-all duration-300"
               >
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-[80px] object-contain"
+                  className="max-w-full h-[60px] object-contain transition-transform duration-300 hover:scale-110"
                 />
               </SwiperSlide>
             ))}
           </Swiper>
-        </div>
+        </motion.div>
 
-        {/* Button */}
+        {/* Action Link */}
         <div className="flex items-center justify-center">
           <MotionLink
-            className="btn-primary flex items-center group text-center justify-center px-6 py-3 rounded-md shadow-md text-white font-bold bg-Main-color hover:bg-Main-color-dark transition-colors duration-300"
-            whileHover={{ scale: 1.1 }}
+            className="flex items-center group px-10 py-4 rounded-xl shadow-lg text-white font-bold text-lg bg-Main-color hover:bg-Main-color/90 transition-all gap-4"
+            whileHover={{ scale: 1.05 }}
             to={"/AllClients"}
             whileTap={{ scale: 0.95 }}
-            transition={{ type: "spring", stiffness: 300 }}
           >
+            <span>{t("ReadMore")}</span>
             {isRTL ? (
-              <>
-                {t("ReadMore")}
-                <FaArrowLeftLong className="ms-3 transition-transform duration-300 group-hover:-translate-x-1" />
-              </>
+              <FaArrowLeftLong size={20} className="transition-transform duration-300 group-hover:-translate-x-2" />
             ) : (
-              <>
-                {t("ReadMore")}
-                <FaArrowRightLong className="ms-3 transition-transform duration-300 group-hover:translate-x-1" />
-              </>
+              <FaArrowRightLong size={20} className="transition-transform duration-300 group-hover:translate-x-2" />
             )}
           </MotionLink>
         </div>

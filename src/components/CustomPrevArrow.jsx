@@ -1,41 +1,51 @@
 import React from "react";
 
 export default function CustomPrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, style, onClick, isRTL } = props;
+  
+  // In RTL, the "Prev" button physically resides on the RIGHT side of the screen
+  const positionStyle = isRTL 
+    ? { right: "-60px", left: "auto" } 
+    : { left: "-60px", right: "auto" };
+
   return (
-    
-     <div
+    <div
       className={className}
-      // Positioning for the PREV arrow (should be on the LEFT)
       style={{
         ...style,
         display: "block",
-        left: "-30px", // Adjust this value to move it further left or closer
-        right: "auto", // Important: unset right
+        ...positionStyle,
         zIndex: 100,
         cursor: "pointer",
-        // Center vertically (recommended)
         top: "50%",
         transform: "translateY(-50%)",
       }}
       onClick={onClick}
     >
-      <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width={40}
-      height={41}
-      fill="none">
-      <rect width={40} height={40} y={0.875} fill="#1b6ba9" rx={20} />
-      <path
-        stroke="#fff"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeMiterlimit={10}
-        strokeWidth={1.5}
-        d="m23 28.795-6.52-6.52c-.77-.77-.77-2.03 0-2.8l6.52-6.52"
-    />
-      </svg>
-     </div>
 
+      <div className="hover:scale-110 transition-transform duration-300">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={50}
+          height={50}
+          fill="none"
+        >
+
+          <rect width={50} height={50} fill="#1b6ba9" rx={25} className="shadow-lg" />
+          <path
+            stroke="#fff"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeMiterlimit={10}
+            strokeWidth={2}
+            // Flip path if RTL: Prev points RIGHT in Arabic flow
+            d={isRTL 
+              ? "m19.91 35 8.15-8.15c.96-.96.96-2.54 0-3.5L19.91 15.2" 
+              : "m30.09 35-8.15-8.15c-.96-.96-.96-2.54 0-3.5L30.09 15.2"}
+          />
+          
+        </svg>
+      </div>
+    </div>
   );
 }

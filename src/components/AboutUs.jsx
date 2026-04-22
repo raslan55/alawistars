@@ -17,6 +17,8 @@ import {
 import CTO from "../assets/Images/CTO.jpg";         // Adjust the path as necessary
 import Manger from "../assets/Images/10102644.jpg"; // Adjust the path as necessary
 import CTA from "./CTA";
+import { motion } from "framer-motion";
+
 const AboutUs = () => {
   const { t } = useTranslation();
 
@@ -78,17 +80,26 @@ const AboutUs = () => {
 
   return (
     <>
-      <section className="bg-[#F8F9FA] py-12 px-4 md:px-16">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-900 mb-5 border-b-2 border-blue-200 pb-2 inline-block">
-            {t("about")}
-          </h2>
-          <div className="max-w-4xl mx-auto text-gray-800 text-[18px] md:text-[18px] leading-relaxed space-y-5 mb-8">
-            <p>{t("companyDescriptionPart1")}</p>
-            <p>{t("companyDescriptionPart2")}</p>
-          </div>
+      {/* Premium Hero Banner */}
+      <section className="bg-gradient-to-b from-[#F0F4FA] to-white pt-16 pb-20 px-6 md:px-16 overflow-hidden border-b border-gray-100 font-['Cairo',sans-serif]">
+        <div className="max-w-6xl mx-auto relative">
+          <div className="absolute -top-32 -right-32 w-64 h-64 bg-[#1b6ba9]/10 rounded-full blur-3xl"></div>
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+            <span className="inline-block py-1.5 px-4 rounded-full bg-white text-text-color font-bold text-sm mb-6 border border-[#1b6ba9]/20 shadow-sm">
+              {t("About_Us")}
+            </span>
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-Main-color mb-6 leading-tight">
+              {t("about")}
+            </h1>
+            <div className="max-w-4xl text-slate-600 text-lg leading-relaxed space-y-5 font-medium">
+              <p>{t("companyDescriptionPart1")}</p>
+              <p>{t("companyDescriptionPart2")}</p>
+            </div>
+          </motion.div>
         </div>
+      </section>
 
+      <section className="bg-[#F8F9FA] py-12 px-4 md:px-16">
         <div className="max-w-7xl mx-auto text-center space-y-14">
           {/* Vision & Mission */}
           <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-stretch">
@@ -221,7 +232,11 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <CTA heading={t("About_Started")} subheading={t("About_CTA_Text")} />
+      <CTA 
+        heading={t("About_Started")} 
+        subheading={t("About_CTA_Text")} 
+        btnText={t("read_more")}
+      />
       
     </>
   );

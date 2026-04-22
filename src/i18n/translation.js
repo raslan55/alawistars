@@ -5,6 +5,7 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
+      // --- Global & Navigation ---
       welcome: "Welcome to Alawistars for Information Systems!",
       home: "Home",
       products: "Products",
@@ -36,6 +37,8 @@ const resources = {
       blog_pagination_next: "Next",
       read_more: "Read more",
       post_not_found: "Post not found",
+
+      // --- Admin Authentication ---
       admin_login: "Admin Login",
       admin_username: "Username",
       admin_password: "Password",
@@ -49,6 +52,8 @@ const resources = {
       admin_form_category_add_placeholder: "Add new category",
       admin_form_category_add_button: "Add",
       admin_category_all: "All Categories",
+
+      // --- CTA & Support ---
       cta_heading: "Need help? We’re here for you.",
       cta_subheading: "Reach out to our support team for any questions or technical assistance.",
       cta_help_title: "Need help? We are here for you.",
@@ -56,6 +61,8 @@ const resources = {
       cta_help_phone: "+966 50 619 4863",
       cta_help_button: "Contact us",
       admin_logout_btn: "Logout",
+
+      // --- Admin Blog Editor ---
       admin_edit_post: "Edit Post",
       admin_title_en: "Title (EN)",
       admin_title_ar: "Title (AR)",
@@ -86,6 +93,8 @@ const resources = {
       admin_update_success: "Post updated.",
       admin_error_required: "English title and content are required.",
       admin_error_save: "Failed to save post.",
+
+      // --- Routes & Legal Links ---
       Privacy_Policy: "Privacy Policy",
       path_PrivacyPolicy: "PrivacyPolicy",
       Terms_Conditions: "Terms & Conditions",
@@ -93,10 +102,17 @@ const resources = {
       FAQs: "FAQs",
       path_FAQ: "FAQ",
       path_AllClients: "AllClients",
+
+      // --- General Meta & Home Intro ---
       title: "Alawistars for Information Systems",
       meta_default_title: "Alawistars for Information Systems",
       meta_default_description:
         "Advanced software and tech solutions since 1994.",
+      Ready_To_Start: "Ready to evolve your business?",
+      ZATCA_Ready: "ZATCA Phase II Ready",
+      Expert_Support: "Expert Technical Support",
+      Fast_Deployment: "Rapid Implementation",
+      Choose_Field: "Choose Your Business Field Now",
       meta_home_title: "Home |Alawistars",
       meta_home_description:
         "Welcome to Alawistars– your source for comprehensive and innovative tech solutions.",
@@ -122,11 +138,14 @@ const resources = {
       meta_blog_title: "Blog | Alawistars",
       meta_blog_description: "Read our latest articles and updates.",
        
+      // --- Company Identity ---
       CompanyName: "Alawistars for Information Systems",
       companyDescriptionPart1:
         "Alawistars for Information Systems was launched in 1994 to provide the Saudi society and economy aspiring for growth and leadership with software solutions, electronic systems, and a wide range of modern technical services and products.",
       companyDescriptionPart2:
         "From the first day, we built trust with our customers as a reliable technology partner for government and private institutions, delivering advanced systems that improve management, productivity, and business governance across more than 10,000 companies inside and outside the Kingdom.",
+
+      // --- Footer ---
       footertext:
         "To be a recognized world leader and authority in the industry for Software",
       Email: "Email",
@@ -142,6 +161,8 @@ const resources = {
       Terms_Conditions: "Terms & Conditions",
       Follow_us: "Follow us",
       time: "8:00 am - 12:30 pm 3:00 pm - 7:30 pm",
+
+      // --- Testimonials ---
       Testimonial: "Testimonial",
       Stories: "Real Stories, Real Results",
       Testimonial_text:
@@ -205,17 +226,25 @@ const resources = {
       Testimonial_Location_12: "Riyadh, Saudi Arabia",
       Testimonial_text_12:
         "Thanks and appreciation to Alawistars for Information Systems and the Sinmar system for maintaining and developing our programs. Our trust in you is continuous as a success partner, and we hope your excellence continues. Many thanks to you.",
+
+      // --- Partners ---
       Partners_Heading: "Meet our  partners",
       Partners_text: "We’ve 10000+ Dedicated Partners",
+
+      // --- Home Hero Section ---
       Hero_heading:
         "The Smart Solution for Managing Your Business and Tracking Inventory  with Ease",
       Hero_text:
-        " Certified by the Saudi Zakat, Tax and Customs Authority for  Electronic Invoicing (Phase I & II)",
+        "Fully integrated and compatible with the Saudi Zakat, Tax and Customs Authority (ZATCA) for Electronic Invoicing (Phase I & II)",
       Hero_P:
         " Start your digital transformation today! Prepare your team → Test  the system → Update your data → Review invoices → Stay up-to-date with official updates.",
       Start_btn: "Get Started Now",
+
+      // --- About Us Preview (Home) ---
       About_Us: " About Us ",
       About_text: "We Help Drive the IT Industry Forward Since 1994",
+
+      // --- Services Section (Home) ---
       Serv_h: " Development of Business Systems ",
       serv_p:
         "Software solutions serving various business sectors and industries.",
@@ -225,44 +254,9 @@ const resources = {
       SERVICES_WE_PROVIDE: "SERVICES WE PROVIDE",
       Cloud_Based_Solutions: "Cloud-Based Solutions",
       Desktop_Applications: "Desktop Applications",
-      Inv_acc: "Sinmar For Accounting & Inventory ",
-      acc_Inv_Disc:
-        "An integrated accounting and inventory system that supports branches, barcodes, and advanced tax reports.",
-      Inv: " Sinmar For Inventory ",
-      Inv_Disc:
-        "An effective tool for managing inventory, tracking products, and linking them to suppliers and invoices.",
-      acc: "Sinmar General Accounting ",
-      acc_desc:
-        "A comprehensive system for managing general accounts, daily entries, and accurate financial reports.",
-      Med: " Sinmar For Medical System",
-      Med_Disc:
-        "An integrated medical solution for managing clinics, appointments, patient records, and medical bills.",
 
-      Furn: "Sinmar For Furnished Flats System",
-      Furn_Disc:
-        "A dedicated system for managing furnished apartment reservations and rentals with daily reports ",
+      // Products Names & Briefs (Moved to individual product sections below)
 
-      Pr: "Sinmar For Property Management",
-      Pr_Disc:
-        " A professional system for managing properties, rentals, contracts, and landlord and tenant records.",
-      Maintenance: " Sinmar For Car Maintenance ",
-      Maintenance_Disc:
-        "A system for managing car maintenance operations, invoice records, breakdown details and spare parts. ",
-      Car_sale: "Sinmar Car Sales.",
-      Car_sale_Disc:
-        "A specialized program for car showrooms that includes managing offers, sales, customers, and installments.",
-      Hr: "  Sinmar for Human Resources",
-      Hr_Disc:
-        "An integrated personnel affairs system for managing attendance, salaries, vacations, and personal files.",
-      Commu: "Sinmar Communications System",
-      commu_Disc:
-        "A solution for managing telecom companies, customer services, billing, and shipment tracking.",
-      serv: "Sinmar Services",
-      serv_Disc:
-        " A system for managing public service companies, distributing tasks, and providing performance reports.",
-      fuel: "Sinmar for gas stations",
-      Fule_Disc:
-        "Fuel station system for pumping and inventory management, and daily accounting for each pump.",
       Our_Product: "Our Products",
       Our_Product_h: "The Role of Al-Alawi Star for Computer Systems", 
       Our_Product_p:
@@ -279,6 +273,8 @@ const resources = {
       Ourproducts_text:
         "Explore smart, scalable solutions to optimize your business performance.",
       Show: "View Details",
+
+      // --- Vision & Values ---
       our_mission: "Our Mission",
       our_vision: "Our vision",
       our_values: "Our values",
@@ -311,6 +307,7 @@ const resources = {
       value_6_text:
         "We combine deep technical knowledge with an understanding of customer needs to provide smart solutions that keep pace with market changes.",
 
+      // --- Why Choose Us ---
       why_choose_us: "Why Choose Us",
       why_choose_us_desc:
         "We Provide Creative Solutions. Globally engage cross-media leadership skills before cross-media innovation. Develop standardized platforms without robust applications. Conveniently go forward with collaboration and idea-sharing.",
@@ -322,6 +319,8 @@ const resources = {
       reason_3_desc: "Ongoing support and updates to help your systems stay stable without surprise fees.",
       reason_4_title: "  Affordable Pricing Plans ",
       reason_4_desc: "Flexible pricing that makes advanced technical solutions affordable for growing organizations.",
+
+      // --- Tech Solutions (Hardware & Networks) ---
       Call_US: "Call us anytime",
       Started: "Welcome to Sinmar",
       CTA_Text:
@@ -347,6 +346,8 @@ const resources = {
       WAN: "Wide Area Networks (WAN)",
       WAN_text:
         "We provide wide area networks with advanced equipment and infrastructure, connecting users across large geographic areas efficiently and cost-effectively.",
+
+      // --- Contact Info ---
       Full_Name: " Name of the establishment or company",
       Phones: " Phone Numbers",
       Subject: "Subject",
@@ -362,298 +363,11 @@ const resources = {
         "Bughdadiah Area, Hail St., Hail Comm. Center, 2nd Floor,Office 21",
       CTA_About: "Why us ? ",
       Sales_Email: " Sales Email",
-      Features: "Features",
-      Inv_acc_feature_1: "Accounting tree up to 10 sub-levels",
-      Inv_acc_feature_2: "Export to Excel, Word, PDF, Txt",
-      Inv_acc_feature_3:
-        "The ability to save copies of documents within the journal entry",
-      Inv_acc_feature_4: "In addition to 99 branches",
-      Inv_acc_feature_5:
-        "The advantage of multiple and individual cost centers",
-      Inv_acc_feature_6: "SQL Server database",
-      Inv_acc_feature_7:
-        "A bond of receipt or cash disbursement in a sequence independent of the term",
-      Inv_acc_feature_8:
-        "The possibility of separating the cash and check in the exchange receivable",
-      Inv_acc_feature_9: "Auto backup",
-      Inv_acc_feature_10: "A multi-year and branch account statement",
-      Inv_acc_feature_11: "A multi-year and branched general professor",
-      Inv_acc_feature_12: "Independent powers for each user",
-      Inv_acc_feature_13: "Fixed assets and calculating depreciation",
-      Inv_acc_feature_14: "The possibility of dealing with documentary credits",
-      Inv_acc_feature_15: "Diverse detailed reports and custom display options",
-      Inv_acc_feature_16: "Revaluation of a fixed asset",
-      acc_feature_1: "Accounting tree with up to 10 sub-levels",
-      acc_feature_2: "Export to Excel, Word, PDF, Txt",
-      acc_feature_3: "Attach scanned documents to journal entries",
-      acc_feature_4: "Add up to 99 branches",
-      acc_feature_5: "Support for multiple and individual cost centers",
-      acc_feature_6: "SQL Server database",
-      acc_feature_7:
-        "Cash receipt/payment voucher with separate numbering from credit",
-      acc_feature_8:
-        "Separate handling of cash and checks in receipts/payments",
-      acc_feature_9: "Automatic backup",
-      acc_feature_10: "Multi-year, multi-branch account statements",
-      acc_feature_11: "Multi-year, multi-branch general ledger",
-      acc_feature_12: "Independent permissions for each user",
-      acc_feature_13: "Fixed assets and depreciation calculation",
-      acc_feature_14: "Support for letter of credit transactions",
-      acc_feature_15: "Detailed and customizable reports",
-      acc_feature_16: "Revaluation of fixed assets",
-      Inv_feature_1: "Supports variable VAT",
-      Inv_feature_2: "Export to Excel, Word, PDF, Txt",
-      Inv_feature_3: "Store item images within the item file",
-      Inv_feature_4: "Connect and manage up to 99 branches",
-      Inv_feature_5: "Sales invoice with POS features",
-      Inv_feature_6: "SQL Server database",
-      Inv_feature_7: "Electronic scale integration with items",
-      Inv_feature_8: "Automatic backup",
-      Inv_feature_9: "Generate and print item barcode",
-      Inv_feature_10: "Independent permissions for each user",
-      Inv_feature_11: "Purchase expenses calculation within the invoice",
-      Inv_feature_12: "Multi-language support",
-      Inv_feature_13: "Item alternatives linked to the item file",
-      Inv_feature_14: "Automatic inventory vouchers and Excel import",
-      Inv_feature_15:
-        "Auto-generate suggested orders based on item movement with editing options",
-      Inv_feature_16:
-        "Deal with suppliers in their original currency with automatic cost calculation",
-      Inv_feature_17: "Sales and purchase movement charts",
-      Inv_feature_18: "Over 300 detailed reports for full inventory tracking",
 
-      Pr_feature_1: "Accounting tree up to 10 sub-levels",
-      Pr_feature_2: "Export to Excel, Word, PDF, Txt",
-      Pr_feature_3: "Ability to save document images inside journal entries",
-      Pr_feature_4: "Add up to 99 branches",
-      Pr_feature_5: "Multi and single cost center support",
-      Pr_feature_6: "SQL Server database",
-      Pr_feature_7:
-        "Cash receipt or payment vouchers with independent sequence",
-      Pr_feature_8: "Separation of cash and cheque in receipts and payments",
-      Pr_feature_9: "Automatic backup",
-      Pr_feature_10: "Multi-year, multi-branch account statements",
-      Pr_feature_11: "Multi-year, multi-branch general ledger",
-      Pr_feature_12: "Independent permissions for each user",
-      Pr_feature_13: "Fixed assets and depreciation calculation",
-      Pr_feature_14: "Support for handling L/Cs (Letters of Credit)",
-      Pr_feature_15: "Detailed and customizable reports",
-      Pr_feature_16: "Fixed asset revaluation",
+      // Product Features (Moved to individual product sections below)
 
-      Furn_feature_1: "Accounting tree up to 10 sub-levels",
-      Furn_feature_2: "Export to Excel, Word, PDF, Txt",
-      Furn_feature_3: "Ability to save document images inside journal entries",
-      Furn_feature_4: "Add up to 99 branches",
-      Furn_feature_5: "Multi and single cost center support",
-      Furn_feature_6: "SQL Server database",
-      Furn_feature_7:
-        "Cash receipt or payment vouchers with independent sequence",
-      Furn_feature_8: "Separation of cash and cheque in receipts and payments",
 
-      Med_feature_1: "Supports variable VAT",
-      Med_feature_2: "User-friendly multi-function patient invoice screen",
-      Med_feature_3: "Export to Excel, Word, PDF, Txt",
-      Med_feature_4: "Ability to archive images in the patient's file",
-      Med_feature_5: "Integration with Waseel and D.H.S companies",
-      Med_feature_6: "Automatic claim submission to insurance companies",
-      Med_feature_7: "SQL Server database",
-      Med_feature_8:
-        "Includes a complete electronic medical record for doctors",
-      Med_feature_9: "Automatic backup",
-      Med_feature_10: "Detailed support for insurance contracts per agreement",
-      Med_feature_11: "Independent permissions for each user",
-      Med_feature_12: "Integration with pharmacy and general accounting",
-      Med_feature_13: "Multi-language support",
-      Med_feature_14:
-        "Supports radiology and lab departments with result archiving",
-      Med_feature_15: "SMS messaging feature",
-      Med_feature_16: "Issuing and checking sick leaves",
-      Med_feature_17: "Patient appointment scheduling linked to the doctor",
-      Med_feature_18: "Dental charting with treated tooth selection",
-      Med_feature_19: "Pregnancy and physiotherapy follow-up programs",
-
-      Maintenance_feature_1:
-        "Easy screens to prepare the system’s initial data",
-      Maintenance_feature_2:
-        "Department and engineer info with linking each department to technicians or engineers",
-      Maintenance_feature_3:
-        "Workshop service info linked to relevant departments",
-      Maintenance_feature_4: "Supports variable VAT as per ZATCA guidelines",
-      Maintenance_feature_5: "Export to Excel, Word, and PDF",
-      Maintenance_feature_6: "Send reminder SMS messages to customers",
-      Maintenance_feature_7: "Multiple payment methods: Cash, SPAN, Visa, etc.",
-      Maintenance_feature_8:
-        "E-invoice creation and integration with accounting system",
-      Maintenance_feature_9:
-        "Open multiple job cards for one vehicle and track step-by-step",
-      Maintenance_feature_10:
-        "Easy vehicle data entry and search within the workshop",
-      Maintenance_feature_11: "Track vehicle status easily",
-      Maintenance_feature_12:
-        "Track technician and engineer activity through detailed reports",
-      Maintenance_feature_13: "Track spare parts issued to workshop vehicles",
-      Maintenance_feature_14: "Monitor workshop stock levels",
-      Maintenance_feature_15:
-        "Monitor external purchase invoices related to workshop vehicles",
-      Maintenance_feature_16:
-        "Easily create job orders and capture client requirements",
-      Maintenance_feature_17:
-        "Issue maintenance invoices based on completed job orders",
-      Maintenance_feature_18: "Track customer balances and financial status",
-      Maintenance_feature_19:
-        "Comprehensive reports on job orders and maintenance invoices",
-      Maintenance_feature_20:
-        "Helpful screens throughout the system when needed",
-      Maintenance_feature_21:
-        "Ability to issue repair quotations before starting",
-      Maintenance_feature_22: "Issue job order and auto-link to invoice",
-      Maintenance_feature_23:
-        "Statement with car exit date and time from the workshop",
-      Maintenance_feature_24:
-        "Receipts and payments for clients and suppliers with SMS on payment",
-      Maintenance_feature_25:
-        "Settlement vouchers to adjust client balances with discounts",
-      Maintenance_feature_26:
-        "External purchases/services screen with auto-posting",
-      Maintenance_feature_27:
-        "Detailed reports on departments, engineers, and job orders",
-      Maintenance_feature_28:
-        "Profit/loss and maintenance invoice reports for any period",
-      Maintenance_feature_29:
-        "Detailed reports on spare parts purchases (internal/external) linked to vehicles",
-      Maintenance_feature_30:
-        "Warranty by specific date or mileage in job order",
-      Maintenance_feature_31: "Set job order completion date",
-      Maintenance_feature_32:
-        "Auto-transfer unfinished job orders to new year after year-end closing",
-      Maintenance_feature_33: "Multi-branch linking for stock monitoring",
-      Maintenance_feature_34: "Link multiple cars to a single customer",
-      Maintenance_feature_35: "Automatic backup to server and external media",
-
-      Car_sale_feature_1: "Comprehensive screen for entering car information",
-      Car_sale_feature_2:
-        "Sub-screens for models, specifications, and additional features",
-      Car_sale_feature_3: "Plate issuance, delivery, and receipt vouchers",
-      Car_sale_feature_4:
-        "Ability to add, remove, or inventory cars with detailed reports",
-      Car_sale_feature_5: "Sales invoices, quotations, and preparation",
-      Car_sale_feature_6: "Supports variable VAT as per ZATCA guidelines",
-      Car_sale_feature_7:
-        "Comprehensive information on sales reps and additional services",
-      Car_sale_feature_8:
-        "Purchase invoices with automatic calculation of foreign currency and extra costs",
-      Car_sale_feature_9:
-        "Order memos in local or foreign currency with detailed reports",
-      Car_sale_feature_10:
-        "Customer and supplier data with full transaction history",
-      Car_sale_feature_11: "Receipts, payments, and settlement vouchers",
-      Car_sale_feature_12:
-        "Account statements for clients and suppliers with financial status overview",
-      Car_sale_feature_13: "Sales and purchase graphical reports",
-      Car_sale_feature_14: "Dedicated profit and loss reports",
-      Car_sale_feature_15: "Over 50 comprehensive and detailed reports",
-
-      Hr_feature_1:
-        "Full flexibility in entering employee personal info, qualifications, and experience",
-      Hr_feature_2: "Ability to save and archive documents for each employee",
-      Hr_feature_3:
-        "Option to store employee photos for use in official documents",
-      Hr_feature_4: "Full control over defining allowance item labels",
-      Hr_feature_5: "Automatic processing of employee advances and deductions",
-      Hr_feature_6: "Automated issuance of vacation entitlements settlement",
-      Hr_feature_7: "Payroll generation by branch or department classification",
-      Hr_feature_8: "Display payroll statements or separate payslips",
-      Hr_feature_9:
-        "Detailed tracking of employee vacations, tickets, and entitlements",
-      Hr_feature_10: "Issuance of overtime orders and payroll integration",
-      Hr_feature_11: "Tracking and posting of employee deduction orders",
-      Hr_feature_12: "Archiving information for off-service employees",
-      Hr_feature_13: "Transfer employees between departments or branches",
-      Hr_feature_14:
-        "Monitor employee contracts, their terms, start and end dates",
-      Hr_feature_15: "Print passport forms through a simplified screen",
-      Hr_feature_16: "Over 70 detailed, diverse, and comprehensive reports",
-      Hr_feature_17:
-        "Reports on official documents expiring within a set period",
-      Hr_feature_18: "Track attendance and its effect on payroll",
-      Hr_feature_19: "Calculate social insurance for Saudis and expatriates",
-      Hr_feature_20:
-        "Flexible system for tracking and analyzing employee performance annually and monthly",
-
-      Commu_feature_1: "Connect branches to the main headquarters",
-      Commu_feature_2: "Ability to link up to 99 branches together",
-      Commu_feature_3: "System supports 3 linking methods for client selection",
-      Commu_feature_4:
-        "1. Collection Mode – Manually or automatically gather branch data from the main HQ",
-      Commu_feature_5:
-        "Data collection can follow a sequence set by the client",
-      Commu_feature_6: "Collect all branch data: invoices, items, and accounts",
-      Commu_feature_7: "Automatic synchronization every hour or as needed",
-      Commu_feature_8:
-        "Once data is collected, HQ can access it without re-connecting",
-      Commu_feature_9:
-        "2. Data Sending – Share only inventory balances between branches",
-      Commu_feature_10: "View other branches' stock from the items screen",
-      Commu_feature_11:
-        "3. Direct Mode – Direct connection and real-time access",
-      Commu_feature_12:
-        "Log into a branch directly to perform settlements or view reports",
-      Commu_feature_13:
-        "Full flexibility in choosing the connection method suitable for operations",
-      Commu_feature_14:
-        "Technical support to ensure proper integration between branches",
-      Commu_feature_15:
-        "High-level encryption and data security during branch communication",
-
-      serv_feature_1:
-        "Suitable for all service sales sectors with flexibility and ease",
-      serv_feature_2: "Supports variable VAT according to ZATCA regulations",
-      serv_feature_3: "Define service pricing by type",
-      serv_feature_4: "Easily convert receipts or quotations into invoices",
-      serv_feature_5:
-        "Track financial transactions with clients and suppliers via comprehensive reports",
-      serv_feature_6: "Simple and complete receipt voucher for laundries",
-      serv_feature_7: "Profit reports per invoice for any time period",
-      serv_feature_8: "Graphical dashboards to support management decisions",
-      serv_feature_9: "Comprehensive sales activity reports by desired period",
-      serv_feature_10: "Simple vouchers for receipt, payment, and settlement",
-      serv_feature_11: "Client statements for any time range",
-      serv_feature_12: "Ability to present service quotations and pricing",
-      serv_feature_13: "Client info with credit limits",
-      serv_feature_14: "Receipts, payments, and settlements for clients",
-      serv_feature_15: "Easy-to-use invoice screen",
-      serv_feature_16: "Multiple helpful tools within the invoice",
-      serv_feature_17: "Detailed and varied invoice reports",
-      serv_feature_18: "Client account statements",
-      serv_feature_19: "Invoice profit reports",
-      serv_feature_20: "Monthly sales graph",
-      fuel_feature_1: "Compatible with all large and small fuel stations",
-      fuel_feature_2: "Unlimited pumps and tanks can be added",
-      fuel_feature_3: "User-friendly interface for invoices and vouchers",
-      fuel_feature_4:
-        "Track movement of gasoline, diesel, kerosene, and others",
-      fuel_feature_5: "Sell various external services like car wash, etc.",
-      fuel_feature_6:
-        "Create customer and supplier accounts with balance and reports tracking",
-      fuel_feature_7:
-        "Calculate evaporated fuel quantity upon receiving purchases",
-      fuel_feature_8: "Monitor fuel usage with detailed pump reports",
-      fuel_feature_9:
-        "Track payments to suppliers and credit customers (individuals or companies)",
-      fuel_feature_10: "Monitor remaining fuel balances in all tanks",
-      fuel_feature_11: "Assign special pricing for credit customers",
-      fuel_feature_12:
-        "Change prices anytime according to authority requirements",
-      fuel_feature_13:
-        "Daily sales/purchase reports and easy access to financial data",
-      fuel_feature_14:
-        "Integration with Sinmar Accounting and auto-posting to journal entries",
-      fuel_feature_15:
-        "Comprehensive, categorized, and detailed document reports",
-      fuel_feature_16: "Remote work monitoring with ease",
-      fuel_feature_17: "Remote branch connectivity",
-      fuel_feature_18: "Add extra services like car wash, tire repair, etc.",
-      fuel_feature_19: "Issue and track customer coupons",
+      // --- CTA Callouts ---
       Digital_Started: "Start Your Digital Journey Today",
       Digital_CTA_Text:
         "Explore our advanced digital systems and contact us to find the perfect fit for your business",
@@ -665,6 +379,7 @@ const resources = {
         "Take advantage of our smart systems designed for various industries — start evolving today",
       our_clients_title: "Our Valued Partners & Clients",
 
+      // --- Clients List ---
       client_name_1: "Al-Markaz Al-Iqtisadi Contracting Co.",
       client_details_1: "General Contracting",
 
@@ -883,11 +598,43 @@ const resources = {
         a10: "It automatically calculates zakat and VAT according to local regulations and provides ready reports for ZATCA submission.",
 
         q11: "Is the system compliant with ZATCA Phase 2 (Integration)?",
-        a11: "Yes, Sinmar Soft ERP is ZATCA-certified and fully compliant with integration and API requirements.",
+        a11: "Yes, Sinmar Soft ERP is fully integrated and compatible with ZATCA, meeting all compliance and API requirements.",
 
         q12: "Can I access the system from a mobile device?",
         a12: "Yes, the system is fully responsive and accessible from any device via browser or mobile app.",
+        
+        // Product Specific FAQs
+        prod_title: "Frequently Asked Questions",
+        inv_acc_q1: "Does the system support multiple branches?",
+        inv_acc_a1: "Yes, the Sinmar Accounting & Inventory system supports up to 99 branches with full synchronization and consolidated reporting.",
+        med_q1: "Is it possible to link the medical system with insurance companies?",
+        med_a1: "Absolutely. The system integrates with major providers like Waseel and DHS for automated claim submissions.",
+        hr_q1: "Can the system handle complex payroll structures?",
+        hr_a1: "Yes, it supports customizable allowances, deductions, and automated payroll generation based on attendance and contracts.",
+        real_estate_q1: "Does the system support contract expiration alerts?",
+        real_estate_a1: "Yes, the system automatically notifies you before contracts expire and tracks payment schedules for each tenant.",
+        car_maintenance_q1: "Can I track vehicle history across multiple visits?",
+        car_maintenance_a1: "Yes, the system maintains a full history of all job cards, spare parts used, and services performed for every vehicle.",
+        general_acc_q1: "Is this system suitable for VAT-registered businesses?",
+        general_acc_a1: "Yes, it is designed for full VAT compliance, automated tax calculations, and one-click VAT return reporting.",
+        inventory_q1: "Does the system support barcode scanning?",
+        inventory_a1: "Yes, it fully supports barcode scanners for fast sales, stock taking, and inventory management.",
+        real_estate_q1: "Can I manage multiple properties and buildings?",
+        real_estate_a1: "Yes, our real estate system allows for multi-property management, tracking units, leases, and maintenance per building.",
+        car_sale_q1: "How does the system handle installment payments?",
+        car_sale_a1: "It includes a comprehensive installment management module that tracks schedules, reminders, and late payment interests.",
+        telecom_q1: "Is the system secure for high-volume transactions?",
+        telecom_a1: "Yes, it uses high-level encryption and SQL Server security to handle massive amounts of real-time data efficiently.",
+        serv_system_q1: "Can I track technician performance and tasks?",
+        serv_system_a1: "Yes, it allows task assignment and performance reporting for employees and field technicians.",
+        fuel_q1: "How does the system handle fuel evaporation calculations?",
+        fuel_a1: "The Sinmar fuel system automatically calculates evaporation loss based on temperature and stock movement data.",
+        furnished_q1: "Does the system support daily, weekly, and monthly rates?",
+        furnished_a1: "Yes, it offers full flexibility for different rental durations, with automated bill generation and cleaning schedule tracking.",
       },
+      faq_prod_title: "Frequently Asked Questions",
+      testi_prod_title: "Client Testimonials",
+      testi_prod_subtitle: "Trusted by thousands of businesses worldwide to drive excellence.",
 
       privacy: {
         title: "Privacy Policy - Sinmar Soft ERP",
@@ -1033,8 +780,10 @@ const resources = {
       admin_stats_total: "Total Posts",
       admin_stats_published: "Published Posts",
 
-      // Product Landing Page
-      Prod_Ultimate_Solution: "The Ultimate Solution",
+      // ==========================================
+      // --- PRODUCTS PAGES TRANSLATIONS (EN) ---
+      // ==========================================
+      Prod_Ultimate_Solution: "A cloud-based accounting program approved by the Zakat, Income and Tax Authority",
       Prod_Efficient_Management: "For Efficient Business Management",
       Prod_Save_Time: "Save 50% of routine task time",
       Prod_Reduce_Errors: "Reduce human errors & increase profit",
@@ -1075,11 +824,318 @@ const resources = {
       Prod_Request_Quote: "Request a Quote",
       Prod_Start_Auto_Conf: "Start automation with confidence",
       Prod_Book_Offer_Now: "Book your Offer Now",
+      Features: "Features",
+
+      // 1. Sinmar For Accounting & Inventory (accounting-inventory)
+      Inv_acc: "Sinmar For Accounting & Inventory ",
+      acc_Inv_Disc: "An integrated accounting and inventory system that supports branches, barcodes, and advanced tax reports.",
+      "Prod_Ultimate_Solution_accounting-inventory": "A cloud-based accounting and inventory program approved by ZATCA",
+      "Prod_Efficient_Management_accounting-inventory": "Comprehensive solution for warehouse and accounting management",
+      "Prod_Description_accounting-inventory": "Sinmar For Accounting & Inventory is an integrated system that supports branches, barcodes, and advanced tax reports, providing a complete digital transformation for your business.",
+      Inv_acc_feature_1: "Accounting tree up to 10 sub-levels",
+      Inv_acc_feature_2: "Export to Excel, Word, PDF, Txt",
+      Inv_acc_feature_3: "The ability to save copies of documents within the journal entry",
+      Inv_acc_feature_4: "In addition to 99 branches",
+      Inv_acc_feature_5: "The advantage of multiple and individual cost centers",
+      Inv_acc_feature_6: "SQL Server database",
+      Inv_acc_feature_7: "A bond of receipt or cash disbursement in a sequence independent of the term",
+      Inv_acc_feature_8: "The possibility of separating the cash and check in the exchange receivable",
+      Inv_acc_feature_9: "Auto backup",
+      Inv_acc_feature_10: "A multi-year and branch account statement",
+      Inv_acc_feature_11: "A multi-year and branched general professor",
+      Inv_acc_feature_12: "Independent powers for each user",
+      Inv_acc_feature_13: "Fixed assets and calculating depreciation",
+      Inv_acc_feature_14: "The possibility of dealing with documentary credits",
+      Inv_acc_feature_15: "Diverse detailed reports and custom display options",
+      Inv_acc_feature_16: "Revaluation of a fixed asset",
+
+      // 2. Sinmar General Accounting (general-accounting)
+      acc: "Sinmar General Accounting ",
+      acc_desc: "A comprehensive system for managing general accounts, daily entries, and accurate financial reports.",
+      "Prod_Ultimate_Solution_general-accounting": "Cloud-based accounting software",
+      "Prod_Efficient_Management_general-accounting": "The best cloud-based accounting software to manage your company's accounts professionally",
+      "Prod_Description_general-accounting": "Sinmar Accounting is an integrated cloud-based accounting software that transforms your financial operations into a precise and fast digital system — designed for the Saudi business environment.",
+      "Prod_Zatca_Compliant_general-accounting": "",
+      "Prod_Trad_Err3_general-accounting": "",
+      "Prod_Auto_Adv3_general-accounting": "",
+      "Prod_ZATCA_Badge_general-accounting": "100% Accurate",
+      acc_feature_1: "Accounting tree with up to 10 sub-levels",
+      acc_feature_2: "Export to Excel, Word, PDF, Txt",
+      acc_feature_3: "Attach scanned documents to journal entries",
+      acc_feature_4: "Add up to 99 branches",
+      acc_feature_5: "Support for multiple and individual cost centers",
+      acc_feature_6: "SQL Server database",
+      acc_feature_7: "Cash receipt/payment voucher with separate numbering from credit",
+      acc_feature_8: "Separate handling of cash and checks in receipts/payments",
+      acc_feature_9: "Automatic backup",
+      acc_feature_10: "Multi-year, multi-branch account statements",
+      acc_feature_11: "Multi-year, multi-branch general ledger",
+      acc_feature_12: "Independent permissions for each user",
+      acc_feature_13: "Fixed assets and depreciation calculation",
+      acc_feature_14: "Support for letter of credit transactions",
+      acc_feature_15: "Detailed and customizable reports",
+      acc_feature_16: "Revaluation of fixed assets",
+
+      // 3. Sinmar For Inventory (inventory-system)
+      Inv: " Sinmar For Inventory ",
+      Inv_Disc: "An effective tool for managing inventory, tracking products, and linking them to suppliers and invoices.",
+      "Prod_Ultimate_Solution_inventory-system": "Professional inventory management system approved by ZATCA",
+      "Prod_Efficient_Management_inventory-system": "Smart solution for warehouse tracking and inventory control",
+      "Prod_Description_inventory-system": "An effective tool for managing inventory, tracking products, and linking them to suppliers and invoices with precision and ease.",
+      Inv_feature_1: "Supports variable VAT",
+      Inv_feature_2: "Export to Excel, Word, PDF, Txt",
+      Inv_feature_3: "Store item images within the item file",
+      Inv_feature_4: "Connect and manage up to 99 branches",
+      Inv_feature_5: "Sales invoice with POS features",
+      Inv_feature_6: "SQL Server database",
+      Inv_feature_7: "Electronic scale integration with items",
+      Inv_feature_8: "Automatic backup",
+      Inv_feature_9: "Generate and print item barcode",
+      Inv_feature_10: "Independent permissions for each user",
+      Inv_feature_11: "Purchase expenses calculation within the invoice",
+      Inv_feature_12: "Multi-language support",
+      Inv_feature_13: "Item alternatives linked to the item file",
+      Inv_feature_14: "Automatic inventory vouchers and Excel import",
+      Inv_feature_15: "Auto-generate suggested orders based on item movement with editing options",
+      Inv_feature_16: "Deal with suppliers in their original currency with automatic cost calculation",
+      Inv_feature_17: "Sales and purchase movement charts",
+      Inv_feature_18: "Over 300 detailed reports for full inventory tracking",
+
+      // 4. Sinmar For Property Management (real-estate-management)
+      Pr: "Sinmar For Property Management",
+      Pr_Disc: " A professional system for managing properties, rentals, contracts, and landlord and tenant records.",
+      "Prod_Ultimate_Solution_real-estate-management": "Professional property management system approved by ZATCA",
+      "Prod_Efficient_Management_real-estate-management": "Complete solution for real estate and rental management",
+      "Prod_Description_real-estate-management": "A professional system for managing properties, rentals, contracts, and landlord and tenant records with full financial integration.",
+      Pr_feature_1: "Accounting tree up to 10 sub-levels",
+      Pr_feature_2: "Export to Excel, Word, PDF, Txt",
+      Pr_feature_3: "Ability to save document images inside journal entries",
+      Pr_feature_4: "Add up to 99 branches",
+      Pr_feature_5: "Multi and single cost center support",
+      Pr_feature_6: "SQL Server database",
+      Pr_feature_7: "Cash receipt or payment vouchers with independent sequence",
+      Pr_feature_8: "Separation of cash and cheque in receipts and payments",
+      Pr_feature_9: "Automatic backup",
+      Pr_feature_10: "Multi-year, multi-branch account statements",
+      Pr_feature_11: "Multi-year, multi-branch general ledger",
+      Pr_feature_12: "Independent permissions for each user",
+      Pr_feature_13: "Fixed assets and depreciation calculation",
+      Pr_feature_14: "Support for handling L/Cs (Letters of Credit)",
+      Pr_feature_15: "Detailed and customizable reports",
+      Pr_feature_16: "Fixed asset revaluation",
+
+      // 5. Sinmar For Furnished Flats (furnished-apartments)
+      Furn: "Sinmar For Furnished Flats System",
+      Furn_Disc: "A dedicated system for managing furnished apartment reservations and rentals with daily reports ",
+      "Prod_Ultimate_Solution_furnished-apartments": "Specialized furnished apartments management system approved by ZATCA",
+      "Prod_Efficient_Management_furnished-apartments": "Manage your rentals and reservations professionally",
+      "Prod_Description_furnished-apartments": "A dedicated system for managing furnished apartment reservations and rentals with daily reports and customer history.",
+      Furn_feature_1: "Accounting tree up to 10 sub-levels",
+      Furn_feature_2: "Export to Excel, Word, PDF, Txt",
+      Furn_feature_3: "Ability to save document images inside journal entries",
+      Furn_feature_4: "Add up to 99 branches",
+      Furn_feature_5: "Multi and single cost center support",
+      Furn_feature_6: "SQL Server database",
+      Furn_feature_7: "Cash receipt or payment vouchers with independent sequence",
+      Furn_feature_8: "Separation of cash and cheque in receipts and payments",
+
+      // 6. Sinmar For Medical System (medical-system)
+      Med: " Sinmar For Medical System",
+      Med_Disc: "An integrated medical solution for managing clinics, appointments, patient records, and medical bills.",
+      "Prod_Ultimate_Solution_medical-system": "Integrated medical management system approved by ZATCA",
+      "Prod_Efficient_Management_medical-system": "Complete digital solution for clinics and medical centers",
+      "Prod_Description_medical-system": "An integrated medical solution for managing clinics, appointments, patient records, and medical bills with insurance integration.",
+      Med_feature_1: "Supports variable VAT",
+      Med_feature_2: "User-friendly multi-function patient invoice screen",
+      Med_feature_3: "Export to Excel, Word, PDF, Txt",
+      Med_feature_4: "Ability to archive images in the patient's file",
+      Med_feature_5: "Integration with Waseel and D.H.S companies",
+      Med_feature_6: "Automatic claim submission to insurance companies",
+      Med_feature_7: "SQL Server database",
+      Med_feature_8: "Includes a complete electronic medical record for doctors",
+      Med_feature_9: "Automatic backup",
+      Med_feature_10: "Detailed support for insurance contracts per agreement",
+      Med_feature_11: "Independent permissions for each user",
+      Med_feature_12: "Integration with pharmacy and general accounting",
+      Med_feature_13: "Multi-language support",
+      Med_feature_14: "Supports radiology and lab departments with result archiving",
+      Med_feature_15: "SMS messaging feature",
+      Med_feature_16: "Issuing and checking sick leaves",
+      Med_feature_17: "Patient appointment scheduling linked to the doctor",
+      Med_feature_18: "Dental charting with treated tooth selection",
+      Med_feature_19: "Pregnancy and physiotherapy follow-up programs",
+
+      // 7. Sinmar For Car Maintenance (car-maintenance)
+      Maintenance: " Sinmar For Car Maintenance ",
+      Maintenance_Disc: "A system for managing car maintenance operations, invoice records, breakdown details and spare parts. ",
+      "Prod_Ultimate_Solution_car-maintenance": "Car maintenance workshop system approved by ZATCA",
+      "Prod_Efficient_Management_car-maintenance": "Efficient job card and workshop management",
+      "Prod_Description_car-maintenance": "A complete system for managing car maintenance operations, invoice records, breakdown details, and spare parts tracking.",
+      Maintenance_feature_1: "Easy screens to prepare the system’s initial data",
+      Maintenance_feature_2: "Department and engineer info with linking each department to technicians or engineers",
+      Maintenance_feature_3: "Workshop service info linked to relevant departments",
+      Maintenance_feature_4: "Supports variable VAT as per ZATCA guidelines",
+      Maintenance_feature_5: "Export to Excel, Word, and PDF",
+      Maintenance_feature_6: "Send reminder SMS messages to customers",
+      Maintenance_feature_7: "Multiple payment methods: Cash, SPAN, Visa, etc.",
+      Maintenance_feature_8: "E-invoice creation and integration with accounting system",
+      Maintenance_feature_9: "Open multiple job cards for one vehicle and track step-by-step",
+      Maintenance_feature_10: "Easy vehicle data entry and search within the workshop",
+      Maintenance_feature_11: "Track vehicle status easily",
+      Maintenance_feature_12: "Track technician and engineer activity through detailed reports",
+      Maintenance_feature_13: "Track spare parts issued to workshop vehicles",
+      Maintenance_feature_14: "Monitor workshop stock levels",
+      Maintenance_feature_15: "Monitor external purchase invoices related to workshop vehicles",
+      Maintenance_feature_16: "Easily create job orders and capture client requirements",
+      Maintenance_feature_17: "Issue maintenance invoices based on completed job orders",
+      Maintenance_feature_18: "Track customer balances and financial status",
+      Maintenance_feature_19: "Comprehensive reports on job orders and maintenance invoices",
+      Maintenance_feature_20: "Helpful screens throughout the system when needed",
+      Maintenance_feature_21: "Ability to issue repair quotations before starting",
+      Maintenance_feature_22: "Issue job order and auto-link to invoice",
+      Maintenance_feature_23: "Statement with car exit date and time from the workshop",
+      Maintenance_feature_24: "Receipts and payments for clients and suppliers with SMS on payment",
+      Maintenance_feature_25: "Settlement vouchers to adjust client balances with discounts",
+      Maintenance_feature_26: "External purchases/services screen with auto-posting",
+      Maintenance_feature_27: "Detailed reports on departments, engineers, and job orders",
+      Maintenance_feature_28: "Profit/loss and maintenance invoice reports for any period",
+      Maintenance_feature_29: "Detailed reports on spare parts purchases (internal/external) linked to vehicles",
+      Maintenance_feature_30: "Warranty by specific date or mileage in job order",
+      Maintenance_feature_31: "Set job order completion date",
+      Maintenance_feature_32: "Auto-transfer unfinished job orders to new year after year-end closing",
+      Maintenance_feature_33: "Multi-branch linking for stock monitoring",
+      Maintenance_feature_34: "Link multiple cars to a single customer",
+      Maintenance_feature_35: "Automatic backup to server and external media",
+
+      // 8. Sinmar Car Sales (car-sales)
+      Car_sale: "Sinmar Car Sales.",
+      Car_sale_Disc: "A specialized program for car showrooms that includes managing offers, sales, customers, and installments.",
+      "Prod_Ultimate_Solution_car-sales": "Automotive sales and showroom system approved by ZATCA",
+      "Prod_Efficient_Management_car-sales": "Manage car inventory and installment sales with ease",
+      "Prod_Description_car-sales": "A specialized program for car showrooms that includes managing offers, sales, customers, and installments with detailed reporting.",
+      Car_sale_feature_1: "Comprehensive screen for entering car information",
+      Car_sale_feature_2: "Sub-screens for models, specifications, and additional features",
+      Car_sale_feature_3: "Plate issuance, delivery, and receipt vouchers",
+      Car_sale_feature_4: "Ability to add, remove, or inventory cars with detailed reports",
+      Car_sale_feature_5: "Sales invoices, quotations, and preparation",
+      Car_sale_feature_6: "Supports variable VAT as per ZATCA guidelines",
+      Car_sale_feature_7: "Comprehensive information on sales reps and additional services",
+      Car_sale_feature_8: "Purchase invoices with automatic calculation of foreign currency and extra costs",
+      Car_sale_feature_9: "Order memos in local or foreign currency with detailed reports",
+      Car_sale_feature_10: "Customer and supplier data with full transaction history",
+      Car_sale_feature_11: "Receipts, payments, and settlement vouchers",
+      Car_sale_feature_12: "Account statements for clients and suppliers with financial status overview",
+      Car_sale_feature_13: "Sales and purchase graphical reports",
+      Car_sale_feature_14: "Dedicated profit and loss reports",
+      Car_sale_feature_15: "Over 50 comprehensive and detailed reports",
+
+      // 9. Sinmar for Human Resources (hr-system)
+      Hr: "  Sinmar for Human Resources",
+      Hr_Disc: "An integrated personnel affairs system for managing attendance, salaries, vacations, and personal files.",
+      "Prod_Ultimate_Solution_hr-system": "Integrated HR and payroll system approved by ZATCA",
+      "Prod_Efficient_Management_hr-system": "Complete personnel and payroll management",
+      "Prod_Description_hr-system": "An integrated personnel affairs system for managing attendance, salaries, vacations, and personal files with full legal compliance.",
+      Hr_feature_1: "Full flexibility in entering employee personal info, qualifications, and experience",
+      Hr_feature_2: "Ability to save and archive documents for each employee",
+      Hr_feature_3: "Option to store employee photos for use in official documents",
+      Hr_feature_4: "Full control over defining allowance item labels",
+      Hr_feature_5: "Automatic processing of employee advances and deductions",
+      Hr_feature_6: "Automated issuance of vacation entitlements settlement",
+      Hr_feature_7: "Payroll generation by branch or department classification",
+      Hr_feature_8: "Display payroll statements or separate payslips",
+      Hr_feature_9: "Detailed tracking of employee vacations, tickets, and entitlements",
+      Hr_feature_10: "Issuance of overtime orders and payroll integration",
+      Hr_feature_11: "Tracking and posting of employee deduction orders",
+      Hr_feature_12: "Archiving information for off-service employees",
+      Hr_feature_13: "Transfer employees between departments or branches",
+      Hr_feature_14: "Monitor employee contracts, their terms, start and end dates",
+      Hr_feature_15: "Print passport forms through a simplified screen",
+      Hr_feature_16: "Over 70 detailed, diverse, and comprehensive reports",
+      Hr_feature_17: "Reports on official documents expiring within a set period",
+      Hr_feature_18: "Track attendance and its effect on payroll",
+      Hr_feature_19: "Calculate social insurance for Saudis and expatriates",
+      Hr_feature_20: "Flexible system for tracking and analyzing employee performance annually and monthly",
+
+      // 10. Sinmar Communications System (telecom-system)
+      Commu: "Sinmar Communications System",
+      commu_Disc: "A solution for managing telecom companies, customer services, billing, and shipment tracking.",
+      "Prod_Ultimate_Solution_telecom-system": "Telecom and branch connectivity system approved by ZATCA",
+      "Prod_Efficient_Management_telecom-system": "Smart synchronization and branch management",
+      "Prod_Description_telecom-system": "A solution for managing telecom companies, customer services, billing, and shipment tracking across multiple branches.",
+      Commu_feature_1: "Connect branches to the main headquarters",
+      Commu_feature_2: "Ability to link up to 99 branches together",
+      Commu_feature_3: "System supports 3 linking methods for client selection",
+      Commu_feature_4: "1. Collection Mode – Manually or automatically gather branch data from the main HQ",
+      Commu_feature_5: "Data collection can follow a sequence set by the client",
+      Commu_feature_6: "Collect all branch data: invoices, items, and accounts",
+      Commu_feature_7: "Automatic synchronization every hour or as needed",
+      Commu_feature_8: "Once data is collected, HQ can access it without re-connecting",
+      Commu_feature_9: "2. Data Sending – Share only inventory balances between branches",
+      Commu_feature_10: "View other branches' stock from the items screen",
+      Commu_feature_11: "3. Direct Mode – Direct connection and real-time access",
+      Commu_feature_12: "Log into a branch directly to perform settlements or view reports",
+      Commu_feature_13: "Full flexibility in choosing the connection method suitable for operations",
+      Commu_feature_14: "Technical support to ensure proper integration between branches",
+      Commu_feature_15: "High-level encryption and data security during branch communication",
+
+      // 11. Sinmar Services (services-system)
+      serv: "Sinmar Services",
+      serv_Disc: " A system for managing public service companies, distributing tasks, and providing performance reports.",
+      "Prod_Ultimate_Solution_services-system": "Public services management system approved by ZATCA",
+      "Prod_Efficient_Management_services-system": "Track service orders and tasks efficiently",
+      "Prod_Description_services-system": "A system for managing public service companies, distributing tasks, and providing performance reports with financial tracking.",
+      serv_feature_1: "Suitable for all service sales sectors with flexibility and ease",
+      serv_feature_2: "Supports variable VAT according to ZATCA regulations",
+      serv_feature_3: "Define service pricing by type",
+      serv_feature_4: "Easily convert receipts or quotations into invoices",
+      serv_feature_5: "Track financial transactions with clients and suppliers via comprehensive reports",
+      serv_feature_6: "Simple and complete receipt voucher for laundries",
+      serv_feature_7: "Profit reports per invoice for any time period",
+      serv_feature_8: "Graphical dashboards to support management decisions",
+      serv_feature_9: "Comprehensive sales activity reports by desired period",
+      serv_feature_10: "Simple vouchers for receipt, payment, and settlement",
+      serv_feature_11: "Client statements for any time range",
+      serv_feature_12: "Ability to present service quotations and pricing",
+      serv_feature_13: "Client info with credit limits",
+      serv_feature_14: "Receipts, payments, and settlements for clients",
+      serv_feature_15: "Easy-to-use invoice screen",
+      serv_feature_16: "Multiple helpful tools within the invoice",
+      serv_feature_17: "Detailed and varied invoice reports",
+      serv_feature_18: "Client account statements",
+      serv_feature_19: "Invoice profit reports",
+      serv_feature_20: "Monthly sales graph",
+
+      // 12. Sinmar for Gas Stations (fuel-station)
+      fuel: "Sinmar for gas stations",
+      Fule_Disc: "Fuel station system for pumping and inventory management, and daily accounting for each pump.",
+      "Prod_Ultimate_Solution_fuel-station": "Fuel station and pump management system approved by ZATCA",
+      "Prod_Efficient_Management_fuel-station": "Monitor tanks and pumps in real-time",
+      "Prod_Description_fuel-station": "Fuel station system for pumping and inventory management, and daily accounting for each pump with remote monitoring.",
+      fuel_feature_1: "Compatible with all large and small fuel stations",
+      fuel_feature_2: "Unlimited pumps and tanks can be added",
+      fuel_feature_3: "User-friendly interface for invoices and vouchers",
+      fuel_feature_4: "Track movement of gasoline, diesel, kerosene, and others",
+      fuel_feature_5: "Sell various external services like car wash, etc.",
+      fuel_feature_6: "Create customer and supplier accounts with balance and reports tracking",
+      fuel_feature_7: "Calculate evaporated fuel quantity upon receiving purchases",
+      fuel_feature_8: "Monitor fuel usage with detailed pump reports",
+      fuel_feature_9: "Track payments to suppliers and credit customers (individuals or companies)",
+      fuel_feature_10: "Monitor remaining fuel balances in all tanks",
+      fuel_feature_11: "Assign special pricing for credit customers",
+      fuel_feature_12: "Change prices anytime according to authority requirements",
+      fuel_feature_13: "Daily sales/purchase reports and easy access to financial data",
+      fuel_feature_14: "Integration with Sinmar Accounting and auto-posting to journal entries",
+      fuel_feature_15: "Comprehensive, categorized, and detailed document reports",
+      fuel_feature_16: "Remote work monitoring with ease",
+      fuel_feature_17: "Remote branch connectivity",
+      fuel_feature_18: "Add extra services like car wash, tire repair, etc.",
+      fuel_feature_19: "Issue and track customer coupons"
     },
   },
 
   ar: {
     translation: {
+      // --- Global & Navigation ---
       home: "الصفحة الرئيسية ",
       products: "المنتجات",
       path_products: "products",
@@ -1110,6 +1166,8 @@ const resources = {
       blog_pagination_next: "التالي",
       read_more: "اقرأ المزيد",
       post_not_found: "المقال غير موجود",
+
+      // --- Admin Authentication ---
       admin_login: "تسجيل دخول المسؤول",
       admin_username: "اسم المستخدم",
       admin_password: "كلمة المرور",
@@ -1123,6 +1181,8 @@ const resources = {
       admin_form_category_add_placeholder: "أضف تصنيف جديد",
       admin_form_category_add_button: "أضف",
       admin_category_all: "كل التصنيفات",
+
+      // --- CTA & Support ---
       cta_heading: "هل تحتاج مساعدة؟ نحن هنا من أجلك.",
       cta_subheading: "تواصل مع فريق الدعم لأي استفسارات أو مساعدة تقنية.",
       cta_help_title: "هل تحتاج مساعدة؟ نحن هنا من أجلك.",
@@ -1130,6 +1190,8 @@ const resources = {
       cta_help_phone: "+966 50 619 4863",
       cta_help_button: "اتصل بنا",
       admin_logout_btn: "تسجيل الخروج",
+
+      // --- Admin Blog Editor ---
       admin_edit_post: "تعديل المنشور",
       admin_table_category: "التصنيف",
       admin_title_en: "العنوان (EN)",
@@ -1160,6 +1222,8 @@ const resources = {
       admin_update_success: "تم تحديث المنشور.",
       admin_error_required: "العنوان والمحتوى باللغة الإنجليزية مطلوبان.",
       admin_error_save: "فشل حفظ المنشور.",
+
+      // --- Routes & Legal Links ---
       Privacy_Policy: "سياسة الخصوصية",
       Terms_Conditions: "الشروط والأحكام",
       FAQ: "الأسئلة الشائعة",
@@ -1167,11 +1231,15 @@ const resources = {
       path_TermsAndConditions: "TermsAndConditions",
       path_FAQ: "FAQ",
       path_AllClients: "AllClients",
+
+      // --- Company Identity ---
       CompanyName: " شركة نجوم العلاوى لنظم الكمبيوتر",
       companyDescriptionPart1:
         "انطلقت نجوم العلاوي لنظم الكمبيوتر عام ١٩٩٤ لتوفر للمجتمع والاقتصاد السعودي الطامح للنمو والريادة آنذاك الحلول البرمجية والأنظمة الالكترونية بالإضافة لأنواع متعددة من الخدمات والمنتجات التقنية المتطورة التي تتواكب مع تطلعات الشركات والمؤسسات الخاصة في ذلك الوقت.",
       companyDescriptionPart2:
         "منذ اللحظة الأولى من انطلاقها، نجحت في كسب ثقة عملائها وترسيخ مكانتها كشريك تقني موثوق لدى الجهات الحكومية والخاصة، واستمرت في تقديم أداء متميز وخدمات متطورة تساهم في تحسين الإدارة والإنتاج وتحقيق قفزات كبيرة في المخرجات وهوامش الأرباح.",
+
+      // --- General Meta & Home Intro ---
       title: "نجوم العلاوي",
       meta_default_title: "نجوم العلاوي لنظم الكمبيوتر",
       meta_default_description:
@@ -1211,6 +1279,11 @@ const resources = {
       Fax: "فاكس",
       WhatsApp: "واتس اب",
       Phone: "الهاتف",
+      Ready_To_Start: "جاهز لتطوير أعمالك؟",
+      ZATCA_Ready: "جاهز للمرحلة الثانية (الفاتورة الإلكترونية)",
+      Expert_Support: "دعم فني متخصص",
+      Fast_Deployment: "تنفيذ سريع واحترافي",
+      Choose_Field: "اختر مجال عملك الآن",
       Digital_Started: "ابدأ رحلتك الرقمية اليوم",
       Digital_CTA_Text:
         "اكتشف أنظمتنا الرقمية المتطورة وتواصل معنا لتحديد الأنسب لنشاطك التجاري",
@@ -1232,6 +1305,8 @@ const resources = {
       Terms_Conditions: "الشروط والأحكام",
       Follow_us: "تابعنا ",
       time: " ص 8:00  - 12:30 م 3:00 م - 7:30 م",
+
+      // --- Testimonials ---
       Testimonial: "ماذا قالوا عنا",
       Stories: "قصص واقعية، نتائج حقيقية",
       Testimonial_text:
@@ -1296,14 +1371,18 @@ const resources = {
       Partners_text: "شركاؤنا هم سر نجاحنا واستمراريتنا",
       Hero_heading: "الحل الذكي لإدارة أعمالك وتتبع المخزون بكل سهولة",
       Hero_text:
-        " معتمد من هيئة الزكاة والضريبة والجمارك السعودية للفوترة الإلكترونية (المرحلتين الأولى والثانية)",
+        "متكامل ومتوافق بالكامل مع هيئة الزكاة والضريبة والجمارك السعودية للفوترة الإلكترونية (المرحلتين الأولى والثانية)",
       Hero_P:
         " ابدأ التحول الرقمي اليوم! جهّز فريقك ← اختبر النظام ← حدّث بياناتك ← راجع الفواتير ← تابع آخر التحديثات الرسمية.",
       Start_btn: "ابدأ الآن",
+
+      // --- About Us Preview (Home) ---
       About_Us: "من نحن",
       About_text: "نُساهم في تطوير قطاع تكنولوجيا المعلومات منذ عام 1994.",
       About_p:
         "تم تأسيس نجوم العلاوى لنظم الكمبيوتر في عام 1994 في مدينة الرياض في المملكة العربية السعودية بهدف إنتاج أنظمة تجارية متكاملة ذات قدرات وإمكانيات تضاهى من حيث الأداء الأنظمة الغربية المتطورة وتتميز بالخصوصية من حيث العمل في بيئات ثنائية اللغـة ومن حيث تلبية جميع احتياجات العملاء ولهذا تم تطوير عدة أنظمة تجارية مختلفة تخدم عدة مجالات متنوعة و أصبح لدينا قاعدة كبيرة من العملاء في شتى أنحاء المملكة.",
+
+      // --- Services Section (Home) ---
       Serv_h: " تطوير انظمة الأعمال ",
       serv_p: "حلول برمجية تخدم قطاعات وصناعات الأعمال المختلفة",
       ERP: "أنظمة تخطيط موارد المؤسسة",
@@ -1312,42 +1391,11 @@ const resources = {
       SERVICES_WE_PROVIDE: "الخدمات التي نقدمها",
       Desktop_Applications: "تطبيقات سطح المكتب",
       Cloud_Based_Solutions: "الانظمة السحابية",
-      Inv_acc: "سنمار  للمحاسبة والمخزون ",
-      acc_Inv_Disc:
-        "نظام متكامل للمحاسبة والمخازن يدعم الفروع، الباركود، والتقارير الضريبية المتقدمة.",
-      acc: "سنمار  للمحاسبة العامة",
-      acc_desc:
-        "نظام شامل لإدارة الحسابات العامة والقيود اليومية والتقارير المالية الدقيقة.",
-      Inv: "سنمار للمخزون العام    ",
-      Inv_Disc:
-        "أداة فعالة لإدارة المخزون، تتبع المنتجات، وربطها مع الموردين والفواتير.",
-      Med: " سنمار  للنظام الطبي",
-      Med_Disc:
-        "حل طبي متكامل لإدارة العيادات والمواعيد وسجلات المرضى والفواتير الطبية.",
-      Furn: "سنمار  لنظام الشقق المفروشة",
-      Furn_Disc:
-        "نظام مخصص لإدارة حجوزات وتأجير الشقق المفروشة مع تقارير يومية وسجل العملاء.",
-      Pr: "سنمار  لإدارة الممتلكات",
-      Pr_Disc:
-        " نظام احترافي لإدارة العقارات والإيجارات والعقود وسجلات الملاك والمستأجرين.",
-      Maintenance: " سنمار  لصيانة السيارات",
-      Maintenance_Disc:
-        "نظام لإدارة عمليات صيانة السيارات، سجل الفواتير، وتفاصيل الأعطال وقطع الغيار.",
-      Car_sale: "سنمار لمبيعات السيارات.",
-      Car_sale_Disc:
-        "برنامج متخصص لمعارض السيارات يشمل إدارة العروض، البيع، العملاء، والأقساط.",
-      Hr: "سنمار لشؤون الموظفين",
-      Hr_Disc:
-        " نظام شؤون موظفين متكامل لإدارة الحضور، الرواتب، والإجازات والملفات الشخصية.",
-      Commu: "نظام سنمار للاتصالات ",
-      commu_Disc:
-        "حل موجه لإدارة شركات الاتصالات وخدمات العملاء والفواتير ومتابعة الشحنات.",
-      serv: "سنمار للخدمات ",
-      serv_Disc:
-        " نظام لإدارة شركات الخدمات العامة وتوزيع المهام وتقديم تقارير الأداء.",
-      fuel: "سنمار لمحطات الوقود ",
-      Fule_Disc:
-        "نظام محطات الوقود لإدارة الضخ والمخزون، والمحاسبة اليومية لكل مضخة.",
+
+      // --- Products Names & Briefs (Moved to individual product sections below) ---
+
+
+      // --- About Page & Mission ---
       Our_Product: "منتجاتنا",
       Our_Product_h: "دور نجوم العلاوى لنظم الكمبيوتر",
       Our_Product_p:
@@ -1364,6 +1412,8 @@ const resources = {
       Ourproducts: "المنتجات والحلول",
       Ourproducts_text: "اكتشف حلولًا ذكية ومرنة لتحسين أداء أعمالك.",
       Show: "اطّلع على المزيد",
+
+      // --- Vision & Values ---
       our_mission: "رسالتنا",
       our_vision: "رؤيتنا",
       our_values: "قيمنا",
@@ -1389,6 +1439,8 @@ const resources = {
       value_6_title: "الذكاء التقني",
       value_6_text:
         "نمزج بين المعرفة التقنية العميقة وفهم احتياجات العملاء لنقدم حلولًا ذكية تواكب متغيرات السوق.",
+
+      // --- Why Choose Us ---
       why_choose_us: "لماذا نحن؟",
       why_choose_us_desc:
         "نقدّم حلولًا إبداعية. نستخدم مهارات القيادة عبر الوسائط قبل تطوير الابتكار. نبني منصات قياسية دون تطبيقات معقدة. نتقدم بسهولة عبر التعاون وتبادل الأفكار",
@@ -1400,6 +1452,8 @@ const resources = {
       reason_3_desc: "دعم مستمر وتحديثات دون رسوم مفاجئة للحفاظ على استقرار النظام.",
       reason_4_title: "خطط أسعار مناسبة",
       reason_4_desc: "أسعار مرنة تجعل الحلول التقنية المتقدمة في متناول المؤسسات النامية.",
+
+      // --- Tech Solutions (Hardware & Networks) ---
       Call_US: "اتصل بنا في اي وقت ",
       Started: " مرحبًا بك في نجوم العلاوي ",
       CTA_Text: " حلول برمجية متكاملة لإدارة أعمالك بكفاءة واحترافية",
@@ -1427,7 +1481,7 @@ const resources = {
       CTA_About: "   لماذا نحن ؟",
       Features: "المواصفات ",
 
-      Sales_Email: " البريد الإلكتروني للمبيعات",
+      // --- منتج: سنمار لإدارة الأملاك ---
       Pr_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
       Pr_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
       Pr_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
@@ -1445,6 +1499,7 @@ const resources = {
       Pr_feature_15: "تقارير مفصلة ومتنوعة وخيارات عرضها حسب الطلب",
       Pr_feature_16: "إعادة تقييم أصل ثابت",
 
+      // --- منتج: سنمار للشقق المفروشة ---
       Furn_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
       Furn_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
       Furn_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
@@ -1454,6 +1509,7 @@ const resources = {
       Furn_feature_7: "سند قبض أو صرف نقدي بتسلسل مستقل عن الآجل",
       Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض والصرف",
 
+      // --- منتج: سنمار للمحاسبة والمستودعات ---
       Inv_acc_feature_1: "شجرة محاسبية حتى 10 مستويات فرعية",
       Inv_acc_feature_2: "تصدير إلى Excel و Word و PDF و Txt",
       Inv_acc_feature_3: "إمكانية حفظ نسخ من المستندات داخل قيد اليومية",
@@ -1469,6 +1525,8 @@ const resources = {
       Inv_acc_feature_13: "الأصول الثابتة واحتساب الإهلاك",
       Inv_acc_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
       Inv_acc_feature_15: "تقارير تفصيلية متنوعة وخيارات عرض مخصصة",
+
+      // --- منتج: سنمار للمستودعات والمخزون ---
       Inv_feature_1: "يدعم ضريبة القيمة المضافة المتغيرة",
       Inv_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
       Inv_feature_3: "إمكانية حفظ صور للصنف داخل ملف الصنف",
@@ -1490,6 +1548,8 @@ const resources = {
       Inv_feature_17: "رسوم بيانية لحركة المبيعات والمشتريات",
       Inv_feature_18:
         "أكثر من 300 تقرير شامل ولمتابعة جميع حركات المخزون بالتفصيل",
+
+      // --- منتج: سنمار للمحاسبة العامة ---
       acc_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
       acc_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
       acc_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
@@ -1506,6 +1566,8 @@ const resources = {
       acc_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
       acc_feature_15: "تقارير مفصلة ومتنوعة وخيارات عرضها حسب الطلب",
       acc_feature_16: "إعادة تقييم أصل ثابت",
+
+      // --- منتج: سنمار للنظام الطبي ---
       Med_feature_1: "يدعم ضريبة القيمة المضافة المتغيرة",
       Med_feature_2: "شاشة سهلة الاستخدام متعددة الوظائف لفاتورة المريض",
       Med_feature_3: "التصدير إلى Excel, Word, PDF, Txt",
@@ -1525,6 +1587,8 @@ const resources = {
       Med_feature_17: "جدولة مواعيد المرضى وربطها مع الطبيب المعالج",
       Med_feature_18: "رسمة الأسنان وإمكانية اختيار السن المعالج",
       Med_feature_19: "برامج متابعة الحمل والعلاج الطبيعي",
+
+      // --- منتج: سنمار لمحطات الوقود ---
       fuel_feature_1: "يعمل مع جميع محطات البنزين الكبيرة والصغيرة",
       fuel_feature_2: "إمكانية إضافة عدد غير محدود من الطرمبات والخزانات",
       fuel_feature_3: "سهولة في الاستخدام من خلال شاشة الفواتير والسندات",
@@ -1551,6 +1615,8 @@ const resources = {
       fuel_feature_18:
         "إمكانية إضافة الأنشطة الإضافية مثل مغسلة سيارات أو بنشر أو غيره",
       fuel_feature_19: "إمكانية إصدار كوبونات للعملاء ومتابعتها",
+
+      // --- منتج: سنمار للخدمات ---
       serv_feature_1: "مناسب لجميع قطاعات بيع الخدمات بكل مرونة وسهولة",
       serv_feature_2:
         "يدعم ضريبة القيمة المضافة المتغيرة حسب توجيهات الهيئة العامة للزكاة والدخل",
@@ -1574,6 +1640,8 @@ const resources = {
       serv_feature_18: "كشوف حسابات للعملاء",
       serv_feature_19: "تقارير عن أرباح الفواتير",
       serv_feature_20: "رسم بياني للمبيعات الشهرية",
+
+      // --- منتج: سنمار لصيانة السيارات ---
       Maintenance_feature_1: "شاشات سهلة لتجهيز المعلومات الأولية للنظام",
       Maintenance_feature_2:
         "معلومات الأقسام والمهندسين وربط كل قسم بالفني أو المهندس",
@@ -1627,6 +1695,8 @@ const resources = {
       Maintenance_feature_34: "يمكن ربط أكثر من سيارة في عميل واحد",
       Maintenance_feature_35:
         "نسخ احتياطي تلقائي للبيانات في السيرفر والوسائط الخارجية",
+
+      // --- منتج: سنمار لمبيعات السيارات ---
       Car_sale_feature_1: "شاشة متكاملة لإدخال معلومات السيارات",
       Car_sale_feature_2:
         "شاشات فرعية خاصة للموديلات والمواصفات والإضافات...الخ.",
@@ -1648,6 +1718,8 @@ const resources = {
       Car_sale_feature_13: "رسم بياني للمبيعات والمشتريات",
       Car_sale_feature_14: "تقارير خاصة للأرباح والخسائر",
       Car_sale_feature_15: "أكثر من 50 تقرير مفصل وشامل",
+
+      // --- منتج: سنمار للموارد البشرية ---
       Hr_feature_1:
         "مرونة كاملة لإدخال معلومات الموظف الشخصية و المؤهلات والخبرات",
       Hr_feature_2: "إمكانية حفظ وأرشفة المستندات الخاصة بكل موظف",
@@ -1671,6 +1743,8 @@ const resources = {
         "متابعة الحضور والانصراف للموظفين والتأثير في مسير الرواتب",
       Hr_feature_19: "احتساب التأمينات الاجتماعية للسعوديين والمقيمين",
       Hr_feature_20: "نظام مرن لتتبع وتحليل الأداء الوظيفي السنوي والشهري",
+
+      // --- منتج: سنمار للاتصالات ---
       Commu_feature_1: "ربط الفروع بالمركز الرئيسي",
       Commu_feature_2: "إمكانية ربط حتى 99 فرع مع بعضهم",
       Commu_feature_3: "يحتوي النظام على 3 طرق للربط يمكن للعميل الاختيار منها",
@@ -1693,6 +1767,8 @@ const resources = {
       Commu_feature_14: "دعم فني للتأكد من تكامل الربط بين الفروع",
       Commu_feature_15:
         "أمان عالي وتشفير لحماية البيانات أثناء النقل بين الفروع",
+
+      // --- CTA Callouts ---
       Tech_Started: "حلول تقنية مبتكرة لنمو أعمالك",
       Tech_CTA_Text:
         "استفد من أنظمتنا الذكية المصممة لتلائم مختلف المجالات وابدأ التطوير الآن",
@@ -1910,7 +1986,39 @@ const resources = {
 
         q12: "هل يمكن استخدام النظام من الهاتف المحمول؟",
         a12: "نعم، النظام يوفر واجهة متجاوبة بالكامل ويمكن الوصول إليه من أي جهاز عبر المتصفح أو تطبيق الجوال.",
+
+        // الأسئلة الشائعة الخاصة بالمنتجات
+        prod_title: "الأسئلة الشائعة",
+        inv_acc_q1: "هل يدعم النظام الربط بين الفروع المتعددة؟",
+        inv_acc_a1: "نعم، يدعم نظام سنمار للمحاسبة والمستودعات ربط حتى 99 فرعاً مع مزامنة كاملة للبيانات وتقارير مجمعة.",
+        med_q1: "هل يمكن ربط النظام الطبي مع شركات التأمين؟",
+        med_a1: "بالتأكيد، النظام يتكامل مع الشركات الكبرى مثل وصيل و DHS لتقديم المطالبات آلياً.",
+        hr_q1: "هل يستطيع النظام التعامل مع هياكل الرواتب المعقدة؟",
+        hr_a1: "نعم، يدعم النظام البدلات والاستقطاعات المخصصة، وإصدار الرواتب آلياً بناءً على الحضور والغياب وعقود الموظفين.",
+        real_estate_q1: "هل يدعم النظام تنبيهات انتهاء العقود؟",
+        real_estate_a1: "نعم، يقدم النظام تنبيهات تلقائية قبل انتهاء العقود ويقوم بتتبع جداول الدفع لكل مستأجر.",
+        car_maintenance_q1: "هل يمكنني تتبع سجل المركبة عبر زيارات متعددة؟",
+        car_maintenance_a1: "نعم، يحتفظ النظام بسجل كامل لجميع بطاقات العمل، وقطع الغيار المستخدمة، والخدمات المقدمة لكل مركبة.",
+        general_acc_q1: "هل هذا النظام مناسب للمنشآت المسجلة في ضريبة القيمة المضافة؟",
+        general_acc_a1: "نعم، النظام مصمم للامتثال الكامل للضريبة، مع احتساب آلي للضرائب وإصدار الإقرارات الضريبية بضغطة زر.",
+        inventory_q1: "هل يدعم النظام المسح الضوئي للباركود؟",
+        inventory_a1: "نعم، يدعم النظام أجهزة الباركود بشكل كامل لتسريع عمليات البيع والجرد وإدارة المستودعات.",
+        real_estate_q1: "هل يمكنني إدارة عقارات ومباني متعددة؟",
+        real_estate_a1: "نعم، يتيح نظام العقارات لدينا إدارة وحدات ومباني متعددة، وتتبع عقود الإيجار والصيانة لكل مبنى بشكل مستقل.",
+        car_sale_q1: "كيف يتعامل النظام مع مدفوعات الأقساط؟",
+        car_sale_a1: "يتضمن النظام وحدة شاملة لإدارة الأقساط تتبع الجداول، التنبيهات، وفوائد التأخير.",
+        telecom_q1: "هل النظام آمن للتعامل مع حجم كبير من المعاملات؟",
+        telecom_a1: "نعم، يستخدم النظام تشفيراً عالي المستوى وقواعد بيانات SQL Server للتعامل مع كميات هائلة من البيانات بكفاءة.",
+        serv_system_q1: "هل يمكنني تتبع أداء الفنيين والمهام؟",
+        serv_system_a1: "نعم، يتيح النظام توزيع المهام وإصدار تقارير الأداء للموظفين والفنيين الميدانيين.",
+        fuel_q1: "كيف يحسب النظام كمية تبخر الوقود؟",
+        fuel_a1: "يقوم نظام سنمار للمحطات بحساب الفاقد والتبخر تلقائياً بناءً على درجات الحرارة وحركة المخزون.",
+        furnished_q1: "هل يدعم النظام أسعار الإيجار اليومي والأسبوعي والشهري؟",
+        furnished_a1: "نعم، يوفر مرونة كاملة لمدد الإيجار المختلفة، مع إصدار تلقائي للفواتير وتتبع جداول التنظيف والصيانة.",
       },
+      faq_prod_title: "الأسئلة الشائعة",
+      testi_prod_title: "آراء عملائنا",
+      testi_prod_subtitle: "نفتخر بثقة آلاف الشركات حول العالم في حلولنا التقنية المبتكرة.",
       privacy: {
         title: "سياسة الخصوصية - سينمار سوفت ERP",
 
@@ -2055,8 +2163,10 @@ const resources = {
       admin_stats_total: "إجمالي المنشورات",
       admin_stats_published: "منشورات منشورة",
 
-      // Product Landing Page
-      Prod_Ultimate_Solution: "الحل الأمثل لتطوير أعمالك",
+      // ==========================================
+      // --- PRODUCTS PAGES TRANSLATIONS (AR) ---
+      // ==========================================
+      Prod_Ultimate_Solution: "برنامج سحابي معتمد من هيئة الزكاة والدخل والضريبة",
       Prod_Efficient_Management: "لإدارة أعمالك بكفاءة واحترافية",
       Prod_Save_Time: "توفير 50% من وقت العمليات الروتينية",
       Prod_Reduce_Errors: "تقليل الأخطاء البشرية وزيادة الأرباح",
@@ -2097,6 +2207,312 @@ const resources = {
       Prod_Request_Quote: "اطلب عرض سعر مخصص",
       Prod_Start_Auto_Conf: "ابدأ رحلة تطوير أعمالك بثقة وأمان",
       Prod_Book_Offer_Now: "احجز عرضك الشامل الآن",
+      Features: "المواصفات",
+
+      // 1. سنمار للمحاسبة والمستودعات (accounting-inventory)
+      Inv_acc: "سنمار للمحاسبة والمخزون",
+      acc_Inv_Disc: "نظام متكامل للمحاسبة والمخازن يدعم الفروع، الباركود، والتقارير الضريبية المتقدمة.",
+      "Prod_Ultimate_Solution_accounting-inventory": "برنامج محاسبة ومخازن سحابي معتمد من هيئة الزكاة",
+      "Prod_Efficient_Management_accounting-inventory": "حل شامل لإدارة المستودعات والحسابات",
+      "Prod_Description_accounting-inventory": "نظام سنمار للمحاسبة والمخازن هو نظام متكامل يدعم الفروع، الباركود، والتقارير الضريبية المتقدمة، مما يوفر تحولاً رقمياً كاملاً لأعمالك.",
+      Inv_acc_feature_1: "شجرة محاسبية حتى 10 مستويات فرعية",
+      Inv_acc_feature_2: "تصدير إلى Excel و Word و PDF و Txt",
+      Inv_acc_feature_3: "إمكانية حفظ نسخ من المستندات داخل قيد اليومية",
+      Inv_acc_feature_4: "دعم حتى 99 فرعًا",
+      Inv_acc_feature_5: "ميزة مراكز التكلفة المتعددة والفردية",
+      Inv_acc_feature_6: "قاعدة بيانات SQL Server",
+      Inv_acc_feature_7: "سند قبض أو صرف نقدي بتسلسل مستقل عن المدة",
+      Inv_acc_feature_8: "إمكانية فصل النقدي عن الشيكات في القبض أو الصرف",
+      Inv_acc_feature_9: "نسخ احتياطي تلقائي",
+      Inv_acc_feature_10: "كشف حساب متعدد السنوات والفروع",
+      Inv_acc_feature_11: "أستاذ عام متعدد السنوات والفروع",
+      Inv_acc_feature_12: "صلاحيات مستقلة لكل مستخدم",
+      Inv_acc_feature_13: "الأصول الثابتة واحتساب الإهلاك",
+      Inv_acc_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
+      Inv_acc_feature_15: "تقارير تفصيلية متنوعة وخيارات عرض مخصصة",
+      Inv_acc_feature_16: "إعادة تقييم الأصل الثابت",
+
+      // 2. سنمار للمحاسبة العامة (general-accounting)
+      acc: "برنامج سنمار المحاسبي",
+      acc_desc: "نظام شامل لإدارة الحسابات العامة والقيود اليومية والتقارير المالية الدقيقة.",
+      "Prod_Ultimate_Solution_general-accounting":  "برنامج محاسبي سحابي",
+      "Prod_Efficient_Management_general-accounting": "افضل برنامج محاسبي سحابي لإدارة حسابات شركتك باحترافية",
+      "Prod_Description_general-accounting": "برنامج سنمار المحاسبي هو برنامج محاسبي سحابي متكامل يُحوّل عملياتك المالية إلى منظومة رقمية دقيقة وسريعة — ومصمم لبيئة الأعمال السعودية.",
+      "Prod_Zatca_Compliant_general-accounting": "",
+      "Prod_Trad_Err3_general-accounting": "",
+      "Prod_Auto_Adv3_general-accounting": "",
+      "Prod_ZATCA_Badge_general-accounting": "دقة 100%",
+      acc_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
+      acc_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
+      acc_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
+      acc_feature_4: "إضافة حتى 99 فرعًا",
+      acc_feature_5: "ميزة مراكز التكلفة المتعددة والفردية",
+      acc_feature_6: "قاعدة بيانات SQL Server",
+      acc_feature_7: "سند قبض أو صرف نقدي بتسلسل مستقل عن الآجل",
+      acc_feature_8: "إمكانية فصل النقدي والشيك في القبض والصرف",
+      acc_feature_9: "النسخ الاحتياطي التلقائي",
+      acc_feature_10: "كشف حساب متعدد السنوات والفروع",
+      acc_feature_11: "أستاذ عام متعدد السنوات والفروع",
+      acc_feature_12: "صلاحيات مستقلة لكل مستخدم",
+      acc_feature_13: "الأصول الثابتة واحتساب الإهلاكات",
+      acc_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
+      acc_feature_15: "تقارير مفصلة ومتنوعة وخيارات عرضها حسب الطلب",
+      acc_feature_16: "إعادة تقييم أصل ثابت",
+
+      // 3. سنمار للمخزون العام (inventory-system)
+      Inv: "سنمار للمخزون العام",
+      Inv_Disc: "أداة فعالة لإدارة المخزون، تتبع المنتجات، وربطها مع الموردين والفواتير.",
+      "Prod_Ultimate_Solution_inventory-system": "نظام إدارة مخزون احترافي معتمد من هيئة الزكاة",
+      "Prod_Efficient_Management_inventory-system": "حل ذكي لتتبع المستودعات والتحكم في المخزون",
+      "Prod_Description_inventory-system": "أداة فعالة لإدارة المخزون، تتبع المنتجات، وربطها مع الموردين والفواتير بدقة وسهولة تامة.",
+      Inv_feature_1: "يدعم ضريبة القيمة المضافة المتغيرة",
+      Inv_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
+      Inv_feature_3: "إمكانية حفظ صور للصنف داخل ملف الصنف",
+      Inv_feature_4: "تجميع وربط الفروع حتى 99 فرعًا",
+      Inv_feature_5: "فاتورة مبيعات بمزايا نقاط البيع",
+      Inv_feature_6: "قاعدة بيانات SQL Server",
+      Inv_feature_7: "الميزان الإلكتروني وربطه مع الأصناف",
+      Inv_feature_8: "النسخ الاحتياطي التلقائي",
+      Inv_feature_9: "إنشاء وطباعة الباركود للصنف",
+      Inv_feature_10: "صلاحيات مستقلة لكل مستخدم",
+      Inv_feature_11: "احتساب مصاريف الشراء داخل فاتورة الشراء",
+      Inv_feature_12: "متعدد اللغات",
+      Inv_feature_13: "بدائل للأصناف وربطها بملف الأصناف",
+      Inv_feature_14: "سندات جرد تلقائي والاستيراد من إكسل",
+      Inv_feature_15: "إصدار طلبيات مقترحة أتوماتيكيًا حسب حركة الصنف والتعديل عليها",
+      Inv_feature_16: "التعامل مع الموردين بالعملة الأصلية للمورد واحتساب آلي للتكلفة",
+      Inv_feature_17: "رسوم بيانية لحركة المبيعات والمشتريات",
+      Inv_feature_18: "أكثر من 300 تقرير شامل ولمتابعة جميع حركات المخزون بالتفصيل",
+
+      // 4. سنمار لإدارة الممتلكات (real-estate-management)
+      Pr: "سنمار لإدارة الممتلكات",
+      Pr_Disc: "نظام احترافي لإدارة العقارات والإيجارات والعقود وسجلات الملاك والمستأجرين.",
+      "Prod_Ultimate_Solution_real-estate-management": "نظام إدارة أملاك وعقارات معتمد من هيئة الزكاة",
+      "Prod_Efficient_Management_real-estate-management": "حل متكامل لإدارة العقارات والإيجارات",
+      "Prod_Description_real-estate-management": "نظام احترافي لإدارة العقارات والإيجارات والعقود وسجلات الملاك والمستأجرين مع تكامل مالي كامل.",
+      Pr_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
+      Pr_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
+      Pr_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
+      Pr_feature_4: "إضافة حتى 99 فرع",
+      Pr_feature_5: "ميزة مراكز التكلفة المتعددة والفردية",
+      Pr_feature_6: "قاعدة بيانات SQL Server",
+      Pr_feature_7: "سند قبض أو صرف نقدي بتسلسل مستقل عن الآجل",
+      Pr_feature_8: "إمكانية فصل النقدي والشيك في القبض والصرف",
+      Pr_feature_9: "النسخ الاحتياطي التلقائي",
+      Pr_feature_10: "كشف حساب متعدد السنوات والفروع",
+      Pr_feature_11: "أستاذ عام متعدد السنوات والفروع",
+      Pr_feature_12: "صلاحيات مستقلة لكل مستخدم",
+      Pr_feature_13: "الأصول الثابتة واحتساب الإهلاكات",
+      Pr_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
+      Pr_feature_15: "تقارير مفصلة ومتنوعة وخيارات عرضها حسب الطلب",
+      Pr_feature_16: "إعادة تقييم أصل ثابت",
+
+      // 5. سنمار لنظام الشقق المفروشة (furnished-apartments)
+      Furn: "سنمار لنظام الشقق المفروشة",
+      Furn_Disc: "نظام مخصص لإدارة حجوزات وتأجير الشقق المفروشة مع تقارير يومية وسجل العملاء.",
+      "Prod_Ultimate_Solution_furnished-apartments": "نظام إدارة شقق مفروشة متخصص معتمد من هيئة الزكاة",
+      "Prod_Efficient_Management_furnished-apartments": "إدارة حجوزاتك وإيجاراتك باحترافية",
+      "Prod_Description_furnished-apartments": "نظام مخصص لإدارة حجوزات وتأجير الشقق المفروشة مع تقارير يومية وسجل العملاء وتتبع مالي دقيق.",
+      Furn_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
+      Furn_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
+      Furn_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
+      Furn_feature_4: "إضافة حتى 99 فرع",
+      Furn_feature_5: "ميزة مراكز التكلفة المتعددة والفردية",
+      Furn_feature_6: "قاعدة بيانات SQL Server",
+      Furn_feature_7: "سند قبض أو صرف نقدي بتسلسل مستقل عن الآجل",
+      Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض والصرف",
+
+      // 6. سنمار للنظام الطبي (medical-system)
+      Med: "سنمار للنظام الطبي",
+      Med_Disc: "حل طبي متكامل لإدارة العيادات والمواعيد وسجلات المرضى والفواتير الطبية.",
+      "Prod_Ultimate_Solution_medical-system": "نظام إدارة طبية متكامل معتمد من هيئة الزكاة",
+      "Prod_Efficient_Management_medical-system": "حل رقمي شامل للعيادات والمراكز الطبية",
+      "Prod_Description_medical-system": "حل طبي متكامل لإدارة العيادات والمواعيد وسجلات المرضى والفواتير الطبية مع الربط مع شركات التأمين.",
+      Med_feature_1: "يدعم ضريبة القيمة المضافة المتغيرة",
+      Med_feature_2: "شاشة فواتير للمرضى سهلة الاستخدام ومتعددة المهام",
+      Med_feature_3: "التصدير إلى Excel, Word, PDF, Txt",
+      Med_feature_4: "إمكانية أرشفة الصور في ملف المريض",
+      Med_feature_5: "الربط مع شركتي وصيل (Waseel) و D.H.S",
+      Med_feature_6: "إرسال المطالبات لشركات التأمين آلياً",
+      Med_feature_7: "قاعدة بيانات SQL Server",
+      Med_feature_8: "يحتوي على سجل طبي إلكتروني كامل للأطباء",
+      Med_feature_9: "النسخ الاحتياطي التلقائي",
+      Med_feature_10: "دعم مفصل لعقود التأمين حسب الاتفاقية",
+      Med_feature_11: "صلاحيات مستقلة لكل مستخدم",
+      Med_feature_12: "الربط مع الصيدلية والمحاسبة العامة",
+      Med_feature_13: "متعدد اللغات",
+      Med_feature_14: "يدعم قسم الأشعة والمختبر مع أرشفة النتائج",
+      Med_feature_15: "ميزة الرسائل النصية القصيرة SMS",
+      Med_feature_16: "إصدار الإجازات المرضية والاستعلام عنها",
+      Med_feature_17: "مواعيد المرضى وربطها بالطبيب",
+      Med_feature_18: "رسم الأسنان واختيار السن الذي تم العمل عليه",
+      Med_feature_19: "برامج متابعة الحمل والعلاج الطبيعي",
+
+      // 7. سنمار لصيانة السيارات (car-maintenance)
+      Maintenance: "سنمار لصيانة السيارات",
+      Maintenance_Disc: "نظام لإدارة عمليات صيانة السيارات، سجل الفواتير، وتفاصيل الأعطال وقطع الغيار.",
+      "Prod_Ultimate_Solution_car-maintenance": "نظام ورش صيانة السيارات معتمد من هيئة الزكاة",
+      "Prod_Efficient_Management_car-maintenance": "إدارة فعالة لبطاقات العمل والورشة",
+      "Prod_Description_car-maintenance": "نظام كامل لإدارة عمليات صيانة السيارات، سجل الفواتير، تفاصيل الأعطال، وتتبع قطع الغيار بكل دقة.",
+      Maintenance_feature_1: "شاشات سهلة لتهيئة بيانات النظام الأساسية",
+      Maintenance_feature_2: "بيانات الأقسام والمهندسين مع ربط كل قسم بالفنيين",
+      Maintenance_feature_3: "بيانات خدمات الورشة وربطها بالأقسام المعنية",
+      Maintenance_feature_4: "يدعم ضريبة القيمة المضافة المتغيرة حسب هيئة الزكاة",
+      Maintenance_feature_5: "التصدير إلى Excel و Word و PDF",
+      Maintenance_feature_6: "إرسال رسائل نصية SMS تذكيرية للعملاء",
+      Maintenance_feature_7: "طرق دفع متعددة: نقدي، شبكة، فيزا وغيرها",
+      Maintenance_feature_8: "إصدار الفواتير الإلكترونية والربط مع النظام المحاسبي",
+      Maintenance_feature_9: "فتح أكثر من بطاقة عمل للسيارة الواحدة ومتابعتها خطوة بخطوة",
+      Maintenance_feature_10: "سهولة إدخال بيانات السيارة والبحث عنها داخل الورشة",
+      Maintenance_feature_11: "متابعة حالة السيارات الموجودة بالورشة بسهولة",
+      Maintenance_feature_12: "متابعة حركة الفنيين والمهندسين من خلال تقارير مفصلة",
+      Maintenance_feature_13: "متابعة قطع الغيار المنصرفة لسيارات الورشة",
+      Maintenance_feature_14: "مراقبة مستودع قطع غيار الورشة",
+      Maintenance_feature_15: "مراقبة فواتير المشتريات الخارجية لسيارات الورشة",
+      Maintenance_feature_16: "سهولة عمل أمر إصلاح وتسجيل طلبات العميل",
+      Maintenance_feature_17: "إصدار فواتير صيانة بناءً على أوامر الإصلاح المنتهية",
+      Maintenance_feature_18: "متابعة أرصدة العملاء وحالتهم المالية",
+      Maintenance_feature_19: "تقارير شاملة عن أوامر الإصلاح وفواتير الصيانة",
+      Maintenance_feature_20: "شاشات مساعدة تظهر في جميع أجزاء النظام عند الحاجة",
+      Maintenance_feature_21: "إمكانية عمل عرض سعر للإصلاح قبل البدء",
+      Maintenance_feature_22: "إصدار أمر الشغل وربطه بالفاتورة آلياً",
+      Maintenance_feature_23: "كشف بموعد وساعة خروج السيارة من الورشة",
+      Maintenance_feature_24: "سندات قبض وصرف للعملاء والموردين مع رسائل SMS عند الدفع",
+      Maintenance_feature_25: "سندات تسوية لتعديل أرصدة العملاء بالخصومات",
+      Maintenance_feature_26: "شاشة مشتريات/خدمات خارجية مع ترحيل آلي",
+      Maintenance_feature_27: "تقارير مفصلة عن الأقسام والمهندسين وأوامر الإصلاح",
+      Maintenance_feature_28: "تقارير الأرباح والخسائر وفواتير الصيانة لأي فترة",
+      Maintenance_feature_29: "تقارير مفصلة لمشتريات قطع الغيار (داخلية/خارجية) للسيارات",
+      Maintenance_feature_30: "الضمان بتاريخ معين أو عداد كيلومتر في أمر الشغل",
+      Maintenance_feature_31: "تحديد تاريخ انتهاء أمر الشغل",
+      Maintenance_feature_32: "ترحيل أوامر الشغل غير المنتهية للعام الجديد آلياً",
+      Maintenance_feature_33: "ربط عدة فروع لمراقبة المخازن",
+      Maintenance_feature_34: "ربط أكثر من سيارة لعميل واحد",
+      Maintenance_feature_35: "نسخ احتياطي تلقائي للسيرفر والوسائط الخارجية",
+
+      // 8. سنمار لمبيعات السيارات (car-sales)
+      Car_sale: "سنمار لمبيعات السيارات",
+      Car_sale_Disc: "برنامج متخصص لمعارض السيارات يشمل إدارة العروض، البيع، العملاء، والأقساط.",
+      "Prod_Ultimate_Solution_car-sales": "نظام مبيعات ومعارض سيارات معتمد من هيئة الزكاة",
+      "Prod_Efficient_Management_car-sales": "إدارة مخزون السيارات ومبيعات الأقساط بكل سهولة",
+      "Prod_Description_car-sales": "برنامج متخصص لمعارض السيارات يشمل إدارة العروض، البيع، العملاء، والأقساط مع تقارير مفصلة.",
+      Car_sale_feature_1: "شاشة شاملة لإدخال بيانات السيارات",
+      Car_sale_feature_2: "شاشات فرعية للموديلات والمواصفات والإضافات",
+      Car_sale_feature_3: "سندات صرف اللوحات والتسليم والاستلام",
+      Car_sale_feature_4: "إمكانية إضافة أو سحب أو جرد السيارات مع تقارير مفصلة",
+      Car_sale_feature_5: "فواتير مبيعات وعروض أسعار وتجهيز",
+      Car_sale_feature_6: "يدعم ضريبة القيمة المضافة المتغيرة حسب هيئة الزكاة",
+      Car_sale_feature_7: "بيانات شاملة عن مندوبي المبيعات والخدمات الإضافية",
+      Car_sale_feature_8: "فواتير مشتريات مع احتساب آلي للعملة الصعبة والتكاليف الإضافية",
+      Car_sale_feature_9: "مذكرات طلب بالعملة المحلية أو الأجنبية مع تقارير مفصلة",
+      Car_sale_feature_10: "بيانات العملاء والموردين مع سجل كامل للتعاملات",
+      Car_sale_feature_11: "سندات قبض وصرف وسندات تسوية",
+      Car_sale_feature_12: "كشوف حساب للعملاء والموردين مع نظرة عامة على الحالة المالية",
+      Car_sale_feature_13: "تقارير رسوم بيانية للمبيعات والمشتريات",
+      Car_sale_feature_14: "تقارير خاصة للأرباح والخسائر",
+      Car_sale_feature_15: "أكثر من 50 تقرير مفصل وشامل",
+
+      // 9. سنمار لشؤون الموظفين (hr-system)
+      Hr: "سنمار لشؤون الموظفين",
+      Hr_Disc: "نظام شؤون موظفين متكامل لإدارة الحضور، الرواتب، والإجازات والملفات الشخصية.",
+      "Prod_Ultimate_Solution_hr-system": "نظام موارد بشرية ورواتب متكامل معتمد من هيئة الزكاة",
+      "Prod_Efficient_Management_hr-system": "إدارة كاملة لشؤون الموظفين والرواتب",
+      "Prod_Description_hr-system": "نظام شؤون موظفين متكامل لإدارة الحضور، الرواتب، والإجازات والملفات الشخصية مع امتثال قانوني كامل.",
+      Hr_feature_1: "مرونة كاملة لإدخال معلومات الموظف الشخصية و المؤهلات والخبرات",
+      Hr_feature_2: "إمكانية حفظ وأرشفة المستندات الخاصة بكل موظف",
+      Hr_feature_3: "إمكانية حفظ صورة الموظف لطباعتها على المستندات الخاصة به",
+      Hr_feature_4: "الحرية الكاملة في تعريف مسميات بنود البدلات",
+      Hr_feature_5: "معالجة آلية لسلف الموظفين من حيث اقتطاعها",
+      Hr_feature_6: "إصدار آلي لتسوية مستحقات إجازات الموظفين",
+      Hr_feature_7: "مسير الرواتب حسب التصنيف المطلوب من فرع أو إدارة",
+      Hr_feature_8: "عرض مسير للرواتب أو كشوفات منفصلة",
+      Hr_feature_9: "متابعة دقيقة لإجازات الموظفين وتذاكرهم ومستحقاتهم",
+      Hr_feature_10: "إصدار أمر الأجر الإضافي ومعالجته في مسير الرواتب",
+      Hr_feature_11: "متابعة أوامر الخصم التي تتم على الموظفين وترحيلها",
+      Hr_feature_12: "حفظ جميع المعلومات الخاصة بالموظفين خارج الخدمة",
+      Hr_feature_13: "إمكانية نقل موظف من إدارة إلى أخرى أو فرع إلى آخر",
+      Hr_feature_14: "متابعة لعقود العاملين وبنودها وتواريخ بدئها وانتهائها",
+      Hr_feature_15: "إمكانية طباعة استمارة الجوازات من خلال شاشة مبسطة",
+      Hr_feature_16: "أكثر من 70 تقرير متنوع ومفصل وشامل لكل جزئية في النظام",
+      Hr_feature_17: "تقارير متنوعة عن الوثائق الرسمية التي ستنتهي خلال فترة معينة",
+      Hr_feature_18: "متابعة الحضور والانصراف للموظفين والتأثير في مسير الرواتب",
+      Hr_feature_19: "احتساب التأمينات الاجتماعية للسعوديين والمقيمين",
+      Hr_feature_20: "نظام مرن لتتبع وتحليل الأداء الوظيفي السنوي والشهري",
+
+      // 10. نظام سنمار للاتصالات (telecom-system)
+      Commu: "نظام سنمار للاتصالات",
+      commu_Disc: "حل موجه لإدارة شركات الاتصالات وخدمات العملاء والفواتير ومتابعة الشحنات.",
+      "Prod_Ultimate_Solution_telecom-system": "نظام اتصالات وربط فروع معتمد من هيئة الزكاة",
+      "Prod_Efficient_Management_telecom-system": "مزامنة ذكية وإدارة فروع متطورة",
+      "Prod_Description_telecom-system": "حل موجه لإدارة شركات الاتصالات وخدمات العملاء والفواتير ومتابعة الشحنات عبر عدة فروع بكل سهولة.",
+      Commu_feature_1: "ربط الفروع بالمركز الرئيسي",
+      Commu_feature_2: "إمكانية ربط حتى 99 فرع مع بعضهم",
+      Commu_feature_3: "يحتوي النظام على 3 طرق للربط يمكن للعميل الاختيار منها",
+      Commu_feature_4: "أولاً: نظام التجميع - جمع بيانات الفروع يدوياً أو تلقائياً من خلال المركز الرئيسي",
+      Commu_feature_5: "إمكانية ترتيب جمع البيانات من الفروع حسب تسلسل العميل",
+      Commu_feature_6: "جمع جميع البيانات: فواتير، أصناف، حسابات من كل فرع",
+      Commu_feature_7: "مزامنة تلقائية لسحب البيانات كل ساعة أو حسب الحاجة",
+      Commu_feature_8: "عرض بيانات الفروع دون الحاجة لإعادة الاتصال بعد التجميع",
+      Commu_feature_9: "ثانياً: نظام الإرسال - إرسال أرصدة المخزون فقط لبقية الفروع",
+      Commu_feature_10: "عرض أرصدة الأصناف للفروع الأخرى من خلال شاشة الأصناف",
+      Commu_feature_11: "ثالثاً: النظام المباشر - الاتصال المباشر والعمل كوحدة فرعية",
+      Commu_feature_12: "الدخول المباشر إلى الفرع للاطلاع على التقارير أو إجراء تسويات",
+      Commu_feature_13: "مرونة كاملة في اختيار طريقة الربط التي تناسب طبيعة العمل",
+      Commu_feature_14: "دعم فني للتأكد من تكامل الربط بين الفروع",
+      Commu_feature_15: "أمان عالي وتشفير لحماية البيانات أثناء النقل بين الفروع",
+
+      // 11. سنمار للخدمات (services-system)
+      serv: "سنمار للخدمات",
+      serv_Disc: "نظام لإدارة شركات الخدمات العامة وتوزيع المهام وتقديم تقارير الأداء.",
+      "Prod_Ultimate_Solution_services-system": "نظام إدارة الخدمات العامة معتمد من هيئة الزكاة",
+      "Prod_Efficient_Management_services-system": "تتبع طلبات الخدمة والمهام بكفاءة",
+      "Prod_Description_services-system": "نظام لإدارة شركات الخدمات العامة وتوزيع المهام وتقديم تقارير الأداء مع تتبع مالي دقيق.",
+      serv_feature_1: "مناسب لجميع قطاعات مبيعات الخدمات بمرونة وسهولة",
+      serv_feature_2: "يدعم ضريبة القيمة المضافة المتغيرة حسب لوائح هيئة الزكاة",
+      serv_feature_3: "تعريف تسعير الخدمات حسب النوع",
+      serv_feature_4: "تحويل السندات أو عروض الأسعار إلى فواتير بسهولة",
+      serv_feature_5: "متابعة التعاملات المالية مع العملاء والموردين عبر تقارير شاملة",
+      serv_feature_6: "سند قبض مبسط وكامل للمغاسل",
+      serv_feature_7: "تقارير الأرباح لكل فاتورة لأي فترة زمنية",
+      serv_feature_8: "لوحات تحكم رسومية لدعم القرارات الإدارية",
+      serv_feature_9: "تقارير حركة مبيعات شاملة حسب الفترة المطلوبة",
+      serv_feature_10: "سندات بسيطة للقبض والصرف والتسوية",
+      serv_feature_11: "كشوف حساب للعملاء لأي نطاق زمني",
+      serv_feature_12: "إمكانية تقديم عروض أسعار وتسعير للخدمات",
+      serv_feature_13: "بيانات العملاء مع حدود الائتمان",
+      serv_feature_14: "سندات قبض وصرف وتسوية للعملاء",
+      serv_feature_15: "شاشة فاتورة سهلة الاستخدام",
+      serv_feature_16: "أدوات مساعدة متعددة داخل الفاتورة",
+      serv_feature_17: "تقارير فواتير مفصلة ومتنوعة",
+      serv_feature_18: "كشوف حسابات العملاء",
+      serv_feature_19: "تقارير أرباح الفواتير",
+      serv_feature_20: "رسم بياني للمبيعات الشهرية",
+
+      // 12. سنمار لمحطات الوقود (fuel-station)
+      fuel: "سنمار لمحطات الوقود",
+      Fule_Disc: "نظام محطات الوقود لإدارة الضخ والمخزون، والمحاسبة اليومية لكل مضخة.",
+      "Prod_Ultimate_Solution_fuel-station": "نظام إدارة محطات الوقود والمضخات معتمد من هيئة الزكاة",
+      "Prod_Efficient_Management_fuel-station": "مراقبة الخزانات والمضخات في الوقت الحقيقي",
+      "Prod_Description_fuel-station": "نظام محطات الوقود لإدارة الضخ والمخزون، والمحاسبة اليومية لكل مضخة مع مراقبة عن بعد.",
+      fuel_feature_1: "متوافق مع جميع محطات الوقود الكبيرة والصغيرة",
+      fuel_feature_2: "إمكانية إضافة عدد غير محدود من المضخات والخزانات",
+      fuel_feature_3: "واجهة سهلة الاستخدام للفواتير والسندات",
+      fuel_feature_4: "تتبع حركة البنزين، الديزل، الكيروسين وغيرها",
+      fuel_feature_5: "بيع الخدمات الخارجية المتنوعة مثل مغسلة السيارات وغيرها",
+      fuel_feature_6: "إنشاء حسابات العملاء والموردين ومتابعة الأرصدة والتقارير",
+      fuel_feature_7: "احتساب كمية تبخر الوقود عند استلام المشتريات",
+      fuel_feature_8: "مراقبة صرف الوقود بتقارير مفصلة لكل مضخة",
+      fuel_feature_9: "متابعة المدفوعات للموردين وعملاء الآجل (أفراد أو شركات)",
+      fuel_feature_10: "مراقبة أرصدة الوقود المتبقية في جميع الخزانات",
+      fuel_feature_11: "تخصيص تسعير خاص لعملاء الآجل",
+      fuel_feature_12: "تغيير الأسعار في أي وقت حسب متطلبات الهيئة",
+      fuel_feature_13: "تقارير مبيعات/مشتريات يومية وسهولة الوصول للبيانات المالية",
+      fuel_feature_14: "الربط مع محاسبة سنمار والترحيل الآلي لقيود اليومية",
+      fuel_feature_15: "تقارير مستندات مفصلة ومصنفة وشاملة",
+      fuel_feature_16: "مراقبة سير العمل عن بعد بكل سهولة",
+      fuel_feature_17: "ربط الفروع عن بعد",
+      fuel_feature_18: "إضافة خدمات إضافية كغسيل السيارات، تغيير الزيوت وغيرها",
+      fuel_feature_19: "إصدار ومتابعة كوبونات العملاء",
     },
   },
 };

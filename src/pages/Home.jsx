@@ -23,7 +23,11 @@ function Home() {
       <Testimonial />
       <Partenrs />
 
-      <CTA heading={t("Started")} subheading={t("CTA_Text")} />
+      <CTA 
+        heading={t("Started")} 
+        subheading={t("CTA_Text")} 
+        btnText={t("Start_btn")}
+      />
     </div>
   );
 }
