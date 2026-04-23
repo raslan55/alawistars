@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const { Sequelize, DataTypes } = require('sequelize');
 const cors = require('cors');
+const { S3Client, PutObjectCommand } = require('@aws-sdk/client-s3');
 require('dotenv').config();
 
 const app = express();
@@ -153,6 +154,47 @@ async function initializeDatabase() {
     console.error('Unable to connect to database:', error);
     process.exit(1);
   }
+}
+
+// S3 helpers
+const s3Client = new S3Client({
+  region: process.env.REGION,
+  endpoint: process.env.ENDPOINT,
+  credentials: {
+    accessKeyId: process.env.ACCESS_KEY_ID,
+    secretAccessKey: process.env.SECRET_ACCESS_KEY,
+  },
+  forcePathStyle: true,
+});
+
+async function uploadImageToS3(base64ImageData, filename) {
+  // Strip the data URI prefix (e.g. "data:image/jpeg;base64,") and decode
+  const matches = base64ImageData.match(/^data:([^;]+);base64,(.+)$/);
+  if (!matches) {
+    throw new Error('Invalid base64 image data: missing data URI prefix');
+  }
+  const contentType = matches[1];
+  const buffer = Buffer.from(matches[2], 'base64');
+
+  await s3Client.send(
+    new PutObjectCommand({
+      Bucket: process.env.BUCKET,
+      Key: filename,
+      Body: buffer,
+      ContentType: contentType,
+      ACL: 'public-read',
+    })
+  );
+
+  // Build the public URL from the configured endpoint and bucket
+  const endpoint = (process.env.ENDPOINT || '').replace(/\/$/, '');
+  const bucket = process.env.BUCKET;
+  const region = process.env.REGION;
+
+  if (endpoint) {
+    return `${endpoint}/${bucket}/${filename}`;
+  }
+  return `https://${bucket}.s3.${region}.amazonaws.com/${filename}`;
 }
 
 // Routes
