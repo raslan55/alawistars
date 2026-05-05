@@ -1,3 +1,4 @@
+import React from "react";
 import {
   FaNetworkWired,
   FaServer,
@@ -6,8 +7,11 @@ import {
   FaTools,
   FaCogs,
 } from "react-icons/fa";
+import * as FaIcons from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import ServiceService from "../services/serviceService";
+import { useState, useEffect } from "react";
 
 const solutions = [
   {
@@ -49,7 +53,23 @@ const solutions = [
 ];
 
 export default function TechSolutions() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const [apiServices, setApiServices] = useState([]);
+  const lang = i18n.language.startsWith("ar") ? "ar" : "en";
+
+  useEffect(() => {
+    ServiceService.fetchAll().then(data => {
+      if (data && data.length > 0) setApiServices(data);
+    });
+  }, []);
+
+  const displayServices = apiServices.length > 0 ? apiServices.map(s => ({
+    id: s.id,
+    title: lang === 'ar' ? s.title_ar : s.title_en,
+    description: lang === 'ar' ? s.description_ar : s.description_en,
+    icon: FaIcons[s.icon_name] ? React.createElement(FaIcons[s.icon_name], { className: "w-7 h-7" }) : <FaIcons.FaTools className="w-7 h-7" />,
+    isApi: true
+  })) : solutions;
 
   return (
     <>
@@ -81,7 +101,7 @@ export default function TechSolutions() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {solutions.map((item, idx) => (
+            {displayServices.map((item, idx) => (
               <motion.div
                 key={item.id}
                 initial={{ opacity: 0, y: 40 }}
@@ -95,10 +115,10 @@ export default function TechSolutions() {
                   {item.icon}
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-slate-800 leading-snug">
-                  {t(item.title)}
+                  {item.isApi ? item.title : t(item.title)}
                 </h3>
                 <p className="text-slate-600 text-[15px] leading-relaxed font-medium">
-                  {t(item.description)}
+                  {item.isApi ? item.description : t(item.description)}
                 </p>
               </motion.div>
             ))}

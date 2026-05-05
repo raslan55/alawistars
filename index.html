@@ -33,17 +33,33 @@
   <meta name="robots" content="index, follow" />
 
 
- <!-- Google Tag Manager -->
-  
+ <!-- Google Tag Manager (deferred loader) -->
+
 <script>
-  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5SN7Z7JS');
+  // Defer loading GTM until user interaction or idle to improve LCP
+  (function(){
+    var gtmId = 'GTM-5SN7Z7JS';
+    var loaded = false;
+    function loadGTM(){
+      if(loaded) return; loaded = true;
+      var d = document, s = 'script', f = d.getElementsByTagName(s)[0];
+      var j = d.createElement(s); j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + gtmId;
+      f.parentNode.insertBefore(j, f);
+    }
+    // Load after short idle period
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(function(){ setTimeout(loadGTM, 1500); }, {timeout: 3000});
+    } else {
+      setTimeout(loadGTM, 3000);
+    }
+    // Also load on first user interaction
+    ['click','keydown','scroll','mousemove','touchstart'].forEach(function(evt){
+      window.addEventListener(evt, loadGTM, {once:true, passive:true});
+    });
+  })();
 </script>
 
-<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager (deferred loader) -->
 
   </head>
 

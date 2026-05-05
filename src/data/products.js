@@ -2,7 +2,7 @@ const products = [
   {
     id: 1,
     title: "Inv_acc",
-    image: "/Productes/accounting_inventory.webp",
+    image: "/Productes/F2.png",
     slug: "accounting-inventory",
     description: "acc_Inv_Disc",
     features: [...Array(16)].map((_, i) => `Inv_acc_feature_${i + 1}`),
@@ -10,7 +10,7 @@ const products = [
   {
     id: 2,
     title: "acc",
-    image: "/Productes/screen ac .webp",
+    image: "/Productes/ac f.webp",
     slug: "general-accounting",
     description: "acc_desc",
     features: [...Array(16)].map((_, i) => `acc_feature_${i + 1}`),
@@ -18,7 +18,7 @@ const products = [
   {
     id: 3,
     title: "Inv",
-    image: "/Productes/inventory_system.webp",
+    image: "/Productes/INF f.webp",
     slug: "inventory-system",
     description: "Inv_Disc",
     features: [...Array(18)].map((_, i) => `Inv_feature_${i + 1}`),

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import { useTranslation } from "react-i18next";
 import {
   FaShieldAlt,
@@ -16,11 +16,32 @@ import {
 } from "react-icons/fa";
 import CTO from "../assets/Images/CTO.jpg";         // Adjust the path as necessary
 import Manger from "../assets/Images/10102644.jpg"; // Adjust the path as necessary
-import CTA from "./CTA";
 import { motion } from "framer-motion";
+import SettingsService from "../services/settingsService";
+import { useState, useEffect } from "react";
+
+const CTA = lazy(() => import("./CTA"));
+
+const LoadingFallback = () => (
+  <div className="h-64 bg-gradient-to-r from-gray-100 to-gray-50 animate-pulse" />
+);
 
 const AboutUs = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const [settings, setSettings] = useState(null);
+  const lang = i18n.language.startsWith("ar") ? "ar" : "en";
+
+  useEffect(() => {
+    SettingsService.fetchAll().then(data => {
+      if (data) setSettings(data);
+    });
+  }, []);
+
+  const getS = (key, fallback) => {
+    if (!settings || !settings[key]) return t(fallback);
+    const val = lang === 'ar' ? settings[key].value_ar : settings[key].value_en;
+    return val || t(fallback);
+  };
 
   const values = [
     {
@@ -188,20 +209,18 @@ const AboutUs = () => {
           <article className="group overflow-hidden rounded-[16px] shadow-[0_8px_18px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(0,0,0,0.12)]">
             <div className="relative overflow-hidden h-56">
               <img
-                src={Manger}
+                src={settings?.team1_image?.value_en || Manger}
                 alt="المدير العام"
                 className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
               />
               <span className="absolute top-3 right-3 rounded-full bg-[#0F2D5E] px-3 py-1 text-[11px] font-bold text-white shadow-lg">
-                {t("MANAGER_DATE")}
+                {getS("team1_date", "MANAGER_DATE")}
               </span>
             </div>
             <div className="bg-white p-5">
-              <h2 className="text-right text-[18px] font-bold text-slate-900 mb-2">{t("MANAGER_TITLE")}</h2>
-              <p className="text-right text-[14px] text-slate-600 leading-relaxed">
-                {t("MANAGER_PARAGRAPH")}
-                {t("MANAGER_PARAGRAPH_2")}
-                {t("MANAGER_PARAGRAPH_3")}
+              <h2 className="text-right text-[18px] font-bold text-slate-900 mb-2">{getS("team1_name", "MANAGER_TITLE")}</h2>
+              <p className="text-right text-[14px] text-slate-600 leading-relaxed whitespace-pre-line">
+                {getS("team1_bio", "MANAGER_PARAGRAPH")}
               </p>
             </div>
           </article>
@@ -210,33 +229,31 @@ const AboutUs = () => {
           <article className="group overflow-hidden rounded-[16px] shadow-[0_8px_18px_rgba(0,0,0,0.08)] transition-transform duration-300 hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(0,0,0,0.12)]">
             <div className="relative overflow-hidden h-56">
               <img
-                src={CTO}
+                src={settings?.team2_image?.value_en || CTO}
                 alt="المدير الفني"
                 className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
               />
               <span className="absolute top-3 right-3 rounded-full bg-[#0F2D5E] px-3 py-1 text-[11px] font-bold text-white shadow-lg">
-                {t("TECHNICAL_MANAGER_DATE")}
+                {getS("team2_date", "TECHNICAL_MANAGER_DATE")}
               </span>
             </div>
             <div className="bg-white p-5">
-              <h2 className="text-right text-[18px] font-bold text-slate-900 mb-2"> {t("TECHNICAL_MANAGER_TITLE")} </h2>
-              <p className="text-right text-[14px] text-slate-600 leading-relaxed">
-                {t("TECHNICAL_MANAGER_PARAGRAPH")}
-                <br />
-                {t("TECHNICAL_MANAGER_PARAGRAPH_2")}
-                <br />
-                {t("TECHNICAL_MANAGER_PARAGRAPH_3")}
+              <h2 className="text-right text-[18px] font-bold text-slate-900 mb-2"> {getS("team2_name", "TECHNICAL_MANAGER_TITLE")} </h2>
+              <p className="text-right text-[14px] text-slate-600 leading-relaxed whitespace-pre-line">
+                {getS("team2_bio", "TECHNICAL_MANAGER_PARAGRAPH")}
               </p>
             </div>
           </article>
         </div>
       </section>
 
-      <CTA 
-        heading={t("About_Started")} 
-        subheading={t("About_CTA_Text")} 
-        btnText={t("read_more")}
-      />
+      <Suspense fallback={<LoadingFallback />}>
+        <CTA 
+          heading={t("About_Started")} 
+          subheading={t("About_CTA_Text")} 
+          btnText={t("read_more")}
+        />
+      </Suspense>
       
     </>
   );

@@ -4,6 +4,9 @@ import { useTranslation } from "react-i18next";
 import { Thumbs, Keyboard, Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
+import PartnerService from "../services/partnerService";
+import SettingsService from "../services/settingsService";
+import { useState, useEffect, useCallback } from "react";
 
 import "swiper/css";
 import { motion } from "framer-motion";
@@ -63,6 +66,9 @@ const images = [
 
 export default function Partenrs() {
   const { t, i18n } = useTranslation();
+  const [apiPartners, setApiPartners] = useState([]);
+  const [apiStats, setApiStats] = useState([]);
+  const [loading, setLoading] = useState(true);
   const isRTL = i18n.dir() === "rtl";
   const MotionLink = motion(Link);
   const dir = i18n.language === "ar" ? "rtl" : "ltr";
@@ -81,6 +87,25 @@ export default function Partenrs() {
     hidden: { opacity: 0, y: 30 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   };
+
+  useEffect(() => {
+    const loadData = async () => {
+      const partners = await PartnerService.fetchAll();
+      const stats = await SettingsService.fetchStats();
+      if (partners && partners.length > 0) setApiPartners(partners);
+      if (stats && stats.length > 0) setApiStats(stats);
+      setLoading(false);
+    };
+    loadData();
+  }, []);
+
+  const displayPartners = apiPartners.length > 0 ? apiPartners : images;
+  const displayStats = apiStats.length > 0 ? apiStats : [
+    { stat_key: 'pc', value: "500+", label_en: t("pc"), label_ar: t("pc"), icon_color: "bg-blue-500" },
+    { stat_key: 'erp', value: "1000+", label_en: t("ERP"), label_ar: t("ERP"), icon_color: "bg-indigo-500" },
+    { stat_key: 'ps', value: "2000+", label_en: t("PS"), label_ar: t("PS"), icon_color: "bg-emerald-500" },
+    { stat_key: 'maintenance', value: "300+", label_en: t("maintenance"), label_ar: t("maintenance"), icon_color: "bg-orange-500" }
+  ];
 
   return (
     <section className="py-24 relative z-10 overflow-hidden bg-white font-['Cairo',sans-serif]">
@@ -131,21 +156,18 @@ export default function Partenrs() {
 
             {/* Premium Expertise Grid */}
             <div className="grid grid-cols-2 gap-6 pt-4">
-              {[
-                { title: t("pc"), count: "500+", color: "bg-blue-500" },
-                { title: t("ERP"), count: "1000+", color: "bg-indigo-500" },
-                { title: t("PS"), count: "2000+", color: "bg-emerald-500" },
-                { title: t("maintenance"), count: "300+", color: "bg-orange-500" }
-              ].map((stat, i) => (
+              {displayStats.map((stat, i) => (
                 <div 
                   key={i} 
                   className="group p-7 rounded-[2rem] bg-white border border-slate-100 shadow-sm hover:shadow-xl hover:border-Main-color/20 transition-all duration-500 relative overflow-hidden"
                 >
-                  <div className={`absolute top-0 ${isRTL ? 'right-0' : 'left-0'} w-1.5 h-full ${stat.color} opacity-40 group-hover:opacity-100 transition-opacity`}></div>
-                  <div className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} w-12 h-12 ${stat.color} opacity-[0.05] rounded-full transform group-hover:scale-[3] transition-transform duration-700`}></div>
+                  <div className={`absolute top-0 ${isRTL ? 'right-0' : 'left-0'} w-1.5 h-full ${stat.icon_color} opacity-40 group-hover:opacity-100 transition-opacity`}></div>
+                  <div className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} w-12 h-12 ${stat.icon_color} opacity-[0.05] rounded-full transform group-hover:scale-[3] transition-transform duration-700`}></div>
                   
-                  <h4 className="text-3xl font-black text-Main-color mb-1 relative z-10 transition-transform group-hover:translate-x-1">{stat.count}</h4>
-                  <p className="text-slate-500 text-sm font-black uppercase tracking-wider relative z-10">{stat.title}</p>
+                  <h4 className="text-3xl font-black text-Main-color mb-1 relative z-10 transition-transform group-hover:translate-x-1">{stat.value}</h4>
+                  <p className="text-slate-500 text-sm font-black uppercase tracking-wider relative z-10">
+                    {i18n.language === 'ar' ? stat.label_ar : stat.label_en}
+                  </p>
                 </div>
               ))}
             </div>
@@ -194,14 +216,14 @@ export default function Partenrs() {
             }}
             className="pb-8"
           >
-            {images.map((img) => (
+            {displayPartners.map((img) => (
               <SwiperSlide
                 key={img.id}
                 className="bg-white p-6 min-h-[120px] rounded-2xl shadow-sm border border-slate-50 flex items-center justify-center hover:shadow-md transition-all duration-300"
               >
                 <img
-                  src={img.src}
-                  alt={img.alt}
+                  src={img.src || img.image}
+                  alt={img.alt || img.name}
                   className="max-w-full h-[60px] object-contain transition-transform duration-300 hover:scale-110"
                 />
               </SwiperSlide>

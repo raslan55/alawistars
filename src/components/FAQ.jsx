@@ -29,9 +29,9 @@ export default function FAQ({ customFaqs, customTitle }) {
 
   return (
     <div className="container mx-auto px-4 py-12 max-w-4xl">
-      <h1 className="text-4xl font-extrabold text-Main-color mb-10 leading-tight text-center">
+      <h2 className="text-4xl font-extrabold text-Main-color mb-10 leading-tight text-center">
         {customTitle || t("faq.title")}
-      </h1>
+      </h2>
 
       <div className="space-y-4" dir="auto">
         {faqs.map((item, index) => (
@@ -42,7 +42,11 @@ export default function FAQ({ customFaqs, customTitle }) {
             }`}
           >
             <button
+              type="button"
+              id={`faq-button-${index}`}
               className="w-full flex justify-between items-center text-left p-5 font-semibold text-Main-color focus:outline-none"
+              aria-expanded={activeIndex === index}
+              aria-controls={`faq-panel-${index}`}
               onClick={() => toggleFAQ(index)}
             >
               <span className="text-lg">{item.question}</span>
@@ -54,6 +58,9 @@ export default function FAQ({ customFaqs, customTitle }) {
             </button>
 
             <div
+              id={`faq-panel-${index}`}
+              role="region"
+              aria-labelledby={`faq-button-${index}`}
               className={`transition-all duration-300 ease-in-out ${
                 activeIndex === index
                   ? "max-h-[400px] opacity-100 p-5 pt-0"

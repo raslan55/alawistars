@@ -29,6 +29,9 @@ export default function About() {
             <img
               src={AboutImage}
               alt="Team working"
+              width="1200"
+              height="900"
+              decoding="async"
               className="w-full max-w-full h-auto object-cover rounded-xl"
             />
 

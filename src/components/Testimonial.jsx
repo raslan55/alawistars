@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 import CustomPrevArrow from "./CustomPrevArrow";
 import CustomNextArrow from "./CustomNextArrow";
 import { FaQuoteRight,FaQuoteLeft } from "react-icons/fa6";
+import TestimonialService from "../services/testimonialService";
 
 import One_img from "../assets/Images/Testmonial/Logos/BlueMark.png";
 import Two_img from "../assets/Images/Testmonial/Logos/ACMS.png";
@@ -24,6 +25,8 @@ import Twelve_img from "../assets/Images/Testmonial/Logos/MML.png";
 
 export default function Testimonial({ customTestimonials, customTitle, customSubtitle, filterIds }) {
   const { i18n, t } = useTranslation();
+  const [apiTestimonials, setApiTestimonials] = useState([]);
+  const [loading, setLoading] = useState(true);
   const isRTL = i18n.language === 'ar';
   const settings = {
     arrows: true,
@@ -155,11 +158,27 @@ const defaultTestimonials = [
     name: "Testimonial_name_12",
     location: "Testimonial_Location_12",
     text: "Testimonial_text_12",
-    image: Twelve_img,
-  },
-];  
+      },
+  ];  
 
-  let testimonials = customTestimonials || defaultTestimonials;
+  useEffect(() => {
+    TestimonialService.fetchAll().then(data => {
+      if (data && data.length > 0) setApiTestimonials(data);
+      setLoading(false);
+    });
+  }, []);
+
+  // Map API items to component format
+  const mappedApiTestimonials = apiTestimonials.map(item => ({
+    id: item.id,
+    name: i18n.language === 'ar' ? item.name_ar : item.name_en,
+    location: i18n.language === 'ar' ? item.location_ar : item.location_en,
+    text: i18n.language === 'ar' ? item.text_ar : item.text_en,
+    image: item.image,
+    isApi: true
+  }));
+
+  let testimonials = customTestimonials || (mappedApiTestimonials.length > 0 ? mappedApiTestimonials : defaultTestimonials);
 
   if (filterIds && filterIds.length > 0) {
     testimonials = defaultTestimonials.filter(item => filterIds.includes(item.id));
@@ -209,7 +228,7 @@ const defaultTestimonials = [
 
               {/* Text alignment based on RTL/LTR */}
               <p className={`${isRTL ? 'text-end' : 'text-start'} text-slate-700 leading-relaxed pt-10 text-lg font-medium relative z-10`}>
-                {t(item.text)}
+                {item.isApi ? item.text : t(item.text)}
               </p>
 
               <div className="flex items-center gap-5 mt-10 pt-8 border-t border-slate-50">
@@ -217,7 +236,7 @@ const defaultTestimonials = [
                   <div className="w-20 h-20 rounded-3xl overflow-hidden bg-slate-50 p-2 border border-slate-100 shadow-inner">
                     <img
                       src={item.image}
-                      alt={t(item.name)}
+                      alt={item.isApi ? item.name : t(item.name)}
                       className="w-full h-full object-contain"
                     /> 
                   </div>
@@ -225,10 +244,10 @@ const defaultTestimonials = [
               
                 <div className={`${isRTL ? 'text-end' : 'text-start'} flex-grow`}>
                   <p className="font-black text-Main-color text-lg">
-                    {t(item.name)}
+                    {item.isApi ? item.name : t(item.name)}
                   </p>
                   <p className="text-sm text-slate-500 font-bold uppercase tracking-wider">
-                    {t(item.location)}
+                    {item.isApi ? item.location : t(item.location)}
                   </p>
                 </div>
               </div>

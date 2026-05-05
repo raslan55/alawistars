@@ -9,10 +9,27 @@ import { getRoutePath } from "../utils/i18nHelpers";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import SettingsService from "../services/settingsService";
+import { useState, useEffect } from "react";
 
 export default function HeroSection() {
   const { t, i18n } = useTranslation();
+  const [settings, setSettings] = useState(null);
   const isRTL = i18n.dir() === "rtl";
+  const lang = i18n.language.startsWith("ar") ? "ar" : "en";
+
+  useEffect(() => {
+    SettingsService.fetchAll().then(data => {
+      if (data) setSettings(data);
+    });
+  }, []);
+
+  
+  const getS = (key, fallback) => {
+    if (!settings || !settings[key]) return t(fallback);
+    const val = lang === 'ar' ? settings[key].value_ar : settings[key].value_en;
+    return val || t(fallback);
+  };
   const MotionLink = motion(Link);
 
   const containerVariants = {
@@ -45,21 +62,21 @@ export default function HeroSection() {
             variants={itemVariants}
             className="text-3xl sm:text-4xl lg:text-5xl font-extrabold capitalize text-Main-color leading-relaxed"
           >
-            {t("Hero_heading")}
+            {getS("hero_heading", "Hero_heading")}
           </motion.h1>
           
           <motion.h3 
             variants={itemVariants}
             className="text-text-color leading-relaxed max-w-xl text-lg sm:text-xl font-bold"
           >
-            {t("Hero_text")}
+            {getS("hero_text", "Hero_text")}
           </motion.h3>
 
           <motion.p 
             variants={itemVariants}
             className="text-slate-600 leading-relaxed max-w-xl text-lg font-medium"
           >
-            {t("Hero_P")}
+            {getS("hero_p", "Hero_P")}
           </motion.p>
 
           {/* Integrated & Compatible Entities */}
@@ -70,18 +87,26 @@ export default function HeroSection() {
             <motion.img
               src={ZATCA}
               alt="ZATCA"
+              loading="lazy"
+              decoding="async"
+      
               className="h-14 sm:h-16 max-w-full transition-all duration-300"
               whileHover={{ scale: 1.05 }}
             />
             <motion.img
               src={VAT}
               alt="VAT Compatible"
+              loading="lazy"
+              decoding="async"
               className="h-14 sm:h-16 max-w-full transition-all duration-300"
               whileHover={{ scale: 1.05 }}
             />
             <motion.img
               src={gazt}
               alt="GAZT"
+              loading="lazy"
+              decoding="async"
+         
               className="h-14 sm:h-16 max-w-full transition-all duration-300"
               whileHover={{ scale: 1.05 }}
             />
@@ -119,6 +144,9 @@ export default function HeroSection() {
         <img
           src={Hero}
           alt="Inventory Management"
+          width="1200"
+          height="780"
+          decoding="async"
           className="relative z-10 w-full h-auto floating-anim"
         />
       </motion.div>

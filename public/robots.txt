@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://alawistars.com/sitemap.xml
+# Block any staging or internal-only paths if needed
+# Disallow: /admin

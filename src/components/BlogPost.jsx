@@ -18,10 +18,10 @@ export default function BlogPost() {
   const { t, i18n } = useTranslation();
   const [post, setPost] = useState(null);
   const [loading, setLoading] = useState(true);
-
   const lang = i18n.language.split("-")[0] || "en";
   const isRTL = i18n.language.startsWith("ar");
 
+  
   const select = (obj) => {
     if (!obj) return "";
     if (typeof obj === "string") return obj;
@@ -126,8 +126,10 @@ export default function BlogPost() {
                <div className="relative rounded-2xl overflow-hidden shadow-md group">
                  <img
                    src={post.image}
-                   alt={select(post.title)}
-                   className="w-full max-h-[500px] object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.02]"
+                   alt={select(post.title)}                   loading="lazy"
+                   decoding="async"
+                   width="1200"
+                   height="700"                   className="w-full max-h-[500px] object-cover transition-transform duration-700 ease-in-out group-hover:scale-[1.02]"
                  />
                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
                </div>

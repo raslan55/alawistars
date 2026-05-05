@@ -60,6 +60,10 @@ export default function LatestBlogsSection() {
                     <img
                       src={post.image}
                       alt={selectContent(post.title, lang)}
+                      loading="lazy"
+                      decoding="async"
+                      width="560"
+                      height="315"
                       className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
                     />
                     

@@ -74,7 +74,7 @@ const Header = () => {
       >
         <Navbar fluid rounded>
           <NavbarBrand as={Link} to="/">
-            <img src={Logo} className="sm:w-50 w-40" />
+            <img src={Logo} alt="Alawistars Logo" className="sm:w-50 w-40" />
           </NavbarBrand>
           {/* ✅ نربط toggle بالحالة */}
           <NavbarToggle onClick={() => setIsOpen(!isOpen)} />
