@@ -60,9 +60,9 @@ const defineTestimonialModel = (sq) => sq.define('Testimonial', {
   name_ar: { type: DataTypes.STRING, defaultValue: '' },
   location_en: { type: DataTypes.STRING, defaultValue: '' },
   location_ar: { type: DataTypes.STRING, defaultValue: '' },
-  text_en: { type: DataTypes.TEXT, defaultValue: '' },
-  text_ar: { type: DataTypes.TEXT, defaultValue: '' },
-  image: { type: DataTypes.TEXT('long'), defaultValue: '' },
+  text_en: { type: DataTypes.TEXT },
+  text_ar: { type: DataTypes.TEXT },
+  image: { type: DataTypes.TEXT('long') },
   sort_order: { type: DataTypes.INTEGER, defaultValue: 0 },
   active: { type: DataTypes.BOOLEAN, defaultValue: true },
 }, { timestamps: false, tableName: 'testimonials' });
@@ -70,7 +70,7 @@ const defineTestimonialModel = (sq) => sq.define('Testimonial', {
 const definePartnerModel = (sq) => sq.define('Partner', {
   id: { type: DataTypes.STRING, primaryKey: true },
   name: { type: DataTypes.STRING, defaultValue: '' },
-  image: { type: DataTypes.TEXT('long'), defaultValue: '' },
+  image: { type: DataTypes.TEXT('long') },
   sort_order: { type: DataTypes.INTEGER, defaultValue: 0 },
   active: { type: DataTypes.BOOLEAN, defaultValue: true },
 }, { timestamps: false, tableName: 'partners' });
@@ -88,8 +88,8 @@ const defineSiteStatModel = (sq) => sq.define('SiteStat', {
 const defineSiteSettingModel = (sq) => sq.define('SiteSetting', {
   id: { type: DataTypes.STRING, primaryKey: true },
   setting_key: { type: DataTypes.STRING, unique: true },
-  value_en: { type: DataTypes.TEXT('long'), defaultValue: '' },
-  value_ar: { type: DataTypes.TEXT('long'), defaultValue: '' },
+  value_en: { type: DataTypes.TEXT('long') },
+  value_ar: { type: DataTypes.TEXT('long') },
 }, { timestamps: false, tableName: 'site_settings' });
 
 const defineProductModel = (sq) => sq.define('Product', {
@@ -97,9 +97,9 @@ const defineProductModel = (sq) => sq.define('Product', {
   title_en: { type: DataTypes.STRING, defaultValue: '' },
   title_ar: { type: DataTypes.STRING, defaultValue: '' },
   slug: { type: DataTypes.STRING, allowNull: false, unique: true },
-  image: { type: DataTypes.TEXT('long'), defaultValue: '' },
-  description_en: { type: DataTypes.TEXT('long'), defaultValue: '' },
-  description_ar: { type: DataTypes.TEXT('long'), defaultValue: '' },
+  image: { type: DataTypes.TEXT('long') },
+  description_en: { type: DataTypes.TEXT('long') },
+  description_ar: { type: DataTypes.TEXT('long') },
   features: { type: DataTypes.JSON, defaultValue: [] }, // Array of { en, ar }
   active: { type: DataTypes.BOOLEAN, defaultValue: true },
   sort_order: { type: DataTypes.INTEGER, defaultValue: 0 },
@@ -112,6 +112,8 @@ const defineServiceModel = (sq) => sq.define('Service', {
   description_en: { type: DataTypes.TEXT, defaultValue: '' },
   description_ar: { type: DataTypes.TEXT, defaultValue: '' },
   icon_name: { type: DataTypes.STRING, defaultValue: 'FaTools' },
+  description_en: { type: DataTypes.TEXT },
+  description_ar: { type: DataTypes.TEXT },
   sort_order: { type: DataTypes.INTEGER, defaultValue: 0 },
   active: { type: DataTypes.BOOLEAN, defaultValue: true },
 }, { timestamps: false, tableName: 'services' });
@@ -130,9 +132,14 @@ defineAllModels(sequelize);
 
 // ─── MIDDLEWARE ───────────────────────────────────────────────────────────────
 app.use(cors({
-  origin: isProduction
-    ? ['https://alawistars.com', 'https://www.alawistars.com', 'https://alawistars-production.up.railway.app']
-    : ['http://localhost:3000', 'http://localhost:5173', 'http://127.0.0.1:5173'],
+  origin: [
+    'https://alawistars.com',
+    'https://www.alawistars.com',
+    'https://alawistars-production.up.railway.app',
+    'http://localhost:3000',
+    'http://localhost:5173',
+    'http://127.0.0.1:5173'
+  ],
   credentials: true,
 }));
 app.use(express.json({ limit: '10mb' }));
