@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useCallback, useMemo } from "react";
 import { useTranslation } from "react-i18next";
-import { 
-  FiPlus, FiLogOut, FiSearch, FiEdit2, FiTrash2, FiUploadCloud, 
-  FiEye, FiTag, FiCalendar, FiUsers, FiBriefcase, FiBarChart2, 
+import {
+  FiPlus, FiLogOut, FiSearch, FiEdit2, FiTrash2, FiUploadCloud,
+  FiEye, FiTag, FiCalendar, FiUsers, FiBriefcase, FiBarChart2,
   FiSettings, FiImage, FiGrid, FiCheckCircle, FiTool
 } from "react-icons/fi";
 import BlogService from "../services/blogService";
@@ -36,9 +36,8 @@ const packi18n = (en, ar) => ({ en: en || "", ar: ar || en || "" });
 const Alert = ({ alert }) => {
   if (!alert) return null;
   return (
-    <div className={`mx-6 mt-4 p-4 rounded-lg shadow-md flex items-center gap-3 transition-all duration-500 ease-in-out ${
-      alert.type === "success" ? "bg-[#22C55E] text-white border-r-4 border-[#22C55E]" : "bg-[#EF4444] text-white border-r-4 border-[#EF4444]"
-    }`}>
+    <div className={`mx-6 mt-4 p-4 rounded-lg shadow-md flex items-center gap-3 transition-all duration-500 ease-in-out ${alert.type === "success" ? "bg-[#22C55E] text-white border-r-4 border-[#22C55E]" : "bg-[#EF4444] text-white border-r-4 border-[#EF4444]"
+      }`}>
       <span className="text-xl">{alert.type === "success" ? "✅" : "❌"}</span>
       <span>{alert.text}</span>
     </div>
@@ -222,11 +221,10 @@ export default function AdminDashboard() {
 const TabButton = ({ active, onClick, icon, label }) => (
   <button
     onClick={onClick}
-    className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all font-medium ${
-      active 
-        ? "bg-[#1A3C6E] text-white shadow-lg shadow-blue-900/20" 
-        : "text-gray-600 hover:bg-gray-50 hover:text-[#1A3C6E]"
-    }`}
+    className={`w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all font-medium ${active
+      ? "bg-[#1A3C6E] text-white shadow-lg shadow-blue-900/20"
+      : "text-gray-600 hover:bg-gray-50 hover:text-[#1A3C6E]"
+      }`}
   >
     <span className="text-xl">{icon}</span>
     <span>{label}</span>
@@ -284,7 +282,7 @@ function BlogTab({ t, isRTL, setAlert }) {
   const onSubmit = async (e) => {
     e.preventDefault();
     if (!form.titleEn.trim()) return setAlert({ type: "error", text: "English Title is required" });
-    
+
     const payload = {
       title: packi18n(form.titleEn, form.titleAr),
       excerpt: packi18n(form.excerptEn, form.excerptAr),
@@ -358,29 +356,29 @@ function BlogTab({ t, isRTL, setAlert }) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
               <label className="text-sm font-semibold text-gray-700">Title (English)</label>
-              <input type="text" value={form.titleEn} onChange={e => setForm({...form, titleEn: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-100 outline-none" required />
+              <input type="text" value={form.titleEn} onChange={e => setForm({ ...form, titleEn: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-100 outline-none" required />
             </div>
             <div className="space-y-2">
               <label className="text-sm font-semibold text-gray-700">Title (Arabic)</label>
-              <input type="text" value={form.titleAr} onChange={e => setForm({...form, titleAr: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-100 outline-none" />
+              <input type="text" value={form.titleAr} onChange={e => setForm({ ...form, titleAr: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-100 outline-none" />
             </div>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="space-y-2">
               <label className="text-sm font-semibold text-gray-700">Slug</label>
-              <input type="text" value={form.slug} onChange={e => setForm({...form, slug: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
+              <input type="text" value={form.slug} onChange={e => setForm({ ...form, slug: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
             </div>
             <div className="space-y-2">
               <label className="text-sm font-semibold text-gray-700">Category</label>
-              <select value={form.category} onChange={e => setForm({...form, category: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg">
+              <select value={form.category} onChange={e => setForm({ ...form, category: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg">
                 <option value="">Select Category</option>
                 {categories.map(c => <option key={c.id} value={c.id}>{isRTL ? c.ar : c.en}</option>)}
               </select>
             </div>
             <div className="space-y-2">
               <label className="text-sm font-semibold text-gray-700">{t("admin_date")}</label>
-              <input type="date" value={form.date} onChange={e => setForm({...form, date: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
+              <input type="date" value={form.date} onChange={e => setForm({ ...form, date: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
             </div>
           </div>
 
@@ -399,11 +397,11 @@ function BlogTab({ t, isRTL, setAlert }) {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <div className="space-y-2">
               <label className="text-sm font-semibold text-gray-700">Content (English)</label>
-              <RichTextEditor value={form.contentEn} onChange={v => setForm({...form, contentEn: v})} />
+              <RichTextEditor value={form.contentEn} onChange={v => setForm({ ...form, contentEn: v })} />
             </div>
             <div className="space-y-2">
               <label className="text-sm font-semibold text-gray-700">Content (Arabic)</label>
-              <RichTextEditor value={form.contentAr} onChange={v => setForm({...form, contentAr: v})} />
+              <RichTextEditor value={form.contentAr} onChange={v => setForm({ ...form, contentAr: v })} />
             </div>
           </div>
 
@@ -435,24 +433,33 @@ function BlogTab({ t, isRTL, setAlert }) {
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-100">
-              {filteredPosts.map(post => (
-                <tr key={post.id} className="hover:bg-gray-50 transition-colors">
-                  <td className="px-6 py-4">
-                    <div className="flex items-center gap-3">
-                      <img src={post.image || "/placeholder.png"} alt={post.title?.en || "Post image"} className="w-10 h-10 rounded object-cover" />
-                      <span className="font-medium text-gray-900">{post.title?.en || "Untitled"}</span>
-                    </div>
-                  </td>
-                  <td className="px-6 py-4 text-sm text-gray-600">{post.category}</td>
-                  <td className="px-6 py-4 text-sm text-gray-500">{post.date}</td>
-                  <td className="px-6 py-4 text-right">
-                    <div className="flex justify-end gap-2">
-                      <button onClick={() => onEdit(post)} className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"><FiEdit2 /></button>
-                      <button onClick={() => onDelete(post.id)} className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"><FiTrash2 /></button>
-                    </div>
-                  </td>
-                </tr>
-              ))}
+              {filteredPosts.map(post => {
+                const safeTitle = post.title?.en || post.title?.ar || (typeof post.title === "string" ? post.title : "") || "Untitled";
+                const safeCategory = typeof post.category === "object"
+                  ? (post.category?.en || post.category?.ar || Object.values(post.category).find(v => typeof v === "string") || "")
+                  : (post.category || "");
+                const safeDate = typeof post.date === "object"
+                  ? (post.date?.en || post.date?.ar || String(post.date) || "")
+                  : (post.date || "");
+                return (
+                  <tr key={post.id} className="hover:bg-gray-50 transition-colors">
+                    <td className="px-6 py-4">
+                      <div className="flex items-center gap-3">
+                        <img src={post.image || "/placeholder.png"} alt={safeTitle} className="w-10 h-10 rounded object-cover" />
+                        <span className="font-medium text-gray-900">{safeTitle}</span>
+                      </div>
+                    </td>
+                    <td className="px-6 py-4 text-sm text-gray-600">{safeCategory}</td>
+                    <td className="px-6 py-4 text-sm text-gray-500">{safeDate}</td>
+                    <td className="px-6 py-4 text-right">
+                      <div className="flex justify-end gap-2">
+                        <button onClick={() => onEdit(post)} className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"><FiEdit2 /></button>
+                        <button onClick={() => onDelete(post.id)} className="p-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"><FiTrash2 /></button>
+                      </div>
+                    </td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
@@ -515,14 +522,14 @@ function TestimonialsTab({ t, isRTL, setAlert }) {
         <h2 className="text-xl font-bold text-[#1A3C6E] mb-6 flex items-center gap-2"><FiUsers /> {editing ? "Edit Testimonial" : "Add Testimonial"}</h2>
         <form onSubmit={onSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <input type="text" placeholder="Name (EN)" value={form.name_en} onChange={e => setForm({...form, name_en: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" required />
-            <input type="text" placeholder="Name (AR)" value={form.name_ar} onChange={e => setForm({...form, name_ar: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
-            <input type="text" placeholder="Location (EN)" value={form.location_en} onChange={e => setForm({...form, location_en: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
-            <input type="text" placeholder="Location (AR)" value={form.location_ar} onChange={e => setForm({...form, location_ar: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
+            <input type="text" placeholder="Name (EN)" value={form.name_en} onChange={e => setForm({ ...form, name_en: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" required />
+            <input type="text" placeholder="Name (AR)" value={form.name_ar} onChange={e => setForm({ ...form, name_ar: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
+            <input type="text" placeholder="Location (EN)" value={form.location_en} onChange={e => setForm({ ...form, location_en: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
+            <input type="text" placeholder="Location (AR)" value={form.location_ar} onChange={e => setForm({ ...form, location_ar: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <textarea placeholder="Text (EN)" value={form.text_en} onChange={e => setForm({...form, text_en: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-32" required />
-            <textarea placeholder="Text (AR)" value={form.text_ar} onChange={e => setForm({...form, text_ar: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-32" />
+            <textarea placeholder="Text (EN)" value={form.text_en} onChange={e => setForm({ ...form, text_en: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-32" required />
+            <textarea placeholder="Text (AR)" value={form.text_ar} onChange={e => setForm({ ...form, text_ar: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-32" />
           </div>
           <div className="flex items-center gap-4">
             {form.image && <img src={form.image} alt="Preview" className="w-16 h-16 rounded-full object-cover" />}
@@ -531,8 +538,8 @@ function TestimonialsTab({ t, isRTL, setAlert }) {
               <input type="file" className="hidden" onChange={onImageChange} />
             </label>
             <div className="flex items-center gap-2">
-               <input type="checkbox" checked={form.active} onChange={e => setForm({...form, active: e.target.checked})} id="active-test" />
-               <label htmlFor="active-test" className="text-sm font-medium">Active</label>
+              <input type="checkbox" checked={form.active} onChange={e => setForm({ ...form, active: e.target.checked })} id="active-test" />
+              <label htmlFor="active-test" className="text-sm font-medium">Active</label>
             </div>
           </div>
           <div className="flex gap-4">
@@ -561,7 +568,7 @@ function TestimonialsTab({ t, isRTL, setAlert }) {
               <p className="text-sm text-gray-600 italic line-clamp-3">"{item.text_en}"</p>
             </div>
             <div className="flex justify-end gap-2 mt-4 pt-4 border-t border-gray-50">
-              <button onClick={() => { setForm(item); setEditing(true); window.scrollTo(0,0); }} className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg"><FiEdit2 /></button>
+              <button onClick={() => { setForm(item); setEditing(true); window.scrollTo(0, 0); }} className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg"><FiEdit2 /></button>
               <button onClick={() => onDelete(item.id)} className="p-2 text-red-600 hover:bg-red-50 rounded-lg"><FiTrash2 /></button>
             </div>
           </div>
@@ -625,8 +632,8 @@ function PartnersTab({ t, setAlert }) {
         <h2 className="text-xl font-bold text-[#1A3C6E] mb-6 flex items-center gap-2"><FiImage /> {editing ? "Edit Partner" : "Add Partner Logo"}</h2>
         <form onSubmit={onSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <input type="text" placeholder="Partner Name" value={form.name} onChange={e => setForm({...form, name: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" required />
-            <input type="number" placeholder="Sort Order" value={form.sort_order} onChange={e => setForm({...form, sort_order: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
+            <input type="text" placeholder="Partner Name" value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" required />
+            <input type="number" placeholder="Sort Order" value={form.sort_order} onChange={e => setForm({ ...form, sort_order: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
           </div>
           <div className="flex items-center gap-4">
             {form.image && <img src={form.image} alt="Preview" className="w-24 h-12 object-contain bg-gray-50 p-2 rounded border" />}
@@ -635,8 +642,8 @@ function PartnersTab({ t, setAlert }) {
               <input type="file" className="hidden" onChange={onImageChange} />
             </label>
             <div className="flex items-center gap-2">
-               <input type="checkbox" checked={form.active} onChange={e => setForm({...form, active: e.target.checked})} id="active-part" />
-               <label htmlFor="active-part" className="text-sm font-medium">Active</label>
+              <input type="checkbox" checked={form.active} onChange={e => setForm({ ...form, active: e.target.checked })} id="active-part" />
+              <label htmlFor="active-part" className="text-sm font-medium">Active</label>
             </div>
           </div>
           <div className="flex gap-4 pt-4 border-t border-gray-100">
@@ -768,9 +775,9 @@ function SettingsTab({ t, setAlert, isRTL }) {
       <section className="space-y-6">
         <h3 className="text-lg font-bold text-gray-800 flex items-center gap-2 border-b pb-2"><FiGrid /> Hero Section Content</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-           <SettingGroup label="Hero Heading" sKey="hero_heading" settings={settings} onChange={handleChange} />
-           <SettingGroup label="Hero Sub-title (Bold)" sKey="hero_text" settings={settings} onChange={handleChange} />
-           <SettingGroup label="Hero Paragraph" sKey="hero_p" settings={settings} onChange={handleChange} isTextArea />
+          <SettingGroup label="Hero Heading" sKey="hero_heading" settings={settings} onChange={handleChange} />
+          <SettingGroup label="Hero Sub-title (Bold)" sKey="hero_text" settings={settings} onChange={handleChange} />
+          <SettingGroup label="Hero Paragraph" sKey="hero_p" settings={settings} onChange={handleChange} isTextArea />
         </div>
       </section>
 
@@ -836,25 +843,25 @@ function SettingsTab({ t, setAlert, isRTL }) {
 const SettingGroup = ({ label, sKey, settings, onChange, isTextArea = false, simple = false }) => {
   const data = settings[sKey] || { value_en: "", value_ar: "" };
   const InputTag = isTextArea ? "textarea" : "input";
-  
+
   return (
     <div className={`space-y-4 ${simple ? "" : "bg-white p-6 rounded-2xl border border-gray-100 shadow-sm"}`}>
       {!simple && <h4 className="font-bold text-gray-700 text-sm uppercase tracking-wider">{label}</h4>}
       <div className="space-y-3">
         <div className="relative">
           <label className="text-[10px] text-blue-500 font-bold absolute -top-2 left-3 bg-white px-1 z-10">{label} (EN)</label>
-          <InputTag 
-            value={data.value_en} 
-            onChange={e => onChange(sKey, 'value_en', e.target.value)} 
+          <InputTag
+            value={data.value_en}
+            onChange={e => onChange(sKey, 'value_en', e.target.value)}
             className="w-full px-4 py-3 bg-gray-50 border-none rounded-xl text-sm focus:ring-2 focus:ring-blue-100 outline-none"
             rows={isTextArea ? 3 : undefined}
           />
         </div>
         <div className="relative">
           <label className="text-[10px] text-blue-500 font-bold absolute -top-2 right-3 bg-white px-1 z-10">{label} (AR)</label>
-          <InputTag 
-            value={data.value_ar} 
-            onChange={e => onChange(sKey, 'value_ar', e.target.value)} 
+          <InputTag
+            value={data.value_ar}
+            onChange={e => onChange(sKey, 'value_ar', e.target.value)}
             className="w-full px-4 py-3 bg-gray-50 border-none rounded-xl text-sm focus:ring-2 focus:ring-blue-100 outline-none text-right"
             rows={isTextArea ? 3 : undefined}
             dir="rtl"
@@ -868,7 +875,7 @@ const SettingGroup = ({ label, sKey, settings, onChange, isTextArea = false, sim
 // 6. PRODUCTS TAB
 function ProductsTab({ t, isRTL, setAlert }) {
   const [items, setItems] = useState([]);
-  const [form, setForm] = useState({ id: null, title_en: "", title_ar: "", slug: "", image: "", description_en: "", description_ar: "", features: [{en: "", ar: ""}], active: true, sort_order: 0 });
+  const [form, setForm] = useState({ id: null, title_en: "", title_ar: "", slug: "", image: "", description_en: "", description_ar: "", features: [{ en: "", ar: "" }], active: true, sort_order: 0 });
   const [editing, setEditing] = useState(false);
 
   const load = useCallback(async () => {
@@ -886,12 +893,12 @@ function ProductsTab({ t, isRTL, setAlert }) {
     reader.readAsDataURL(file);
   };
 
-  const addFeature = () => setForm(f => ({ ...f, features: [...f.features, {en: "", ar: ""}] }));
+  const addFeature = () => setForm(f => ({ ...f, features: [...f.features, { en: "", ar: "" }] }));
   const removeFeature = (idx) => setForm(f => ({ ...f, features: f.features.filter((_, i) => i !== idx) }));
   const updateFeature = (idx, lang, val) => {
     const updated = [...form.features];
     updated[idx][lang] = val;
-    setForm({...form, features: updated});
+    setForm({ ...form, features: updated });
   };
 
   const onSubmit = async (e) => {
@@ -910,7 +917,7 @@ function ProductsTab({ t, isRTL, setAlert }) {
   };
 
   const reset = () => {
-    setForm({ id: null, title_en: "", title_ar: "", slug: "", image: "", description_en: "", description_ar: "", features: [{en: "", ar: ""}], active: true, sort_order: 0 });
+    setForm({ id: null, title_en: "", title_ar: "", slug: "", image: "", description_en: "", description_ar: "", features: [{ en: "", ar: "" }], active: true, sort_order: 0 });
     setEditing(false);
   };
 
@@ -927,14 +934,14 @@ function ProductsTab({ t, isRTL, setAlert }) {
         <h2 className="text-xl font-bold text-[#1A3C6E] mb-6 flex items-center gap-2"><FiBriefcase /> {editing ? "Edit Product" : "Add Product"}</h2>
         <form onSubmit={onSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <input type="text" placeholder="Title (EN)" value={form.title_en} onChange={e => setForm({...form, title_en: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" required />
-            <input type="text" placeholder="Title (AR)" value={form.title_ar} onChange={e => setForm({...form, title_ar: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg text-right" dir="rtl" />
+            <input type="text" placeholder="Title (EN)" value={form.title_en} onChange={e => setForm({ ...form, title_en: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" required />
+            <input type="text" placeholder="Title (AR)" value={form.title_ar} onChange={e => setForm({ ...form, title_ar: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg text-right" dir="rtl" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <input type="text" placeholder="Slug (URL identifier)" value={form.slug} onChange={e => setForm({...form, slug: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" required />
-            <input type="number" placeholder="Sort Order" value={form.sort_order} onChange={e => setForm({...form, sort_order: parseInt(e.target.value) || 0})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
+            <input type="text" placeholder="Slug (URL identifier)" value={form.slug} onChange={e => setForm({ ...form, slug: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" required />
+            <input type="number" placeholder="Sort Order" value={form.sort_order} onChange={e => setForm({ ...form, sort_order: parseInt(e.target.value) || 0 })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
           </div>
-          
+
           <div className="space-y-2">
             <label className="text-sm font-semibold">Image</label>
             <div className="flex items-center gap-4">
@@ -947,8 +954,8 @@ function ProductsTab({ t, isRTL, setAlert }) {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <textarea placeholder="Description (EN)" value={form.description_en} onChange={e => setForm({...form, description_en: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-32" />
-            <textarea placeholder="Description (AR)" value={form.description_ar} onChange={e => setForm({...form, description_ar: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-32 text-right" dir="rtl" />
+            <textarea placeholder="Description (EN)" value={form.description_en} onChange={e => setForm({ ...form, description_en: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-32" />
+            <textarea placeholder="Description (AR)" value={form.description_ar} onChange={e => setForm({ ...form, description_ar: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-32 text-right" dir="rtl" />
           </div>
 
           <div className="space-y-4">
@@ -985,13 +992,13 @@ function ProductsTab({ t, isRTL, setAlert }) {
                 <h4 className="font-bold text-gray-900 truncate">{item.title_en}</h4>
                 <p className="text-[10px] text-gray-500 font-mono">/{item.slug}</p>
                 <div className="mt-2 flex gap-1 flex-wrap">
-                   <span className="text-[10px] bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded font-bold">{item.features?.length || 0} Features</span>
-                   {!item.active && <span className="text-[10px] bg-gray-100 text-gray-400 px-1.5 py-0.5 rounded font-bold">Draft</span>}
+                  <span className="text-[10px] bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded font-bold">{item.features?.length || 0} Features</span>
+                  {!item.active && <span className="text-[10px] bg-gray-100 text-gray-400 px-1.5 py-0.5 rounded font-bold">Draft</span>}
                 </div>
               </div>
             </div>
             <div className="flex justify-end gap-2 mt-4 pt-4 border-t">
-              <button onClick={() => { setForm(item); setEditing(true); window.scrollTo(0,0); }} className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg"><FiEdit2 /></button>
+              <button onClick={() => { setForm(item); setEditing(true); window.scrollTo(0, 0); }} className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg"><FiEdit2 /></button>
               <button onClick={() => onDelete(item.id)} className="p-2 text-red-600 hover:bg-red-50 rounded-lg"><FiTrash2 /></button>
             </div>
           </div>
@@ -1047,16 +1054,16 @@ function ServicesTab({ t, isRTL, setAlert }) {
         <h2 className="text-xl font-bold text-[#1A3C6E] mb-6 flex items-center gap-2"><FiTool /> {editing ? "Edit Service" : "Add Service"}</h2>
         <form onSubmit={onSubmit} className="space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <input type="text" placeholder="Title (EN)" value={form.title_en} onChange={e => setForm({...form, title_en: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" required />
-            <input type="text" placeholder="Title (AR)" value={form.title_ar} onChange={e => setForm({...form, title_ar: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg text-right" dir="rtl" />
+            <input type="text" placeholder="Title (EN)" value={form.title_en} onChange={e => setForm({ ...form, title_en: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" required />
+            <input type="text" placeholder="Title (AR)" value={form.title_ar} onChange={e => setForm({ ...form, title_ar: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg text-right" dir="rtl" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <input type="text" placeholder="Icon Name (e.g. FaTools, FaLaptop)" value={form.icon_name} onChange={e => setForm({...form, icon_name: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
-            <input type="number" placeholder="Sort Order" value={form.sort_order} onChange={e => setForm({...form, sort_order: parseInt(e.target.value) || 0})} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
+            <input type="text" placeholder="Icon Name (e.g. FaTools, FaLaptop)" value={form.icon_name} onChange={e => setForm({ ...form, icon_name: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
+            <input type="number" placeholder="Sort Order" value={form.sort_order} onChange={e => setForm({ ...form, sort_order: parseInt(e.target.value) || 0 })} className="w-full px-4 py-2 border border-gray-200 rounded-lg" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <textarea placeholder="Description (EN)" value={form.description_en} onChange={e => setForm({...form, description_en: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-24" />
-            <textarea placeholder="Description (AR)" value={form.description_ar} onChange={e => setForm({...form, description_ar: e.target.value})} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-24 text-right" dir="rtl" />
+            <textarea placeholder="Description (EN)" value={form.description_en} onChange={e => setForm({ ...form, description_en: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-24" />
+            <textarea placeholder="Description (AR)" value={form.description_ar} onChange={e => setForm({ ...form, description_ar: e.target.value })} className="w-full px-4 py-2 border border-gray-200 rounded-lg h-24 text-right" dir="rtl" />
           </div>
           <div className="flex gap-4 pt-4">
             <button type="submit" className="px-8 py-3 bg-[#1A3C6E] text-white rounded-xl font-bold">{editing ? t("admin_update") : t("admin_add")}</button>
@@ -1074,7 +1081,7 @@ function ServicesTab({ t, isRTL, setAlert }) {
                 <p className="text-xs text-gray-500 mt-1">{item.icon_name}</p>
               </div>
               <div className="flex gap-1">
-                <button onClick={() => { setForm(item); setEditing(true); window.scrollTo(0,0); }} className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg"><FiEdit2 /></button>
+                <button onClick={() => { setForm(item); setEditing(true); window.scrollTo(0, 0); }} className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg"><FiEdit2 /></button>
                 <button onClick={() => onDelete(item.id)} className="p-2 text-red-600 hover:bg-red-50 rounded-lg"><FiTrash2 /></button>
               </div>
             </div>

@@ -248,13 +248,13 @@ const AboutUs = () => {
       </section>
 
       <Suspense fallback={<LoadingFallback />}>
-        <CTA 
-          heading={t("About_Started")} 
-          subheading={t("About_CTA_Text")} 
+        <CTA
+          heading={t("About_Started")}
+          subheading={t("About_CTA_Text")}
           btnText={t("read_more")}
         />
       </Suspense>
-      
+
     </>
   );
 };

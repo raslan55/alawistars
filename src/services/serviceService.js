@@ -1,5 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ||
-  (import.meta.env.PROD ? 'https://alawistars-production.up.railway.app/api' : '/api');
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
 
 const ServiceService = {
   fetchAll: async (includeInactive = false) => {

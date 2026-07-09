@@ -7,13 +7,13 @@ import HeroSection from "../components/HeroSection";
 import LatestBlogsSection from "../components/LatestBlogsSection";
 import { useTranslation } from "react-i18next";
 import SeoHelmet from "../components/SeoHelmet";
-
 const Testimonial = lazy(() => import("../components/Testimonial"));
 const CTA = lazy(() => import("../components/CTA"));
 
 const LoadingFallback = () => (
   <div className="h-64 bg-gradient-to-r from-gray-100 to-gray-50 animate-pulse" />
 );
+
 
 function Home() {
   const { t } = useTranslation();
@@ -32,13 +32,17 @@ function Home() {
       <Partenrs />
 
       <Suspense fallback={<LoadingFallback />}>
+
         <CTA 
           heading={t("Started")} 
           subheading={t("CTA_Text")} 
           btnText={t("Start_btn")}
         />
+
+
       </Suspense>
     </div>
+
   );
 }
 

@@ -139,6 +139,9 @@ const ContactPage = () => {
                 detail={
                   <a
                     href="https://api.whatsapp.com/send/?phone=0506194863&text&type=phone_number&app_absent=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    id="whatsapp-riyadh-link"
                     className="text-Main-color hover:underline"
                     dir="ltr"
                   >
@@ -255,6 +258,9 @@ const ContactPage = () => {
                 detail={
                   <a
                     href="https://api.whatsapp.com/send/?phone=0504139243&text&type=phone_number&app_absent=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    id="whatsapp-jeddah-link"
                     className="text-Main-color hover:underline"
                     dir="ltr"
                   >

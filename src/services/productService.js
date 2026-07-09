@@ -1,5 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ||
-  (import.meta.env.PROD ? 'https://alawistars-production.up.railway.app/api' : '/api');
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
 
 const ProductService = {
   fetchAll: async (includeInactive = false) => {
@@ -16,9 +15,13 @@ const ProductService = {
 
   fetchBySlug: async (slug) => {
     try {
-      const res = await fetch(`${API_BASE_URL}/products/${slug}`);
+      const res = await fetch(`${API_BASE_URL}/products?slug=${slug}`);
       if (!res.ok) throw new Error('Product not found');
-      return await res.json();
+      const data = await res.json();
+      if (Array.isArray(data)) {
+        return data.find(p => p.slug === slug) || null;
+      }
+      return data;
     } catch (err) {
       console.error('ProductService.fetchBySlug:', err);
       return null;

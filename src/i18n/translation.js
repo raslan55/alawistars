@@ -137,7 +137,7 @@ const resources = {
       meta_contact_description: "Reach out to us for inquiries or technical support.",
       meta_blog_title: "Blog | Alawistars",
       meta_blog_description: "Read our latest articles and updates.",
-       
+
       // --- Company Identity ---
       CompanyName: "Alawistars for Information Systems",
       companyDescriptionPart1:
@@ -242,7 +242,8 @@ const resources = {
 
       // --- About Us Preview (Home) ---
       About_Us: " About Us ",
-      About_text: "We Help Drive the IT Industry Forward Since 1994",
+      About_text: "Your Trusted Partner in Digital Transformation & Smart Business Management Since 1994.",
+      About_p: "Since 1994, Alawi Stars For Computer Systems has been a pioneer in Saudi Arabia’s IT sector. We empower enterprises with localized, robust, and fully-integrated ERP solutions that rival global standards. Engineered to support seamless bilingual operations, our systems ensure absolute regulatory compliance with ZATCA's e-invoicing standards while driving operational efficiency across diverse business domains.",
 
       // --- Services Section (Home) ---
       Serv_h: " Development of Business Systems ",
@@ -258,7 +259,7 @@ const resources = {
       // Products Names & Briefs (Moved to individual product sections below)
 
       Our_Product: "Our Products",
-      Our_Product_h: "The Role of Al-Alawi Star for Computer Systems", 
+      Our_Product_h: "The Role of Al-Alawi Star for Computer Systems",
       Our_Product_p:
         " Supporting the work and production environment and enhancing the value of  modern technologies, software, and systems that serve companies, institutions, entrepreneurs, and the economy in Saudi Arabia and our customers abroad by providing innovative, high-quality technical solutions at competitive prices.",
       Explore_More: "Our innovative solutions",
@@ -328,7 +329,10 @@ const resources = {
       Tech_Solutions: "Tech Solutions",
       Tech_Text:
         " We enhance our clients' excellence and provide them with lasting operational efficiency by providing the best technical solutions.",
-      pc: "computers ",
+      pc: "Leading Enterprises Trust Us",
+      erp: "Systems & POS Successfully Deployed",
+      ps: "24/7 Support & Expert Consulting",
+      maintenance: "Successful Maintenance Operations",
       Pc_text:
         "We have an exceptional team dedicated to meeting our clients' needs, providing them with the best and most powerful brands of computers, servers, and peripherals, as well as devices with special specifications, enabling them to innovate and achieve.",
       OS: "Operating programs",
@@ -602,7 +606,7 @@ const resources = {
 
         q12: "Can I access the system from a mobile device?",
         a12: "Yes, the system is fully responsive and accessible from any device via browser or mobile app.",
-        
+
         // Product Specific FAQs
         prod_title: "Frequently Asked Questions",
         inv_acc_q1: "Does the system support multiple branches?",
@@ -778,7 +782,7 @@ const resources = {
 
       // Stats Bar
       admin_stats_published: "Published Posts",
-      
+
       // --- Unified Admin Dashboard ---
       admin_dashboard: "Dashboard",
       admin_blog: "Blog",
@@ -866,7 +870,7 @@ const resources = {
       Prod_Module_Tag: "Core modules",
       Prod_Why_Tag: "Why this solution",
       Prod_Why_Title: "Why this product is the best choice for your business",
-      Prod_Why_Desc: "A trusted system built for speed, compliance, and growth across Saudi businesses.",
+      // Prod_Why_Desc: "A trusted system built for speed, compliance, and growth across Saudi businesses.",
       Prod_Why_Quote: "Our team saw faster delivery, smoother workflows, and reliable support from the system.",
       Prod_Why_Quote_Text: "Long-term cooperation with professional support. The system helped organize work, boost productivity, and strengthen financial control.",
       Prod_Free_Consult: "Get a free consultation and custom quotation tailored to your needs with continuous setup support.",
@@ -878,11 +882,11 @@ const resources = {
       "Prod_What_Title_Default": "What is this system?",
       "Prod_What_P1_Default": "An integrated cloud-based system that manages all your operations efficiently from one place.",
       "Prod_What_P2_Default": "The system eliminates traditional methods and provides full automation, making it the perfect choice for growth.",
-      "Prod_What_Title_general-accounting": "What is Sanmar Accounting Software?",
+      "Prod_What_Title_general-accounting": "What is Sinmar Accounting Software?",
       "Prod_What_Title_accounting-inventory": "What is Sanmar Accounting Software?",
-      "Prod_What_P1_general-accounting": "An integrated accounting program that manages all your financial transactions from one place. Sanmar Accounting Software is a specialized cloud solution that allows your company to record, track, and analyze all financial operations in one place: from invoices, payments, and salaries, to tax reports, income statements, and balance sheets.",
+      "Prod_What_P1_general-accounting": "An integrated cloud-based accounting software that manages all your financial transactions from one place. Sinmar Accounting is a specialized solution that enables your company to record, track, and analyze all financial operations — from invoices, payments, and payroll to tax reports, income statements, and balance sheets.",
       "Prod_What_P1_accounting-inventory": "An integrated accounting program that manages all your financial transactions from one place. Sanmar Accounting Software is a specialized cloud solution that allows your company to record, track, and analyze all financial operations in one place: from invoices, payments, and salaries, to tax reports, income statements, and balance sheets.",
-      "Prod_What_P2_general-accounting": "Unlike Excel spreadsheets or traditional systems, our professional accounting software provides complete automation of accounting entries, seamless integration with other ERP systems, and full compliance with the requirements of the Zakat, Tax and Customs Authority (ZATCA) in Saudi Arabia — making it the ideal choice for every company seeking professional and compliant financial management.",
+      "Prod_What_P2_general-accounting": "Unlike Excel spreadsheets or traditional systems, Sinmar Accounting provides complete automation of accounting entries, seamless ERP integration, and full compliance with ZATCA requirements — including e-invoicing (Phase 1 and 2), VAT 15%, Zakat, income tax, and SOCPA accounting standards. It is the ideal choice for professional and Saudi-compliant financial management.",
       "Prod_What_P2_accounting-inventory": "Unlike Excel spreadsheets or traditional systems, our professional accounting software provides complete automation of accounting entries, seamless integration with other ERP systems, and full compliance with the requirements of the Zakat, Tax and Customs Authority (ZATCA) in Saudi Arabia — making it the ideal choice for every company seeking professional and compliant financial management.",
       "Prod_What_Title_inventory-system": "What is Sanmar Inventory System?",
       "Prod_What_P1_inventory-system": "A smart digital tool that gives you absolute control over your inventory and connects your warehouses with precision.",
@@ -949,34 +953,35 @@ const resources = {
       Inv_acc_feature_16: "Revaluation of a fixed asset",
 
       // 2. Sinmar General Accounting (general-accounting)
-      acc: "Sinmar General Accounting ",
-      acc_desc: "A comprehensive system for managing general accounts, daily entries, and accurate financial reports.",
-      "Prod_Ultimate_Solution_general-accounting": "Cloud-based accounting software",
-      "Prod_Efficient_Management_general-accounting": "The best cloud-based accounting software to manage your company's accounts professionally",
-      "Prod_Description_general-accounting": "Sinmar Accounting is an integrated cloud-based accounting software that transforms your financial operations into a precise and fast digital system — designed for the Saudi business environment.",
+      acc: "Sinmar Accounting Software",
+      acc_desc: "An integrated cloud-based accounting software that manages all your financial transactions — invoices, payroll, tax reports, income statements, and balance sheets — with full ZATCA compliance.",
+      "Prod_Ultimate_Solution_general-accounting": "Cloud-based accounting software approved by ZATCA",
+      "Prod_Efficient_Management_general-accounting": "Professional & compliant financial management for your company",
+      "Prod_Description_general-accounting": "Sinmar Accounting is an integrated cloud-based accounting software that manages all your financial transactions from one place — from invoices, payments, and payroll to tax reports, income statements, and balance sheets, with full automation and Saudi regulatory compliance.",
       "Prod_Zatca_Compliant_general-accounting": "",
       "Prod_Trad_Err3_general-accounting": "",
       "Prod_Auto_Adv3_general-accounting": "",
       "Prod_ZATCA_Badge_general-accounting": "100% Accurate",
-      acc_feature_1: "Accounting tree with up to 10 sub-levels",
-      acc_feature_2: "Export to Excel, Word, PDF, Txt",
-      acc_feature_3: "Attach scanned documents to journal entries",
-      acc_feature_4: "Add up to 99 branches",
-      acc_feature_5: "Support for multiple and individual cost centers",
-      acc_feature_6: "SQL Server database",
-      acc_feature_7: "Cash receipt/payment voucher with separate numbering from credit",
-      acc_feature_8: "Separate handling of cash and checks in receipts/payments",
-      acc_feature_9: "Automatic backup",
-      acc_feature_10: "Multi-year, multi-branch account statements",
-      acc_feature_11: "Multi-year, multi-branch general ledger",
-      acc_feature_12: "Independent permissions for each user",
-      acc_feature_13: "Fixed assets and depreciation calculation",
-      acc_feature_14: "Support for letter of credit transactions",
-      acc_feature_15: "Detailed and customizable reports",
-      acc_feature_16: "Revaluation of fixed assets",
+      acc_feature_1: "Automated double-entry journal recording",
+      acc_feature_2: "Real-time income statements and balance sheets",
+      acc_feature_3: "VAT-compliant invoicing with payment reminders",
+      acc_feature_4: "Payroll management with GOSI integration",
+      acc_feature_5: "Treasury and multi-bank account management",
+      acc_feature_6: "Automated bank reconciliation",
+      acc_feature_7: "Cost center tracking and profitability analysis",
+      acc_feature_8: "Fixed assets and depreciation calculation",
+      acc_feature_9: "Cash flow statements and forecasting",
+      acc_feature_10: "Multi-branch consolidated reporting",
+      acc_feature_11: "SOCPA-compliant financial reports",
+      acc_feature_12: "Zakat and income tax report preparation",
+      acc_feature_13: "E-invoicing (ZATCA Phase 1 & 2) with QR Code",
+      acc_feature_14: "Advance and custody management",
+      acc_feature_15: "Export to PDF, Excel, Word formats",
+      acc_feature_16: "Independent user permissions and access control",
 
       // 3. Sinmar For Inventory (inventory-system)
       Inv: " Sinmar For Inventory ",
+      Inv_Menu: "Sinmar Inventory",
       Inv_Disc: "An effective tool for managing inventory, tracking products, and linking them to suppliers and invoices.",
       "Prod_Ultimate_Solution_inventory-system": "Professional inventory management system approved by ZATCA",
       "Prod_Efficient_Management_inventory-system": "Smart solution for warehouse tracking and inventory control",
@@ -1332,7 +1337,7 @@ const resources = {
       path_AllClients: "AllClients",
 
       // --- Company Identity ---
-      CompanyName: " شركة نجوم العلاوى لنظم الكمبيوتر",
+      CompanyName: " شركة نجوم العلاوي لنظم الكمبيوتر",
       companyDescriptionPart1:
         "انطلقت نجوم العلاوي لنظم الكمبيوتر عام ١٩٩٤ لتوفر للمجتمع والاقتصاد السعودي الطامح للنمو والريادة آنذاك الحلول البرمجية والأنظمة الالكترونية بالإضافة لأنواع متعددة من الخدمات والمنتجات التقنية المتطورة التي تتواكب مع تطلعات الشركات والمؤسسات الخاصة في ذلك الوقت.",
       companyDescriptionPart2:
@@ -1421,7 +1426,7 @@ const resources = {
       Testimonial_name_3: " شركة سبرت الطبية   ", // Updated based on previous analysis
       Testimonial_Location_3: "جدة، السعودية",
       Testimonial_text_3:
-        "نقدم الشكر والعرفان شركة نجوم العلاوى لنظم الكمبيوتر ، لجهودهم في صيانة وتطوير البرامج المتميزة التي نعتمد عليها في المخزون والمبيعات والمحاسبة. نثمن شراكتنا ونتمنى استمرار تميزكم.",
+        "نقدم الشكر والعرفان شركة نجوم العلاوي لنظم الكمبيوتر ، لجهودهم في صيانة وتطوير البرامج المتميزة التي نعتمد عليها في المخزون والمبيعات والمحاسبة. نثمن شراكتنا ونتمنى استمرار تميزكم.",
       Testimonial_name_4: "شركة صحة آدم الطبية",
       Testimonial_Location_4: "المملكة العربية السعودية",
       Testimonial_text_4:
@@ -1477,9 +1482,9 @@ const resources = {
 
       // --- About Us Preview (Home) ---
       About_Us: "من نحن",
-      About_text: "نُساهم في تطوير قطاع تكنولوجيا المعلومات منذ عام 1994.",
+      About_text: "شريكك الموثوق في التحول الرقمي وإدارة أعمالك ذكياً منذ 1994.",
       About_p:
-        "تم تأسيس نجوم العلاوى لنظم الكمبيوتر في عام 1994 في مدينة الرياض في المملكة العربية السعودية بهدف إنتاج أنظمة تجارية متكاملة ذات قدرات وإمكانيات تضاهى من حيث الأداء الأنظمة الغربية المتطورة وتتميز بالخصوصية من حيث العمل في بيئات ثنائية اللغـة ومن حيث تلبية جميع احتياجات العملاء ولهذا تم تطوير عدة أنظمة تجارية مختلفة تخدم عدة مجالات متنوعة و أصبح لدينا قاعدة كبيرة من العملاء في شتى أنحاء المملكة.",
+        "يقدم مركز نجوم العلاوي لنظم الكمبيوتر حلولاً برمجية متكاملة ونظم إدارة الموارد (ERP) المصممة خصيصاً لتلبية احتياجات السوق السعودي والخليجي. ندمج بين عراقة الخبرة وأحدث التقنيات السحابية لنمنح منشأتك كفاءة تشغيلية مطلقة، وامتثالاً كاملاً لمتطلبات الفوترة الإلكترونية.",
 
       // --- Services Section (Home) ---
       Serv_h: " تطوير انظمة الأعمال ",
@@ -1496,13 +1501,13 @@ const resources = {
 
       // --- About Page & Mission ---
       Our_Product: "منتجاتنا",
-      Our_Product_h: "دور نجوم العلاوى لنظم الكمبيوتر",
+      Our_Product_h: "دور نجوم العلاوي لنظم الكمبيوتر",
       Our_Product_p:
         "دعم بيئة العمل والإنتاج وتعزيز قيمة التقنيات الحديثة والبرمجيات والأنظمة التي تخدم الشركات والمؤسسات ورواد الأعمال والاقتصاد في المملكة العربية السعودية وعملائنا في الخارج من خلال توفير حلول تقنية مبتكرة وعالية الجودة بأسعار تنافسية.",
       Explore_More: "  حلولنا المبتكرة ",
       Our_Partners: "شركاؤنا ",
       Our_Partners_p:
-        "عملاؤنا هم شركاؤنا في النجاح حيث تمتلك  شركة نجوم العلاوى لنظم الكمبيوتر أكثر من 10000 عميل حتى الآن في جميع التخصصات، وحققت نجاحاً باهراً في وقت قصير من خلال إنتاج البرمجيات المتميزة، هؤلاء بعض عملائنا الذين تشرفنا بخدمتهم",
+        "عملاؤنا هم شركاؤنا في النجاح حيث تمتلك  شركة نجوم العلاوي لنظم الكمبيوتر أكثر من 10000 عميل حتى الآن في جميع التخصصات، وحققت نجاحاً باهراً في وقت قصير من خلال إنتاج البرمجيات المتميزة، هؤلاء بعض عملائنا الذين تشرفنا بخدمتهم",
       Partners_Heading: "تعرف على شركاؤنا ",
       ReadMore: "شاهد المزيد",
       SUBSCRIBERS: "المشتركين",
@@ -1559,7 +1564,10 @@ const resources = {
       Tech_Solutions: "حلولنا التقنية",
       Tech_Text:
         " نعزز تميز عملائنا ونمنحهم كفاءة تشغيلية دائمة من خلال تقديم أفضل  الحلول التقنية.",
-      pc: "أجهزة الكمبيوتر",
+      pc: "منشأة رائدة تثق بنا",
+      erp: "منظومة ونقطة بيع تم تشغيلها بنجاح",
+      ps: "دعم فني متواصل واستشارات تقنية متخصصة",
+      maintenance: "عملية صيانة دورية ناجحة",
       Pc_text:
         "لدينا فريق عمل استثنائي يلبي حاجة عملائنا ويوفر لهم أجهزة الكمبيوتر من سيرفرات أو وحدات طرفية من أفضل وأقوى العلامات التجارية، وكذلك الأجهزة ذات المواصفات الخاصة لنمكنهم من الإبداع والإنجاز.",
       OS: "البرامج التشغيلية",
@@ -2304,11 +2312,11 @@ const resources = {
       // ==========================================
       // --- PRODUCTS PAGES TRANSLATIONS (AR) ---
       // ==========================================
-      Prod_Ultimate_Solution: "برنامج سحابي معتمد من هيئة الزكاة والدخل والضريبة",
+      Prod_Ultimate_Solution: "برنامج سحابي معتمد من هيئة الزكاة والضريبة والجمارك (ZATCA)",
       Prod_Efficient_Management: "لإدارة أعمالك بكفاءة واحترافية",
       Prod_Save_Time: "توفير 50% من وقت العمليات الروتينية",
       Prod_Reduce_Errors: "تقليل الأخطاء البشرية وزيادة الأرباح",
-      Prod_Zatca_Compliant: "متوافق 100% مع هيئة الزكاة والدخل (ZATCA)",
+      Prod_Zatca_Compliant: "متوافق 100% مع هيئة الزكاة والضريبة والجمارك (ZATCA) (ZATCA)",
       Prod_Book_Demo: "احجز عرض تجريبي",
       Prod_See_Action: "شاهد النظام عملياً",
       Prod_Why_System: "لماذا تحتاج هذا النظام؟",
@@ -2316,7 +2324,7 @@ const resources = {
       Prod_Trad_Methods: "الأساليب التقليدية (مكلفة معقدة)",
       Prod_Trad_Err1: "إدخال بيانات يدوي بطيء يستنزف وقت ومجهود الفريق",
       Prod_Trad_Err2: "أخطاء بشرية وحسابية متكررة تسبب استنزاف مالي",
-      Prod_Trad_Err3: "صعوبات معقدة في مطابقة متطلبات هيئة الزكاة والدخل",
+      Prod_Trad_Err3: "صعوبات معقدة في مطابقة متطلبات هيئة الزكاة والضريبة والجمارك (ZATCA)",
       Prod_Trad_Err4: "عدم وضوح الرؤية لغياب لوحات التحكم والتقارير اللحظية",
       Prod_With_System: "مع نظام",
       Prod_Auto_Adv1: "أتمتة شاملة توفر مئات الساعات شهرياً وتزيد الإنتاجية بشكل فوري",
@@ -2340,16 +2348,16 @@ const resources = {
       Prod_Years_Exp: "أعوام في التقنية",
       Prod_Limited_Time: "تأسيس ونقل بيانات سريع - لفترة محدودة",
       Prod_Ready_Next: "هل أنت مستعد للانتقال بمؤسستك نحو المستقبل؟",
-      Prod_Use_Cases_Title: "أهم حالات الاستخدام عبر القطاعات",
-      Prod_Use_Cases_Desc: "نظام أعمال قوي للشركات السعودية، من الشركات الناشئة إلى الجهات متعددة الفروع.",
-      Prod_ERP_Title: "وحدات ERP متكاملة — ربط جميع وظائف العمل",
-      Prod_ERP_Desc: "منصة مركزية تربط عملياتك وتُؤتمت سير العمل عبر الأقسام.",
+      Prod_Use_Cases_Title: "إدارة المخزون عبر مختلف القطاعات",
+      Prod_Use_Cases_Desc: "برنامج سنمار للمخزون العام مرن ومُصمَّم لخدمة طيف واسع من القطاعات والأحجام في السوق السعودي.",
+      Prod_ERP_Title: "برنامج المخزون جزء من منظومة ERP متكاملة",
+      Prod_ERP_Desc: "نظام سنمار للمخزون لا يعمل بمعزل — بل يتكامل بسلاسة مع جميع أنظمة شركتك لتشكيل بيئة ERP موحدة.",
       Prod_Use_Cases_Tag: "حالات الاستخدام الرئيسية",
       Prod_Use_Cases_Card: "مجال الأعمال",
       Prod_Module_Tag: "الوحدات الأساسية",
       Prod_Why_Tag: "لماذا هذا الحل",
-      Prod_Why_Title: "لماذا هذا المنتج هو الخيار الأفضل لعملك",
-      Prod_Why_Desc: "نظام موثوق مصمم للسرعة والامتثال والنمو في الشركات السعودية.",
+      Prod_Why_Title: "لماذا برنامج سنمار هو الخيار الأمثل لإدارة مخزونك؟",
+      // Prod_Why_Desc: "نظام موثوق مصمم للسرعة والامتثال والنمو في الشركات السعودية.",
       Prod_Why_Quote: "شاهد فريقنا تنفيذًا أسرع وسير عمل أكثر سلاسة ودعمًا موثوقًا من النظام.",
       Prod_Why_Quote_Text: "تعاون طويل الأجل مع دعم احترافي. ساعدنا النظام في تنظيم العمل وزيادة الإنتاجية وتقوية التحكم المالي.",
       Prod_Free_Consult: "احصل على استشارة تقنية مجانية وعرض سعر مخصص بالكامل لاحتياجاتك، مع دعم فني متواصل للتهيئة والإطلاق بنجاح.",
@@ -2361,14 +2369,14 @@ const resources = {
       "Prod_What_Title_Default": "ما هو هذا النظام؟",
       "Prod_What_P1_Default": "برنامج سحابي متكامل يُدير جميع عملياتك بكفاءة عالية ومن مكان واحد.",
       "Prod_What_P2_Default": "يتيح لك النظام التخلص من العمليات التقليدية ويوفر أتمتة كاملة، مما يجعله الخيار الأمثل للنمو.",
-      "Prod_What_Title_general-accounting": "ما هو برنامج سنمار المحاسبي؟",
-      "Prod_What_Title_accounting-inventory": "ما هو برنامج سنمار المحاسبي؟",
-      "Prod_What_P1_general-accounting": "برنامج محاسبي متكامل يُدير جميع معاملاتك المالية من مكان واحد. برنامج سنمار المحاسبي هو حل سحابي متخصص يُتيح لشركتك تسجيل وتتبع وتحليل جميع العمليات المالية في مكان واحد: من الفواتير والمدفوعات والرواتب، حتى التقارير الضريبية وقوائم الدخل والميزانية العمومية.",
-      "Prod_What_P1_accounting-inventory": "برنامج محاسبي متكامل يُدير جميع معاملاتك المالية من مكان واحد. برنامج سنمار المحاسبي هو حل سحابي متخصص يُتيح لشركتك تسجيل وتتبع وتحليل جميع العمليات المالية في مكان واحد: من الفواتير والمدفوعات والرواتب، حتى التقارير الضريبية وقوائم الدخل والميزانية العمومية.",
-      "Prod_What_P2_general-accounting": "على عكس جداول Excel أو الأنظمة التقليدية، يوفر برنامج المحاسبة الاحترافي أتمتةً كاملةً للقيود المحاسبية، وربطاً سلساً مع باقي أنظمة ERP، وتوافقاً تاماً مع متطلبات هيئة الزكاة والدخل والضريبة في المملكة العربية السعودية — مما يجعله الخيار الأمثل لكل شركة تسعى إلى إدارة مالية احترافية ومتوافقة.",
-      "Prod_What_P2_accounting-inventory": "على عكس جداول Excel أو الأنظمة التقليدية، يوفر برنامج المحاسبة الاحترافي أتمتةً كاملةً للقيود المحاسبية، وربطاً سلساً مع باقي أنظمة ERP، وتوافقاً تاماً مع متطلبات هيئة الزكاة والدخل والضريبة في المملكة العربية السعودية — مما يجعله الخيار الأمثل لكل شركة تسعى إلى إدارة مالية احترافية ومتوافقة.",
-      "Prod_What_Title_inventory-system": "ما هو نظام سنمار لإدارة المخزون؟",
-      "Prod_What_P1_inventory-system": "أداة رقمية ذكية تمنحك تحكماً مطلقاً في مخزونك وتربط مستودعاتك ببعضها بكل دقة.",
+      "Prod_What_Title_general-accounting": "نظام سنمار الـ ERP: مرونة السحاب، وقوة الإدارة الإستراتيجية.",
+      "Prod_What_Title_accounting-inventory": "نظام سنمار الـ ERP: مرونة السحاب، وقوة الإدارة الإستراتيجية.",
+      "Prod_What_P1_general-accounting": "صُمم نظام سنمار المحاسبي ليكون الركيزة الأساسية لإدارة منشأتك (سواء كنت تدير مركز صيانة سيارات، أو منظومة تجارية متكاملة). النظام معتمد وممتثل تماماً للمرحلة الثانية من الفوترة الإلكترونية (الربط والتكامل) لـ هيئة الزكاة والضريبة والجمارك (ZATCA).",
+      "Prod_What_P1_accounting-inventory": "صُمم نظام سنمار المحاسبي ليكون الركيزة الأساسية لإدارة منشأتك (سواء كنت تدير مركز صيانة سيارات، أو منظومة تجارية متكاملة). النظام معتمد وممتثل تماماً للمرحلة الثانية من الفوترة الإلكترونية (الربط والتكامل) لـ هيئة الزكاة والضريبة والجمارك (ZATCA).",
+      "Prod_What_P2_general-accounting": "اختر بيئة العمل التي تناسبك: متوفر كـ حل سحابي ذكي (Cloud) للوصول من أي مكان، أو كـ نظام داخلي (On-Premise) يمنحك تحكماً كاملاً في خوادمك.",
+      "Prod_What_P2_accounting-inventory": "اختر بيئة العمل التي تناسبك: متوفر كـ حل سحابي ذكي (Cloud) للوصول من أي مكان، أو كـ نظام داخلي (On-Premise) يمنحك تحكماً كاملاً في خوادمك.",
+      "Prod_What_Title_inventory-system": "ما هو برنامج سنمار للمخزون؟ ولماذا تحتاجه شركتك؟",
+      "Prod_What_P1_inventory-system": "برنامج سنمار لإدارة المخزون: رؤية كاملة على كل منتج في كل لحظة",
       "Prod_What_P2_inventory-system": "يتيح لك النظام تتبع حركة الأصناف، وإدارة الموردين، وإصدار الفواتير بالباركود، بالإضافة لدعم الفروع المتعددة وتقييم المخزون لحظياً، مما يقضي على العجز والخسائر التشغيلية.",
 
       "Prod_What_Title_real-estate-management": "ما هو نظام سنمار لإدارة الأملاك والعقارات؟",
@@ -2409,7 +2417,7 @@ const resources = {
       Features: "المواصفات",
 
       // 1. سنمار للمحاسبة والمستودعات (accounting-inventory)
-      Inv_acc: "سنمار للمحاسبة والمخزون",
+      Inv_acc: " برنامج سنمار للمحاسبة والمخزون ",
       acc_Inv_Disc: "نظام متكامل للمحاسبة والمخازن يدعم الفروع، الباركود، والتقارير الضريبية المتقدمة.",
       "Prod_Ultimate_Solution_accounting-inventory": "برنامج محاسبة ومخازن سحابي معتمد من هيئة الزكاة",
       "Prod_Efficient_Management_accounting-inventory": "حل شامل لإدارة المستودعات والحسابات",
@@ -2433,37 +2441,38 @@ const resources = {
 
       // 2. سنمار للمحاسبة العامة (general-accounting)
       acc: "برنامج سنمار المحاسبي",
-      acc_desc: "نظام شامل لإدارة الحسابات العامة والقيود اليومية والتقارير المالية الدقيقة.",
-      "Prod_Ultimate_Solution_general-accounting":  "برنامج محاسبي سحابي",
-      "Prod_Efficient_Management_general-accounting": "افضل برنامج محاسبي سحابي لإدارة حسابات شركتك باحترافية",
-      "Prod_Description_general-accounting": "برنامج سنمار المحاسبي هو برنامج محاسبي سحابي متكامل يُحوّل عملياتك المالية إلى منظومة رقمية دقيقة وسريعة — ومصمم لبيئة الأعمال السعودية.",
+      acc_desc: "برنامج محاسبي سحابي متكامل يُدير جميع معاملاتك المالية — الفواتير والرواتب والتقارير الضريبية وقوائم الدخل والميزانية العمومية — مع توافق كامل مع هيئة الزكاة والضريبة والجمارك (ZATCA).",
+      "Prod_Ultimate_Solution_general-accounting": "برنامج محاسبي سحابي معتمد من هيئة الزكاة والضريبة والجمارك (ZATCA)",
+      "Prod_Efficient_Management_general-accounting": "إدارة مالية احترافية ومتوافقة مع الأنظمة السعودية",
+      "Prod_Description_general-accounting": "برنامج سنمار المحاسبي هو حل سحابي متخصص يُتيح لشركتك تسجيل وتتبع وتحليل جميع العمليات المالية في مكان واحد، بدءًا من الفواتير والمدفوعات والرواتب وحتى التقارير الضريبية وقوائم الدخل والميزانية العمومية — مع أتمتة كاملة للقيود المحاسبية وتوافق تام مع الأنظمة السعودية.",
       "Prod_Zatca_Compliant_general-accounting": "",
       "Prod_Trad_Err3_general-accounting": "",
       "Prod_Auto_Adv3_general-accounting": "",
       "Prod_ZATCA_Badge_general-accounting": "دقة 100%",
-      acc_feature_1: "شجرة محاسبة حتى 10 مستويات فرعية",
-      acc_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
-      acc_feature_3: "إمكانية حفظ صور من المستندات داخل قيد اليومية",
-      acc_feature_4: "إضافة حتى 99 فرعًا",
-      acc_feature_5: "ميزة مراكز التكلفة المتعددة والفردية",
-      acc_feature_6: "قاعدة بيانات SQL Server",
-      acc_feature_7: "سند قبض أو صرف نقدي بتسلسل مستقل عن الآجل",
-      acc_feature_8: "إمكانية فصل النقدي والشيك في القبض والصرف",
-      acc_feature_9: "النسخ الاحتياطي التلقائي",
-      acc_feature_10: "كشف حساب متعدد السنوات والفروع",
-      acc_feature_11: "أستاذ عام متعدد السنوات والفروع",
-      acc_feature_12: "صلاحيات مستقلة لكل مستخدم",
-      acc_feature_13: "الأصول الثابتة واحتساب الإهلاكات",
-      acc_feature_14: "إمكانية التعامل مع الاعتمادات المستندية",
-      acc_feature_15: "تقارير مفصلة ومتنوعة وخيارات عرضها حسب الطلب",
-      acc_feature_16: "إعادة تقييم أصل ثابت",
+      acc_feature_1: "تسجيل تلقائي لجميع القيود المحاسبية المزدوجة",
+      acc_feature_2: "قوائم الدخل والميزانية العمومية اللحظية",
+      acc_feature_3: "فواتير متوافقة مع ضريبة القيمة المضافة وتذكيرات سداد آلية",
+      acc_feature_4: "إدارة الرواتب والبدلات مع حسابات التأمينات (GOSI)",
+      acc_feature_5: "إدارة الخزينة وحسابات بنكية متعددة",
+      acc_feature_6: "تسوية بنكية آلية مع كشف الفروقات",
+      acc_feature_7: "تتبع مراكز التكلفة وتحليل الربحية",
+      acc_feature_8: "الأصول الثابتة واحتساب الإهلاكات آليًا",
+      acc_feature_9: "التدفقات النقدية والتقارير التنبؤية",
+      acc_feature_10: "تقارير موحدة للفروع المتعددة",
+      acc_feature_11: "تقارير مالية متوافقة مع معايير SOCPA",
+      acc_feature_12: "تقارير جاهزة للزكاة وضريبة الدخل",
+      acc_feature_13: "الفاتورة الإلكترونية (ZATCA المرحلتين) مع QR Code",
+      acc_feature_14: "إدارة السلف والعهد المالية",
+      acc_feature_15: "تصدير إلى PDF و Excel و Word",
+      acc_feature_16: "صلاحيات مستقلة وتحكم في الوصول لكل مستخدم",
 
       // 3. سنمار للمخزون العام (inventory-system)
-      Inv: "سنمار للمخزون العام",
+      Inv: " برنامج مخزون ذكي وسحابي لإدارة مستودعاتك بكفاءة",
+      Inv_Menu: "برنامج سنمار للمخزون",
       Inv_Disc: "أداة فعالة لإدارة المخزون، تتبع المنتجات، وربطها مع الموردين والفواتير.",
-      "Prod_Ultimate_Solution_inventory-system": "نظام إدارة مخزون احترافي معتمد من هيئة الزكاة",
+      "Prod_Ultimate_Solution_inventory-system": "متوافق مع ZATCA — الفاتورة الإلكترونية المرحلة الثانية",
       "Prod_Efficient_Management_inventory-system": "حل ذكي لتتبع المستودعات والتحكم في المخزون",
-      "Prod_Description_inventory-system": "أداة فعالة لإدارة المخزون، تتبع المنتجات، وربطها مع الموردين والفواتير بدقة وسهولة تامة.",
+      "Prod_Description_inventory-system": "نظام إدارة مخازن سحابي متكامل يمنحك رؤية لحظية كاملة على كل منتج، في كل مستودع",
       Inv_feature_1: "يدعم ضريبة القيمة المضافة المتغيرة",
       Inv_feature_2: "التصدير إلى Excel, Word, PDF, Txt",
       Inv_feature_3: "إمكانية حفظ صور للصنف داخل ملف الصنف",
@@ -2484,7 +2493,7 @@ const resources = {
       Inv_feature_18: "أكثر من 300 تقرير شامل ولمتابعة جميع حركات المخزون بالتفصيل",
 
       // 4. سنمار لإدارة الممتلكات (real-estate-management)
-      Pr: "سنمار لإدارة الممتلكات",
+      Pr: " برنامج سنمار لإدارة الممتلكات",
       Pr_Disc: "نظام احترافي لإدارة العقارات والإيجارات والعقود وسجلات الملاك والمستأجرين.",
       "Prod_Ultimate_Solution_real-estate-management": "نظام إدارة أملاك وعقارات معتمد من هيئة الزكاة",
       "Prod_Efficient_Management_real-estate-management": "حل متكامل لإدارة العقارات والإيجارات",
@@ -2507,7 +2516,7 @@ const resources = {
       Pr_feature_16: "إعادة تقييم أصل ثابت",
 
       // 5. سنمار لنظام الشقق المفروشة (furnished-apartments)
-      Furn: "سنمار لنظام الشقق المفروشة",
+      Furn: " برنامج سنمار  الشقق المفروشة",
       Furn_Disc: "نظام مخصص لإدارة حجوزات وتأجير الشقق المفروشة مع تقارير يومية وسجل العملاء.",
       "Prod_Ultimate_Solution_furnished-apartments": "نظام إدارة شقق مفروشة متخصص معتمد من هيئة الزكاة",
       "Prod_Efficient_Management_furnished-apartments": "إدارة حجوزاتك وإيجاراتك باحترافية",
@@ -2522,9 +2531,9 @@ const resources = {
       Furn_feature_8: "إمكانية فصل النقدي والشيك في القبض والصرف",
 
       // 6. سنمار للنظام الطبي (medical-system)
-      Med: "سنمار للنظام الطبي",
+      Med: "   برنامج سنمار للنظام الطبي",
       Med_Disc: "حل طبي متكامل لإدارة العيادات والمواعيد وسجلات المرضى والفواتير الطبية.",
-      "Prod_Ultimate_Solution_medical-system": "نظام إدارة طبية متكامل معتمد من هيئة الزكاة",
+      "Prod_Ultimate_Solution_medical-system": "لإدارة العيادات والمراكز الطبية",
       "Prod_Efficient_Management_medical-system": "حل رقمي شامل للعيادات والمراكز الطبية",
       "Prod_Description_medical-system": "حل طبي متكامل لإدارة العيادات والمواعيد وسجلات المرضى والفواتير الطبية مع الربط مع شركات التأمين.",
       Med_feature_1: "يدعم ضريبة القيمة المضافة المتغيرة",
@@ -2548,7 +2557,7 @@ const resources = {
       Med_feature_19: "برامج متابعة الحمل والعلاج الطبيعي",
 
       // 7. سنمار لصيانة السيارات (car-maintenance)
-      Maintenance: "سنمار لصيانة السيارات",
+      Maintenance: "  برنامج سنمار لصيانة السيارات",
       Maintenance_Disc: "نظام لإدارة عمليات صيانة السيارات، سجل الفواتير، وتفاصيل الأعطال وقطع الغيار.",
       "Prod_Ultimate_Solution_car-maintenance": "نظام ورش صيانة السيارات معتمد من هيئة الزكاة",
       "Prod_Efficient_Management_car-maintenance": "إدارة فعالة لبطاقات العمل والورشة",
@@ -2590,7 +2599,7 @@ const resources = {
       Maintenance_feature_35: "نسخ احتياطي تلقائي للسيرفر والوسائط الخارجية",
 
       // 8. سنمار لمبيعات السيارات (car-sales)
-      Car_sale: "سنمار لمبيعات السيارات",
+      Car_sale: " برنامج سنمار لمبيعات السيارات",
       Car_sale_Disc: "برنامج متخصص لمعارض السيارات يشمل إدارة العروض، البيع، العملاء، والأقساط.",
       "Prod_Ultimate_Solution_car-sales": "نظام مبيعات ومعارض سيارات معتمد من هيئة الزكاة",
       "Prod_Efficient_Management_car-sales": "إدارة مخزون السيارات ومبيعات الأقساط بكل سهولة",
@@ -2612,7 +2621,7 @@ const resources = {
       Car_sale_feature_15: "أكثر من 50 تقرير مفصل وشامل",
 
       // 9. سنمار لشؤون الموظفين (hr-system)
-      Hr: "سنمار لشؤون الموظفين",
+      Hr: " برنامج سنمار لشؤون الموظفين",
       Hr_Disc: "نظام شؤون موظفين متكامل لإدارة الحضور، الرواتب، والإجازات والملفات الشخصية.",
       "Prod_Ultimate_Solution_hr-system": "نظام موارد بشرية ورواتب متكامل معتمد من هيئة الزكاة",
       "Prod_Efficient_Management_hr-system": "إدارة كاملة لشؤون الموظفين والرواتب",
@@ -2639,7 +2648,7 @@ const resources = {
       Hr_feature_20: "نظام مرن لتتبع وتحليل الأداء الوظيفي السنوي والشهري",
 
       // 10. نظام سنمار للاتصالات (telecom-system)
-      Commu: "نظام سنمار للاتصالات",
+      Commu: " برنامج سنمار للاتصالات ",
       commu_Disc: "حل موجه لإدارة شركات الاتصالات وخدمات العملاء والفواتير ومتابعة الشحنات.",
       "Prod_Ultimate_Solution_telecom-system": "نظام اتصالات وربط فروع معتمد من هيئة الزكاة",
       "Prod_Efficient_Management_telecom-system": "مزامنة ذكية وإدارة فروع متطورة",
@@ -2661,7 +2670,7 @@ const resources = {
       Commu_feature_15: "أمان عالي وتشفير لحماية البيانات أثناء النقل بين الفروع",
 
       // 11. سنمار للخدمات (services-system)
-      serv: "سنمار للخدمات",
+      serv: "برنامج سنمار للخدمات ",
       serv_Disc: "نظام لإدارة شركات الخدمات العامة وتوزيع المهام وتقديم تقارير الأداء.",
       "Prod_Ultimate_Solution_services-system": "نظام إدارة الخدمات العامة معتمد من هيئة الزكاة",
       "Prod_Efficient_Management_services-system": "تتبع طلبات الخدمة والمهام بكفاءة",
@@ -2688,7 +2697,7 @@ const resources = {
       serv_feature_20: "رسم بياني للمبيعات الشهرية",
 
       // 12. سنمار لمحطات الوقود (fuel-station)
-      fuel: "سنمار لمحطات الوقود",
+      fuel: "برنامج سنمار لمحطات الوقود",
       Fule_Disc: "نظام محطات الوقود لإدارة الضخ والمخزون، والمحاسبة اليومية لكل مضخة.",
       "Prod_Ultimate_Solution_fuel-station": "نظام إدارة محطات الوقود والمضخات معتمد من هيئة الزكاة",
       "Prod_Efficient_Management_fuel-station": "مراقبة الخزانات والمضخات في الوقت الحقيقي",

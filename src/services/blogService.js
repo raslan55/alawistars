@@ -1,19 +1,43 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ||
-  (import.meta.env.PROD
-    ? 'https://alawistars-production.up.railway.app/api'
-    : '/api');
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
 
 const normalize = (post) => {
   if (!post) return null;
 
   const clone = { ...post };
 
-  // Support old data object schema where title/excerpt/content are i18n objects, or string
-  Object.keys(clone).forEach((key) => {
-    if (typeof clone[key] === "string" && ["title", "excerpt", "content"].includes(key)) {
+  // Fields that should be i18n objects { en: "...", ar: "..." }
+  const i18nFields = ["title", "excerpt", "content", "metaTitle", "metaDescription"];
+
+  i18nFields.forEach((key) => {
+    if (clone[key] === undefined || clone[key] === null) {
+      clone[key] = { en: "" };
+    } else if (typeof clone[key] === "string") {
+      // If it's a plain string, wrap it as i18n object
       clone[key] = { en: clone[key] };
     }
+    // If it's already an object, leave it as-is (it's a proper i18n map)
   });
+
+  // Ensure category is always a primitive string, never an object
+  if (clone.category && typeof clone.category === "object") {
+    clone.category = clone.category.en || clone.category.ar || Object.values(clone.category).find(v => typeof v === "string") || "";
+  }
+  if (clone.category === null || clone.category === undefined) {
+    clone.category = "";
+  }
+
+  // Ensure date is always a string
+  if (clone.date && typeof clone.date === "object") {
+    clone.date = clone.date.en || clone.date.ar || String(clone.date) || "";
+  }
+  if (clone.date === null || clone.date === undefined) {
+    clone.date = "";
+  }
+
+  // Ensure status is always a string
+  if (clone.status && typeof clone.status === "object") {
+    clone.status = clone.status.en || String(clone.status) || "published";
+  }
 
   return clone;
 };
@@ -51,7 +75,7 @@ const BlogService = {
 
   getPostBySlug: async (slug) => {
     try {
-      const response = await fetch(`${API_BASE_URL}/blogs/${slug}`);
+      const response = await fetch(`${API_BASE_URL}/blogs?slug=${slug}`);
       if (!response.ok) {
         throw new Error('Failed to fetch blog');
       }

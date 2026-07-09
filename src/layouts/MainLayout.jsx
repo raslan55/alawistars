@@ -28,9 +28,11 @@ const MainLayout = () => {
       <Header />
 
       {/* Main Content */}
+      
       <main className="">
         <Outlet />
       </main>
+
 
       {/* Footer */}
       <AppFooter />

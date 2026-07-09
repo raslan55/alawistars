@@ -5,6 +5,7 @@ import SeoHelmet from "../components/SeoHelmet";
 import { getRoutePath } from "../utils/i18nHelpers";
 import BlogService from "../services/blogService";
 
+
 export default function Blog() {
   const { t, i18n } = useTranslation();
   const base = getRoutePath("blog", t);
@@ -14,7 +15,6 @@ export default function Blog() {
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedCategory, setSelectedCategory] = useState("all");
   const postsPerPage = 4;
-
   const lang = i18n.language.split("-")[0] || "en";
   const select = React.useCallback((obj) => {
     if (!obj) return "";
@@ -24,6 +24,25 @@ export default function Blog() {
     // If object is a localized map, pick first string value
     const candidate = Object.values(obj).find((v) => typeof v === "string");
     return candidate || "";
+  }, [lang]);
+
+  const ensureString = React.useCallback((value) => {
+    if (value === undefined || value === null) return "";
+    if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
+      return String(value);
+    }
+    if (Array.isArray(value)) {
+      return value.map((item) => ensureString(item)).join(", ");
+    }
+
+    if (typeof value === "object") {
+      if (value[lang]) return value[lang];
+      if (value.en) return value.en;
+      const candidate = Object.values(value).find((v) => typeof v === "string");
+      return candidate || JSON.stringify(value);
+    }
+
+    return String(value);
   }, [lang]);
 
   const CATEGORY_OPTIONS = React.useMemo(
@@ -38,26 +57,27 @@ export default function Blog() {
 
   const normalizeCategoryId = React.useCallback(
     (value) => {
-      if (!value) return "";
-      const normalized = value.toString().trim().toLowerCase();
+      const text = ensureString(value).trim().toLowerCase();
+      if (!text) return "";
       const found = CATEGORY_OPTIONS.find(
         (c) =>
-          c.id.toLowerCase() === normalized ||
-          c.en.toLowerCase() === normalized ||
-          c.ar.toLowerCase() === normalized
+          c.id.toLowerCase() === text ||
+          c.en.toLowerCase() === text ||
+          c.ar.toLowerCase() === text
       );
-      return found ? found.id : normalized;
+      return found ? found.id : text;
     },
-    [CATEGORY_OPTIONS]
+    [CATEGORY_OPTIONS, ensureString]
   );
 
   const getCategoryLabel = React.useCallback(
     (categoryId) => {
-      const found = CATEGORY_OPTIONS.find((c) => c.id === categoryId);
-      if (!found) return categoryId;
+      const key = ensureString(categoryId);
+      const found = CATEGORY_OPTIONS.find((c) => c.id === key);
+      if (!found) return key;
       return i18n.language.startsWith("ar") ? found.ar : found.en;
     },
-    [CATEGORY_OPTIONS, i18n.language]
+    [CATEGORY_OPTIONS, i18n.language, ensureString]
   );
 
   useEffect(() => {
@@ -122,7 +142,22 @@ export default function Blog() {
     return Array.from(set);
   }, [posts, select, normalizeCategoryId, CATEGORY_OPTIONS]);
 
-  const blogCategories = availableCategories.length > 0 ? availableCategories : t("blog_categories", { returnObjects: true });
+  // Ensure fallback categories are always primitive strings to avoid rendering objects directly.
+  const rawFallbackCategories = React.useMemo(() => {
+    const raw = t("blog_categories", { returnObjects: true });
+    return Array.isArray(raw) ? raw : [];
+  }, [t]);
+
+  const blogCategories = React.useMemo(() => {
+    if (availableCategories.length > 0) return availableCategories;
+    return Array.from(
+      new Set(
+        rawFallbackCategories
+          .map((c) => normalizeCategoryId(c))
+          .filter(Boolean)
+      )
+    );
+  }, [availableCategories, rawFallbackCategories, normalizeCategoryId]);
 
   return (
     <section className="bg-[#F4F6F9] text-right" dir="rtl">
@@ -267,7 +302,7 @@ export default function Blog() {
                   const isActive = selectedCategory === cat;
                   return (
                     <button
-                      key={cat}
+                      key={String(cat)}
                       onClick={() => {
                         setSelectedCategory(cat);
                         setCurrentPage(1);

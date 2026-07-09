@@ -113,22 +113,59 @@ position: absolute;
     border-radius: 1rem;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
     animation: fadeIn 0.3s ease-in-out;
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+  
+  /* Premium Thin Scrollbar for Mobile Menu */
+  .mobile-menu-custom::-webkit-scrollbar,
+  .mobile-menu-custom .overflow-y-auto::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .mobile-menu-custom::-webkit-scrollbar-track,
+  .mobile-menu-custom .overflow-y-auto::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .mobile-menu-custom::-webkit-scrollbar-thumb,
+  .mobile-menu-custom .overflow-y-auto::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.6);
+    border-radius: 10px;
+  }
+
+  .mobile-menu-custom::-webkit-scrollbar-thumb:hover,
+  .mobile-menu-custom .overflow-y-auto::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.9);
   }
   
   .mobile-menu-custom .AL_Link {
-    text-align: center;
+    text-align: start;
     font-size: 17px;
     padding: 0.75rem;
     border-radius: 0.75rem;
     font-weight: 600;
     color: #1e293b;
     transition: background 0.3s ease, transform 0.2s ease;
+    width: 100%;
   }
 
 
   .mobile-menu-custom .AL_Link:hover {
-    background-color: #e0f0fc;
+    background-color: #dbeafe;
     transform: scale(1.02);
+  }
+
+  .desktop-products-dropdown {
+    min-width: 220px;
+  }
+
+  .desktop-products-dropdown a {
+    transition: background-color 0.25s ease, transform 0.2s ease;
+  }
+
+  .desktop-products-dropdown a:hover {
+    background-color: rgba(255, 255, 255, 0.12);
   }
 
 }

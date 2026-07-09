@@ -68,8 +68,16 @@ export default function AdminBlog() {
 
   const getCategoryLabel = React.useCallback(
     (id) => {
-      const cat = categories.find((c) => c.id === id) || CATEGORY_OPTIONS.find((c) => c.id === id);
-      if (!cat) return id || "";
+      const safeId = (() => {
+        if (!id) return "";
+        if (typeof id === "string") return id;
+        if (typeof id === "object") {
+          return id.en || id.ar || Object.values(id).find(v => typeof v === "string") || "";
+        }
+        return String(id);
+      })();
+      const cat = categories.find((c) => c.id === safeId) || CATEGORY_OPTIONS.find((c) => c.id === safeId);
+      if (!cat) return safeId;
       return i18n.language.startsWith("ar") ? cat.ar : cat.en;
     },
     [categories, i18n.language]
@@ -210,7 +218,7 @@ export default function AdminBlog() {
     reader.readAsDataURL(file);
   };
 
-  
+
   const onSubmit = async (e, isDraft = false) => {
     if (e) e.preventDefault();
 
@@ -365,9 +373,8 @@ export default function AdminBlog() {
 
       {/* Alert Banner */}
       {alert && (
-        <div className={`mx-6 mt-4 p-4 rounded-lg shadow-md flex items-center gap-3 transition-all duration-500 ease-in-out ${
-          alert.type === "success" ? "bg-[#22C55E] text-white border-r-4 border-[#22C55E]" : "bg-[#EF4444] text-white border-r-4 border-[#EF4444]"
-        }`}>
+        <div className={`mx-6 mt-4 p-4 rounded-lg shadow-md flex items-center gap-3 transition-all duration-500 ease-in-out ${alert.type === "success" ? "bg-[#22C55E] text-white border-r-4 border-[#22C55E]" : "bg-[#EF4444] text-white border-r-4 border-[#EF4444]"
+          }`}>
           <span className="text-xl">{alert.type === "success" ? "✅" : "❌"}</span>
           <span>{alert.text}</span>
         </div>
@@ -487,7 +494,7 @@ export default function AdminBlog() {
                   >
                     {t("admin_form_category_add_button")}
                   </button>
-                  
+
                 </div>
 
                 {/* Date */}
@@ -742,14 +749,13 @@ export default function AdminBlog() {
                       currentPosts.map((post, index) => (
                         <tr
                           key={post.id}
-                          className={`border-b border-[#F1F3F5] transition-colors ${
-                            index % 2 === 0 ? "bg-white" : "bg-[#F9FAFB]"
-                          } hover:bg-[#F8FAFF]`}
+                          className={`border-b border-[#F1F3F5] transition-colors ${index % 2 === 0 ? "bg-white" : "bg-[#F9FAFB]"
+                            } hover:bg-[#F8FAFF]`}
                         >
-                          <td className="py-4 px-4 text-right">{post.title?.en || post.title}</td>
+                          <td className="py-4 px-4 text-right">{post.title?.en || post.title?.ar || "Untitled"}</td>
                           <td className="py-4 px-4 text-right text-gray-600">{post.date}</td>
+                          <td className="py-4 px-4 text-right text-gray-600 truncate" title={post.slug}>{post.slug || ""}</td>
                           <td className="py-4 px-4 text-right text-gray-600">{getCategoryLabel(post.category)}</td>
-                          <td className="py-4 px-4 text-right text-gray-600 truncate" title={post.slug}>{post.slug}</td>
                           <td className="py-4 px-4 text-right">
                             <div className="flex gap-2 justify-end">
                               <button
@@ -788,11 +794,10 @@ export default function AdminBlog() {
                   {Array.from({ length: totalPages }, (_, index) => index + 1).map((pageNum) => (
                     <button
                       key={pageNum}
-                      className={`px-3 py-1 rounded-md ${
-                        pageNum === currentPage
+                      className={`px-3 py-1 rounded-md ${pageNum === currentPage
                           ? "bg-Main-color text-white"
                           : "text-gray-700 hover:underline"
-                      }`}
+                        }`}
                       onClick={() => goToPage(pageNum)}
                     >
                       {pageNum}
@@ -824,50 +829,50 @@ export default function AdminBlog() {
                   {t("admin_preview_title", { defaultValue: isRTL ? "معاينة مباشرة" : "Live Preview" })}
                 </h3>
               </div>
-              <button 
+              <button
                 onClick={() => setShowPreview(false)}
                 className="text-gray-600 hover:text-white font-bold px-5 py-2.5 bg-gray-100 hover:bg-red-500 rounded-lg transition-all flex items-center gap-2 shadow-sm"
               >
-                <span className="text-xl">✕</span> 
+                <span className="text-xl">✕</span>
                 {t("admin_close_preview", { defaultValue: isRTL ? "إغلاق" : "Close" })}
               </button>
             </div>
-            
+
             {/* Scrollable Preview Body (Styled exactly like BlogPost.jsx) */}
             <div className="flex-1 overflow-y-auto p-4 sm:p-8">
-               <article className="bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 overflow-hidden max-w-4xl mx-auto">
-                 {/* Article Header */}
-                 <header className="px-6 py-10 sm:px-12 sm:pt-16 sm:pb-12 text-center">
-                    <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
-                      {form.category && (
-                        <span className="inline-flex items-center gap-1.5 bg-blue-50 text-Main-color text-sm font-bold px-4 py-1.5 rounded-full shadow-sm border border-blue-100">
-                          <FiTag className="w-4 h-4" />
-                          {getCategoryLabel(form.category) || 'Category'}
-                        </span>
-                      )}
-                      {form.date && (
-                        <span className="inline-flex items-center gap-1.5 text-gray-500 text-sm font-medium bg-gray-50 px-4 py-1.5 rounded-full border border-gray-100">
-                          <FiCalendar className="w-4 h-4" />
-                          {form.date}
-                        </span>
-                      )}
-                    </div>
-                    
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-text-color leading-tight mb-8 max-w-3xl mx-auto">
-                      {isRTL ? (form.titleAr || form.titleEn || "بدون عنوان") : (form.titleEn || form.titleAr || "Untitled")}
-                    </h1>
-                 </header>
+              <article className="bg-white rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 overflow-hidden max-w-4xl mx-auto">
+                {/* Article Header */}
+                <header className="px-6 py-10 sm:px-12 sm:pt-16 sm:pb-12 text-center">
+                  <div className="flex flex-wrap items-center justify-center gap-4 mb-8">
+                    {form.category && (
+                      <span className="inline-flex items-center gap-1.5 bg-blue-50 text-Main-color text-sm font-bold px-4 py-1.5 rounded-full shadow-sm border border-blue-100">
+                        <FiTag className="w-4 h-4" />
+                        {getCategoryLabel(form.category) || 'Category'}
+                      </span>
+                    )}
+                    {form.date && (
+                      <span className="inline-flex items-center gap-1.5 text-gray-500 text-sm font-medium bg-gray-50 px-4 py-1.5 rounded-full border border-gray-100">
+                        <FiCalendar className="w-4 h-4" />
+                        {form.date}
+                      </span>
+                    )}
+                  </div>
 
-                 {form.image && (
-                    <div className="w-[92%] sm:w-[88%] mx-auto mb-10">
-                      <div className="relative rounded-2xl overflow-hidden shadow-md">
-                        <img src={form.image} alt="Cover" className="w-full max-h-[500px] object-cover" />
-                      </div>
-                    </div>
-                 )}
+                  <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-text-color leading-tight mb-8 max-w-3xl mx-auto">
+                    {isRTL ? (form.titleAr || form.titleEn || "بدون عنوان") : (form.titleEn || form.titleAr || "Untitled")}
+                  </h1>
+                </header>
 
-                 <div className="w-[92%] sm:w-[88%] mx-auto pb-16 overflow-hidden">
-                    <div className={`prose prose-lg sm:prose-xl max-w-none break-words
+                {form.image && (
+                  <div className="w-[92%] sm:w-[88%] mx-auto mb-10">
+                    <div className="relative rounded-2xl overflow-hidden shadow-md">
+                      <img src={form.image} alt="Cover" className="w-full max-h-[500px] object-cover" />
+                    </div>
+                  </div>
+                )}
+
+                <div className="w-[92%] sm:w-[88%] mx-auto pb-16 overflow-hidden">
+                  <div className={`prose prose-lg sm:prose-xl max-w-none break-words
                       prose-headings:text-text-color prose-headings:font-bold prose-headings:mb-6
                       prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6
                       prose-a:text-Main-color prose-a:font-semibold prose-a:no-underline 
@@ -875,10 +880,10 @@ export default function AdminBlog() {
                       prose-blockquote:border-l-4 prose-blockquote:border-Main-color prose-blockquote:bg-gray-50 prose-blockquote:px-6 prose-blockquote:py-4 prose-blockquote:rounded-r-lg prose-blockquote:italic
                       prose-strong:text-text-color 
                     `}>
-                      <div dangerouslySetInnerHTML={{ __html: isRTL ? (form.contentAr || form.contentEn) : (form.contentEn || form.contentAr) }} />
-                    </div>
-                 </div>
-               </article>
+                    <div dangerouslySetInnerHTML={{ __html: isRTL ? (form.contentAr || form.contentEn) : (form.contentEn || form.contentAr) }} />
+                  </div>
+                </div>
+              </article>
             </div>
           </div>
         </div>

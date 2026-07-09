@@ -1,5 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ||
-  (import.meta.env.PROD ? 'https://alawistars-production.up.railway.app/api' : '/api');
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
 
 const SettingsService = {
   /** Returns { key: { value_en, value_ar } } map or null on failure */

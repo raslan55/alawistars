@@ -36,7 +36,6 @@ import P from "../assets/Images/Partenrs/6.jpg";
 import O from "../assets/Images/Partenrs/5.jpg";
 import I from "../assets/Images/Partenrs/31.jpg";
 
-
 const images = [
   { id: "one", src: One, alt: "Image One" },
   { id: "two", src: Two, alt: "Image Two" },
@@ -63,6 +62,7 @@ const images = [
   { id: "o", src: O, alt: "Image O" },
   { id: "i", src: I, alt: "Image I" },
 ];
+
 
 export default function Partenrs() {
   const { t, i18n } = useTranslation();
@@ -134,7 +134,7 @@ export default function Partenrs() {
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: isRTL ? -40 : 40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -157,16 +157,16 @@ export default function Partenrs() {
             {/* Premium Expertise Grid */}
             <div className="grid grid-cols-2 gap-6 pt-4">
               {displayStats.map((stat, i) => (
-                <div 
-                  key={i} 
+                <div
+                  key={i}
                   className="group p-7 rounded-[2rem] bg-white border border-slate-100 shadow-sm hover:shadow-xl hover:border-Main-color/20 transition-all duration-500 relative overflow-hidden"
                 >
                   <div className={`absolute top-0 ${isRTL ? 'right-0' : 'left-0'} w-1.5 h-full ${stat.icon_color} opacity-40 group-hover:opacity-100 transition-opacity`}></div>
                   <div className={`absolute top-4 ${isRTL ? 'left-4' : 'right-4'} w-12 h-12 ${stat.icon_color} opacity-[0.05] rounded-full transform group-hover:scale-[3] transition-transform duration-700`}></div>
-                  
+
                   <h4 className="text-3xl font-black text-Main-color mb-1 relative z-10 transition-transform group-hover:translate-x-1">{stat.value}</h4>
-                  <p className="text-slate-500 text-sm font-black uppercase tracking-wider relative z-10">
-                    {i18n.language === 'ar' ? stat.label_ar : stat.label_en}
+                  <p className="text-slate-500 text-sm font-black tracking-wider relative z-10">
+                    {t(stat.stat_key)}
                   </p>
                 </div>
               ))}
@@ -175,22 +175,22 @@ export default function Partenrs() {
         </div>
 
         {/* Title above slider */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           className="text-center mb-16"
         >
           <div className="max-w-2xl mx-auto space-y-4">
-             {/* <h3 className="text-2xl md:text-3xl font-bold text-slate-800 tracking-tight">
+            {/* <h3 className="text-2xl md:text-3xl font-bold text-slate-800 tracking-tight">
                {t("Partners_text")}
              </h3> */}
-             <div className="w-16 h-1 bg-brand-accent mx-auto rounded-full"></div>
+            <div className="w-16 h-1 bg-brand-accent mx-auto rounded-full"></div>
           </div>
         </motion.div>
 
         {/* Logo Slider */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
@@ -245,6 +245,7 @@ export default function Partenrs() {
             ) : (
               <FaArrowRightLong size={20} className="transition-transform duration-300 group-hover:translate-x-2" />
             )}
+
           </MotionLink>
         </div>
       </div>

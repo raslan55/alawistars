@@ -18,18 +18,34 @@ export default function ProductsSlider() {
   const isRTL = i18n.dir() === "rtl";
   const lang = i18n.language.startsWith("ar") ? "ar" : "en";
 
+  const getPublicAssetUrl = (assetPath) => {
+    if (!assetPath) return null;
+    if (/^(https?:|data:)/.test(assetPath)) return assetPath;
+    const normalized = assetPath.replace(/^\//, "");
+    return `${import.meta.env.BASE_URL || "/"}${normalized}`;
+  };
+
+  const placeholderSrc = `data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400"><rect width="100%" height="100%" fill="%23f8fafc"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="%239ca3af" font-size="24" font-family="Arial,sans-serif">No image available</text></svg>`;
+
   useEffect(() => {
     ProductService.fetchAll().then(data => {
       if (data && data.length > 0) setApiProducts(data);
     });
   }, []);
 
-  const displayProducts = apiProducts.length > 0 ? apiProducts.map(p => ({
-    ...p,
-    title: lang === 'ar' ? p.title_ar : p.title_en,
-    description: lang === 'ar' ? p.description_ar : p.description_en,
-    isApi: true
-  })) : products;
+  const apiMapped = apiProducts.map(p => {
+    const staticProduct = products.find((sp) => sp.slug === p.slug);
+    return {
+      ...p,
+      title: lang === 'ar' ? p.title_ar : p.title_en,
+      description: lang === 'ar' ? p.description_ar : p.description_en,
+      image: p.image || staticProduct?.image,
+      isApi: true
+    };
+  });
+
+  const staticRemaining = products.filter(sp => !apiProducts.some(ap => ap.slug === sp.slug));
+  const displayProducts = [...staticRemaining, ...apiMapped];
   const dir = i18n.language === "ar" ? "rtl" : "ltr";
 
   return (
@@ -67,7 +83,7 @@ export default function ProductsSlider() {
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow hover:shadow-lg transition duration-300 h-full flex flex-col">
               <Link to={`/${getRoutePath("products", t)}/${product.slug}`}>
                 <img
-                  src={product.image || "/placeholder.png"}
+                  src={product.image && !product.image.includes("placeholder.png") ? getPublicAssetUrl(product.image) : placeholderSrc}
                   alt={product.title}
                   loading="lazy"
                   decoding="async"
@@ -78,8 +94,8 @@ export default function ProductsSlider() {
               </Link>
 
               <div className="p-4 flex flex-col justify-between flex-grow text-center">
-                <h3 className="text-lg font-bold text-Main-color mb-2 ">
-                  {product.isApi ? product.title : t(product.title)}
+                <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-700 transition-colors duration-300">
+                  {product.isApi ? product.title : t(product.menuTitle || product.title)}
                 </h3>
                 <p className="text-sm text-text-color mb-4 line-clamp-3">
                   {product.isApi ? product.description : t(product.description)}

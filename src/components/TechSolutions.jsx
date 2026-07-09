@@ -63,13 +63,15 @@ export default function TechSolutions() {
     });
   }, []);
 
-  const displayServices = apiServices.length > 0 ? apiServices.map(s => ({
-    id: s.id,
+  const apiMapped = apiServices.map(s => ({
+    id: s.id + 1000, // Ensure unique ID for API items
     title: lang === 'ar' ? s.title_ar : s.title_en,
     description: lang === 'ar' ? s.description_ar : s.description_en,
     icon: FaIcons[s.icon_name] ? React.createElement(FaIcons[s.icon_name], { className: "w-7 h-7" }) : <FaIcons.FaTools className="w-7 h-7" />,
     isApi: true
-  })) : solutions;
+  }));
+
+  const displayServices = [...solutions, ...apiMapped];
 
   return (
     <>

@@ -1,0 +1,1232 @@
+Sinmar Accounting & Inventory — ZATCA-ready
+Accounting & Inventory — Sinmar ERP
+Sinmar combines accounting and inventory in a single platform — every stock movement generates an accounting entry automatically, without manual intervention or errors.
+Save 40 hours monthly
+Reduce errors by 100%
+ZATCA compliant
+What is an integrated accounting & inventory system?
+One system that connects inventory and accounting — automatically.
+An integrated accounting & inventory ERP links the accounting and inventory modules in a single platform so every stock movement — receive, sale, return, transfer — is immediately reflected as precise accounting entries in the financial records.
+ZATCA and E-Invoicing Compliant Inventory Software
+ZATCA requirements are mandatory for all establishments. Sinmar software is fully equipped for compliance without any complications.
+ZATCA Compliant — Both Phases
+Sinmar system is certified and connected to the Fatoora platform for phases 1 and 2 of e-invoicing in the Kingdom.
+Bank-level Data Security & Protection
+Full data encryption, and regular backups to ensure continuity.
+E-Invoicing — Phase Two (Integration)
+The system is connected to the Fatoora portal via approved API. It sends invoices instantly and receives notifications automatically.
+Value Added Tax (VAT 15%)
+Automatic calculation of VAT on all sales and purchase invoices, with periodic tax return preparation.
+Customs and Import Integration
+Record import operations and customs clearance with automatic calculation of import costs.
+Certified Electronic Archiving
+Save all inventory documents, invoices and documents for 6 years according to ZATCA's e-archiving requirements.
+Features that drive success
+An integrated system that gives you all the tools to control your inventory and accounts.
+Inventory-Accounting Linkage
+Automatically records all inventory movements as double-entry journal entries instantly.
+Auto journal & ledger entries
+One-click bank reconciliation
+Complete accounting archive
+Real-Time Financial Reports
+View balance sheet, income statement, and cash flows with instantly updated data.
+Instant balance & income
+PDF & Excel export
+Period comparisons
+Integrated Invoice Management
+Issue ZATCA-compliant tax invoices directly linked to inventory and accounts.
+ZATCA Phase 1 & 2
+Instant inventory link
+Auto QR & XML
+Stock Tracking & Costing
+Monitor stock levels and costs with automatic alerts when reorder point is reached.
+Reorder point alerts
+Batch & expiry tracking
+Accurate weighted cost
+Multi-Warehouse Management
+Manage multiple warehouses with independent cost centers and consolidated reports.
+Inter-branch transfers
+Independent cost centers
+Consolidated reports
+Success partners trust Sinmar
+Clients
+Success Rate
+ZATCA Compliant
+Years Exp
+What is the best accounting software in SA?
+The best solution is a unified system. Sinmar is designed for the local market.
+Is it suitable for SMEs?
+Yes, you can start with a basic package and scale.
+Is it cloud-based?
+Yes, cloud-based with high security.
+Use Cases
+Inventory management across sectors
+ Sinmar inventory system is flexible and designed to serve a wide range of sectors and sizes in the Saudi market.
+Sector
+Inventory system for e-commerce
+Connect inventory with e-commerce platforms, update balances instantly with every order, and avoid selling out-of-stock items.
+Factory and production inventory management
+Track raw materials, work in progress, and finished goods with direct links to production orders and manufacturing costs.
+Retail and general trade inventory system
+Connect inventory with Point of Sale (POS) to update balances instantly with every transaction, and generate best-selling and low-selling product reports.
+Inventory system for contracting companies
+Track construction materials, project equipment, and operating costs with location-based reporting and e-invoicing integration.
+Inventory system for pharmacies and medical supplies
+Track expiry dates, batches, and expiry alerts before wastage occurs.
+Inventory system for distribution and logistics companies
+Track goods movement and sales across distribution points with detailed reports for shipments and inventory.
+ERP Modules
+Inventory is part of an integrated ERP system
+Sinmar Inventory is not isolated; it is a beating heart that connects instantly to all other business units.
+Accounting module
+Transfer inventory and purchasing entries to the accounting system automatically without double entry.
+Inventory module
+Comprehensive inventory management with accurate tracking of materials, sales, and stock alerts.
+POS module
+Fast, integrated POS system with barcode reader support, invoice printing, and cash register management.
+Purchasing module
+From purchase order to goods receipt and inventory update — a complete closed purchasing cycle
+Integrated ERP system
+Inventory is the heart of ERP — connected to sales, production, finance, and HR.
+eCommerce module
+Synchronize inventory with your online store in real-time to avoid orders for unavailable products.
+Why Sinmar?
+Why is Sinmar the perfect choice for your inventory?
+\
+With Sinmar, you won't lose sales due to stockouts and won't freeze your money in dead stock.
+Designed for the Saudi market
+Inventory software built specifically for Saudi market needs — Arabic language, Saudi Riyal, and ZATCA & VAT compliance.
+Fast deployment in days
+Our implementation team configures the system and migrates your existing inventory data in a few days, with full team training.
+Advanced analytics and reporting
+More than 50 ready reports: inventory turnover rate, slowest moving products, demand forecasting, and supplier performance analysis.
+Specialized Arabic technical support 24/7
+A support team that understands your business, speaks Arabic, and is available via WhatsApp, phone, and email — real support, not automated responses.
+Explore Sinmar's Smart Dashboard & Interfaces
+A modern, clear, and highly standard user interface designed to help you run all operations seamlessly from a single screen.
+Sinmar Accounting & Inventory — ZATCA-ready
+Sinmar Inventory System: Full visibility on every product at any time
+Sinmar Inventory is a comprehensive cloud-based inventory management system that gives you real-time visibility into every product, in every warehouse, at any time — fully compliant with Zakat, Tax and Customs Authority (ZATCA) requirements.   
+Save 40 hours monthly
+Reduce errors by 100%
+ZATCA compliant
+What is Sinmar Inventory System?
+  Sinmar Inventory System: Full visibility on every product at any time  
+It is a complete digital solution that enables your company to track all products and goods throughout their entire lifecycle: from the moment of receipt from suppliers, through storage and transfer between warehouses, to sale and automatic balance updates.
+ZATCA and E-Invoicing Compliant Inventory Software
+ZATCA requirements are mandatory for all establishments. Sinmar software is fully equipped for compliance without any complications.
+ZATCA Compliant — Both Phases
+Sinmar system is certified and connected to the Fatoora platform for phases 1 and 2 of e-invoicing in the Kingdom.
+Bank-level Data Security & Protection
+Full data encryption, and regular backups to ensure continuity.
+E-Invoicing — Phase Two (Integration)
+The system is connected to the Fatoora portal via approved API. It sends invoices instantly and receives notifications automatically.
+Value Added Tax (VAT 15%)
+Automatic calculation of VAT on all sales and purchase invoices, with periodic tax return preparation.
+Customs and Import Integration
+Record import operations and customs clearance with automatic calculation of import costs.
+Certified Electronic Archiving
+Save all inventory documents, invoices and documents for 6 years according to ZATCA's e-archiving requirements.
+Features that drive success
+An integrated system that gives you all the tools to control your inventory and accounts.
+Real-Time Stock Tracking
+Instant full visibility on every item in every warehouse — quantity, cost, and location.
+Live balance per warehouse
+Reorder point alert
+Fast barcode scanning
+Inventory-Accounting Link
+Every stock move instantly generates an accounting entry — no double entry.
+Instant auto entries
+Updated ledger
+Live financial reports
+Purchasing & Vendor Management
+A complete purchase cycle from order to receipt and inventory update.
+E-purchase orders
+Price quote comparison
+Vendor performance rating
+Physical Count & Reconciliation
+Count warehouses quickly using handheld or barcode, and reconcile differences automatically.
+Mobile or barcode count
+Instant variance report
+Automatic reconciliation
+Multi-Warehouse & Cost Centers
+Manage multiple branches and warehouses with independent cost centers and consolidated reports.
+Inter-branch transfers
+Per-warehouse profitability
+Consolidated group report
+Success partners trust Sinmar
+Clients
+Success Rate
+ZATCA Compliant
+Years Exp
+What is the best inventory software for small businesses in Saudi Arabia?
+Sinmar Inventory System is designed to suit all company sizes in the Kingdom — from small and medium enterprises to large multi-warehouse corporations. It offers a simple and fully Arabic interface, flexible packages tailored to different budgets, and rapid deployment within days. What makes it unique is its full support for Saudi requirements like ZATCA and VAT without any additional setup.
+How do I choose a suitable inventory software for my e-commerce store?
+When choosing an inventory software for your e-commerce store, look for these criteria: (1) Instant synchronization between the inventory and the e-store to avoid selling out-of-stock items. (2) Barcode and QR Code support for fast receiving and shipping. (3) Integration with popular e-commerce platforms. (4) Reports on top-selling and least-selling items. Sinmar covers all these criteria.
+What are the features of cloud inventory software available in the Saudi market?
+Cloud inventory software features: access from anywhere on any device, continuous automatic updates at no extra cost, daily backups to protect data, and easy scalability as the company grows. In the Saudi market specifically, the most crucial aspect is compliance with ZATCA and integration with the Fatoora portal — which Sinmar fully provides.
+Is there a demo account for the system?
+Yes, we offer a customized demo session with one of our experts, showcasing the system based specifically on the nature of your business and requirements — not just a generic overview. Contact us to schedule a session, and you'll receive a full assessment of how Sinmar can help your company.
+What are the steps to link the system with ZATCA?
+Linking with ZATCA through Sinmar involves three main steps: (1) Setting up the establishment's data and tax registration number within the system. (2) Generating the cryptographic stamp (CSID) and registering on the Fatoora portal. (3) Automatic API integration to send invoices and receive real-time notifications. Our technical team fully executes these steps on your behalf during implementation.
+Does the system fully support e-invoicing?
+Yes, Sinmar fully supports e-invoicing according to ZATCA requirements for both phases: Phase One (issuing invoices in XML format with QR Code), and Phase Two (instant integration with the Fatoora portal and sending invoices electronically before delivering them to the customer). The system supports sales invoices, purchase invoices, and debit/credit notes.
+What is the difference between the cloud and on-premise versions of the system?
+The cloud version operates online without the need for local servers — you pay a monthly subscription and get automatic updates and high security. The on-premise version is installed on your company's servers and requires an upfront investment in hardware and maintenance. We recommend the cloud version due to its lower operating costs, bank-level security, and anywhere-access — making it the most suitable choice for most companies in the Saudi market today.
+Can the system be customized to fit my business activity?
+Yes, Sinmar is flexible and customizable for any sector: retail, manufacturing, distribution, contracting, pharmacies, and more. You can customize: units of measurement and classifications, pricing levels, order and shipping templates, chart of accounts, and inventory reports. The system also supports custom barcodes and RFID integration for advanced warehouse environments.
+How are Zakat and taxes calculated within the system?
+The system automatically calculates Value Added Tax (VAT 15%) on all invoices and prepares periodic tax returns in a ready-to-submit format. For Zakat, the system provides the required asset and inventory reports — with the ability to link to the accounting module to prepare the financial statements required for Zakat declarations.
+Is the system compliant with Phase Two of e-invoicing?
+Yes, completely. Sinmar complies with Phase Two (Integration) of ZATCA's e-invoicing, which requires sending the invoice electronically to the Fatoora portal and receiving approval or clearance before sharing it with the customer. This happens automatically within the system without any extra manual steps from the user.
+Use Cases
+Inventory management across sectors
+Discover how Sinmar inventory system adapts to the needs of different business activities.
+Sector
+Inventory system for e-commerce
+Connect inventory with e-commerce platforms, update balances instantly with every order, and avoid selling out-of-stock items.
+Factory and production inventory management
+Track raw materials, work in progress, and finished goods with direct links to production orders and manufacturing costs.
+Retail and general trade inventory system
+Connect inventory with Point of Sale (POS) to update balances instantly with every transaction, and generate best-selling and low-selling product reports.
+Inventory system for contracting companies
+Track construction materials, project equipment, and operating costs with location-based reporting and e-invoicing integration.
+Inventory system for pharmacies and medical supplies
+Track expiry dates, batches, and expiry alerts before wastage occurs.
+Inventory system for distribution and logistics companies
+Track goods movement and sales across distribution points with detailed reports for shipments and inventory.
+ERP Modules
+Inventory is part of an integrated ERP system
+Sinmar Inventory is not isolated; it is a beating heart that connects instantly to all other business units.
+Accounting module
+Transfer inventory and purchasing entries to the accounting system automatically without double entry.
+Inventory module
+Comprehensive inventory management with accurate tracking of materials, sales, and stock alerts.
+POS module
+Fast, integrated POS system with barcode reader support, invoice printing, and cash register management.
+Purchasing module
+From purchase order to goods receipt and inventory update — a complete closed purchasing cycle
+Integrated ERP system
+Inventory is the heart of ERP — connected to sales, production, finance, and HR.
+eCommerce module
+Synchronize inventory with your online store in real-time to avoid orders for unavailable products.
+Why Sinmar?
+Why is Sinmar the perfect choice for your inventory?
+\
+With Sinmar, you won't lose sales due to stockouts and won't freeze your money in dead stock.
+Designed for the Saudi market
+Inventory software built specifically for Saudi market needs — Arabic language, Saudi Riyal, and ZATCA & VAT compliance.
+Fast deployment in days
+Our implementation team configures the system and migrates your existing inventory data in a few days, with full team training.
+Advanced analytics and reporting
+More than 50 ready reports: inventory turnover rate, slowest moving products, demand forecasting, and supplier performance analysis.
+Specialized Arabic technical support 24/7
+A support team that understands your business, speaks Arabic, and is available via WhatsApp, phone, and email — real support, not automated responses.
+Explore Sinmar General Inventory Interfaces
+Easy and fast screens enabling you to perform inventory counts, print barcodes, and track shortages instantly with minimal effort.
+Compliant with Saudi Market and ZATCA
+Integrated accounting and inventory ensuring accuracy and ZATCA compliance.
+Instant Accounting & Inventory Link
+Every inventory move generates an instant accounting entry.
+VAT Support
+Accurate VAT calculation and automated tax returns.
+Real-time Financial Reports
+View P&L and balance sheets with real-time data.
+Advanced E-invoicing
+Issue simplified and detailed tax invoices complying with ZATCA.
+Cash Flow Management
+Precise tracking of payables and receivables.
+High Security & Reliability
+End-to-end encryption and regular backups for your data.
+Sinmar Accounting — Approved by ZATCA
+Sinmar Accounting — Professional & Compliant Financial Management
+An integrated cloud-based accounting software that manages all your financial transactions from one place — from invoices, payments, and payroll to tax reports, income statements, and balance sheets, with full automation and Saudi regulatory compliance.
+Full Accounting Entry Automation
+Real-time Financial Reports
+ZATCA Approved
+What is Sinmar Accounting Software?
+An integrated accounting software that manages all your financial transactions from one place.
+Sinmar Accounting is a specialized cloud solution that enables your company to record, track, and analyze all financial operations in one place — from invoices, payments, and payroll to tax reports, income statements, and balance sheets. Unlike Excel spreadsheets or traditional systems, it provides full automation of accounting entries, seamless ERP integration, and complete compliance with ZATCA requirements.
+ZATCA Approved Accounting Software
+Fully compliant accounting system with e-invoicing, VAT, Zakat, and SOCPA standards — without any complications.
+E-Invoicing (ZATCA)
+Support for both phases of e-invoicing with QR Code, XML, and direct submission to the Fatoora platform.
+ISO 27001 Compliant Security
+Secure infrastructure with full data encryption and regular backups to protect your financial data.
+Value Added Tax (VAT 15%)
+Automatic 15% VAT calculation on all invoices with accurate tax return preparation ready for submission.
+Zakat & Income Tax
+Ready financial reports for Zakat and tax purposes with full audit documentation.
+SOCPA Accounting Standards
+Full compliance with Saudi accounting standards with reports approved by auditors and official entities.
+Fully Encrypted Cloud System
+Full SSL encryption with daily backups and continuous automatic updates — no local servers needed.
+Features of Sinmar Accounting Software
+An integrated cloud accounting software combining ease of use, precise calculations, and powerful financial management, designed specifically for the Saudi market.
+Automated Journal Entries
+Automatic recording of all double entries with instant tracking of general and sub-ledgers.
+Auto journal & ledger entries
+One-click bank reconciliation
+Complete accounting archive
+Real-Time Financial Reports
+Instant generation of income statements, balance sheets, and cash flows with PDF/Excel export.
+Instant balance & income
+Period comparisons
+Custom reports
+Invoicing & Receivables
+Create professional VAT-compliant invoices with automated payment reminders to customers and suppliers.
+Professional VAT invoices
+Automated payment reminders
+Receivables tracking
+Payroll & Expense Management
+Calculate salaries, allowances, and GOSI automatically with advances management and direct accounting link.
+Auto payroll & GOSI
+Advances & custody mgmt
+End-of-service & leave
+Treasury & Bank Management
+Multiple bank accounts with automated reconciliation, internal transfers, and real-time balance monitoring.
+Multiple bank accounts
+Automated reconciliation
+Check management
+100% Cloud — Access Anywhere
+Secure access from any device with full SSL encryption and daily auto backups — no local servers needed.
+Access from any device
+Full SSL encryption
+Daily auto backup
+Success partners trust Sinmar Accounting
+Clients
+Success Rate
+Accounting Accuracy
+Years Exp
+Is Sinmar Accounting Software approved by the Zakat, Tax and Customs Authority (ZATCA)?
+Yes, Sinmar Accounting Software is listed among the accounting programs approved by the Zakat, Tax and Customs Authority in the Kingdom of Saudi Arabia. The system fully supports e-invoicing in accordance with ZATCA requirements for both Phase 1 and Phase 2, including generating QR Codes, standards-compliant XML files, and sending invoices electronically to the Fatoora platform.
+Is Sinmar the best accounting software for SMEs in Saudi Arabia?
+Yes. We offer packages specially designed for small and medium enterprises, featuring a user-friendly Arabic interface that requires no advanced accounting experience. Businesses can start with a basic package and scale gradually as they grow, while maintaining all company data and compliance requirements.
+What are the advantages of online (cloud) accounting software compared to traditional on-premise systems?
+Cloud accounting software does not require local servers or complex installations; it can be run directly via any browser from anywhere on any device. It also includes continuous automatic updates, daily backups, and high security with SSL encryption. On the other hand, traditional systems require additional investments in hardware, maintenance, and paid upgrades.
+How does the accounting software guarantee full compliance with e-invoicing?
+The system automatically generates invoices in the ZATCA-approved XML format, dynamically includes a QR Code, and sends them directly to the Fatoora platform via an integrated API. It also maintains a complete electronic archive of incoming and outgoing invoices for 6 years in accordance with e-archiving regulations.
+Can the accounting software be integrated with my company's ERP system?
+Yes, Sinmar Accounting Software is designed as part of an integrated ERP ecosystem. It connects seamlessly with inventory, HR, purchasing, and POS systems, eliminating the need for double data entry between departments. It also provides an open API for integration with other systems.
+What makes Sinmar Accounting Software the best cloud accounting software in the Saudi market?
+Sinmar Accounting Software is distinguished by three key factors: 1. Full compatibility with Saudi market requirements, ZATCA regulations, and e-invoicing phases. 2. Specialized, round-the-clock technical support. 3. Seamless integration with all company systems like ERP, HR, and POS, making it a comprehensive business management solution.
+How long does it take to implement the accounting software in my company?
+For small and medium enterprises, implementation typically takes 3 to 7 business days, including data migration, chart of accounts setup, training, and final testing. For large or multi-branch companies, it may take 2 to 4 weeks depending on the size and complexity of operations.
+Does the accounting software support multiple currencies, branches, and cost centers?
+Yes, Sinmar Accounting Software supports multiple currencies with exchange rates updated automatically. It also enables managing multiple branches with independent accounts for each branch and the ability to issue consolidated group-level reports. Additionally, multiple cost centers can be defined to track the profitability of each department or project separately.
+Use Cases
+Key Uses of Sinmar Accounting Software Across Sectors
+Alawi Stars accounting software is flexible and configurable to suit various sectors and sizes in the Saudi market, from startups to multi-branch enterprises.
+Sector
+Corporate & Enterprise Accounting
+Manage multi-branch accounts, cost centers, and consolidated financial reports for effective strategic decisions.
+Retail & Store Accounting
+Daily tracking of sales, invoices, payments, and goods costs, with direct integration with POS systems.
+Factory & Manufacturing Accounting
+Industrial cost accounting, production cost tracking, and precise raw materials and inventory management.
+Restaurant, Hotel & Cafe Accounting
+High-precision management of restaurant accounts, item costs, invoicing, and daily/monthly financial reports.
+Construction & Contracting Accounting
+Project accounting, contract costs, progressive accruals, and preparation of milestone and final invoicing.
+Best Accounting Software for SMEs
+An easy-to-use professional accounting system suitable for startups, with scalability to accommodate future business growth.
+System Integration
+Accounting is part of an integrated ERP ecosystem
+Connect all company departments on a single platform — eliminate double entry, real-time data updates, and increased financial accuracy.
+Accounting module
+Automated journal entries with instant tracking of general and sub-ledgers.
+Inventory Management
+Link inventory with accounts for automatic balance and cost updates with every movement.
+HR & Payroll
+Payroll, allowances, and insurance management with automatic posting to financial accounts.
+POS System
+Integrated POS with accounting for instant sales and invoice recording.
+CRM System
+Link customer data with financial accounts for receivables and payables tracking.
+Purchasing & Sales
+Complete purchase and sales cycle with automatic journal entry posting.
+Why Sinmar Accounting?
+Why choose Sinmar Accounting?
+\
+With Sinmar Accounting, eliminate costly calculation errors, slow reports, and non-compliance — get smart automation, instant reports, and full compliance.
+Designed for the Saudi Market
+Compatible with local regulations, Arabic language, local currency, and ZATCA requirements.
+Fast deployment in days
+System operational in days with full team training and current financial data migration.
+24/7 Technical Support
+Support via phone, WhatsApp, and email — real support by a specialized Arabic team, not automated responses.
+Scalable with your business growth
+Suits startups, large companies, and multi-branch businesses — flexible packages for all sizes.
+Explore Sinmar Accounting Interfaces
+A modern, clear user interface designed with the highest standards to help you manage all financial operations seamlessly from a single screen.
+Sinmar Medical System — Complete Management for Clinics & Pharmacies
+Integrated Medical System for Clinics, Hospitals & Pharmacies
+Sinmar Medical System unifies patient records, appointments, e-prescriptions, and pharmacy inventory in one platform — delivering better healthcare and more efficient management.
+Easy patient record management
+Instant electronic prescriptions
+Medicine expiry alerts
+What is Sinmar Medical System?
+A comprehensive digital medical system managing all clinic or pharmacy operations from a single screen.
+Sinmar Medical System is a specialized cloud solution enabling medical centers, pharmacies, and hospitals to manage patient records, schedule appointments, issue e-prescriptions, and track medicine inventory with expiry alerts — with automatic accounting integration and health insurance connectivity.
+Secure Medical System Integrated with Health Insurance & E-Prescriptions
+Sinmar Medical System meets Saudi healthcare sector requirements — from patient data protection per privacy standards, to integration with health insurance companies and Saudi Health Authority.
+Expiry Dates & Batch Management
+Track batches for every medicine with early alerts before expiry to prevent any wastage.
+Patient Data Protection
+Full encryption of patient files and medical records per international privacy standards and health data protection regulations.
+Electronic Prescriptions
+Link the clinic to the pharmacy for instant electronic prescription dispensing without paperwork or delays.
+Medicine Shortage Alerts
+Automatic instant notifications when medicine stock reaches the minimum to prevent service interruption.
+Health Insurance Integration
+Efficiently manage health insurance claims and prior medical approvals with full status tracking.
+Patient Appointment Management
+Schedule and organize appointments efficiently, send automatic patient reminders, and reduce waiting times.
+Sinmar Medical System Features
+A complete medical system giving clinics and pharmacies all the tools needed for better healthcare and more professional management.
+Electronic Patient Records
+Comprehensive medical record for each patient including history, allergies, previous medications, and reports.
+Complete organized medical record
+Allergies & chronic conditions
+Fast patient search
+Appointment & Scheduling Management
+Smart scheduling system distributing appointments across doctors with automatic patient reminders to reduce no-shows.
+Interactive doctor calendar
+Automatic SMS reminders
+Electronic waiting list
+Medicine & Pharmacy Inventory
+Comprehensive tracking of all medicines and medical supplies with expiry alerts, shortage notifications, and batch tracking.
+Batch & expiry tracking
+Reorder point alert
+Barcode or QR dispensing
+Electronic Prescriptions
+Issue electronic prescriptions directly from the clinic and dispense them instantly at the pharmacy without paperwork.
+Instant clinic-pharmacy link
+Doctor digital signature
+Previous prescription history
+Billing & Health Insurance
+Issue professional medical invoices and manage health insurance claims and prior approvals with full efficiency.
+VAT-compliant medical invoices
+Insurance claims management
+Payment & receivables tracking
+Medical Reports & Analytics
+Detailed reports on performance, most common diagnoses, clinic revenues, and pharmacy activity.
+Daily revenue reports
+Disease & medicine statistics
+PDF & Excel export
+Medical Centers & Pharmacies Trust Sinmar Medical
+Clinics & Pharmacies
+Client Satisfaction
+Patient Data Security
+Medical Experience
+What is Sinmar Medical System and what does it offer?
+Sinmar Medical System is an integrated cloud solution designed for medical centers, clinics, hospitals, and pharmacies in Saudi Arabia. It includes: electronic patient records, appointment scheduling, e-prescriptions, medicine inventory with expiry tracking, VAT-compliant medical billing, and health insurance claims management.
+Is the system suitable for small clinics and specialized medical centers?
+Yes, the system is flexible and configurable to suit all sizes of medical facilities — from a single-doctor clinic to a multi-specialty, multi-branch hospital. You can start with basic modules and add specialized units (lab, radiology, pharmacy) gradually as you expand.
+How does the system ensure patient data protection and confidentiality?
+The system uses full SSL encryption for all transmitted and stored data, with restricted access permissions for each user based on their role (doctor, nurse, receptionist, accountant). Automatic daily backups are performed, and the system complies with health data protection standards in Saudi Arabia.
+Can the system integrate with health insurance companies?
+Yes, the system provides direct integration with major health insurance companies in Saudi Arabia to manage prior approvals, submit claims electronically, and track each claim's status. This reduces waiting time and accelerates the collection cycle.
+How do electronic prescriptions work in the system?
+The doctor issues the prescription electronically from the examination screen directly — it appears instantly in the pharmacy to be dispensed without any paperwork. The prescription is automatically recorded in the patient's record, and the system instantly deducts dispensed medicines from pharmacy stock with real-time balance updates.
+How does the system help manage medicine expiry dates?
+The system tracks every medicine batch by number and expiry date. It sends automatic early alerts (configurable: 30, 60, or 90 days before expiry) to ensure timely disposal or redistribution of expiring medicines. It also generates detailed reports of near-expiry items.
+Can the system manage multi-specialty clinics from the same platform?
+Yes, the system is designed to support multi-specialty clinics with separate permissions for each department or medical specialty. Each doctor can only access their patients' files, while management can view consolidated reports across all departments. The system also supports pharmacy, lab, and radiology as independent integrated units.
+What differentiates Sinmar Medical System from other medical software?
+Sinmar Medical System stands out in three key areas: (1) Custom design for the Saudi market supporting Arabic, Saudi Riyal, and Saudi Health Authority requirements. (2) Full integration with other ERP modules like accounting, inventory, and HR, eliminating the need for separate software. (3) Specialized 24/7 technical support with an Arabic team that understands healthcare sector needs.
+Use Cases
+Medical System for All Healthcare Facilities
+Sinmar Medical System is flexible and designed to serve a wide range of healthcare facilities in Saudi Arabia — from private clinics to large hospitals.
+Health Sector
+Private Clinics & Medical Centers
+Manage patient files, appointments, examinations, and prescriptions efficiently with revenue tracking per doctor.
+Pharmacies & Medicine Warehouses
+Track medicine inventory by batch and expiry, dispense prescriptions electronically, and receive shortage alerts — with instant accounting integration.
+Multi-Specialty Hospitals
+Manage multiple departments (internal medicine, surgery, obstetrics, pediatrics) with unified patient files and consolidated group financial reports.
+Medical Laboratories & Radiology
+Receive lab and radiology requests electronically, issue results to patients and doctors, and manage lab supplies.
+Dental Centers
+Detailed dental file per patient with tooth chart, treatment session scheduling, and tracking of supplies and materials used.
+Medicine & Medical Supply Distributors
+Manage medicines and medical supplies at scale with batch and expiry tracking, customer orders, and distribution management.
+Medical System Modules
+Medical System — A Complete Integrated Suite
+Sinmar Medical System is not just an appointment booking software — it is a fully integrated medical suite connecting all healthcare facility departments in one platform.
+Patient Management
+Comprehensive electronic medical record for each patient including history, allergies, previous medications, and medical results.
+Appointment & Scheduling
+Smart calendar to distribute appointments across doctors with automatic reminders and waiting list management.
+Pharmacy & Medicine Inventory
+Comprehensive medicine inventory management with batch tracking, expiry dates, e-prescriptions and instant dispensing.
+Billing & Health Insurance
+Issue VAT-compliant medical invoices and manage health insurance claims and prior approvals.
+Medical Financial Accounting
+Instant link between medical operations and financial accounts — every invoice or medicine dispensing generates an automatic accounting entry.
+Medical Reports & Analytics
+Comprehensive reports: clinic revenues, doctor performance, pharmacy activity, and disease statistics for better medical and management decisions.
+Why Sinmar Medical?
+Why Medical Centers & Pharmacies Choose Sinmar?
+\
+With Sinmar Medical, you won't miss a prescription, lose a patient file, or run out of medicine before you know.
+Designed for the Saudi Healthcare Sector
+A medical system built on Saudi market requirements — Arabic language, Saudi Riyal, Saudi Health Authority requirements, and health insurance.
+Fast Deployment in a Few Days
+Our implementation team runs the system and trains your medical and administrative staff within a few days with existing data migration.
+Specialized Medical Technical Support 24/7
+Support team that understands healthcare sector needs, available via WhatsApp, phone, and email — real support, not automated responses.
+Integration with All Business Systems
+The medical system connects with accounting, HR, and inventory — one platform managing the medical, administrative, and financial aspects.
+Explore Sinmar Medical System Interfaces
+A modern, easy-to-use medical interface enabling doctors, pharmacists, and administrators to manage all operations smoothly from a single screen.
+Sanmar Property Management — Comprehensive & Reliable Solution
+Sanmar Property & Real Estate Management Software
+Full control over your properties, seamless contract and lease management, and precise tracking of collections and maintenance from a single integrated platform that elevates your real estate business.
+Smart Contract Mgmt
+Auto Payment Alerts
+Comprehensive Reports
+What is Sanmar Property Management Software?
+An integrated system specifically designed to facilitate and manage all aspects of residential and commercial properties.
+The software allows you to fully automate the leasing cycle; from registering units and tenant data, through renewing contracts and issuing ZATCA-compliant invoices, to managing maintenance requests and generating financial and administrative reports that support your decisions.
+Features that drive success
+An integrated system that gives you all the tools to control your properties and revenues.
+Contract & Lease Management
+Create and renew contracts with a click, with precise tracking of expiration dates.
+Easy contract renewal
+Tenant profile management
+Electronic contract archiving
+Flexible Financial Collection
+Record payments, issue receipts, and easily schedule due payments.
+Auto receipt vouchers
+Payment scheduling
+Tracking overdue payments
+Auto Alerts & Notifications
+Proactive alerts for tenants and property managers on upcoming payments or contract expirations.
+Contract expiry alerts
+Payment due reminders
+SMS and Email integration
+Maintenance & Operations
+Track maintenance requests per unit, record costs, and link them to financial reports.
+Register fault reports
+Track maintenance status
+Allocate costs to units
+Dashboard & Reports
+Comprehensive view of unit status, collection rates, and revenues/expenses.
+Occupancy and vacancy report
+Owner account statement
+Periodic revenue & expense
+Can the program be linked to the general accounting system?
+Yes, all financial operations (like rent and expenses) are automatically posted to the general accounting system to ensure the accuracy of financial statements.
+Does the software support third-party property management (multiple owners)?
+Absolutely, you can manage properties for different owners simultaneously and easily issue specific and accurate account statements for each owner.
+Are the invoices issued from the system compliant with ZATCA requirements?
+Yes, the e-invoices issued by the property management software are fully compliant with ZATCA requirements (Phases 1 and 2) and include the QR Code.
+ZATCA and E-Invoicing Compliant Property Management System
+Automatically issue rent invoices and financial claims fully compliant with ZATCA requirements.
+ZATCA Compliant
+Issue tax invoices for commercial and residential property rentals according to regulations.
+Security & Reliability
+Full protection of your contracts and tenants data, with permanent data backup.
+B2B and B2C E-Invoicing
+The system supports issuing invoices to companies (B2B) and individuals (B2C) based on the rental nature.
+VAT for Commercial Rent
+Calculate VAT on commercial properties and add it to invoices automatically.
+Use Cases
+Property management across real estate sectors
+Sanmar property management software adapts to all types of properties and real estate activities in the Saudi market.
+Sector
+Property Management Companies
+Manage hundreds of properties on behalf of owners with collection tracking and periodic statements.
+Commercial & Office Complexes
+Manage lease contracts for shops and offices with shared service charges and periodic maintenance.
+Residential Complexes & Towers
+Track tenant contracts, manage vacant units, and collect rents with automatic notifications.
+Real Estate Developers
+Track unit sales by installments and manage multi-project real estate portfolios.
+Individual Property Owners
+Simple solution for individual owners to track rents, expenses, and net profits.
+Malls & Shopping Centers
+Manage retail store leases with percentage-of-sales variable rent calculation.
+ERP Modules
+Property management is part of Sanmar's integrated system
+The property system is linked to accounting and invoicing for comprehensive financial management.
+Contracts & Leases
+Issue and track lease contracts with auto-renewal and expiry alerts.
+Collections & Finance
+Track due rents and issue receipt vouchers with full accounting integration.
+Tenant Management
+Comprehensive tenant database with transaction and communication history.
+Maintenance & Facilities
+Log maintenance requests and track execution with cost allocation per unit.
+E-Invoicing
+Issue ZATCA-compliant electronic rent invoices for each tenant.
+Reports & Analytics
+Occupancy, returns, and expense reports for smart investment decisions.
+Why Sanmar?
+Why is Sanmar the best choice for your property management?
+\
+With Sanmar, you won't miss a rent payment and maintenance costs won't pile up without your knowledge.
+Designed for Saudi Real Estate
+Supports unified lease contracts and Ejar platform compatible with Saudi regulations.
+Automatic collection without manual follow-up
+Automatic notifications to tenants before payment dates and instant alerts on delays.
+Comprehensive return reports
+Know the net return per property and unit after deducting expenses and maintenance.
+Specialized real estate support
+A support team that understands real estate, available via WhatsApp and phone.
+Sanmar Furnished Apartments — Smart Hotel System
+Furnished Apartments & Hotel Management Software
+An integrated system to organize bookings, speed up check-in/out procedures, and accurately manage room status with direct link to invoicing and accounting for maximum operational efficiency.
+Interactive Bookings
+Fast Check-in/out
+Vacancy & Cleaning Mgmt
+What is Sanmar Furnished Apartments Software?
+A specialized system for managing hotels and furnished apartments that combines ease of use with accounting accuracy to meet the needs of the hospitality sector.
+The system allows you to monitor room status in real-time, manage seasonal pricing, and check-in guests incredibly fast, while issuing electronic contracts and invoices fully compliant with ZATCA requirements and Ministry of Tourism directives.
+Features driving your success in hospitality
+An integrated system giving you all the tools to manage hotel apartments and increase profits.
+Interactive Booking Dashboard
+View room and suite status on a single screen (available, occupied, under maintenance, housekeeping).
+Comprehensive room view
+Instant status update
+Guest details in a click
+Fast Check-in & Check-out
+Automate procedures to reduce guest waiting time and raise satisfaction levels.
+Auto-print contracts
+Instant invoicing
+Flexible booking extensions
+Seasonal Pricing & Taxes Mgmt
+Flexibility in changing prices based on seasons and holidays with auto-calculation of Baladiya fees and VAT.
+Automated seasonal pricing
+Baladiya fees calculation
+Value Added Tax (VAT)
+Housekeeping & Maintenance
+Direct the housekeeping team to vacant rooms and update status upon completion to make them ready for rent.
+Alerts for housekeeping
+Track maintenance work
+Speed up room prep
+Extended Invoicing & Credit
+Flexibility in handling long stays and booking extensions with support for corporate credit.
+Long-stay invoices
+Corporate credit bookings
+Daily receipt vouchers
+Does the system support recording guest data and linking it to security authorities?
+Yes, the system is designed to accurately record national IDs and passports to facilitate the preparation of security lists for relevant authorities as per Ministry of Tourism directives.
+Are Baladiya (Municipal) fees calculated correctly and detailed in the invoice?
+Absolutely, the system calculates Baladiya fees separately and applies VAT automatically, displaying them in the e-invoice in compliance with ZATCA requirements.
+How does the system handle corporate bookings and loyal customers?
+The software has specific profiles for companies allowing you to manage annual contracts, apply discounted rates, allow credit payments, and issue consolidated invoices/statements at the end of the period.
+Hotel System Compliant with ZATCA and Tourism Regulations
+Issue accommodation invoices electronically and comply fully with Ministry of Tourism and ZATCA regulations.
+ZATCA Compliant
+Detailed tax invoices including room details, taxes, and QR Code.
+Applying Baladiya Fees
+Built-in support for auto-calculating municipal accommodation fees.
+Corporate Credit Mgmt
+Issue B2B tax invoices for contracted companies and manage collections.
+Exporting Guest Lists
+Print and export periodic guest lists to meet inspection and security requirements.
+Use Cases
+Managing Tourist Accommodation Facilities
+Sanmar Furnished Apartments software serves accommodation sectors of all sizes.
+Sector
+Furnished Apartments
+Daily management and monthly rental of furnished residential units with full flexibility.
+Budget Hotels
+Fast check-in, room cleaning tracking, and instant tax invoices for guests.
+Hotel Suites
+Flexible booking system suitable for hotel suites targeting families and long stays.
+Tourist Resorts
+Manage chalet and recreational facility bookings with hospitality services linked to the invoice.
+Staff & Labor Camps
+Manage accommodation of company staff and labor in dedicated residential complexes.
+Hostels & Guest Houses
+Manage fast occupancy and issue daily reports on room and bed status.
+ERP Modules
+Hotel system integrated with resource planning
+The software is not limited to reception, but extends to accounting and facility management.
+Front Desk & Reservations
+Fast query screen for vacant rooms and check-in procedures in seconds.
+Finance & Accounting
+Automatic posting of room and service revenues to general ledger.
+Guest Management
+Comprehensive guest record, ID attachments, and blacklist for defaulters.
+Housekeeping
+Update room status (clean, dirty, maintenance) to ensure rental readiness.
+ZATCA & Shmous Invoicing
+Electronic linking to send guest data to (Shmous) and issue tax invoices.
+Service Revenues
+Easily add extra services like laundry and cafeteria to the guest's invoice.
+Why Sanmar?
+Why rely on Sanmar to manage your furnished apartments?
+\
+The system eliminates manual check-in errors and provides the facility manager with live occupancy reports.
+Full Government Compliance
+System is compliant with Tourism requirements, Shmous platform, and ZATCA.
+One-Click Check-in
+ID reading and extremely fast guest data entry to avoid front desk queues.
+Interactive Dashboard
+View the entire hotel status with clear colors (occupied, vacant, cleaning).
+Fraud Protection
+Precise permissions for receptionists and logging of every action (cancellation, price change).
+Sanmar Car Maintenance — Professional Workshop Mgmt
+Car Maintenance & Workshop Mgmt Software
+An integrated system starting from receiving the customer's car, opening a detailed job card, tracking spare parts and labor, to car delivery and invoice issuance, ensuring the highest levels of organization and profitability.
+Detailed Job Cards
+Spare Parts Integration
+Tech Commissions
+What is Sanmar Car Maintenance Software?
+The optimal software solution for managing and monitoring workflow inside car maintenance centers, mechanic, and auto body shops to ensure operations run smoothly.
+The system enables you to track car status moment by moment, assign tasks to technicians and accurately determine costs, in addition to seamless integration between workshop services, spare parts inventory, and the accounting system to issue certified tax invoices.
+Car Maintenance Software Features
+Everything you need to manage the workshop professionally and increase customer satisfaction.
+Detailed Job Cards
+Register car details (plate, VIN), customer complaint, and estimated cost in an organized maintenance card.
+Fast car reception
+Assign responsible tech
+Print entry card
+Spare Parts Integration
+Deduct required parts from inventory directly to the job card and auto-calculate cost to prevent waste.
+Auto stock update
+Determine parts cost
+Parts shortage alerts
+Car Status Tracking
+Update repair status (waiting, in progress, ready) to inform the customer and manage workshop time effectively.
+Track repair stages
+SMS alerts to customer
+Reduce waiting time
+Technician Commissions
+Automatic calculation of each technician's percentage from labor and services based on center policies.
+Set % per service
+Detailed commission report
+Motivate the team
+Vehicle Service History
+Keep detailed service history for each car as a reliable reference building customer trust for future visits.
+Search by plate/VIN
+Review past repairs
+Periodic maintenance reminder
+Can I send alerts to customers when their cars are ready?
+Yes, the system allows you to send SMS to the customer informing them that maintenance is finished for quick pickup.
+Does the system support selling spare parts separately from maintenance services?
+Absolutely, the software provides a POS system allowing you to sell spare parts directly to customers (as an independent store) without opening a maintenance job card.
+Workshop Invoices Compliant with ZATCA Requirements
+Issue comprehensive e-invoices for services and spare parts according to Saudi tax regulations.
+ZATCA Compliant
+Invoices clearly detailing labor and parts with QR Code.
+Customer Data Security
+Securely store and encrypt vehicle and customer records.
+B2B and B2C E-Invoicing
+Support invoices for individuals and companies (car fleets).
+Certified Archiving
+Electronic archiving of all job cards and invoices for future reference.
+Use Cases
+Managing Car Maintenance Centers
+Sanmar solutions cover all specialties of light and heavy car maintenance.
+Activity
+Mechanics & Electrical Workshops
+Diagnose faults, open job cards, and accurately determine technician fees.
+Body & Paint Centers
+Track lengthy repair processes and manage insurance company authorizations.
+Trucks & Equipment Maintenance
+Manage periodic maintenance contracts for fleets and heavy equipment.
+Oil & Tire Change Centers
+Fast services, oil inventory management, and alerting customers to the next change date.
+Car Care Shops
+Manage polishing, tinting, and protection services with warranty certificate issuance.
+Comprehensive Inspection Centers
+Issue accurate inspection reports for used cars before sale.
+ERP Modules
+Integrated Workflow for the Center
+The system automatically links reception, the workshop, and the spare parts warehouse.
+Job Cards Management
+Open a job order including car, customer, and initial complaint data.
+Spare Parts Warehouse
+Issue spare parts to the job card and update inventory instantly.
+Technician Productivity
+Calculate commissions based on completed tasks for each technician or engineer.
+Insurance Claims
+Issue customized invoices for insurance companies with customer deductible.
+Invoicing & Payments
+Aggregate labor fees and spare parts into a single approved tax invoice.
+Reminder Messages
+Send SMS to the customer when the car is ready or for the periodic maintenance date.
+Why Sanmar?
+Full control of your maintenance workshop
+\
+Sanmar provides accurate tracking of each car's costs and prevents revenue leakage or lost parts.
+Comprehensive Vehicle History
+Search by plate number to see all previous repairs done in your center.
+Pre-pricing (Quotations)
+Issue quotes to the customer before starting work and convert to invoice upon approval.
+Parking Lot Management
+Know the cars parked in the workshop and their status (waiting for parts, in progress, ready).
+Detailed & Clear Invoices
+Separate labor fees from spare parts value for complete transparency with the customer and ZATCA.
+Sanmar Car Sales — Accuracy & Speed
+Car Showroom & Sales Management Software
+Track vehicles by VIN, manage direct costs, and calculate actual profit per car accurately, with a flexible system for managing installments and collections.
+VIN-based Inventory
+Accurate Car Costs
+Installments System
+What is Sanmar Car Sales Software?
+The comprehensive solution you need to manage your car showroom, specifically designed to handle the car's lifecycle from the moment it is purchased or imported until it is sold to the consumer.
+The software gives you the ability to calculate the actual cost of each vehicle by adding transport, customs, and maintenance fees, along with the ability to schedule and automatically track customer installments and document ownership transfer fees.
+Car Showrooms Software Features
+Full control over your sales, inventory, and accounts.
+VIN-based Inventory
+Enter and track cars using VIN, plate, color, and model for accurate tracking of each vehicle.
+Quick search by VIN
+Track inventory status
+Register consignments
+Accurate Car Costs
+Add transport, customs, and maintenance expenses to the base cost to know the true profit margin.
+Record direct expenses
+Accurate profit calculation
+Avoid hidden losses
+Installments Management
+Automatically schedule payments for buyers on installments with periodic alerts for due dates and late payments.
+Auto-schedule installments
+Overdue payment alerts
+Instant payment receipts
+Ownership & Plates Transfer
+Organize and document ownership transfer fees and government service costs within the sales invoice automatically.
+Add traffic fees
+Electronic sales contracts
+Official delivery forms
+Detailed Profit Reports
+Generate reports showing profit or loss for each car individually, and comprehensive reports for financial performance.
+Car profitability report
+Sales reps performance
+Comprehensive financials
+Does the system support registering customers' cars offered for sale (consignments)?
+Yes, the system allows you to register cars offered on behalf of others and manage the showroom's commissions from selling them accurately.
+How does the software handle multiple payment methods?
+The system supports receiving multiple payments for a single car (part cash, part POS, or bank financing) and posting them correctly in accounting.
+Tax Invoices for Car Sales (ZATCA)
+Issue car sales invoices fully compliant with ZATCA with accurate tax calculation.
+ZATCA Compliant
+Invoices including VAT and QR Code.
+Sales Contracts Archiving
+Secure electronic storage of sales contracts to access anytime.
+Profit Margin Tax Calculation
+Support VAT calculation mechanism on profit margin for used cars.
+Certified Receipt Vouchers
+Issue and print receipt vouchers for down payments or installments.
+Use Cases
+Managing Car Showrooms and Dealerships
+A system specifically designed to meet the needs of car dealers in the Kingdom.
+Activity
+New Car Showrooms
+Manage new car sales, customs, and plate issuance.
+Used Car Trading
+Register used cars, calculate prep costs, and manage ownership transfer.
+Car Installment Sales
+Flexible system for scheduling monthly installments, tracking payments, and interest.
+Wholesale Fleet Sales
+Manage fleet sales contracts for companies and car rental agencies.
+Import & Customs Clearance
+Add shipping and customs expenses to determine the actual cost per car.
+Consignment Cars (Brokerage)
+Display third-party cars in the showroom and calculate commission upon sale.
+ERP Modules
+Financial and administrative tracking for every car
+A car in the Sanmar system is treated as an independent cost center from purchase to sale.
+Vehicle Inventory Management
+Register vehicle by VIN, color, model, and specifications.
+Cost Centers
+Load each car with its specific expenses (transport, repair, inspection) to know net profit.
+Contracts & Sales Management
+Automatically print sales contracts, traffic department letters, and delivery receipts.
+Insurance & Ownership Transfer
+Add insurance and ownership transfer fees and manage amounts collected for third parties.
+Financial Accounting System
+Record customer payments (down payment, cash, checks) and link them to banks.
+Profit Margin Tax Application
+Support VAT on the profit margin of used cars according to ZATCA laws.
+Why Sanmar?
+Manage your showroom smartly and paperless
+\
+With Sanmar, you won't be surprised by hidden expenses that reduced your profit margin after closing the sale.
+Tamm Platform Compatibility
+Facilitate extracting vehicle data and linking it with traffic systems.
+Advanced & Fast Search
+Search for available cars by model, color, or last VIN digits to serve customers quickly.
+Sales Rep Commissions
+Automatic calculation of salesperson or expediter commission based on every sale made through them.
+Field Inventory Reports
+Print showroom lot inventory sheets to reconcile physically present cars with the system.
+Sanmar HR System — Smart Human Resources Mgmt
+HR & Payroll Management Software
+Full automation of HR processes from attendance and leave management to WPS-compliant payrolls, ensuring an organized and legal work environment.
+Automated Payroll
+WPS Compliant
+Leave Management
+What is Sanmar HR System?
+It is a certified system specifically designed to facilitate human resource management for companies and institutions within the Kingdom, fully compliant with the Saudi labor law.
+The system provides a centralized dashboard to track employee attendance by integrating directly with biometric devices, with high capabilities to calculate salaries, allowances, deductions, and process final settlements with a click of a button.
+HR Software Features
+Everything you need to manage your human resources professionally and in full compliance.
+Automated Payroll
+Calculate comprehensive salaries with allowances, deductions, advances, and bonuses in one click for accuracy and time savings.
+Flexible allowances & deductions
+Manage advances & deductions
+Detailed pay slips
+WPS Compliance
+Export payroll files in certified bank formats for easy upload to Mudad platform and WPS.
+Certified SIF format files
+Upload to Mudad platform
+Export for all banks
+Attendance Management
+Direct integration with biometric devices to log work hours, with automatic calculation of tardiness and overtime.
+Biometric integration
+Tardiness & overtime calc
+Daily attendance reports
+Leave Management
+Track annual leave balances, manage employee requests, and auto-calculate absences linked to payroll.
+Available leave balances
+Automated leave requests
+Auto-deduct absences
+Official Document Alerts
+Proactive alerts before expiry of Iqamas, passports, work permits, and medical insurance to avoid government fines.
+Iqama expiry alerts
+Medical insurance alerts
+Work permit renewals
+Does the system support linking biometric devices in different branches?
+Yes, you can link multiple biometric devices in geographically distant branches for automatic synchronization of attendance data to the central system.
+How does the system handle employee advances and custodies?
+The system allows recording financial and in-kind custodies and advances, automatically deducting them from monthly salary or settling them at end of service.
+Does the system automatically calculate end-of-service benefits?
+Yes, the system automatically calculates end-of-service benefits according to the Saudi labor law, considering years of service and contract termination type.
+HR System Compliant with Saudi Regulations
+Full compliance with WPS, Mudad platform, and Ministry of Human Resources and Social Development requirements.
+Wage Protection System
+Export payroll files in certified SIF format for banks.
+Employee Data Security
+Full protection of personal and financial employee data with multiple access levels.
+Mudad Platform Compliance
+Upload payroll data directly to the Mudad platform approved by MOHR.
+Government Reports
+Prepare required reports for government entities like GOSI and Jawazat.
+Use Cases
+HR Management for All Organizations
+Sanmar HR software suits all sectors and covers all labor requirements in Saudi Arabia.
+Sector
+Commercial Companies
+Organize company structure, payroll, and leaves to ensure a professional work environment.
+Contracting & Operations
+Manage employee custodianship, labor advances, and payroll allocation to projects.
+Restaurants & Hotels
+Schedule complex work shifts, calculate overtime, and track attendance via fingerprint.
+Schools & Hospitals
+Manage massive employee files, annual evaluations, and professional license renewals.
+Retail & Sales
+Link monthly commissions to salaries and track branch employee attendance.
+Factories & Production
+Manage labor accommodation, catering, and travel tickets for annual leaves.
+ERP Modules
+Integrated administrative and financial system for employees
+Sanmar HR is directly linked to general accounting to record salaries as automatic entries.
+Employee Files & Docs
+Save employee data, contracts, and official documents with pre-expiry alerts.
+Attendance & Departure
+Direct integration with biometric devices to fetch logs and auto-calculate delays and absences.
+Payroll Management
+Prepare payroll with one click, including allowances, deductions, and overtime.
+Leaves & Final Settlements
+Auto leave balance and precise end-of-service calculation upon employee exit.
+Advances & Custody
+Manage and schedule employee advances, and track items issued to them.
+Wage Protection System
+Export the WPS file in the format approved by the Ministry of HR to upload to the bank.
+Why Sanmar?
+Error-free and delay-free HR management
+\
+Sanmar ensures every employee gets their exact dues on time without hassle from management.
+Saudi Labor Law Compliance
+End of service and leave calculations are built entirely on the latest labor law regulations.
+Save Payroll Accountant Time
+Instead of days of manual work, payroll and accounting entries are prepared in minutes.
+Proactive Alerts
+On-screen alerts before Iqamas, passports, and work permits expire to avoid fines.
+Flexible Allowances & Deductions
+Ability to define custom allowances for your company and deductions tied to salary percentages.
+Sanmar Telecom — Full Control of Devices & Packages
+Telecom & Mobile Store Management Software
+A system specifically designed for telecom stores that tracks devices by IMEI, manages warranties and repairs, and monitors recharge cards and data package sales with instant tax invoicing.
+IMEI Tracking
+Warranty & Repair Mgmt
+Fast POS System
+What is Sanmar Telecom Software?
+A specialized system designed to meet the unique needs of the telecom and IT sector, combining smart inventory management, fast POS, and after-sales service.
+Enables you to precisely track every device via its IMEI, manage recharge cards and packages, receive and track repair devices until delivery to the customer, with easy stock transfer between branches.
+Telecom Software Features
+Everything a telecom and mobile store needs to manage its operations efficiently.
+IMEI Tracking
+Monitor every device entry and exit via its unique IMEI for accurate tracking and loss prevention.
+Register IMEI on purchase
+Link IMEI to sales invoice
+Instant IMEI search
+Warranty & Repair Mgmt
+Receive faulty devices, open a repair ticket, track status, and easily check warranty status.
+Open repair ticket
+Verify warranty status
+Notify customer on readiness
+Recharge Cards & Data Packages
+Manage recharge card inventory and data packages, track their sales and profits efficiently.
+Track card inventory
+Profit per package type
+Daily sales reports
+Fast POS System
+Issue fast invoices to support high traffic telecom stores without delay, with barcode scanner support.
+Barcode scanner support
+Instant tax invoices
+Multiple payment methods
+Accessories Management
+Manage various mobile accessories using barcode with minimum stock alerts.
+Barcode per item
+Low stock alerts
+Inter-branch transfer
+Can the customer track their repair device?
+Yes, you can share the order number with the customer to track device status (received, repairing, ready) through the system.
+Does the system support managing multiple branches for the same store?
+Absolutely, you can transfer stock and recharge card balances between branches and track each branch's sales separately.
+Telecom Store Invoices Compliant with ZATCA
+Issue e-invoices for device sales, accessories, and repair services according to ZATCA regulations.
+ZATCA Compliant
+Detailed invoices including device serial numbers and QR Code.
+Documented E-Warranty
+Issue electronic warranty certificates linked to the device IMEI.
+Repair Service Invoices
+Issue tax invoices for device repair services separately.
+Branch Sales Reports
+Comprehensive reports for each branch's sales to compare performance.
+Use Cases
+Integrated Management for Telecom Sector
+Sanmar software meets the requirements of mobile and repair shops with all their branches.
+Activity
+Mobile Showrooms
+Manage smart device sales with precise tracking of each device's IMEI.
+Mobile Repair Centers
+Receive faulty devices, track repair status, and manage spare parts and screens.
+Accessories Shops
+Sell covers, chargers, headphones using barcode and manage inventory shortages.
+Recharge Points
+Manage sales of recharge cards and data packages from various service providers.
+Wholesale Distributors
+Sell mobiles and accessories wholesale to shops while managing customer debts.
+Agents & Warranty Providers
+Manage replacement of warranty-covered devices and track compensations with parent companies.
+ERP Modules
+Digital Workflow for Telecom Shops
+A system linking sales, repair, and inventory to ensure no device or part is lost.
+Point of Sale (POS)
+Fast sales screen supporting barcode readers and issuing invoices in seconds.
+Serial Numbers Management
+Record IMEI numbers on purchase and force the seller to select them upon sale.
+Smart Repair System
+Open a repair ticket with a redemption code and set part costs and tech fee.
+Recharge Cards Management
+Separate recharge card sales to accurately know net profit apart from devices.
+Warranty Management
+Print warranty policy on invoice and track the validity period of each sold device.
+E-Invoicing
+Support ZATCA B2C invoices for cash sales and B2B for wholesale invoices.
+Why Sanmar?
+Full control over your precise and high-value inventory
+\
+Sanmar system protects your capital through precise tracking of every device and accessory in your store.
+Prevent Theft & Loss
+It's impossible to sell a device without registering it, and IMEI inventory matches 100%.
+Speed in Peak Seasons
+Issue one invoice for multiple devices, covers, and recharge packages at top speed.
+Organize Tech Work
+Distribute repair tasks to techs and know each one's daily output to pay commissions.
+Detailed Profit Reports
+Know your profit from device sales, repair profit, and recharge cards separately.
+Sanmar Services — Manage Your Service Business Professionally
+Service Companies Management Software
+A comprehensive system to organize service company operations from issuing maintenance contracts and recurring subscriptions, scheduling field teams, to recurring invoicing and analyzing profitability per contract.
+Flexible Contracts
+Team Scheduling
+Auto Recurring Invoicing
+What is Sanmar Services Software?
+The optimal solution for service companies (cleaning, maintenance, security, etc.) that need to manage multiple contracts and field teams with precision and high flexibility.
+The system enables you to issue service contracts of all types (time-based or visit-based), custom pricing per client, schedule field visits, and issue automatic recurring invoices with collection tracking and per-contract profitability assessment.
+Services Software Features
+Integrated tools to manage your service company and increase its profitability.
+Flexible Service Contracts
+Issue and track time-based and visit-based contracts with precise monitoring of both parties' commitments.
+Time & visit-based contracts
+Flexible terms & conditions
+Electronic contract archiving
+Team Scheduling
+Assign tasks to technicians and field workers, track each task completion and verify visit execution.
+Date-based task assignment
+Visit execution confirmation
+Track team productivity
+Auto Recurring Invoicing
+Auto-issue monthly or annual invoices for subscription contract clients without manual intervention.
+Monthly/quarterly/annual billing
+Auto issue without intervention
+Collection tracking
+Service Cost Management
+Accurately calculate each service cost (labor hours + materials) to know the actual profit margin per contract.
+Labor hours cost
+Materials cost
+Contract profitability analysis
+Contract Renewal Alerts
+Track expiring contracts and remind clients to renew to maintain revenue streams.
+Pre-expiry alerts
+Easy contract renewal
+Active contracts reports
+Can I set a different price for each customer?
+Yes, the system supports custom pricing based on contract size, service type, and geographic area.
+How does the system track field visit completion?
+Each visit is recorded with its date and status (completed, postponed, not done), and the number of completed visits is matched against what's required in the contract.
+Service Invoicing Compliant with ZATCA
+Issue recurring and one-time invoices for service contracts fully compliant with ZATCA requirements.
+ZATCA Compliant
+Tax invoices for recurring and one-time service contracts with QR Code.
+Contract Data Protection
+Encrypt and protect contract and client data with multi-level access.
+B2B Subscription Invoices
+Issue grouped tax invoices for companies based on service contracts.
+Contract Revenue Reports
+Comprehensive reports for each contract's revenue compared to costs for profitability.
+Use Cases
+Management of Service Companies and Institutions
+Sanmar service software is flexible and suits all activities based on contracts and human effort.
+Activity
+Cleaning & Maintenance Companies
+Manage periodic cleaning contracts, schedule labor visits, and calculate costs.
+Security Guard Companies
+Manage facility guard contracts, schedule shifts, and issue monthly billing.
+Advertising Agencies
+Price advertising projects, track execution, and issue installment invoices.
+Law Firms & Consulting
+Manage annual consulting contracts and cases with billable hours calculation.
+Pest Control Companies
+Schedule periodic spraying, issue warranty certificates, and remind clients of visits.
+Landscaping Services
+Garden care contracts, materials issue, and tracking profitability of each project.
+ERP Modules
+Integrated Tools for Successful Service Delivery
+The system turns your intangible services into measurable and manageable numbers and tasks.
+Contracts & Subscriptions
+Create detailed contracts (start/end dates, value, payment terms, visit count).
+Task & Team Scheduling
+Interactive calendar to assign tasks to field techs and ensure no schedule conflicts.
+Auto Recurring Invoicing
+Auto-issue invoices at the beginning of each month for annual maintenance contracts.
+Service Costing
+Link team hours and consumed materials to each contract to know the true profit margin.
+Customer Portal (Optional)
+Enable the client to track their contract status, request extra maintenance, and download invoices.
+Management Reports
+Track task completion, expiring contracts, and service revenues.
+Why Sanmar?
+Organize your services, satisfy clients, and double profits
+\
+Sanmar Service System eliminates operational chaos and ensures full compliance with your clients' contracts.
+Documentation & Legal Compliance
+Contracts and invoices are issued systematically, protecting both your company and the client.
+No Forgotten Appointments
+The system alerts you to scheduled visits and periodic maintenance well in advance.
+Well-Studied Pricing
+Knowing the exact cost of service delivery lets you price competitively and profitably.
+Ensure Revenue Continuity
+Contract renewal alerts help you contact the client and renew before they leave for a competitor.
+Sanmar Fuel Station — Precise Readings & Transparent Accounts
+Fuel Station & Petroleum Management Software
+Control pump meter readings, fuel sales, shift revenues, and underground tank reconciliation with pinpoint accuracy, with tax invoicing for coupon and credit customers.
+Pump Meter Readings
+Tanks Reconciliation
+Shift Management
+What is Sanmar Fuel Station Software?
+A specialized system designed to address the unique operational and accounting challenges in fuel stations in the Kingdom of Saudi Arabia.
+The software provides integrated tools for recording pump readings at the start and end of each shift, reconciling actual underground tank stock with sales, managing corporate coupons and credit customers, in addition to a dedicated POS for the station's convenience store.
+Fuel Station Software Features
+Full control over station operations with transparency and accounting accuracy.
+Pump Meter Readings
+Record opening and closing shift readings and automatically calculate sales quantities and amounts per pump.
+Opening & closing readings
+Auto-calculate sales
+Report per pump
+Tanks Reconciliation
+Compare actual tank stock with recorded sales to detect any loss, leakage, or discrepancies.
+Measure actual stock
+Detect leaks & losses
+Allowed evaporation rates
+Shift Management
+Cash and POS handover between station workers with precise settlement of each shift's custody.
+Shift handover process
+Financial custody settlement
+Shift revenue report
+Corporate Fuel Coupons
+Track corporate coupons and credit sales, issue grouped claims and tax invoices for collection.
+Register corporate coupons
+Grouped invoices for collection
+Statement per company
+C-Store POS
+Manage convenience store sales, oils, and accessories within the same system with instant tax invoices.
+Station store cashier
+Oil inventory management
+Instant tax invoices
+How does the system handle fuel loss and evaporation?
+The system calculates natural evaporation rates based on approved standards and compares actual loss with allowed rates to alert you of any anomaly requiring inspection.
+Can multiple stations be managed in the same system?
+Yes, the system supports managing multiple stations and branches within one system with complete separation of each station's data and financial reports.
+Fuel Station Invoices Compliant with ZATCA
+Issue tax invoices for retail fuel sales and corporate coupons according to ZATCA regulations.
+ZATCA Compliant
+Tax invoices for retail and credit including fuel details and quantities.
+Precise Financial Reconciliation
+Daily reconciliation between pump readings and cash/POS revenues.
+Corporate Invoices (B2B)
+Issue grouped tax invoices for contracted companies based on coupons.
+Revenue & Loss Reports
+Comprehensive station revenue reports with loss and evaporation analysis.
+Use Cases
+Managing Fuels and Gas Stations
+Sanmar fuel station software provides a comprehensive solution covering all fuel sales and management operations.
+Activity
+Independent Fuel Stations
+Manage a single station with all its facilities: pumps, grocery, and oil change.
+Station Management Companies
+Link multiple branches and stations in one central system for remote sales and inventory monitoring.
+B2B Fuel Sales
+Manage fuel contracts for fleet companies and issue grouped monthly invoices.
+Attached Car Service Centers
+Manage car wash, tire shop, and attached services via fast POS terminals.
+Convenience Stores (C-Store)
+Integrated cashier system for the station grocery with inventory management and barcode reader.
+Diesel & Fuel Distributors
+Manage mobile tanker sales and diesel delivery to companies and factories.
+ERP Modules
+Closed Accounting Cycle for the Station
+The software is designed to handle accounting challenges specific to fuel stations like evaporation and variances.
+Pump Readings System
+Enter meter readings for each fuel pump to automatically calculate sold quantities.
+Underground Tanks Management
+Record tanker unloads and reconcile actual underground tank stock with recorded sales.
+Workers Shift Management
+Settle each worker's custody at shift end (cash, POS, coupons) and record shortages or overages.
+Coupons & Credit System
+Define printed or digital corporate coupons and group them to issue a financial claim.
+Fuel E-Invoicing
+Issue detailed ZATCA-compliant tax invoices for cash and corporate customers.
+Evaporation & Loss Handling
+Calculate legally allowed evaporation rates and account for them as expenses or losses.
+Why Sanmar?
+Manage your station with drop and Halala accuracy
+\
+Sanmar provides a solution that eliminates fraud, controls workers' custodies, and ensures tax calculation accuracy.
+Infallible Reconciliation
+The system reconciles pump readings, cash/POS sales, and tank inventory to detect any leakage.
+Fast Shift Handover
+Shift closing and cash handover procedures take minutes instead of hours of manual calculation.
+Grocery in the Same System
+No need for two systems; Sanmar manages grocery POS and fuel on a unified platform.
+Peace of Mind with ZATCA
+The system facilitates issuing grouped corporate invoices, which used to be an accounting nightmare for stations.
